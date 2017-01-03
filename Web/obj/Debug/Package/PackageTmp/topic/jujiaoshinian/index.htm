@@ -1,0 +1,525 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>十周年站庆专题--聚焦新闻网--山东理工大学新闻网</title>
+    <link href="css/css.css" rel="stylesheet" type="text/css" />
+	<script language="JavaScript" type="text/javascript">
+
+	    /* ========== 滚动方法begin =========*/
+	    function Marquee() {
+	        this.ID = document.getElementById(arguments[0]);
+	        if (!this.ID) {
+	            alert("您要设置的\"" + arguments[0] + "\"初始化错误\r\n请检查标签ID设置是否正确!");
+	            this.ID = -1;
+	            return;
+	        }
+	        this.Direction = this.Width = this.Height = this.DelayTime = this.WaitTime = this.CTL = this.StartID = this.Stop = this.MouseOver = 0;
+	        this.Step = 1;
+	        this.Timer = 30;
+	        this.DirectionArray = { "top": 0, "up": 0, "bottom": 1, "down": 1, "left": 2, "right": 3 };
+	        if (typeof arguments[1] == "number" || typeof arguments[1] == "string") this.Direction = arguments[1];
+	        if (typeof arguments[2] == "number") this.Step = arguments[2];
+	        if (typeof arguments[3] == "number") this.Width = arguments[3];
+	        if (typeof arguments[4] == "number") this.Height = arguments[4];
+	        if (typeof arguments[5] == "number") this.Timer = arguments[5];
+	        if (typeof arguments[6] == "number") this.DelayTime = arguments[6];
+	        if (typeof arguments[7] == "number") this.WaitTime = arguments[7];
+	        if (typeof arguments[8] == "number") this.ScrollStep = arguments[8];
+	        this.ID.style.overflow = this.ID.style.overflowX = this.ID.style.overflowY = "hidden";
+	        this.ID.noWrap = true;
+	        this.IsNotOpera = (navigator.userAgent.toLowerCase().indexOf("opera") == -1);
+	        if (arguments.length >= 7) this.Start();
+	    }
+
+	    Marquee.prototype.Start = function () {
+	        if (this.ID == -1) return;
+	        if (this.WaitTime < 800) this.WaitTime = 800;
+	        if (this.Timer < 20) this.Timer = 20;
+	        if (this.Width == 0) this.Width = parseInt(this.ID.style.width);
+	        if (this.Height == 0) this.Height = parseInt(this.ID.style.height);
+	        if (typeof this.Direction == "string") this.Direction = this.DirectionArray[this.Direction.toString().toLowerCase()];
+	        this.HalfWidth = Math.round(this.Width / 2);
+	        this.HalfHeight = Math.round(this.Height / 2);
+	        this.BakStep = this.Step;
+	        this.ID.style.width = this.Width + "px";
+	        this.ID.style.height = this.Height + "px";
+	        if (typeof this.ScrollStep != "number") this.ScrollStep = this.Direction > 1 ? this.Width : this.Height;
+	        var templateLeft = "<table cellspacing='0' cellpadding='0' style='border-collapse:collapse;display:inline;'><tr><td noWrap=true style='white-space: nowrap;word-break:keep-all;'>MSCLASS_TEMP_HTML</td><td noWrap=true style='white-space: nowrap;word-break:keep-all;'>MSCLASS_TEMP_HTML</td></tr></table>";
+	        var templateTop = "<table cellspacing='0' cellpadding='0' style='border-collapse:collapse;'><tr><td>MSCLASS_TEMP_HTML</td></tr><tr><td>MSCLASS_TEMP_HTML</td></tr></table>";
+	        var msobj = this;
+	        msobj.tempHTML = msobj.ID.innerHTML;
+	        if (msobj.Direction <= 1) {
+	            msobj.ID.innerHTML = templateTop.replace(/MSCLASS_TEMP_HTML/g, msobj.ID.innerHTML);
+	        }
+	        else {
+	            if (msobj.ScrollStep == 0 && msobj.DelayTime == 0) {
+	                msobj.ID.innerHTML += msobj.ID.innerHTML;
+	            }
+	            else {
+	                msobj.ID.innerHTML = templateLeft.replace(/MSCLASS_TEMP_HTML/g, msobj.ID.innerHTML);
+	            }
+	        }
+	        var timer = this.Timer;
+	        var delaytime = this.DelayTime;
+	        var waittime = this.WaitTime;
+	        msobj.StartID = function () { msobj.Scroll() }
+	        msobj.Continue = function () {
+	            if (msobj.MouseOver == 1) {
+	                setTimeout(msobj.Continue, delaytime);
+	            }
+	            else {
+	                clearInterval(msobj.TimerID);
+	                msobj.CTL = msobj.Stop = 0;
+	                msobj.TimerID = setInterval(msobj.StartID, timer);
+	            }
+	        }
+
+	        msobj.Pause = function () {
+	            msobj.Stop = 1;
+	            clearInterval(msobj.TimerID);
+	            setTimeout(msobj.Continue, delaytime);
+	        }
+
+	        msobj.Begin = function () {
+	            msobj.ClientScroll = msobj.Direction > 1 ? msobj.ID.scrollWidth / 2 : msobj.ID.scrollHeight / 2;
+	            if ((msobj.Direction <= 1 && msobj.ClientScroll <= msobj.Height + msobj.Step) || (msobj.Direction > 1 && msobj.ClientScroll <= msobj.Width + msobj.Step)) {
+	                msobj.ID.innerHTML = msobj.tempHTML;
+	                delete (msobj.tempHTML);
+	                return;
+	            }
+	            delete (msobj.tempHTML);
+	            msobj.TimerID = setInterval(msobj.StartID, timer);
+	            if (msobj.ScrollStep < 0) return;
+	            msobj.ID.onmousemove = function (event) {
+	                if (msobj.ScrollStep == 0 && msobj.Direction > 1) {
+	                    var event = event || window.event;
+	                    if (window.event) {
+	                        if (msobj.IsNotOpera) {
+	                            msobj.EventLeft = event.srcElement.id == msobj.ID.id ? event.offsetX - msobj.ID.scrollLeft : event.srcElement.offsetLeft - msobj.ID.scrollLeft + event.offsetX;
+	                        }
+	                        else {
+	                            msobj.ScrollStep = null;
+	                            return;
+	                        }
+	                    }
+	                    else {
+	                        msobj.EventLeft = event.layerX - msobj.ID.scrollLeft;
+	                    }
+	                    msobj.Direction = msobj.EventLeft > msobj.HalfWidth ? 3 : 2;
+	                    msobj.AbsCenter = Math.abs(msobj.HalfWidth - msobj.EventLeft);
+	                    msobj.Step = Math.round(msobj.AbsCenter * (msobj.BakStep * 2) / msobj.HalfWidth);
+	                }
+	            }
+	            
+	            msobj.ID.onmouseout = function () {
+	                if (msobj.ScrollStep == 0) {
+	                    if (msobj.Step == 0) msobj.Step = 1;
+	                    return;
+	                }
+	                msobj.MouseOver = 0;
+	                if (msobj.Stop == 0) {
+	                    clearInterval(msobj.TimerID);
+	                    msobj.TimerID = setInterval(msobj.StartID, timer);
+	                }
+	            }
+	        }
+	        setTimeout(msobj.Begin, waittime);
+	    }
+
+	    Marquee.prototype.Scroll = function () {
+	        switch (this.Direction) {
+	            case 0:
+	                this.CTL += this.Step;
+	                if (this.CTL >= this.ScrollStep && this.DelayTime > 0) {
+	                    this.ID.scrollTop += this.ScrollStep + this.Step - this.CTL;
+	                    this.Pause();
+	                    return;
+	                }
+	                else {
+	                    if (this.ID.scrollTop >= this.ClientScroll) {
+	                        this.ID.scrollTop -= this.ClientScroll;
+	                    }
+	                    this.ID.scrollTop += this.Step;
+	                }
+	                break;
+
+	            case 1:
+	                this.CTL += this.Step;
+	                if (this.CTL >= this.ScrollStep && this.DelayTime > 0) {
+	                    this.ID.scrollTop -= this.ScrollStep + this.Step - this.CTL;
+	                    this.Pause();
+	                    return;
+	                }
+	                else {
+	                    if (this.ID.scrollTop <= 0) {
+	                        this.ID.scrollTop += this.ClientScroll;
+	                    }
+	                    this.ID.scrollTop -= this.Step;
+	                }
+	                break;
+
+	            case 2:
+	                this.CTL += this.Step;
+	                if (this.CTL >= this.ScrollStep && this.DelayTime > 0) {
+	                    this.ID.scrollLeft += this.ScrollStep + this.Step - this.CTL;
+	                    this.Pause();
+	                    return;
+	                }
+	                else {
+	                    if (this.ID.scrollLeft >= this.ClientScroll) {
+	                        this.ID.scrollLeft -= this.ClientScroll;
+	                    }
+	                    this.ID.scrollLeft += this.Step;
+	                }
+	                break;
+
+	            case 3:
+	                this.CTL += this.Step;
+	                if (this.CTL >= this.ScrollStep && this.DelayTime > 0) {
+	                    this.ID.scrollLeft -= this.ScrollStep + this.Step - this.CTL;
+	                    this.Pause();
+	                    return;
+	                }
+	                else {
+	                    if (this.ID.scrollLeft <= 0) {
+	                        this.ID.scrollLeft += this.ClientScroll;
+	                    }
+	                    this.ID.scrollLeft -= this.Step;
+	                }
+	                break;
+	        }
+	    }
+	    /* ========== 滚动方法end =========*/
+</script>
+    </head>
+<body>
+<div class="mat">
+<div class="matl">
+<a href="http://www.sdut.edu.cn/" target="_blank">学校首页</a><a href="http://lgwindow.sdut.edu.cn/" target="_blank">新闻网首页</a>
+</div>
+<div class="matr"><a href="javascript:window.external.AddFavorite('http://lgwindow.sdut.edu.cn/', '“山东理工大学新闻网”')" target="_self" >加入收藏</a></div>
+</div>
+
+<div class="banner">山东理工大学新闻网十周年站庆专题</div>
+
+<div class="mb"><a href="#">返回专题</a><a href="#001">网织印象</a><a href="#002">网聚十载</a><a href="#003">荟萃网事</a><a href="#004">顾网妍语</a></div>
+
+<div class="mc">
+<div class="mcl"><a name="001"></a>
+            <iframe src="js/wz.html" width="614" height="327" frameborder="0" scrolling="no"
+                style="position: absolute; margin-top: 0px;"></iframe>
+</div>
+<div class="mcr">
+<script type="text/javascript">
+	<!--
+
+    var focus_width = 388; // 图片宽度
+    var focus_height = 297; // 图片高度
+    var text_height = 35; // 显示的文字高度
+    var swf_height = focus_height + text_height;
+
+    var pics = "js/111.jpg|js/222.jpg|js/333.jpg|js/444.jpg";
+    var links = "http://lgwindow.sdut.edu.cn|http://lgwindow.sdut.edu.cn/Campus/Index.html|http://lgwindow.sdut.edu.cn/photo/index.html|http://lgwindow.sdut.edu.cn/map/";
+    var texts = "新闻网首页|光影理工|校园文化|创先争优";
+
+    document.write('<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" ');
+    document.write('codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" ');
+    document.write('width="' + focus_width + '" ');
+    document.write('height="' + swf_height + '">');
+    document.write('<param name="allowScriptAccess" value="sameDomain">');
+    document.write('<param name="movie" value="js/focus.swf">');
+    document.write('<param name="quality" value="high">');
+    document.write('<param name="bgcolor" value="#f5faff">');
+    document.write('<param name="menu" value="false">');
+    document.write('<param name=wmode value="opaque">');
+    document.write('<param name="FlashVars" ');
+    document.write('value="pics=' + pics);
+    document.write('&links=' + links);
+    document.write('&texts=' + texts);
+    document.write('&borderwidth=' + focus_width);
+    document.write('&borderheight=' + focus_height);
+    document.write('&textheight=' + text_height + '">');
+    document.write('<embed src="focus.swf" ');
+    document.write('wmode="opaque" ');
+    document.write('FlashVars="pics=' + pics);
+    document.write('&links=' + links);
+    document.write('&texts=' + texts);
+    document.write('&borderwidth=' + focus_width);
+    document.write('&borderheight=' + focus_height);
+    document.write('&textheight=' + text_height + '" ');
+    document.write('menu="false" ');
+    document.write('bgcolor="#ffffff" ');
+    document.write('quality="high" ');
+    document.write('width="' + focus_width + '" ');
+    document.write('height="' + focus_height + '" ');
+    document.write('allowScriptAccess="sameDomain" ');
+    document.write('type="application/x-shockwave-flash" ');
+    document.write('pluginspage="http://www.macromedia.com/go/getflashplayer" />');
+    document.write('</object>');
+	
+	//-->
+	
+	</script>
+</div>
+</div>
+
+
+<div class="md">
+<a name="002"></a>
+            <iframe src="js/times.html" width="1002" height="260" frameborder="0" scrolling="no"
+                style="position: absolute; margin-top: 0px;"></iframe>
+</div>
+
+<div class="me">
+<div class="mel">
+<div class="mel1"><a href="#" target="_blank"><img alt="" src="images/12.gif" /></a></div>
+<div class="mel2a">2012 
+    <br />
+    山东理工大学新闻网新浪微博实名认证通过，而由网站维护的山东理工大学腾讯微博历经两年，粉丝已达34000余人，标志着山东理工大学微时代对外宣传网络官方发布平台更加广阔。</div>
+<div class="mel1"><a href="#" target="_blank"><img alt="" src="images/3.gif" /></a></div>
+<div class="mel2a">2002 
+    <br />
+    在校党委领导下，由党委宣传部牵头建设学校官方新闻网站，原党委宣传部网站正式改版为理工视窗网站，推出第一版并试运行。</div>
+<div class="mel1"><a href="#" target="_blank"><img alt="" src="images/4.gif" /></a></div>
+<div class="mel2a">2003
+   <br />
+    网站推出第二版，确立了新闻宣传和思政教育并重的工作方针，分为新闻、思政和艺文三大板块；同年，推出“第一次教学工作会议”等专题。</div>
+<div class="mel1"><a href="#" target="_blank"><img alt="" src="images/5.gif" /></a></div>
+<div class="mel2a">2005
+    <br />
+    网站第四版运行，此次改版将网站定位为山东理工大学官方新闻门户网站。同年，推出第五版，根据国务院文件精神，将原有栏目进行适当增删，网站定位更加明确。</div>
+</div>
+<div class="mec">
+<div class="mec1"><a href="http://lgwindow.sdut.edu.cn/Campus/Index.html" target="_blank"><img alt="" src="images/11.gif" /></a></div>
+<div class="mec2">2011
+    <br />
+    新版校园文化正式上线，经过多次改版<br />
+    的新版卡瑞特工作室同年上线。</div>
+<div class="mec3"><a href="http://lgwindow.sdut.edu.cn" target="_blank"><img alt="" src="images/no1.gif" /></a></div>
+<div class="mec4">荣誉<br />
+    获2010、2011“年度优秀网站”称号；“校园文化”、“创先争优”及“学风建设”专题三个专题获“年度优秀专题网站”称号；山东理工大学新闻网当选为中国（山东）高校传媒联盟第一届主席团副主席单位，由网站设计的“蓝黄”联盟标志被确定为中国（山东）高校传媒联盟会标。</div>
+<div class="mec5"><a href="http://xwzt.sdut.edu.cn/topic/50year/" target="_blank"><img alt="" src="images/6.gif" /></a></div>
+<div class="mec6">2006<br />
+    推出“山东理工大学五十周年校庆<br />
+    ”专题，全面及时报道我校50华诞<br />
+    庆典文化交流盛况。</div>
+</div>
+<div class="mel">
+<div class="mel1"><a href="http://lgwindow.sdut.edu.cn/map/" target="_blank"><img alt="" src="images/10.gif" /></a></div>
+<div class="mel2a1">2010<br />
+    新版新闻网隆重上线，网站全称由“理工视窗——山东理工大学新闻网”易为“山东理工大学新闻网——理工视窗”；虚拟校园地图推出，通过三维立体图形，“走遍看遍”校园每个角落。</div>
+<div class="mel1"><a href="http://lgwindow.sdut.edu.cn/photo/index.html" target="_blank"><img alt="" src="images/9.png" /></a></div>
+<div class="mel2a2">2009
+    <br />
+    光影理工各版块图片进行大规模整理。</div>
+<div class="mel1"><a href="http://lgwindow.sdut.edu.cn/topic/olympics/0000.aspx" target="_blank"><img alt="" src="images/8.gif" /></a></div>
+<div class="mel2a">2008
+    <br />
+    为传达第二十九届北京奥运会奥运喜讯，感受奥运精神，网站推出“牵手奥运，逐梦而戈——2008北京奥运”专题。</div>
+<div class="mel1"><a href="http://lgwindow.sdut.edu.cn/topic/2011scf/" target="_blank"><img alt="" src="images/7.gif" /></a></div>
+<div class="mel2a">2007
+    <br />
+    第一届“视窗新闻风”比赛（现“校园风”传媒大赛）举行，自此，该项比赛每年一届，已成功举办五届，成为山东理工大学新闻网特色活动之一。</div>
+</div>
+</div>
+
+
+<div class="mf"><a name="003"></a></div>
+
+
+<div class="mg">
+
+
+
+<div class="mg1">
+            <div class="mg1l">
+                <div id="marquee1" style="width: 290px; height: 154px; overflow: hidden;">
+                    <div style=" height:154px;">
+                    <a href="http://lgwindow.sdut.edu.cn/topic/cz/index.htm" title="纪念红军长征胜利七十周年" target="_blank">2006年8月17日，纪念红军长征胜利七十周年专题上线。</a><br />
+                    <br />
+                    <a href="http://lgwindow.sdut.edu.cn/topic/olympics/0000.aspx" title="牵手奥运，逐梦而戈"
+                                    target="_blank">2008年7月30日，牵手奥运，逐梦而弋——山东理工大学2008北京奥运专题上线。</a><br />
+                    <br />
+                    <a href="http://lgwindow.sdut.edu.cn/topic/30zn/index.html" title="纪念改革开放30周年"
+                                    target="_blank">2008年10月21日，纪念改革开放30周年专题推出。</a><br />
+                    <br />
+                    <a href="http://lgwindow.sdut.edu.cn/topic/kxfzg/index.html" title="深入学习实践科学发展观活动专题"
+                                    target="_blank">2009年3月13日，深入学习实践科学发展观活动专题上线。</a><br />
+                    <br />
+                    </div>
+                    <div style=" height:154px;">
+                    <a href="http://lgwindow.sdut.edu.cn/topic/2009gq/index.html" title="庆祝新中国成立六十周年"
+                                    target="_blank">2009年9月6日，庆祝新中国成立60周年专题推出。</a><br />
+                    <br />
+                    <a href="http://lgwindow.sdut.edu.cn/topic/11quanyunhui/kaichang.html" title="十一届全运会，有我全运更精彩"
+                                    target="_blank">2009年10月3日，有我，全运更精彩——第十一届全国运动会专题上线。</a><br />
+                    <br />
+                    <a href="http://lgwindow.sdut.edu.cn/topic/review2009/index.html" title="回眸2009，激情演绎新篇章"
+                                    target="_blank">2010年1月26日，回眸2009：激情演绎新篇章——年终特刊专题上线。</a><br />
+                    <br />
+                    <a href="http://lgwindow.sdut.edu.cn/topic/fengsiguang/index.html" title="追忆校友冯思广"
+                                    target="_blank">2010年6月4日，大爱洒蓝天 浩气满乾坤——深切追忆我校校友、济空飞行员冯思广烈士专题上线。</a><br />
+                    <br />
+                    </div>
+                    <div style=" height:154px;">
+                    <a href="http://lgwindow.sdut.edu.cn/topic/cyzxzt/index.html" title="创先争优，争做理工先锋"
+                                    target="_blank">2010年8月28日，创先争优，争做理工先锋专题上线。</a><br />
+                    <br />
+                    <a href="http://lgwindow.sdut.edu.cn/topic/xuefengjianshe/index.html" title="山东理工大学，学风建设专题"
+                                    target="_blank">2011年7月11日，山东理工大学学风建设专题网站推出。</a><br />
+                    <br />
+                    <a href="http://lgwindow.sdut.edu.cn/topic/GuoQing/gallery.html" title="庆祝国庆节 喜迎十八大"
+                                    target="_blank">2012年10月13日，“庆祝国庆节 喜迎十八大”摄影展上线。</a><br />
+                    <br />
+                    <a href="http://lgwindow.sdut.edu.cn/topic/scleader/" title="校领导活动报道集专题" target="_blank">2012年10月22日，校领导活动报道集专题推出。</a><br />
+                    <br />
+                    </div>
+                </div>
+                <script defer>
+                    new Marquee("marquee1", 0, 5, 290, 154, 10, 6000, 6000)
+                </script>
+            </div>
+            <div class="mg1r">
+                <div class="mg1rt">
+                    <!--光影理工begin -->
+                    <div id="Guangying" class="Bord">
+                        <div id="GYIn">
+                            <ul id="marquee">
+                                <li><a href="http://lgwindow.sdut.edu.cn/topic/cz/index.htm" title="纪念红军长征胜利七十周年"
+                                    target="_blank">
+                                    <img src="images/h1.jpg" class="picStyle" /></a> <a href="http://lgwindow.sdut.edu.cn/topic/cz/index.htm"
+                                        title="纪念红军长征胜利七十周年" target="_blank">纪念红军长征胜利七十周年</a></li>
+                                <li><a href="http://lgwindow.sdut.edu.cn/topic/olympics/0000.aspx" title="牵手奥运，逐梦而戈"
+                                    target="_blank">
+                                    <img src="images/h2.jpg" class="picStyle" /></a> <a href="http://lgwindow.sdut.edu.cn/topic/olympics/0000.aspx"
+                                        title="牵手奥运，逐梦而戈" target="_blank">牵手奥运，逐梦而戈</a></li>
+                                <li><a href="http://lgwindow.sdut.edu.cn/topic/30zn/index.html" title="纪念改革开放30周年"
+                                    target="_blank">
+                                    <img src="images/h3.jpg" class="picStyle" /></a> <a href="http://lgwindow.sdut.edu.cn/topic/30zn/index.html"
+                                        title="纪念改革开放30周年" target="_blank">纪念改革开放30周年</a></li>
+                                <li><a href="http://lgwindow.sdut.edu.cn/topic/kxfzg/index.html" title="深入学习实践科学发展观活动专题"
+                                    target="_blank">
+                                    <img src="images/h4.jpg" class="picStyle" /></a> <a href="http://lgwindow.sdut.edu.cn/topic/kxfzg/index.html"
+                                        title="深入学习实践科学发展观活动专题" target="_blank">深入学习实践科学发展观活动专题</a></li>
+                                <li><a href="http://lgwindow.sdut.edu.cn/topic/2009gq/index.html" title="庆祝新中国成立六十周年"
+                                    target="_blank">
+                                    <img src="images/h5.jpg" class="picStyle" /></a> <a href="http://lgwindow.sdut.edu.cn/topic/2009gq/index.html"
+                                        title="庆祝新中国成立六十周年" target="_blank">庆祝新中国成立六十周年</a></li>
+                                <li><a href="http://lgwindow.sdut.edu.cn/topic/11quanyunhui/kaichang.html" title="十一届全运会，有我全运更精彩"
+                                    target="_blank">
+                                    <img src="images/h6.jpg" class="picStyle" /></a> <a href="http://lgwindow.sdut.edu.cn/topic/11quanyunhui/kaichang.html"
+                                        title="十一届全运会，有我全运更精彩" target="_blank">十一届全运会，有我全运更精彩</a></li>
+                                <li><a href="http://lgwindow.sdut.edu.cn/topic/review2009/index.html" title="回眸2009，激情演绎新篇章"
+                                    target="_blank">
+                                    <img src="images/h7.jpg" class="picStyle" /></a> <a href="http://lgwindow.sdut.edu.cn/topic/review2009/index.html"
+                                        title="回眸2009，激情演绎新篇章" target="_blank">回眸2009，激情演绎新篇章</a></li>
+                                <li><a href="http://lgwindow.sdut.edu.cn/topic/fengsiguang/index.html" title="追忆校友冯思广"
+                                    target="_blank">
+                                    <img src="images/h8.jpg" class="picStyle" /></a> <a href="http://lgwindow.sdut.edu.cn/topic/fengsiguang/index.html"
+                                        title="大爱洒蓝天 浩气满乾坤" target="_blank">大爱洒蓝天 浩气满乾坤</a></li>
+                                <li><a href="http://lgwindow.sdut.edu.cn/topic/cyzxzt/index.html" title="创先争优，争做理工先锋"
+                                    target="_blank">
+                                    <img src="images/h9.jpg" class="picStyle" /></a> <a href="http://lgwindow.sdut.edu.cn/topic/cyzxzt/index.html"
+                                        title="创先争优，争做理工先锋" target="_blank">创先争优，争做理工先锋</a></li>
+                                <li><a href="http://lgwindow.sdut.edu.cn/topic/xuefengjianshe/index.html" title="山东理工大学，学风建设专题"
+                                    target="_blank">
+                                    <img src="images/h10.jpg" class="picStyle" /></a> <a href="http://lgwindow.sdut.edu.cn/topic/xuefengjianshe/index.html"
+                                        title="山东理工大学，学风建设专题" target="_blank">山东理工大学，学风建设专题</a></li>
+                                <li><a href="http://lgwindow.sdut.edu.cn/topic/GuoQing/gallery.html" title="庆祝国庆节 喜迎十八大"
+                                    target="_blank">
+                                    <img src="images/h11.jpg" class="picStyle" /></a> <a href="http://lgwindow.sdut.edu.cn/topic/GuoQing/gallery.html"
+                                        title="庆祝国庆节 喜迎十八大" target="_blank">庆祝国庆节 喜迎十八大</a></li>
+                                <li><a href="http://lgwindow.sdut.edu.cn/topic/scleader/" title="校领导活动报道集专题" target="_blank">
+                                    <img src="images/h12.jpg" class="picStyle" /></a> <a href="http://lgwindow.sdut.edu.cn/topic/scleader/"
+                                        title="校领导活动报道集专题" target="_blank">校领导活动报道集专题</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <script defer>
+                        new Marquee("marquee", 0, 5, 616, 190, 10, 6000, 6000)
+                    </script>
+                    <!--光影理工end -->
+                </div>
+        </div>
+        </div>
+
+
+<div class="mg2">
+<table width="1000" border="0">
+  <tr>
+    <td height="150px"><a href="http://lgwindow.sdut.edu.cn/Campus/UpLoads/ebook/2011/SixYear/online.htm" target="_blank"><img alt="" src="images/ebook_1.jpg" /></a></td>
+    <td><a href="http://lgwindow.sdut.edu.cn/Campus/News/ebook_22.html" target="_blank"><img alt="" src="images/ebook_2.jpg" /></a></td>
+    <td><a href="http://lgwindow.sdut.edu.cn/Campus/News/ebook_25.html" target="_blank"><img alt="" src="images/ebook_3.jpg" /></a></td>
+    <td><a href="http://lgwindow.sdut.edu.cn/Campus/News/ebook_26.html" target="_blank"><img alt="" src="images/ebook_4.jpg" /></a></td>
+    <td><a href="http://lgwindow.sdut.edu.cn/Campus/UpLoads/ebook/2012/dangxia/online.htm" target="_blank"><img alt="" src="images/ebook_5.jpg" /></a></td>
+        <td><a href="http://lgwindow.sdut.edu.cn/Campus/UpLoads/ebook/2012/dangxia/online.htm" target="_blank"><img alt="" src="images/ebook_6.jpg" /></a></td>
+  </tr>
+  <tr>
+    <td>新闻网六周年站庆</td>
+    <td>当夏——我们毕业</td>
+    <td>追忆似水流年</td>
+    <td>杂志情怀</td>
+    <td>你好，生活！</td>
+    <td>当夏——我们毕业</td>
+  </tr>
+</table>
+</div>
+
+
+</div>
+
+
+<div class="mh"><a name="004"></a></div>
+
+<div class="mi">
+<div class="mi1">
+<iframe src="../../../Karat/admin/Message_Add.aspx" scrolling="no"  frameborder="0"   width="100%" height="320px" ></iframe>
+</div>
+<div class="mi2">
+<iframe src="../../Karat/message/message_00.html"  frameborder="0" name="message_iframe" scrolling="yes" style="width:100%; height:100%;" >
+</iframe>
+    </div>
+</div>
+
+<div class="bottom"><a href="http://lgwindow.sdut.edu.cn/News/26263.html" target="_blank">关于我们</a>|<a href="http://lgwindow.sdut.edu.cn/News/26262.html" target="_blank">新闻热线</a>|<a href="http://lgwindow.sdut.edu.cn/karat/" target="_blank">诚招英才</a>|<a href="http://lgwindow.sdut.edu.cn/News/26264.html" target="_blank">版权声明</a>
+<hr />
+版权所有©山东理工大学新闻中心网络部　　　地址：山东省淄博市张店区张周路12号　邮编：255049
+<br />
+ 联系电话:0533-2786727　　　Designed by: 
+    <img alt="karat" src="images/karat.gif" align="absmiddle" /><a href="http://lgwindow.sdut.edu.cn/karat/" class="c">卡瑞特工作室</a>
+</div>
+    <div style="z-index: 10; padding-top: 12px; padding-left: 28px; font-size:12px; height:50px; width:80px;
+        position: absolute; left: 0; background:url(../flbg.jpg) no-repeat center; top: 2222px; line-height:18px;" id="ad">
+            <a href="http://lgwindow.sdut.edu.cn/topic/10years/" target="_blank">　返回　<br />专题首页</a>
+    </div>
+    <script language="JavaScript" type="text/javascript">
+        function rightBottomAd() {
+            var abc = document.getElementById("ad");
+            abc.style.top = document.documentElement.scrollTop + document.documentElement.clientHeight - 330 + "px";
+            setTimeout(function () { rightBottomAd(); }, 50);
+        }
+        rightBottomAd();
+    </script>
+    <script type="text/javascript">
+        lastScrollY = 0;
+        function heartBeat() {
+            var diffY;
+            if (document.documentElement && document.documentElement.scrollTop)
+                diffY = document.documentElement.scrollTop;
+            else if (document.body)
+                diffY = document.body.scrollTop
+            else
+            { /*Netscape stuff*/ }
+            percent = .1 * (diffY - lastScrollY);
+            if (percent > 0) percent = Math.ceil(percent);
+            else percent = Math.floor(percent);
+            document.getElementById("full").style.top = parseInt(document.getElementById("full").style.top) + percent + "px";
+            lastScrollY = lastScrollY + percent;
+        }
+        suspendcode = "<div id=\"full\" style='right:1px;POSITION:absolute;TOP:750px;z-index:19000; font-size:12px; margin-right:8px;'><a href=\"#\" onclick='window.scrollTo(0,0);'><img src=\"../top.png\" width=\"35\" height=\"35\" /></a><br></div>"
+        document.write(suspendcode);
+        window.setInterval("heartBeat()", 1);
+    </script>
+</body>
+</html>

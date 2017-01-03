@@ -1,0 +1,273 @@
+@charset "gb2312";
+/* CSS Document */
+
+*{ margin:0; padding:0;}
+body{
+	font-size:14px;
+}
+#all{
+	width:1004px;
+	margin:5px auto;
+}
+a{
+	text-decoration:none;
+}
+a:link,a:visited{
+    color:Black;
+}
+a:hover{ color:#0066FF;}
+#yuni_top a:link,#xyt_top a:link,#wanht_t a:link,#xinyu_t a:link,#yuni_top a:visited,#xyt_top a:visited,#wanht_t a:visited,#xinyu_t a:visited{
+	font-size:16px;
+	font-weight:bold;
+	color:#0A6DDD;
+}
+.upone{
+	margin-top:1px;
+}
+.wx_gzyz{
+    height:225px;
+}
+.yntx_xyt{
+	height:265px;
+}
+.wht_xy{
+	height:421px;
+}
+.banner{
+	margin:3px auto;
+}
+.li{
+    margin-left:5px;
+    margin-top:8px;
+    height:12px;
+    padding-left:3px;
+    width:10px;
+    float:left;
+}
+.time{
+    float:left;
+    width:60px;
+    text-align:center;
+}
+.title{
+    padding-left:5px;
+    overflow:hidden;
+    width:225px;
+    float:left;
+}
+.title1{
+    padding-left:10px;
+    width:240px;
+    float:left;
+}
+.time,.title,.title1{
+    height:22px;
+    line-height:22px;
+}
+.commen_hgt{
+    height:22px;
+}
+.commen_pt{
+    padding-top:5px;
+}
+.commen_pt1{
+    padding-top:42px;
+}
+.commen_pl{
+    padding-left:10px;
+}
+#dingbu{
+	height:25px;
+	width:1000px;
+	font-size:12px;
+	line-height:25px;
+	border:1px solid #DCDCDC;
+}
+#dingbu a{
+	margin-left:30px;
+	color:#4D4D4D;
+}
+#daohang{
+	height:33px;
+	overflow:hidden;
+	font-family:"ËÎÌו";
+	background:url(../images/daohang.jpg) no-repeat;
+}
+#daohang li{
+	float:left;
+	display:inline;
+	padding-top:2px;
+	margin-left:43px;
+	list-style:none;
+	line-height:33px;
+}
+#daohang a,#daohang a:link,#daohang a:visited{
+	font-size:18px;
+	font-weight:bold;
+	color:#000000;
+}
+#daohang a:hover{ color:#0000ff;}
+#jiyuxinsheng{
+	height:133px;
+	margin-top:1px;
+	background:url(../images/jiyuxinsheng1.jpg) no-repeat;
+}
+#wenxin{
+	width:675px;
+	float:left;
+	height:225px;
+	background:url(../images/wenxin_bg.jpg) no-repeat;
+}
+#wenxin ul{
+	margin-top:15px;
+	margin-left:25px;
+}
+#wenxin li{
+	list-style-image:url(../images/li.jpg);
+	margin-top:5px;
+}
+#wenxin_l,#wenxin_m,#wenxin_r{
+	margin-top:32px;
+	height:190px;
+	float:left;
+}
+#wenxin_l{
+	width:273px;
+}
+#wenxin_r{
+	width:277px;
+}
+#gaozhanyuanzhu{
+    float:left;
+	width:326px;
+	height:225px;
+	padding-left:1px;
+}
+#yunitongxing{
+	width:339px;
+	float:left;
+}
+#yuni_top{
+	height:30px;
+	text-align:right;
+	line-height:30px;
+	padding-right:15px;
+	background:url(../images/tongxing_top.jpg) no-repeat;
+}
+#yuni_mdl{
+	height:232px;
+	background:url(../images/tongxing_mdl.jpg) repeat-y;
+}
+#yuni_btm{
+	height:4px;
+	background:url(../images/tongxing_btm.jpg) no-repeat;
+}
+#xiangyata{
+	float:left;
+	width:663px;
+	height:265px;
+	background:url(../images/xiangyata.jpg) no-repeat;
+}
+#xyt_top{
+	height:30px;
+	line-height:30px;
+	text-align:right;
+	padding-right:15px;
+}
+#xyt_cont{
+	height:233px;
+	width:659px;
+	margin:1px auto;
+	background:url(../images/xiangyata_lm.jpg) no-repeat;
+}
+#xyt_cl{
+    float:left;
+    height:230px;
+    width:328px;
+}
+#xyt_cr{
+    float:left;
+    height:230px;
+    width:313px;
+    padding-left:15px;
+}
+#wanht{
+	float:left;
+	width:673px;
+}
+#wanht_t{
+	height:30px;
+	line-height:30px;
+	text-align:right;
+	padding-right:15px;
+	background:url(../images/wanht_t.jpg) no-repeat;
+}
+ifream{  margin:0; padding:0; letter-spacing:normal;}
+#wanht_m{
+	padding-left:1px;
+	padding-top:2px;
+	height:382px;
+	background:url(../images/wanht_m.jpg) no-repeat;
+}
+#wanht_b{
+	height:7px;
+	background:url(../images/wanht_b.jpg) no-repeat;
+}
+#guangying{
+    width:650px;
+    height:360px;
+    margin:0 auto;
+    padding-top:15px;
+}
+#xinyu{
+	width:329px;
+	overflow:hidden;
+	float:left;
+}
+#xinyu_t{
+	height:30px;
+	line-height:30px;
+	text-align:right;
+	padding-right:15px;
+	background:url(../images/xinyu_t.jpg) no-repeat;
+}
+#xinyu_m{
+	height:385px;
+	background:url(../images/xinyu_m.jpg) repeat-y;
+}
+#xinyu_b{
+	height:6px;
+	background:url(../images/xinyu_b.jpg) no-repeat;
+}
+#foot{
+	width:1000px;
+	height:84px;
+	margin-top:1px;
+	padding-top:8px;
+	text-align:center;
+	line-height:20px;
+	font-size:12px;
+	color:#3F3F3F;
+	border:1px solid #DADADA;
+	background:#F6FAFB;
+}
+#foot hr{
+     width:90%;
+     border:0;
+     height:1px;
+     background:#A0A0A0;
+     margin:5px auto; 
+     *margin:0 auto;         
+}
+#foot span{
+	color:#5f5f5f;
+	margin:0 12px;
+}
+#foot font
+{
+    color:#FF6600;
+    font-size:12px;
+    }
+#foot a:link,#foot a:visited{
+	color:#29272A;
+}

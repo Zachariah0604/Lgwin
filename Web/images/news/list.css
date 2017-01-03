@@ -1,0 +1,97 @@
+@charset "gb2312";
+#list {
+	text-decoration: none;
+	float: left;
+	width: 715px;
+	height: 903px;
+	font-size: 14px;
+}
+#titles  tr td  {
+	border-bottom: dashed #666666 1px;
+	text-align: left;
+	background: url(../index/list2ji.jpg) no-repeat;
+	margin-top: 10px;
+	height: 20px;
+}
+#titles  .date  {
+	text-decoration: none;
+	float: left;
+	width: 15%;
+	margin-top: 0px;
+	padding-left: 0px;
+}
+#titles  span  {
+	float: left;
+	width: 80%;
+	height: 20px;
+	padding-left: 25px;
+	padding-top: 10px;
+
+}
+#titles .paihang{
+	background-color: #FFF;
+	background-image: none;
+	text-align: center;
+	color: #003399;
+	font-weight: bold;
+	font-size: 16px;
+}
+#titles .ph{
+	background-image: none;
+	text-align: center;
+}
+
+
+#pager {
+	text-decoration: none;
+	text-align: center;
+	height: 30px;
+	padding-top: 15px;
+}
+#list tr td {
+	text-decoration: none;
+	vertical-align:bottom;
+	font-size:16px;
+	border-bottom:1px dashed black;
+}
+
+#list1 tr td {
+	text-decoration: none;
+	vertical-align:bottom;
+	font-size:16px;
+	border-bottom:1px dashed black;
+}
+.titles1  tr td  {
+	border-bottom: dashed #666666 1px;
+	text-align: left;
+	background: url(../index/list2ji1.jpg) no-repeat;
+	margin-top: 10px;
+	height: 20px;
+}
+.titles1  .date  {
+	text-decoration: none;
+	float: left;
+	width: 15%;
+	margin-top: 0px;
+	padding-left: 0px;
+}
+.titles1  span  {
+	float: left;
+	width: 80%;
+	height: 20px;
+	padding-left: 25px;
+	padding-top: 10px;
+
+}
+.titles1 .paihang{
+	background-color: #FFF;
+	background-image: none;
+	text-align: center;
+	color: #003399;
+	font-weight: bold;
+	font-size: 16px;
+}
+.titles1 .ph{
+	background-image: none;
+	text-align: center;
+}

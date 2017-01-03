@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* CSS Document */
+
+#body 
+{
+	/*background-image: url(../images/background.jpg);*/
+	background-repeat: repeat-x;
+	margin: auto;
+}
+#karat_heart 
+{
+	width: 950px;
+	margin-top: 2px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+}
+#Heart_List {
+	height: 550px;
+	width: 950px;
+	border:solid #999 1px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	cursor: auto;
+}
+#Heart_list_rows 
+{
+	float: left;
+	height: 20px;
+	width: 800px;
+	font-size:16px;
+	margin-top: 16px!important;
+	margin-top:13px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: 80px!important;
+	margin-left:40px;
+}
+#Heart_list_rows a
+{
+	color:#666;
+	text-decoration: none;
+}
+#Heart_list_rows a:hover
+{
+	color:#F96;
+}
+#bottom {
+	margin: auto;
+	width: 950px;
+}
+#heart_03_main 
+{
+	width: 950px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+}
+#title {
+	font-family: "宋体";
+	font-size: 16px;
+	font-weight: bold;
+	color: #666;
+	width: 900px;
+	text-align: center;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+}
+#autor_time {
+	font-family: "宋体";
+	font-size: 14px;
+	font-weight: normal;
+	color: #333;
+	text-align: center;
+	margin-top: 10px;
+	width: 400px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+}
+#content 
+{
+	color:#000;
+	line-height:24px;
+	font-family: "宋体";
+	font-size: 16px;
+	letter-spacing:1px;
+	font-weight: normal;
+	color: #333;
+	text-align: left;
+	width:660px;
+	margin-top: 15px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+}
+#page 
+{
+	font-size:14px;
+	height: 20px;
+	width: 950px;
+	text-align:center;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+}
+#bianji
+{
+	margin-top:10px;
+	margin-left:600px;
+	width:200px;
+	height:24px;
+	line-height:24px;
+}
+#page a
+{
+	font-size:14px;
+	color:#333;
+	text-decoration:none
+}
+#page a:hover
+{
+	font-size:14px;
+	color:#999;
+	text-decoration:none
+}
+.bottom {
+	margin: auto;
+	width: 950px;
+}

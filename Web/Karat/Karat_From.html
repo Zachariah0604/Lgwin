@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<meta http-equiv="X-UA-Compatible" content="IE=7" />
+<meta http-equiv="X-UA-Compatible" content="IE=6" />
+<META content="MSHTML 6.00.2800.1264" name=GENERATOR>
+    <title>karat大事记</title>
+<link href="css/style.css" type="text/css" rel="stylesheet" />
+<link href="css/dsj.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="js/jquery.1.4.2-min.js"></script>
+<script type="text/javascript">
+function FloatMenu(){
+	var animationSpeed=1500;
+	var animationEasing='easeOutQuint';
+	var scrollAmount=$(document).scrollTop();
+	var newPosition=menuPosition+scrollAmount;
+	if($(window).height()<$('#fl_menu').height()+$('#fl_menu .menu').height()){
+		$('#fl_menu').css('top',menuPosition);
+	} else {
+		$('#fl_menu').stop().animate({top: newPosition}, animationSpeed, animationEasing);
+	}
+}
+$(window).load(function(){
+	menuPosition=$('#fl_menu').position().top;
+	FloatMenu();
+});
+$(window).scroll(function(){ 
+	FloatMenu();
+});
+$(document).ready(function(){
+	var fadeSpeed=500;
+	$("#fl_menu").hover(function(){
+		$('#fl_menu .label').fadeTo(fadeSpeed, 1);
+		$("#fl_menu .menu").fadeIn(fadeSpeed);
+	},function(){
+		$('#fl_menu .label').fadeTo(fadeSpeed, 0.75);
+		$("#fl_menu .menu").fadeOut(fadeSpeed);
+	});
+});
+</script>
+</head>
+<body>
+<div style="width:100%; height:188px; margin:0 auto;">
+	<iframe scrolling="no" allowtransparency="true" width="100%" height="100%" src="top.html" frameborder="0"></iframe>
+</div>
+<div id="dTu"></div>
+<div class="weiduduan clearfix">
+<div id="fl_menu">
+	<div class="label">历年大事记&nbsp;&nu;</div>
+	<div class="menu">
+		<a href="From/karat13.html" target="_blank" class="menu_item">2014年大事记测试</a><a href="From/karat12.html" target="_blank" class="menu_item">2013年度团队发展大事记</a><a href="From/karat11.html" target="_blank" class="menu_item">2012年度团队发展大事记</a><a href="From/karat10.html" target="_blank" class="menu_item">2011年度团队发展大事记</a><a href="From/karat09.html" target="_blank" class="menu_item">2010年度团队发展大事记</a><a href="From/karat08.html" target="_blank" class="menu_item">2009年度团队发展大事记</a><a href="From/karat07.html" target="_blank" class="menu_item">2008年度团队发展大事记 </a><a href="From/karat06.html" target="_blank" class="menu_item">2007年度团队发展大事记 </a><a href="From/karat05.html" target="_blank" class="menu_item">2006年度团队发展大事记 </a><a href="From/karat04.html" target="_blank" class="menu_item">2005年度团队发展大事记 </a><a href="From/karat03.html" target="_blank" class="menu_item">2004年度团队发展大事记 </a><a href="From/karat02.html" target="_blank" class="menu_item">2003年度团队发展大事记 </a><a href="From/karat01.html" target="_blank" class="menu_item">2002年度团队发展大事记</a>
+    	
+    </div>
+</div>
+
+<div class="content">
+<div id="Container">
+  <div class="timeline_container">
+    <div class="timeline">
+      <div class="plus"></div>
+      <div class="plus2"></div>
+    </div>
+  </div>
+  <div class="item">
+    <h3> <span class="fl"><b>%%from_mon%%</b></span></h3>
+    <p class="con">%%neirong%%</p>
+    <h4></h4>
+  </div>
+ 
+</div>
+
+<script src="js/dsj.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/dsj.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+  
+  $('#Container').masonry({itemSelector : '.item'});
+	function Arrow_Points(){
+	  var s = $("#Container").find(".item");
+	  $.each(s,function(i,obj){
+		var posLeft = $(obj).css("left");
+		if(posLeft == "0px"){
+		  html = "<span class='rightCorner'></span>";
+		  $(obj).prepend(html);
+		} else {
+		  html = "<span class='leftCorner'></span>";
+		  $(obj).prepend(html);
+		}
+	  });
+	}
+	Arrow_Points();
+});
+</script>
+</div> 
+
+
+<div id="footer">
+	<div id="f1" style="background-color:#d05600"></div>
+	<div id="f2" style="background-color:#fc6e09">
+		<div id="fmain1">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+    				<td colspan="11" height="13px">&nbsp;</td>
+    			</tr>
+  				<tr height="36px;">
+    <td width="150">&nbsp;</td>
+    <td width="100"><a href="">关于我们</a></td>
+    <td width="40"><div class="n"><img src="images/foot_s.png" border="0" /></div></td>
+    <td width="100"><a href="">新闻热线</a></td>
+    <td width="40"><div class="n"><img src="images/foot_s.png" border="0" /></div></td>
+    <td width="100"><a href="">在线投稿</a></td>
+    <td width="40"><div class="n"><img src="images/foot_s.png" border="0" /></div></td>
+    <td width="100"><a href="">诚招英才</a></td>
+    <td width="40"><div class="n"><img src="images/foot_s.png" border="0" /></div></td>
+    <td width="100"><a href="">版权声明</a></td>
+    <td width="150">&nbsp;</td>
+  				</tr>
+  			</table>
+  		</div>
+  		<div style="background-image:url(images/foot_h.png); background-repeat:repeat-x; height:2px;"></div> 
+  			<div id="fmain2">
+				<table  width="100%" border="0" cellspacing="0" cellpadding="0">
+					<tr>
+						<td height="10px"></td></tr>
+  					<tr>
+    					<td align="center" height="20px">版权所有&nbsp;@&nbsp;山东理工大学宣传部&nbsp;&nbsp;&nbsp;&nbsp;地址：山东省淄博市张店区张周路12号</td>
+    				</tr>
+  					<tr>
+    					<td align="center" height="20px">邮编：255049&nbsp;&nbsp;&nbsp;&nbsp;联系电话：0533-2786727&nbsp;&nbsp;&nbsp;&nbsp;Designed By&nbsp;卡瑞特工作室</td>
+    				</tr>
+					<tr>
+    					<td height="10px">&nbsp;</td>
+    				</tr>
+				 </table>
+			</div>
+		</div>
+</div>
+</body>
+</html>

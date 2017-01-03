@@ -1,0 +1,622 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=GB2312" />
+<title>:::理工视窗---山东理工大学新闻网:::</title>
+<meta name="Keywords" content="山东理工大学" />
+<link href="images/index/TopFooter.css" rel="stylesheet" type="text/css" />
+<link href="images/index/main.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" type="text/javascript">
+function $(id){return document.getElementById(id)}
+var k=0; 
+var imgnub=3; //要展示的图片的张数，根据实际修改此值。
+function start(lay_name,Item_no,no,second){ 
+var obj=$("out"+lay_name); 
+if (obj.filters.item(0).Transition==23) // 这部分语句是用于改变切换样式，在23种样式中循环。
+obj.filters.item(0).Transition=1;else
+obj.filters.item(0).Transition++;
+obj.filters.item(0).Apply();if (Item_no<no) {Item_no++;}
+else {Item_no=1;}
+for(i=1;i<=no;i++)
+{
+	$("Items"+lay_name+"_"+i).style.display="none";
+}
+$("Items"+lay_name+"_"+Item_no).style.display="";
+obj.filters.item(0).Play();window.setTimeout(start,second,lay_name,Item_no,no,second); 
+}
+var _st = window.setTimeout; 
+window.setTimeout = function(fRef, mDelay) { 
+if(typeof fRef == 'function'){ 
+var argu = Array.prototype.slice.call(arguments,2); 
+var f = (function(){ fRef.apply(null, argu); }); 
+return _st(f, mDelay); } 
+return _st(fRef,mDelay); 
+} 
+/* ========== 舌签构造函数 begin =========
+version 1.30 */
+eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('m 6(a,b,c,d,e){5.u=6.$(a);7(5.u==k&&a!="n"){M y N("6(p)参数错误:p 对像存在!(Z:"+a+")")};7(!6.q){6.q=y 1r()};5.p=6.q.9;6.q.1d(5);5.1s=r;5.8=[];5.10=c==k?0:c;5.E=5.10;5.11=d==k?"1t":d;5.13=e==k?"":e;5.F=r;j f=P("6.q["+5.p+"].F = z");j g=P("6.q["+5.p+"].F = r");7(a!="n"){7(5.u.v){5.u.v("14",f)}w{5.u.Q("15",f,r)}};7(a!="n"){7(5.u.v){5.u.v("16",g)}w{5.u.Q("17",g,r)}};7(18(b)!="1u"){b="1v"};b=b.1w();1x(b){U"14":5.B="15";G;U"16":5.B="17";G;U"1y":5.B="1z";G;U"1A":5.B="1B";G;1C:5.B="1D"};5.H=r;5.A=k;5.R=1E};6.t.1F="1.1G";6.t.1H="1I";6.t.1e=m(a,b,c,d,e){7(6.$(a)==k&&a!="n"){M y N("1e(1f)参数错误:1f 对像存在!(Z:"+a+")")};j f=5.8.9;7(c==""){c=k};5.8.1d([a,b,c,d,e]);j g=P(\'6.q[\'+5.p+\'].C(\'+f+\')\');7(a!="n"){7(6.$(a).v){6.$(a).v("1J"+5.B,g)}w{6.$(a).Q(5.B,g,r)}};7(f==5.10){7(a!="n"){6.$(a).V=5.11};7(6.$(b)){6.$(b).J.W=""};7(5.p!="n"){7(c!=k){5.u.J.1g=c}};7(d!=k){S(d)}}w{7(a!="n"){6.$(a).V=5.13};7(6.$(b)){6.$(b).J.W="n"}};j h=P("6.q["+5.p+"].F = z");j i=P("6.q["+5.p+"].F = r");7(6.$(b)){7(6.$(b).v){6.$(b).v("14",h)}w{6.$(b).Q("15",h,r)};7(6.$(b).v){6.$(b).v("16",i)}w{6.$(b).Q("17",i,r)}}};6.t.C=m(a,b){7(18(a)!="19"){M y N("C(1h)参数错误:1h 不是 19 类型!(Z:"+a+")")};7(b!=z&&5.E==a){K};j i;T(i=0;i<5.8.9;i++){7(i==a){7(5.8[i][0]!="n"){6.$(5.8[i][0]).V=5.11};7(6.$(5.8[i][1])){6.$(5.8[i][1]).J.W=""};7(5.p!="n"){7(5.8[i][2]!=k){5.u.J.1g=5.8[i][2]}};7(5.8[i][3]!=k){S(5.8[i][3])}}w 7(5.E==i||b==z){7(5.8[i][0]!="n"){6.$(5.8[i][0]).V=5.13};7(6.$(5.8[i][1])){6.$(5.8[i][1]).J.W="n"};7(5.8[i][4]!=k){S(5.8[i][4])}}};5.E=a};6.t.1a=m(){7(s.9!=5.8.9){M y N("1a()参数错误:参数数量与标签数量不符!(9:"+s.9+")")};j a=0,i;T(i=0;i<s.9;i++){a+=s[i]};j b=1K.1a(),1b=0;T(i=0;i<s.9;i++){1b+=s[i]/a;7(b<1b){5.C(i);G}}};6.t.1i=m(){7(s.9!=5.8.9){M y N("1i()参数错误:参数数量与标签数量不符!(9:"+s.9+")")};7(!(/^\\d+$/).1j(6.D)){K};j a=0,i;T(i=0;i<s.9;i++){a+=s[i]};j b=6.D%a;7(b==0){b=a};j c=0;T(i=0;i<s.9;i++){c+=s[i];7(c>=b){5.C(i);G}}};6.t.1L=m(a){7(18(a)=="19"){5.R=a};X(5.A);5.A=1c("6.q["+5.p+"].Y()",5.R);5.H=z};6.t.Y=m(){7(5.H==r||5.F==z){K};5.1k()};6.t.1k=m(){j a=5.E;a++;7(a>=5.8.9){a=0};5.C(a);7(5.H==z){X(5.A);5.A=1c("6.q["+5.p+"].Y()",5.R)}};6.t.1M=m(){j a=5.E;a--;7(a<0){a=5.8.9-1};5.C(a);7(5.H==z){X(5.A);5.A=1c("6.q["+5.p+"].Y()",5.R)}};6.t.1N=m(){X(5.A);5.H=r};6.$=m(a){7(x.1l){K S(\'x.1l("\'+a+\'")\')}w{K S(\'x.1O.\'+a)}};6.1m=m(l){j i="",I=l+"=";7(x.L.9>0){j a=x.L.1n(I);7(a!=-1){a+=I.9;j b=x.L.1n(";",a);7(b==-1)b=x.L.9;i=1P(x.L.1Q(a,b))}};K i},6.1o=m(O,o,l,I){j i="",c="";7(l!=k){i=y 1p((y 1p).1R()+l*1S);i="; 1T="+i.1U()};7(I!=k){c=";1V="+I};x.L=O+"="+1W(o)+i+c};6.D=6.1m("1q");7((/^\\d+$/).1j(6.D)){6.D++}w{6.D=1};6.1o("1q",6.D,12);',62,121,'|||||this|SubShowClass|if|label|length||||||||||var|null||function|none||ID|childs|false|arguments|prototype|parentObj|attachEvent|else|document|new|true|autoPlayTimeObj|eventType|select|sum|selectedIndex|mouseIn|break|autoPlay||style|return|cookie|throw|Error||Function|addEventListener|spaceTime|eval|for|case|className|display|clearInterval|autoPlayFunc|value|defaultID|openClassName||closeClassName|onmouseover|mouseover|onmouseout|mouseout|typeof|number|random|percent|setInterval|push|addLabel|labelID|background|num|order|test|nextLabel|getElementById|readCookie|indexOf|writeCookie|Date|SSCSum|Array|lock|selected|string|onmousedown|toLowerCase|switch|onclick|click|onmouseup|mouseup|default|mousedown|5000|version|30|author|mengjia|on|Math|play|previousLabel|stop|all|unescape|substring|getTime|3600000|expires|toGMTString|domain|escape'.split('|'),0,{}))
+/* ========== 舌签构造函数 end ========== */
+/* ========== 滚动方法begin =========*/
+function Marquee()
+{
+	this.ID = document.getElementById(arguments[0]);
+	if(!this.ID)
+	{
+		alert("您要设置的\"" + arguments[0] + "\"初始化错误\r\n请检查标签ID设置是否正确!");
+		this.ID = -1;
+		return;
+	}
+	this.Direction = this.Width = this.Height = this.DelayTime = this.WaitTime = this.CTL = this.StartID = this.Stop = this.MouseOver = 0;
+	this.Step = 1;
+	this.Timer = 30;
+	this.DirectionArray = {"top":0 , "up":0 , "bottom":1 , "down":1 , "left":2 , "right":3};
+	if(typeof arguments[1] == "number" || typeof arguments[1] == "string")this.Direction = arguments[1];
+	if(typeof arguments[2] == "number")this.Step = arguments[2];
+	if(typeof arguments[3] == "number")this.Width = arguments[3];
+	if(typeof arguments[4] == "number")this.Height = arguments[4];
+	if(typeof arguments[5] == "number")this.Timer = arguments[5];
+	if(typeof arguments[6] == "number")this.DelayTime = arguments[6];
+	if(typeof arguments[7] == "number")this.WaitTime = arguments[7];
+	if(typeof arguments[8] == "number")this.ScrollStep = arguments[8];
+	this.ID.style.overflow = this.ID.style.overflowX = this.ID.style.overflowY = "hidden";
+	this.ID.noWrap = true;
+	this.IsNotOpera = (navigator.userAgent.toLowerCase().indexOf("opera") == -1);
+	if(arguments.length >= 7)this.Start();
+}
+
+Marquee.prototype.Start = function()
+{
+	if(this.ID == -1)return;
+	if(this.WaitTime < 800)this.WaitTime = 800;
+	if(this.Timer < 20)this.Timer = 20;
+	if(this.Width == 0)this.Width = parseInt(this.ID.style.width);
+	if(this.Height == 0)this.Height = parseInt(this.ID.style.height);
+	if(typeof this.Direction == "string")this.Direction = this.DirectionArray[this.Direction.toString().toLowerCase()];
+	this.HalfWidth = Math.round(this.Width / 2);
+	this.HalfHeight = Math.round(this.Height / 2);
+	this.BakStep = this.Step;
+	this.ID.style.width = this.Width + "px";
+	this.ID.style.height = this.Height + "px";
+	if(typeof this.ScrollStep != "number")this.ScrollStep = this.Direction > 1 ? this.Width : this.Height;
+	var templateLeft = "<table cellspacing='0' cellpadding='0' style='border-collapse:collapse;display:inline;'><tr><td noWrap=true style='white-space: nowrap;word-break:keep-all;'>MSCLASS_TEMP_HTML</td><td noWrap=true style='white-space: nowrap;word-break:keep-all;'>MSCLASS_TEMP_HTML</td></tr></table>";
+	var templateTop = "<table cellspacing='0' cellpadding='0' style='border-collapse:collapse;'><tr><td>MSCLASS_TEMP_HTML</td></tr><tr><td>MSCLASS_TEMP_HTML</td></tr></table>";
+	var msobj = this;
+	msobj.tempHTML = msobj.ID.innerHTML;
+	if(msobj.Direction <= 1)
+	{
+		msobj.ID.innerHTML = templateTop.replace(/MSCLASS_TEMP_HTML/g,msobj.ID.innerHTML);
+	}
+	else
+	{
+		if(msobj.ScrollStep == 0 && msobj.DelayTime == 0)
+		{
+			msobj.ID.innerHTML += msobj.ID.innerHTML;
+		}
+		else
+		{
+			msobj.ID.innerHTML = templateLeft.replace(/MSCLASS_TEMP_HTML/g,msobj.ID.innerHTML);
+		}
+	}
+	var timer = this.Timer;
+	var delaytime = this.DelayTime;
+	var waittime = this.WaitTime;
+	msobj.StartID = function(){msobj.Scroll()}
+	msobj.Continue = function()
+				{
+					if(msobj.MouseOver == 1)
+					{
+						setTimeout(msobj.Continue,delaytime);
+					}
+					else
+					{	clearInterval(msobj.TimerID);
+						msobj.CTL = msobj.Stop = 0;
+						msobj.TimerID = setInterval(msobj.StartID,timer);
+					}
+				}
+
+	msobj.Pause = function()
+			{
+				msobj.Stop = 1;
+				clearInterval(msobj.TimerID);
+				setTimeout(msobj.Continue,delaytime);
+			}
+
+	msobj.Begin = function()
+		{
+			msobj.ClientScroll = msobj.Direction > 1 ? msobj.ID.scrollWidth / 2 : msobj.ID.scrollHeight / 2;
+			if((msobj.Direction <= 1 && msobj.ClientScroll <= msobj.Height + msobj.Step) || (msobj.Direction > 1 && msobj.ClientScroll <= msobj.Width + msobj.Step))			{
+				msobj.ID.innerHTML = msobj.tempHTML;
+				delete(msobj.tempHTML);
+				return;
+			}
+			delete(msobj.tempHTML);
+			msobj.TimerID = setInterval(msobj.StartID,timer);
+			if(msobj.ScrollStep < 0)return;
+			msobj.ID.onmousemove = function(event)
+						{
+							if(msobj.ScrollStep == 0 && msobj.Direction > 1)
+							{
+								var event = event || window.event;
+								if(window.event)
+								{
+									if(msobj.IsNotOpera)
+									{
+										msobj.EventLeft = event.srcElement.id == msobj.ID.id ? event.offsetX - msobj.ID.scrollLeft : event.srcElement.offsetLeft - msobj.ID.scrollLeft + event.offsetX;
+									}
+									else
+									{
+										msobj.ScrollStep = null;
+										return;
+									}
+								}
+								else
+								{
+									msobj.EventLeft = event.layerX - msobj.ID.scrollLeft;
+								}
+								msobj.Direction = msobj.EventLeft > msobj.HalfWidth ? 3 : 2;
+								msobj.AbsCenter = Math.abs(msobj.HalfWidth - msobj.EventLeft);
+								msobj.Step = Math.round(msobj.AbsCenter * (msobj.BakStep*2) / msobj.HalfWidth);
+							}
+						}
+			msobj.ID.onmouseover = function()
+						{
+							if(msobj.ScrollStep == 0)return;
+							msobj.MouseOver = 1;
+							clearInterval(msobj.TimerID);
+						}
+			msobj.ID.onmouseout = function()
+						{
+							if(msobj.ScrollStep == 0)
+							{
+								if(msobj.Step == 0)msobj.Step = 1;
+								return;
+							}
+							msobj.MouseOver = 0;
+							if(msobj.Stop == 0)
+							{
+								clearInterval(msobj.TimerID);
+								msobj.TimerID = setInterval(msobj.StartID,timer);
+							}
+						}
+		}
+	setTimeout(msobj.Begin,waittime);
+}
+
+Marquee.prototype.Scroll = function()
+{
+	switch(this.Direction)
+	{
+		case 0:
+			this.CTL += this.Step;
+			if(this.CTL >= this.ScrollStep && this.DelayTime > 0)
+			{
+				this.ID.scrollTop += this.ScrollStep + this.Step - this.CTL;
+				this.Pause();
+				return;
+			}
+			else
+			{
+				if(this.ID.scrollTop >= this.ClientScroll)
+				{
+					this.ID.scrollTop -= this.ClientScroll;
+				}
+				this.ID.scrollTop += this.Step;
+			}
+		break;
+
+		case 1:
+			this.CTL += this.Step;
+			if(this.CTL >= this.ScrollStep && this.DelayTime > 0)
+			{
+				this.ID.scrollTop -= this.ScrollStep + this.Step - this.CTL;
+				this.Pause();
+				return;
+			}
+			else
+			{
+				if(this.ID.scrollTop <= 0)
+				{
+					this.ID.scrollTop += this.ClientScroll;
+				}
+				this.ID.scrollTop -= this.Step;
+			}
+		break;
+
+		case 2:
+			this.CTL += this.Step;
+			if(this.CTL >= this.ScrollStep && this.DelayTime > 0)
+			{
+				this.ID.scrollLeft += this.ScrollStep + this.Step - this.CTL;
+				this.Pause();
+				return;
+			}
+			else
+			{
+				if(this.ID.scrollLeft >= this.ClientScroll)
+				{
+					this.ID.scrollLeft -= this.ClientScroll;
+				}
+				this.ID.scrollLeft += this.Step;
+			}
+		break;
+
+		case 3:
+			this.CTL += this.Step;
+			if(this.CTL >= this.ScrollStep && this.DelayTime > 0)
+			{
+				this.ID.scrollLeft -= this.ScrollStep + this.Step - this.CTL;
+				this.Pause();
+				return;
+			}
+			else
+			{
+				if(this.ID.scrollLeft <= 0)
+				{
+					this.ID.scrollLeft += this.ClientScroll;
+				}
+				this.ID.scrollLeft -= this.Step;
+			}
+		break;
+	}
+}
+/* ========== 滚动方法end =========*/
+</script>
+</head>
+<body style="margin-top:3px;">
+<iframe src="images/Top.html" width="1000px" height="220" scrolling="No" frameborder="0"></iframe>
+<div id="Tongzhi" class="Bord">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="10%"><img src="images/index/zixun.jpg" height="36" usemap="#Map"/></td>
+    <td><div id="tongzhi_demo"  style="overflow:hidden; width:630px;">
+%%tongzhi%%
+</div></td>
+<td width="10%"><a href="/topic/zxcyzt/">创先争优专题</a></td>
+    <td width="10%"><a href="CaiFang.aspx" target="_blank"><img src="images/index/caifang.jpg" width="91" height="36" /></a></td>
+    <td width="10%"><a href="TouGao/TouGao.aspx" target="_blank"><img src="images/index/tougao.jpg" width="87" height="36" /></a></td>
+  </tr>
+</table>
+<script>
+//滚动头条
+new Marquee("tongzhi_demo",2,1,698,25,10,0,0)
+</script>
+</div>
+
+<div id="box1">
+<table width="100%" border="0" align="left" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="30%">
+    <table  border="0" cellpadding="0" cellspacing="0" id="Flash"  >
+<tr><td align="center"><a target=_self href="javascript:goUrl()"> 
+<span >
+<script type="text/javascript">
+%%flash%%
+ var focus_width=296
+ var focus_height=220
+ var text_height=30
+ var swf_height = focus_height+text_height
+ 
+ var pics=imgUrl1+"|"+imgUrl2+"|"+imgUrl3+"|"+imgUrl4+"|"+imgUrl5
+ var links=imgLink1+"|"+imgLink2+"|"+imgLink3+"|"+imgLink4+"|"+imgLink5
+ var texts=imgtext1+"|"+imgtext2+"|"+imgtext3+"|"+imgtext4+"|"+imgtext5
+ 
+document.write('<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="'+ focus_width +'" height="'+ swf_height +'">');
+ document.write('<param name="allowScriptAccess" value="sameDomain"><param name="movie" value="images/index/focus.swf"><param name="quality" value="high"><param name="bgcolor" value="#F0F0F0">');
+ document.write('<param name="menu" value="false"><param name=wmode value="opaque">');
+ document.write('<param name="FlashVars" value="pics='+pics+'&links='+links+'&texts='+texts+'&borderwidth='+focus_width+'&borderheight='+focus_height+'&textheight='+text_height+'">');
+ document.write('<embed src="images/index/focus.swf" wmode="opaque" FlashVars="pics='+pics+'&links='+links+'&texts='+texts+'&borderwidth='+focus_width+'&borderheight='+focus_height+'&textheight='+text_height+'" menu="false" bgcolor="#F0F0F0" quality="high" width="'+ focus_width +'" height="'+ focus_height +'" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />'); 
+document.write('</object>');</script>
+</span></a></td></tr></table>
+<!--媒体理工部分-->
+<div id="Meiti" class="Bord">
+     <div class="TitlePic"> <span class="TitleBig" style="width:50%" >媒体理工</span><span class="more"><a href="News/6_1.html" >更多>></a></span></div>
+     <table width="100%"   border="0" align="center" cellpadding="0" cellspacing="0">%%MeiTiLG%%</table></div>    </td>
+    <td width="40%">
+  <!--今日头条部分-->
+  <div id="Toutiao">
+    %%TouTiao%%
+  </div>
+    <!--理工要闻部分-->
+<div id="Yaowen" class="Bord">
+     <div  class="TitlePic" ><span class="TitleBig" style="width:50%" >理工要闻</span><span class="more"><a href="News/1_1.html" >更多>></a></span></div>
+     <table  width="100%" border="0" cellspacing="0" cellpadding="0">%%LGYaoWen%%</table>
+</div>     </td>
+    <td width="30%">
+  <!--校报部分-->
+    <div id="XiaoBao" class="Bord">
+    <div class="menu" style="height:24px; overflow:hidden; text-align:center">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style="text-align:center;">
+  <tr>
+    <td style="background-image:url(News/images/index/XBTou.jpg)"  width="40%"><img src="images/index/XBTou.jpg" /></td>
+    <td id="lgxbmenu_1" class="on" width="15%" >头版</td>
+    <td id="lgxbmenu_2" width="15%" >综合</td>
+    <td id="lgxbmenu_3" width="15%" >校园</td>
+    <td id="lgxbmenu_4" width="15%" >副刊</td>
+  </tr>
+</table>
+</div>
+<!--touban-->
+<div class="xbcon" id="xb_con_1">
+<div id="xbLeft">%%QISHU%% %%toubanpic%%</div>
+ <div class="txt">
+<ul>%%touban%%</ul>
+</div>
+</div><!--toubanEnd-->
+<!--Zonghe-->
+<div class="xbcon" id="xb_con_2" style="display:none;">
+       <div id="xbLeft">%%QISHU%% %%zonghepic%%</div>
+    <div class="txt">
+     <ul>%%zonghe%%</ul></div></div><!--ZongheENd-->
+<!--xiaoyuan-->
+<div class="xbcon" id="xb_con_3" style="display:none;">
+    <div id="xbLeft">%%QISHU%%  %%xiaoyuanpic%%</div>
+     <div class="txt">
+     <ul>%%xiaoyuan%%</ul>
+</div></div><!--XiaoyuanEnd-->
+<!--fukan-->
+<div class="xbcon" id="xb_con_4" style="display:none;">
+    <div id="xbLeft">%%QISHU%%  %%fukanpic%%</div>
+<div class="txt">
+<ul>%%fukan%%</ul>
+</div>
+</div><!--FukanEnd-->
+<script type="text/javascript">
+	var SubShow_05 = new SubShowClass("XiaoBao","onmouseover",0,"on","");
+		for(var i=1;i<=4;i++){
+		SubShow_05.addLabel("lgxbmenu_"+i,"xb_con_"+i,"","","");
+		    		}
+				</script>
+    </div>
+  <!--视频部分-->
+   <div id="Video" class="Bord"><div id="Video_top"><img src="images/index/video_top.jpg" /></div><div><iframe src="Pic.html" name="video" width="297px" height="210" scrolling="No" frameborder="0"></iframe></div></div></td>
+  </tr>
+</table>
+</div>
+<div id="box2" >
+%%ad1%%
+</div>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="70%"><div id="box4">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="43%"><div id="Wenhua" class="Bord">
+     <div class="TitlePic"> <span class="TitleBig" style="width:50%" >校园文化</span><span class="more">更多>></span></div>
+     <table width="100%"   border="0" align="center" cellpadding="0" cellspacing="0" ><tr><td class="NewsList"><a href="Campus/Html_03/201083010901533.html">重视非智力因素成就高效学..</a></td><td class="time">[08-30]</td></tr><tr><td class="NewsList"><a href="Campus/Html_03/2010830108896834.html">全面推进国内知名的教学研..</a></td><td class="time">[08-30]</td></tr><tr><td class="NewsList"><a href="Campus/Html_03/2010830103021283.html">敬业求实 德教双馨 真心..</a></td><td class="time">[08-30]</td></tr><tr><td class="NewsList"><a href="Campus/Html_03/20108309809679.html">加强和改进党建与思想政治..</a></td><td class="time">[08-30]</td></tr><tr><td class="NewsList"><a href="Campus/Html_03/201083099525633.html">教学研究型大学本科人才培..</a></td><td class="time">[08-30]</td></tr><tr><td class="NewsList"><a href="Campus/Html_03/201083091725815.html">建设与教学研究型大学相适..</a></td><td class="time">[08-30]</td></tr><tr><td class="NewsList"><a href="Campus/Html_03/2010821105912367.html">文化名人报告之周思源专场..</a></td><td class="time">[08-21]</td></tr><tr><td class="NewsList"><a href="Campus/Html_03/2010821106751963.html">文化名人报告之骆承烈专场..</a></td><td class="time">[08-21]</td></tr><tr><td class="NewsList"><a href="Campus/Html_03/2010821108968393.html">文化名人报告之孔庆东专场..</a></td><td class="time">[08-21]</td></tr></table></div></td>
+    <td width="57%"><div id="Chuanzhen" class="Bord">
+     <div class="TitlePic"> <span class="TitleBig" style="width:50%" >院部传真</span><span class="more"><a href="News/2_1.html" >更多>></a></span></div>
+     <table width="98%"   border="0" align="center" cellpadding="0" cellspacing="0" >%%YuanBuChZh%%</table></div></td>
+  </tr>
+  <tr>
+    <td width="43%"><div id="Xuesheng" class="Bord">
+     <div class="TitlePic"> <span class="TitleBig" style="width:50%" >学生工作</span><span class="more"><a href="News/5_1.html" >更多>></a></span></div>
+     <table width="100%"   border="0" align="center" cellpadding="0" cellspacing="0" >%%XueShengGZ%%</table></div></td>
+    <td width="57%"><div id="Keyan" class="Bord">
+     <div class="TitlePic"> <span class="TitleBig" style="width:50%" >教学科研</span><span class="more"><a href="News/3_1.html" >更多>></a></span></div>
+     <table width="100%"   border="0" align="center" cellpadding="0" cellspacing="0" >%%JiaoXueKY%%</table></div></td>
+  </tr>
+  <tr>
+    <td colspan="2">
+    <div id="pics2">
+    %%ad2%%    </div></td>
+  </tr>
+  <tr>
+    <td><div id="shidian" class="Bord">
+     <div class="TitlePic"> <span class="TitleBig" style="width:50%" >高教视点</span><span class="more"><a href="News/8_1.html">更多>></a></span></div>
+     <table width="100%"   border="0" align="center" cellpadding="0" cellspacing="0" >%%GaiJiaoShD%%</table></div></td>
+    <td><div id="Renwu" class="Bord">
+     <div class="TitlePic"> <span class="TitleBig" style="width:50%" >理工人物</span><span class="more"><a href="News/7_1.html" >更多>></a></span></div>
+     <table width="100%"   border="0" align="center" cellpadding="0" cellspacing="0" >%%LGRenWu%%</table></div></td>
+  </tr>
+</table></div></td>
+    <td width="30%"><div id="box5">
+<div id="kong" class="Bord">
+        <div id="titlekong"></div>        
+        <div id="textkong">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><a href="" target="_blank">办公电话</a> | <a href="" target="_blank">学校校历</a> | <a href="http://www.sdutjob.com/" target="_blank">作息时间</a> | <a href="" target="_blank"></a><a href="http://zszx.sdut.edu.cn/" target="_blank">招生在线</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://www.sdutjob.com" target="_blank">就业服务</a> | <a href="http://oice.sdut.edu.cn/0news/noticelook.asp" target="_blank">国际交流</a> | <a href="http://210.44.176.171/eol/homepage/common/opencourse/" target="_blank">教育在线</a> | <a href="http://szll.sdut.edu.cn/" target="_blank">思政理论</a> </td>
+  </tr>
+  <tr>
+    <td><a href=" http://lab.sdut.edu.cn/" target="_blank">实验教学</a> | <a href="http://210.44.176.148/" target="_blank">精品课程</a> | <a href="http://210.44.176.116/cjcx/" target="_blank">成绩查询</a> | <a href="http://210.44.176.116/skqk/" target="_blank">课表查询</a></td>
+  </tr>
+  <tr>
+    <td><a href="" target="_blank">办公地址</a> | <a href="http://qwhyj.sdut.edu.cn/" target="_blank">齐文化院</a> | <a href="http://210.44.191.210/" target="_blank">校园地图</a> | <a href="/map/" target="_blank">虚拟校园</a></td>
+  </tr>
+  <tr>
+    <td><a href="/campus/" target="_blank">校园文化</a> | <a href="/photo/index.aspx" target="_blank">光影理工</a> | <a href="http://www.sdutjob.com/" target="_blank">招生就业</a></td>
+  </tr>
+</table></div>
+      </div>
+      <div id="Zhuanti">
+      <div id="ZtTitle"><span style="width:100px; float:left; padding-left:8px"><img src="images/index/zttitle.jpg" alt="专题报道" /></span><span style="float:right; padding-top:5px;"><a href="News/12_1.html" ><img src="images/index/showall.jpg"  alt="查看全部" /></a></span></div>        
+       <div id="Zhuanti2" class="Bord"> %%zhuantipic%%    
+        <div id="ZtTex"><table width="100%" border="0" cellspacing="0" cellpadding="0" style="vertical-align:bottom;">
+  <tr>
+    <td width="7%">&nbsp;</td>
+    <td width="3%" ><img src="images/index/red.jpg" /></td>
+    <td width="87%" rowspan="5">%%zhuantitex%%</td>
+    <td width="3%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td ><img src="images/index/grenn.jpg" /></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td ><img src="images/index/blue.jpg" /></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td ><img src="images/index/red.jpg" /></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td ><img src="images/index/grenn.jpg" /></td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+</div></div>
+      </div>      
+      <div id="Gaojian" class="Bord">
+      <div style="background:url(images/index/gaojian.jpg) no-repeat; height:30px;" > <span class="TitleBig" style="width:50%" >稿件排行</span><span class="more"><a href="News/Paihang.html" >更多>></a></span></div>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style="text-align:center; height:210px">
+  <tr>
+    <td width="10%" height="20px">&nbsp;</td>
+     <td width="80%" height="20px">
+     <table width="100%" border="0" align="center" style="text-align:center;" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="10%"><img src="images/index/mingci.jpg" /></td>
+    <td width="20%"><img src="images/index/yonggao.jpg" /></td>
+    <td width="70%"><img src="images/index/danwei.jpg" /></td>
+  </tr>
+  %%paihang%%
+</table>
+     </td>
+    <td width="10%">&nbsp;</td>
+  </tr></table>
+      </div>
+    </div></td>
+  </tr>
+</table>
+<!--光影理工begin -->
+<div id="Guangying" class="Bord">
+    <div class="TitleBig" id="gytitle">光影理工</div>
+    <div id="GYIn">
+      <ul id="marquee">
+        %%guangying%%
+      </ul>
+    </div>
+  </div>
+ <script defer>
+new Marquee("GYIn",0,5,990,145,10,6000,6000)
+</script>
+<!--光影理工end --> 
+<div id="Footer1" class="Bord">
+  <div  id="foot1-1" class="TitleBig" >友情链接<select onchange="window.open(this.options[this.selectedIndex].value,'_blank')"
+            size="1" name="select" style="margin-left:80px;">
+  <option selected="selected">－－ 学院网站 －－</option>
+  <option value="http://jxxy.sdut.edu.cn"/>机械工程学院</option>
+ <option value="http://jtxy.sdut.edu.cn">交通与车辆工程学院</option>
+  <option value="http://qgxy.sdut.edu.cn">轻工与农业工程学院</option>
+  <option value="http://jsjxy.sdut.edu.cn">计算机科学与技术学院</option>
+  <option value="http://hgxy.sdut.edu.cn">化学工程学院</option>
+  <option value="http://law.sdut.edu.cn">法学院</option>
+  <option value="http://jgxy.sdut.edu.cn">建筑工程学院</option>
+  <option  alue="http://ziyuan.sdut.edu.cn">资源与环境工程学院</option>
+  <option  value="http://xcl.sdut.edu.cn">材料科学与工程学院</option>
+  <option  value="http://dz.sdut.edu.cn">电气与电子工程学院</option>
+  <option  value="http://smkx.sdut.edu.cn">生命科学学院</option>
+  <option  value="http://wyxy.sdut.edu.cn">外国语学院</option>
+  <option  value="http://msxy.sdut.edu.cn">美术学院</option>
+  <option  value="http://sxyxxkx.sdut.edu.cn">数学与信息科学学院</option>
+  <option  value="http://wlxx.sdut.edu.cn">物理学院</option>
+  <option  value="http://wxy.sdut.edu.cn">文学与新闻传播学院</option>
+  <option  value="http://yyx.sdut.edu.cn">音乐学院</option>
+  <option  value="http://jjren.sdut.edu.cn">经济学院</option>
+  <option  value="http://glxy.sdut.edu.cn">管理学院</option>
+  <option  value="http://tyx.sdut.edu.cn">体育学院</option>
+  <option  value="http://zhiyuan.sdut.edu.cn">职业技术师范学院</option>
+  <option  value="http://ycjyxy.sdut.edu.cn">远程教育学院</option>
+</select>
+<select onchange="window.open(this.options[this.selectedIndex].value,'_blank')"
+            size="1" name="select" style="margin-left:20px;">
+  <option selected="selected">－－－－－ 机构网站 －－－－－</option>
+   <option value="">－－ 党政机关 －－</option>
+  <option value="http://office.sdut.edu.cn/"/>党委（校长）办公室</option>
+ <option value="http://yjsh.sdut.edu.cn/">研究生处</option>
+ <option  value="http://jiwei.sdut.edu.cn">纪委&nbsp;&nbsp;监察处</option>
+  <option  value="http://www.sdut.edu.cn/07/07.html">招生就业处</option>
+ <option  value="http://dwzzb.sdut.edu.cn/">党委组织部</option>
+ <option  value="http://oice.sdut.edu.cn/">国际合作与交流处&nbsp;国际教育学院</option>
+  <option  value="http://xcb.sdut.edu.cn/">党委宣传部</option>
+ <option  value="http://sysbc.sdut.edu.cn/">资产管理处</option>
+ <option  value="http://dwtzb.sdut.edu.cn/">党委统战部&nbsp;港澳台事务办公室</option>
+ <option  value="http://cwc.sdut.edu.cn/">计划财务处</option>
+ <option  value="http://youth.sdut.edu.cn/">学生工作部（处）&nbsp;武装部</option>
+ <option  value="http://ia.sdut.edu.cn/">审计处</option>
+ <option  value="http://xkjsc.sdut.edu.cn/bgxt/shownotice2.asp?id=72">发展规划处</option>
+ <option  value="http://sdlgjjc.sdut.edu.cn/">基建处</option>
+ <option  value="http://rshch.sdut.edu.cn/">人事处</option>
+ <option  value="http://bwc.sdut.edu.cn/">保卫处</option>
+ <option  value="http://jwch.sdut.edu.cn/">教务处</option>
+ <option  value="http://hqch.sdut.edu.cn/">后勤管理处</option>
+ <option  value="http://research.sdut.edu.cn">科学技术处</option>
+ <option  value="http://lgdxxb.sdut.edu.cn/">学报（自然科学版）</option>
+ <option  value="http://lgdltc.sdut.edu.cn">离退休工作处</option>
+ <option  value="http://skc.sdut.edu.cn/">社会科学处</option>
+ <option  value="http://journal.sdut.edu.cn/">学报（社会科学版）</option>
+ <option value="">－－ 群众团体 －－</option>
+ <option value="http://gh.sdut.edu.cn/">工会&nbsp;&nbsp;妇女委员会</option>
+ <option value="http://www.lgqn.cn/">团委</option>
+ <option value="">－－ 直属单位 －－</option>
+ <option value="http://szjzx.sdut.edu.cn/">省职教师资培训中心</option>
+ <option value="http://eptc.sdut.edu.cn/">机械厂&nbsp;工程实训中心</option>
+ <option value="http://www.sdlgcj.net">继续教育学院&nbsp;淄博教育学院</option>
+ <option value="http://qwhyj.sdut.edu.cn/">齐文化研究院</option>
+ <option value="http://ynjgzb.sdut.edu.cn">一年级工作部</option>
+ <option value="">法律事务室</option>
+ <option value="http://lib.sdut.edu.cn/">图书馆</option>
+ <option value="http://yiyuan.sdut.edu.cn">校医院</option>
+ <option value="http://dag.sdut.edu.cn/">网络信息中心</option>
+ <option value="http://dag.sdut.edu.cn/">档案馆</option>
+ <option value="http://xy.sdut.edu.cn/">校友联谊办公室</option>
+ <option value="http://atc.sdut.edu.cn/">分析测试中心</option>
+ <option value="http://sdlgcy.sdut.edu.cn/">校产总公司</option>
+</select>
+</div>
+<table width="99%" border="0" cellspacing="0" cellpadding="0" style="text-align:center;">
+  <tr height="38px">
+    <td width="4%"><img src="images/index/inner.jpg" width="11" height="12" /></td>
+    <td><a href="http://www.gov.cn/" target="_blank">中国政府网 </a></td>
+    <td><a href="http://www.moe.edu.cn/" target="_blank">中国教育部</a></td>
+    <td><a href="http://www.miit.gov.cn/" target="_blank">工业和信息化部</a></td>
+    <td><a href="http://www.univs.cn/" target="_blank">中国大学生在线</a></td>
+    <td><a href="http://www.sdedu.gov.cn/" target="_blank">山东省教育厅</a></td>
+    <td><a href="http://www.sdstc.gov.cn/HomePage" target="_blank">山东省科技厅</a></td>
+    <td><a href="http://www.sdstc.gov.cn/HomePage" target="_blank">山东新闻网</a></td>
+    <td><a href="http://www.zibo.gov.cn/" target="_blank">淄博政府网</a></td>
+    <td><a href="http://www.edu.cn/HomePage/jiao_yu_zi_yuan/college.php" target="_blank">教育科研网 </a></td>
+    <td><a href="http://210.44.191.210/" target="_blank">校园图库 </a></td>
+  </tr>
+  <tr>
+    <td><img src="images/index/outer.jpg" width="11" height="12" /></td>
+    <td><a href="http://news.tsinghua.edu.cn/new/" target="_blank">清华新闻网</a></td>
+    <td><a href="http://pkunews.pku.edu.cn/" target="_blank">北大新闻网</a></td>
+    <td><a href="http://pkunews.pku.edu.cn/" target="_blank">南京大学新闻网</a></td>
+    <td><a href="http://news.fudan.edu.cn/" target="_blank">复旦大学新闻网</a></td>
+    <td><a href="http://www.sjtu.edu.cn/news/" target="_blank">上海交大新闻网</a></td>
+    <td><a href="http://news.hustonline.net/" target="_blank">华中大新闻网</a></td>
+    <td><a href="http://news.ruc.edu.cn/" target="_blank">人大新闻网</a></td>
+    <td><a href="http://www.news.zju.edu.cn/" target="_blank">求是新闻网</a></td>
+    <td><a href="http://www.view.sdu.edu.cn/" target="_blank">山大视点网</a></td>
+    <td><a href="http://news.bnu.edu.cn" target="_blank">北师大新闻网</a></td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style="text-align:center; margin-top:10px">
+  <tr>
+    <td><a href="http://www.people.com.cn/" target="_blank"><img src="images/index/renmin.jpg" alt="人民网" /></a></td>
+    <td><a href="http://www.xinhuanet.com/" target="_blank"><img src="images/index/xinhua.jpg" alt="新华网" width="100" height="39" /></a></td>
+    <td><a href="http://www.gmw.cn/" target="_blank"><img src="images/index/guangming.jpg" alt="光明网" /></a></td>
+    <td><a href="http://www.cctv.com/" target="_blank"><img src="images/index/CCTV.jpg" alt="CCTV" width="100" height="39" /></a></td>
+    <td><a href="http://www.jyb.cn/" target="_blank"><img src="images/index/jiaoyubao.jpg" alt="中国教育报" /></a></td>
+    <td><a href="http://www.sciencetimes.com.cn/" target="_blank"><img src="images/index/shibao.jpg" alt="科学时报" width="100" height="39" /></a></td>
+    <td><a href="http://zqb.cyol.com/node/zgqnb.htm" target="_blank"><img src="images/index/qingnianbao.jpg" alt="中国青年报" width="102" height="41" /></a></td>
+    <td><a href="http://www.dzwww.com/" target="_blank"><img src="images/index/dazhong.jpg" alt="大众网" width="100" height="39" /></a></td>
+  </tr>
+</table>
+</div>
+<script src="FWStatistics.aspx" type="text/javascript" language="javascript"></script>
+<iframe src="images/Footer.html" width="1000" height="110" scrolling="No" frameborder="0"></iframe>
+<map name="Map" id="Map">
+  <area shape="rect" coords="27,10,85,27" href="/News/9_1.html" target="_blank" />
+</map>
+</body>
+</html>

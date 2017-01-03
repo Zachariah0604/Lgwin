@@ -1,0 +1,491 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link href="CSS/1st.css" type="text/css" rel="stylesheet" />
+<link type="text/css" href="css/lrtk.css" rel="stylesheet" />
+<script type="text/javascript" src="js/jquery_top.js"></script>
+<script type="text/javascript" src="js/js_top.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>山东理工大学新闻网--2013毕业季专题</title>
+<style>
+OL LI {
+ MARGIN: 8px
+}
+#con_zzjs_net {
+ FONT-SIZE: 12px; MARGIN-RIGHT: 2px; WIDTH: 376px
+}
+#tags {
+ PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0px 0px; WIDTH: 376px; PADDING-TOP: 0px; HEIGHT: 23px
+}
+#tags LI {
+ FLOAT: left; MARGIN-RIGHT: 1px; LIST-STYLE-TYPE: none; HEIGHT: 23px
+}
+#tags LI A {
+ FLOAT: left; PADDING-BOTTOM: 0px; text-align:right; COLOR: #999; PADDING-TOP: 0px; HEIGHT: 32px; TEXT-DECORATION: none; width:148px; padding-left:0px; font-size:12px; line-height:32px; background-image:url
+
+(images/tag_byxc_bg_03.jpg); font-weight:bold; height:28px; color:#000000; padding-top:3px;
+}
+#tags LI.emptyTag {
+ BACKGROUND: none transparent scroll repeat 0% 0%; WIDTH: 4px; 
+}
+#tags LI.selectTag {
+ BACKGROUND-POSITION: left top; POSITION: relative; padding-left:0px; line-height:32px; background-image:url
+
+(images/tag_byxc_bg_03.jpg); font-weight:bold; height:32px; color:#0033FF; padding-top:3px;
+}
+#tags LI.selectTag A {
+ BACKGROUND-POSITION: right top; LINE-HEIGHT: 26px; padding-left:0px; font-size:13px; line-height:32px; background-image:url
+
+(images/tag_byxc_bg_03.jpg); font-weight:bold; height:32px;  color:#0033FF; padding-top:1px;
+}
+#tagContent {
+ BORDER-RIGHT: #ddd 0px solid; PADDING-RIGHT: 1px; margin-top:20px; BORDER-TOP: #ddd 0px solid; PADDING-LEFT: 1px; PADDING-BOTTOM: 1px; BORDER-LEFT: #ddd 0px solid; PADDING-TOP: 1px; BORDER-BOTTOM: #ddd 0px solid;
+}
+.tagContent {
+ PADDING-RIGHT: 2px; DISPLAY: none; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; WIDTH: 376px; PADDING-TOP: 5px; HEIGHT: 310px
+}
+#tagContent DIV.selectTag {
+ DISPLAY: block
+}
+#tagContent li {
+  float: left;
+  padding-left:1px;
+  padding-bottom:7px;
+}
+#tagContent li span{
+  float: right;
+  color:#ccc;
+  font-size:10px;
+}
+</style>
+
+</head>
+
+<body>
+<script language="javascript" type="text/javascript">
+    function empty() {
+        document.getElementById("txt1").value = "";
+    }
+    function txt1_onclick() {
+
+    }
+
+</script>
+     <script type="text/javascript">
+         function addEvent(obj, evtType, func, cap) {
+             cap = cap || false;
+             if (obj.addEventListener) {
+                 obj.addEventListener(evtType, func, cap);
+                 return true;
+             } else if (obj.attachEvent) {
+                 if (cap) {
+                     obj.setCapture();
+                     return true;
+                 } else {
+                     return obj.attachEvent("on" + evtType, func);
+                 }
+             } else {
+                 return false;
+             }
+         }
+         function getPageScroll() {
+             var xScroll, yScroll;
+             if (self.pageXOffset) {
+                 xScroll = self.pageXOffset;
+             } else if (document.documentElement && document.documentElement.scrollLeft) {
+                 xScroll = document.documentElement.scrollLeft;
+             } else if (document.body) {
+                 xScroll = document.body.scrollLeft;
+             }
+             if (self.pageYOffset) {
+                 yScroll = self.pageYOffset;
+             } else if (document.documentElement && document.documentElement.scrollTop) {
+                 yScroll = document.documentElement.scrollTop;
+             } else if (document.body) {
+                 yScroll = document.body.scrollTop;
+             }
+             arrayPageScroll = new Array(xScroll, yScroll);
+             return arrayPageScroll;
+         }
+         function GetPageSize() {
+             var xScroll, yScroll;
+             if (window.innerHeight && window.scrollMaxY) {
+                 xScroll = document.body.scrollWidth;
+                 yScroll = window.innerHeight + window.scrollMaxY;
+             } else if (document.body.scrollHeight > document.body.offsetHeight) {
+                 xScroll = document.body.scrollWidth;
+                 yScroll = document.body.scrollHeight;
+             } else {
+                 xScroll = document.body.offsetWidth;
+                 yScroll = document.body.offsetHeight;
+             }
+             var windowWidth, windowHeight;
+             if (self.innerHeight) {
+                 windowWidth = self.innerWidth;
+                 windowHeight = self.innerHeight;
+             } else if (document.documentElement && document.documentElement.clientHeight) {
+                 windowWidth = document.documentElement.clientWidth;
+                 windowHeight = document.documentElement.clientHeight;
+             } else if (document.body) {
+                 windowWidth = document.body.clientWidth;
+                 windowHeight = document.body.clientHeight;
+             }
+             if (yScroll < windowHeight) {
+                 pageHeight = windowHeight;
+             } else {
+                 pageHeight = yScroll;
+             }
+             if (xScroll < windowWidth) {
+                 pageWidth = windowWidth;
+             } else {
+                 pageWidth = xScroll;
+             }
+             arrayPageSize = new Array(pageWidth, pageHeight, windowWidth, windowHeight)
+             return arrayPageSize;
+         }
+
+         var AdMoveConfig = new Object();
+         AdMoveConfig.IsInitialized = false;
+         AdMoveConfig.ScrollX = 0;
+         AdMoveConfig.ScrollY = 0;
+         AdMoveConfig.MoveWidth = 0;
+         AdMoveConfig.MoveHeight = 0;
+         AdMoveConfig.Resize = function () {
+             var winsize = GetPageSize();
+             AdMoveConfig.MoveWidth = winsize[2];
+             AdMoveConfig.MoveHeight = winsize[3];
+             AdMoveConfig.Scroll();
+         }
+         AdMoveConfig.Scroll = function () {
+             var winscroll = getPageScroll();
+             AdMoveConfig.ScrollX = winscroll[0];
+             AdMoveConfig.ScrollY = winscroll[1];
+         }
+         addEvent(window, "resize", AdMoveConfig.Resize);
+         addEvent(window, "scroll", AdMoveConfig.Scroll);
+         function AdMove(id) {
+             if (!AdMoveConfig.IsInitialized) {
+                 AdMoveConfig.Resize();
+                 AdMoveConfig.IsInitialized = true;
+             }
+             var obj = document.getElementById(id);
+             obj.style.position = "absolute";
+             var W = AdMoveConfig.MoveWidth - obj.offsetWidth;
+             var H = AdMoveConfig.MoveHeight - obj.offsetHeight;
+             var x = W * Math.random(), y = H * Math.random();
+             var rad = (Math.random() + 1) * Math.PI / 6;
+             var kx = Math.sin(rad), ky = Math.cos(rad);
+             var dirx = (Math.random() < 0.5 ? 1 : -1), diry = (Math.random() < 0.5 ? 1 : -1);
+             var step = 1;
+             var interval;
+             this.SetLocation = function (vx, vy) { x = vx; y = vy; }
+             this.SetDirection = function (vx, vy) { dirx = vx; diry = vy; }
+             obj.CustomMethod = function () {
+                 obj.style.left = (x + AdMoveConfig.ScrollX) + "px";
+                 obj.style.top = (y + AdMoveConfig.ScrollY) + "px";
+                 rad = (Math.random() + 1) * Math.PI / 6;
+                 W = AdMoveConfig.MoveWidth - obj.offsetWidth;
+                 H = AdMoveConfig.MoveHeight - obj.offsetHeight;
+                 x = x + step * kx * dirx;
+                 if (x < 0) { dirx = 1; x = 0; kx = Math.sin(rad); ky = Math.cos(rad); }
+                 if (x > W) { dirx = -1; x = W; kx = Math.sin(rad); ky = Math.cos(rad); }
+                 y = y + step * ky * diry;
+                 if (y < 0) { diry = 1; y = 0; kx = Math.sin(rad); ky = Math.cos(rad); }
+                 if (y > H) { diry = -1; y = H; kx = Math.sin(rad); ky = Math.cos(rad); }
+             }
+             this.Run = function () {
+                 var delay = 30;
+                 interval = setInterval(obj.CustomMethod, delay);
+                 obj.onmouseover = function () { clearInterval(interval); }
+                 obj.onmouseout = function () { interval = setInterval(obj.CustomMethod, delay); }
+             }
+         }
+ 
+ </script>
+<div id="gg1" style="width:290px; height:110px; padding-top:0px; float:left; background-image:url(images/daojishi.jpg); background-repeat:no-repeat; background-color:none; color:#02ACF5;" onMouseOver="clearInterval(interval)" ><div style=" position: 0; float:left; text-align:right; width:290px;"><span style="CURSOR:hand;color:red;font-weight:bold" onClick="clearInterval(interval);gg1.style.visibility = 'hidden'">×</span></div>
+	<iframe width="135px" height="18px;" style=" margin-left:50px; margin-top:60px;" scrolling="no" frameborder="0" src="daojishi1.html"></iframe>
+     </div><div id="img"></div>
+    <script type="text/javascript">
+
+        var ad1 = new AdMove("gg1");
+        ad1.Run();
+  
+    </script>
+    <script type="text/javascript" language="javascript">
+        var interval;
+        function start() {
+            gg1.style.visibility = "visible";
+        }
+        start();  
+</script>
+   
+<!-- 返回顶部 -->
+<div id="code"></div>
+<div id="code_img"></div>
+<a id="gotop" href="javascript:void(0)"></a>
+<!-- TAB切换 -->
+<SCRIPT type="text/javascript">
+var obig=document.getElementById("big");
+function selectTag(showContent,selfObj){
+   var tag = document.getElementById("tags").getElementsByTagName("li");
+  var taglength = tag.length;
+  for(i=0; i<taglength; i++){
+    tag[i].className = "";
+  }
+  selfObj.parentNode.className = "selectTag";
+  for(i=0; j=document.getElementById("tagContent"+i); i++){
+    j.style.display = "none";
+  }
+  document.getElementById(showContent).style.display = "block";
+}
+ var x=0;
+ function scrollTag(){
+ var tags=document.getElementById("tags").getElementsByTagName("a");
+  if(x<2){x=x+1}
+  else
+  x=0;
+  var tag = document.getElementById("tags").getElementsByTagName("li");
+  var taglength = tag.length;
+  for(i=0; i<taglength; i++){
+    tag[i].className = "";
+  }
+tags[x].parentNode.className = "selectTag";
+for(i=0; j=document.getElementById("tagContent"+i);i++){
+   j.style.display="none";
+ }
+ document.getElementById("tagContent"+x).style.display="block";
+}
+var scrolll=setInterval(scrollTag,100000000);
+function zhuan(){
+clearInterval(scrolll);
+}
+function jixu(){
+scrolll=setInterval(scrollTag,100000000);
+}
+</SCRIPT>
+<div id="kb">
+	<div class="toplink"><a href="http://lgwindow.sdut.edu.cn/index.html" target="_blank" style="color:#8a476e;">新闻网</a> <a href="http://lgwindow.sdut.edu.cn/Campus/Index.html" target="_blank" style="color:#8a476e;">校园文化</a> <a href="http://lgwindow.sdut.edu.cn/photo/index.html" target="_blank" style="color:#8a476e;">光影理工</a> <a href="http://lgwindow.sdut.edu.cn/topic/QM/" target="_blank" style="color:#8a476e;">手机客户端</a></div>
+	<div id="daojishi">
+		
+	</div>
+</div>
+<div id="daohang">
+	<div class="lm1"><a href="http://lgwindow.sdut.edu.cn/topic/2013biyeji/" target="_self" style="color:#8a476e; font-weight:bold;">首页</a></div>
+	<div class="lm2"><a href="#face" target="_self" style="color:#8a476e; font-weight:bold;">毕业现场</a></div>
+	<div class="lm3"><a href="#face" target="_self" style="color:#8a476e; font-weight:bold;">信息推送</a></div>
+	<div class="lm4"><a href="#yingxing" target="_self" style="color:#8a476e; font-weight:bold;">毕业聚焦</a></div>
+	<div class="lm5"><a href="#youqing" target="_self" style="color:#8a476e; font-weight:bold;">兄弟再见</a></div>
+	<div class="lm6"><a href="#aiqing" target="_self" style="color:#8a476e; font-weight:bold;">琥珀流年</a></div>
+	<div class="lm7"><a href="#ganhuai" target="_self" style="color:#8a476e; font-weight:bold;">青春盛宴</a></div>
+	<div class="lm8"><a href="#biyeweiyu" target="_self" style="color:#8a476e; font-weight:bold;">毕业微语</a></div>
+	
+</div>
+
+<div id="face">
+	<div id="face_body">
+		<div id="face_b_1">
+		</div>
+		<div id="face_b_2">
+		
+		<div id="big" onmouseover="zhuan()" onmouseout="jixu()" class="column480" style="padding-left:3px;">
+  <DIV id="con_zzjs_net">
+    <UL id="tags">
+<LI class="selectTag"><A onmouseover="selectTag('tagContent0',this)" href="javascript:void(0)">新闻·毕业现场</A> </LI>
+<LI><A onmouseover="selectTag('tagContent1',this)" href="javascript:void(0)">通知·信息推送</A></A></LI>
+    </UL>
+  <DIV id="tagContent">
+      <DIV class="tagContent selectTag" id="tagContent0">
+	  	%%BYXC%%
+	<div class="face_more"><a href="http://lgwindow.sdut.edu.cn/topic/2013biyeji/news/199_1.html" target="_blank">MORE>></a></div>
+	  </DIV>
+      <DIV class="tagContent" id="tagContent1">
+	  	
+		%%XXTS%%
+       <div class="face_more"><a href="http://lgwindow.sdut.edu.cn/topic/2013biyeji/news/200_1.html" target="_blank">MORE>></a></div>
+	  </DIV>
+	  
+  </DIV>
+</DIV>
+</div>
+		
+		</div>
+	</div>
+</div>
+
+<div id="yingxing">
+	<a href="http://lgwindow.sdut.edu.cn/photo/223.html" target="_blank"><div class="yx_1"><div class="more_1">MORE>></div></div></a>
+	<div class="yx_2">
+		<div class="yx_2_left">
+			<div class="yx_2_left_img1"><img src="images/yx_img1.jpg" /></div><div class="yx_2_left_img2"><img src="images/yx_img2.jpg" /></div>
+		</div>
+		<div class="yx_2_right">　　这是我们纪念青春的一种方式，或疯狂、或感伤，抓住了青春的尾巴，泪水肆意的脸庞是不是挂着微笑……</div>
+	</div>
+</div>
+
+<div class="yx_body">
+	<div class="yingxing_body_1">
+		<div class="yx_lunbo">
+			<iframe width="100%" height="100%" scrolling="no" frameborder="0" src="demo4.html"></iframe>
+		</div>
+		<div class="yx_bofang1">
+			<iframe width="100%" height="100%" scrolling="no" frameborder="0" src="demo.html"></iframe>
+		</div>
+		<div class="yx_bofang2">
+			<iframe width="100%" height="100%" scrolling="no" frameborder="0" src="demo1.html"></iframe>
+		</div>
+	</div>
+	<table><tr><td>
+	<div class="yingxing_body_2">
+		<div class="yx_body2_daoyu">
+			<div class="yx_daoyu1"></div><div class="yx_daoyu2">导语</div>
+		</div>
+		
+		<div class="yx_body2_daoyu1">
+		　　看着那一群群人，拼命地对着镜头展现自己的笑脸，似乎下一秒再也找不到身边人，青春就这样仓促地滑过。<br />			　　一声“茄子”，笑容定格，你我的容颜就这样停留在幸福的一秒，停留在那些后来的后来称之为岁月的时光里。没有学习的压力，没有竞争的尔虞我诈，有的只是“这是我同学……”。<br />　　这个盛夏，人心的裸露胜于皮肤。
+		</div>
+		
+		<div class="yx_body2_shipin">
+			<div class="yx_daoyu11"></div><div class="yx_shipin1">视频</div><div class="yx_shipin2"></div>
+		</div>
+		
+		<div class="yx_body2_shipin1">
+			<a href="http://lgwindow.sdut.edu.cn/topic/2013biyeji/news/36292.html" target="_blank"><img src="images/shipin.jpg" width="233px" height="184px"/></a>
+		</div>
+		
+		<div class="yx_body2_shipinlm">
+			<div class="yx_daoyu11"></div><div class="yx_daoyu2">视频目录：</div>
+		</div>
+		
+		<div class="yx_body2_shipn_list"><a href="news/36292.html" style="color:#000000;" target="_blank">◆ 别了，我的大学</a></div><div class="yx_body2_shipn_list"><a href="news/36291.html" style="color:#000000;" target="_blank">◆ 你好，梦想</a></div><div class="yx_body2_shipn_list"><a href="news/36290.html" style="color:#000000;" target="_blank">◆ 走过你的时光</a></div><div class="yx_body2_shipn_list"><a href="news/36289.html" style="color:#000000;" target="_blank">◆ 青春选择题</a></div><div class="yx_body2_shipn_list"><a href="news/36288.html" style="color:#000000;" target="_blank">◆ 左手写的匿名信</a></div><div class="yx_body2_shipn_list"><a href="news/36287.html" style="color:#000000;" target="_blank">◆ 再见青春</a></div>		
+		
+		<!-- <div class="yx_body2_more"> -->
+		<!-- <a href="http://lgwindow.sdut.edu.cn/topic/2013biyeji/news/206_1.html" target="_parent">MORE>></a> -->
+		<!-- </div> -->
+		
+	</div>
+</td></tr></table>
+</div>
+
+<div id="youqing">
+	<a href="http://lgwindow.sdut.edu.cn/topic/2013biyeji/news/202_1.html"><div class="yx_11"><div class="more_1">MORE>></div></div></a>
+	<div class="yx_2">
+		<div class="yx_2_left">
+			<div class="yx_2_left_img1"><img src="images/youqing_img1.jpg" /></div><div class="yx_2_left_img2"><img src="images/youqing2_49.jpg" /></div>
+		</div>
+		<div class="yx_2_right">谁曾给予你突然的感动？<br />谁曾挑动起你数不清的微笑？<br />谁又令你泪流满面舍不得说再见？</div>
+	</div>
+</div>
+
+<div class="youqing_body">
+	<div class="youqing_body1">
+		<div class="youqing_daoyu"></div>
+		<div class="youqing_daoyu1">　　如果说六月是我们羽化飞翔的季节，那么在此之前的四年，则是如蛹虫般蛰居地下的时光。正是这一段好似与世隔绝又满怀好奇探索外界的懵懂年纪，让我们相遇相知。在这座象牙塔内，我们哭过、笑过、疯狂过，会不经意间，记起那些泪水的苦涩、笑容的灿烂、头发的蓬乱。<br />　　如果多年后再相聚，哥们儿，我希望你还可以回答得出三个问题：宿舍门后被撕破的课表，留下了谁的故事？稷下湖的倒影记住了谁跟谁的脸庞？阳光洒落的逸夫馆是谁为你占好了座？</div>
+		<div class="youqing_daoyu2"><img src="images/youqing_daoyu_img_108.jpg" /></div>
+	</div>
+	<div class="youqing_body2">
+		<div style=" width:400px; height:670px;">
+			
+		%%XDZJ%%
+		
+		</div>
+		
+  </div>
+	<div class="youqing_body3">
+		<div class="youqing_body3_1"></div>
+		<div class="youqing_body3_2"><img src="images/youqing_body_2_129.jpg" /></div>
+		<div class="youqing_body3_title">·致青春</div>
+		<div class="youqing_body3_content">他不羁的脸，像天色将晚。<br /> 她洗过的发，像心中火焰。<br /> 短暂的狂欢，以为一生绵延。<br /> 漫长的告别，是青春盛宴。</div>
+		<div class="youqing_body3_xiangxi"><a href="http://lgwindow.sdut.edu.cn/Campus/News/news_7434.html" target="_blank" style="color:#bb1f1f;">……【详细】</a></div>
+		
+		<div class="youqing_body3_title">·睡在我上铺的兄弟</div>
+		<div class="youqing_body3_content">睡在我上铺的兄弟<br />无声无息的你<br />你曾经问我的那些问题<br />如今在没人问起</div>
+		<div class="youqing_body3_xiangxi"><a href="http://lgwindow.sdut.edu.cn/Campus/News/news_7669.html" target="_blank" style="color:#bb1f1f;">……【详细】</a></div>
+		
+		<div class="youqing_body3_title">·光阴的故事</div>
+		<div class="youqing_body3_content1">春天的花开秋天的风<br />以及冬天的落阳<br />忧郁的青春年少的我<br />曾经无知的这么想<br />风车在四季轮回的歌里</div>
+		<div class="youqing_body3_xiangxi"><a href="http://lgwindow.sdut.edu.cn/Campus/News/news_7688.html" target="_blank" style="color:#bb1f1f;">……【详细】</a></div>
+		
+	</div>
+	
+	</div>
+	
+<div id="aiqing">
+	<a href="http://lgwindow.sdut.edu.cn/topic/2013biyeji/news/203_1.html"><div class="aq_1"><div class="more_1">MORE>></div></div></a>
+	<div class="yx_2">
+		<div class="yx_2_left">
+			<div class="yx_2_left_img1"><img src="images/aiqing_img1_57.jpg" /></div><div class="yx_2_left_img2"><img src="images/aiqing_img2_59.jpg" /></div>
+		</div>
+		<div class="yx_2_right_aq">　　这段青春时光，谢谢你陪我走过。携手 相望，我深爱的人儿。希望，那一段相互慰 藉的流年可以旋落进记忆里，成为琥珀，与青春同老……</div>
+	</div>
+</div>
+
+<div class="aiqing_body">
+	<div class="aiqing_body1">
+		<div class="aiqing_body1_daoyu"></div>
+		<div class="aiqing_body1_daoyu1">
+		 　　六月的校园，注定伤感。现在的你，或许正为论文答辩惴惴不安，正为工作签约焦头烂额，也或许正悠闲的等待研究生开学的日子。但是在思维的间隙，你是否考虑过这样一个问题：<br />　　“毕业了，我们的爱情怎么办？”<br />　　是转身放手，把那个人指间的温柔与青涩的恋情一并放到岁月的背后？还是把恋人的手放进激情平静后的生活琐碎里，让平凡的幸福继续在恋人的掌纹中生长？无论结果如何，都希望，那一段相互慰藉的流年可以旋落进记忆里，成为琥珀，与青春同老……</div>
+		 <div class="aiqing_body1_daoyu2">
+		 	<div class="aiqing_img"><img src="images/aiqing_img1_199.jpg" /></div>
+			<div class="aiqing_img1"><img src="images/aiqing_img_2_202.jpg" /></div>
+			<div class="aiqing_img1"><img src="images/aiqing_img_3_204.jpg" /></div>
+		 </div>
+		 <div class="aiqing_body1_daoyu3">
+		 </div>
+		 
+		 <div class="aiqing_body1_daoyu4l">
+		 	<div class="aiqing_img2"><img src="images/aiqing_body_img4_221.jpg" /></div>
+			<div class="aiqing_img3"><img src="images/aiqing_body_img5_230.jpg" /></div>
+			<div class="aiqing_img3"><img src="images/aiqing_body_img6_232.jpg" /></div>
+		 </div>
+		 <div class="aiqing_body1_daoyu4r">
+		 
+		  %%HPLB%%
+			
+		 </div>
+		 
+	</div>
+		
+	
+	<div id="biyeweiyu" class="aiqing_body2">
+		<div class="aiqing_body2_weibo"><div class="ganhuai_more"><a href="2013bieyjiweibo.html" target="_blank">MORE>></a></div></div>
+		<div class="aiqing_weibo_body"><iframe frameborder="0" scrolling="no" src="http://wall.v.t.qq.com/index.php?c=wall&a=index&t=%E6%98%94%E5%B9%B4%C2%B7%E6%83%9C%E5%88%AB&ak=801372191&w=282&h=784&n=shandongligongdaxue&url=http%3A%2F%2Flgwindow.sdut.edu.cn%2Ftopic%2F2013biyeji%2Findex.html&s=4&o=38" width="282" height="784"></iframe></div>
+	</div>
+
+</div>
+
+<div id="ganhuai">
+	<a href="http://lgwindow.sdut.edu.cn/topic/2013biyeji/news/204_1.html"><div class="gh_1"><div class="more_1">MORE>></div></div></a>
+	<div class="yx_2">
+		<div class="yx_2_left">
+			<div class="yx_2_left_img1"><img src="images/fanhuai_img1_06.jpg" /></div><div class="yx_2_left_img2"><img src="images/ganhuai_img2_08.jpg" /></div>
+		</div>
+		<div class="yx_2_right_aq">　　随风奔跑自由是方向，追逐雷和闪电的力量，把浩瀚的海洋装进我胸膛，即使再小的帆也能远航。大学，那段即使若干年后，总想重拾的日子……</div>
+	</div>
+</div>
+
+<div class="ganhuai_body">
+	<div class="ganhuai_body1">
+		<div class="ganhuai_daoyu">　　公寓窗外的晾衣绳，飘荡着不知哪个宿舍落下来的蓝色床单。<br />　　教学楼自习室的门还开着么，考研时鏖战过几个月的那个屋子，如今应该拥挤着下一届备战考研的孩子了吧？<br />　　一幕幕的场景就像一张张剪贴画，串连成一部即将谢幕的电影，播放着我们的快乐和忧伤，记录着我们的青春和过往。我们终将走出校园，去迎接自己的人生，去应对所有的挑战和机遇，挫败与成功。<br />　　此刻的分离是为了更美好的相遇，成长的磨练是为了铺垫出成功的喜悦。</div>
+		<div class="ganhuai_article">
+		
+			%%QCSY%%
+			
+		</div>
+	</div>
+	
+	<div class="ganhuai_body2">
+		<div class="ganhuai_music">毕业离校前要做的20件事</div>
+		<div class="ganhuai_music1">1.不管你曾经多么内向，你一定 要在全班同学面前，认认真真地 讲一次话，或者唱一支歌，即使 你和开学时一样，再介绍一回你 自己也好。<img src="images/ganhuai_music_pic_32.jpg" />
+		<br />2、拜访一回你最尊敬的老师吧， 在毕业时，认真地记住一条关于人 生的经验。</div>
+		<div class="ganhuai_more"><a href="http://lgwindow.sdut.edu.cn/Campus/News/news_7666.html" target="_blank">MORE>></a></div>
+		<div class="ganhuai_music">得失满仓·回眸初定……</div>
+		<div class="ganhuai_music2"><a href="http://lgwindow.sdut.edu.cn/Campus/News/news_7893.html" target="_blank">希望你们将来能走向事业的远方，我似乎看到你们的远方将是色彩斑斓的。深蓝的天空和海洋或许是你事业的远方......</a></div>
+	</div>
+</div>
+
+<div class="foot">
+	<iframe scrolling="no" allowtransparency="true" width="100%" height="100%" src="Footer.html" frameborder="0"></iframe>
+</div>
+
+</body>
+</html>

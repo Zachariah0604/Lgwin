@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<md_gallery galleryImagePath="images/large" galleryThumbPath="images/thumbs">
+
+	<gallery>
+		<name><![CDATA[Welcome | Portraits]]></name>
+		<buttonName><![CDATA[              ]]></buttonName>
+		<description><![CDATA[Lorem ipsum dolor sit consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad.]]></description>
+		<xmlpath>Portrait.xml</xmlpath>
+	</gallery>
+	
+	<gallery>
+		<name><![CDATA[Welcome | Glamour]]></name>
+		<buttonName><![CDATA[               ]]></buttonName>
+		<description><![CDATA[Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad.]]></description>
+		<xmlpath>Landscape.xml</xmlpath>
+	</gallery>
+	
+	<gallery>
+		<name><![CDATA[Welcome | Landscape]]></name>
+		<buttonName><![CDATA[               ]]></buttonName>
+		<description><![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit, tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad.]]></description>
+		<xmlpath>Glamour.xml</xmlpath>
+	</gallery>
+	
+	
+
+</md_gallery>

@@ -1,0 +1,8 @@
+%%GZDT%%,186,6,23,false,Havedate,1
+%%ZCZD%%,187,10,15,false,no,1
+%%JSGK%%,188,10,15,false,no,1
+%%LLTT%%,189,15,17,false,no,1
+%%MTJJ%%,190,6,16,false,no,1
+%%TSZS%%,191,6,16,false,no,1
+1
+grade2,30,20

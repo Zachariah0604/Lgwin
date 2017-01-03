@@ -1,0 +1,6 @@
+on (rollOver) {_root.mc.touying_mc.chang.gotoAndStop(2);
+
+}
+on (rollOut) {_root.mc.touying_mc.chang.gotoAndStop();
+
+}

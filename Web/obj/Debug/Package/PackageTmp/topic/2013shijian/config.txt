@@ -1,0 +1,7 @@
+%%YXKX%%,219,8,30,false,Havedate,1
+%%YXGG%%,220,5,14,false,Havedate,1
+%%XSDH%%,221,9,4,false,no,1
+%%DXSD%%,222,3,18,false,no,1
+%%SLQM%%,223,9,22,false,no,1
+1
+grade2,30,20

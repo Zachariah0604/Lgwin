@@ -1,0 +1,9 @@
+%%ZTTT%%,218,1,40,false,Havedate,1
+%%XXDT%%,212,9,31,false,Havedate,1
+%%YBCZ%%,213,9,16,false,Havedate,1
+%%GZJB%%,214,9,19,false,Havedate,1
+%%SJJS%%,215,13,15,false,no,1
+%%QWGD%%,216,7,17,false,no,1
+%%WXZL%%,217,7,17,false,no,1
+1
+grade2,30,20

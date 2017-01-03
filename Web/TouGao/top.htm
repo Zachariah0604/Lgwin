@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<style>
+        a:link
+        {
+            color: #999;
+            text-decoration: none;
+        }
+        a:visited
+        {
+            text-decoration: none;
+            color: #666;
+        }
+        a:hover
+        {
+            text-decoration: none;
+            color: #960;
+        }
+        a:active
+        {
+            text-decoration: none;
+            color: #999;
+        }
+
+        #top_serach
+        {
+            margin: 0 auto;
+            height: 22px;
+            width: 1000px;
+            line-height: 22px;
+            background-image: url(images/top_serach.jpg);
+            background-repeat: no-repeat;
+            background-position: top;
+            overflow:hidden;
+        }
+</style>
+<script language="javascript" type="text/javascript">
+    function empty() {
+        document.getElementById("txt1").value = "";
+    }
+</script>
+</head>
+<body style="margin-top:0;">
+   <div id="top_serach" >
+     <table width="1000" border="0" cellspacing="0" cellpadding="0" 
+           style="height: 22px" >
+       <tr valign="top">
+         <td width="558" height="22" style="font-family: '宋体'; font-size: 12px;">
+                        主办：<a href="http://xcb.sdut.edu.cn/" target="_blank">山东理工大学党委宣传部 新闻中心</a>　<a href="http://lgwindow.sdut.edu.cn/" target="_blank">新闻网首页</a>
+                    </td>
+                    <td width="72" height="22" style="font-family: '宋体'; font-size: 12px; line-height:22px;" align="right">
+                        站内搜索:
+                    </td>
+         <td style="vertical-align:text-top"><form action="../Search.aspx" method="post" 
+             target="_top" 
+             
+             style="border-style: none; border-color: inherit; border-width: medium; margin: 0px; width: 370px;">
+             &nbsp;<select height="20px" name="type" style="margin:0px;">
+               <option value="biaoti" >按文章标题</option>
+               <option value="zuozhe" selected="selected">按文章作者</option>
+               <option value="neirong">按文章内容</option>
+               <option value="laiyuan">按文章来源</option>
+             </select>
+             <select height="20px" name="website" >
+               <option value="lgwindow" selected="selected">新闻网</option>
+               <option value="Campus">校园文化</option>
+             </select>
+             <input height="20px"  id="txt1"  name="textfield" type="text" value="请输入关键字" 
+                 onfocus="empty();"  style=" width:100px"/>
+                 <input type="image" src="images/search.jpg"/ style=" height:20px; width:46px" />&nbsp;
+         </form></td>
+       </tr>
+     </table>
+   </div>
+   </body>
+</html>

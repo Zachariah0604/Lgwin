@@ -1,0 +1,266 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=GB2312" />
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+    <title>十周年站庆--砥砺十载--山东理工大学新闻网</title>
+    <link href="css/index.css" type="text/css" rel="Stylesheet" />
+    <link rel="stylesheet" href="css/lightbox.css" type="text/css" media="screen" />
+    <script src="js/prototype.js" type="text/javascript"></script>
+    <script src="js/scriptaculous.js?load=effects" type="text/javascript"></script>
+    <script src="js/lightbox.js" type="text/javascript"></script>
+      <script language="JavaScript" type="text/JavaScript">
+          var sh;
+          var marquees;
+          marqueesWidth = 610;
+          var speed = 20, preLeft = 0, stopscroll = false, flag = true;
+          function scrollLeft() {
+              preLeft = marquees.scrollLeft;
+              marquees.scrollLeft += 1;
+              if (preLeft >= marquees.scrollLeft) {
+                  Right();
+              }
+          }
+          function scrollRight() {
+              preLeft = marquees.scrollLeft;
+              marquees.scrollLeft -= 1;
+              if (preLeft <= marquees.scrollLeft) {
+                  Left();
+              }
+          }
+          function Left() {
+              flag = true;
+              clearInterval(sh);
+              sh = setInterval("scrollLeft()", speed);
+          }
+          function Right() {
+              flag = false;
+              clearInterval(sh);
+              sh = setInterval("scrollRight()", speed);
+          }
+
+          function normal() {
+              clearInterval(sh);
+              speed = 20;
+              if (flag) Left();
+              else Right();
+          }
+          function plusSpeed() {
+              clearInterval(sh);
+              speed = 10;
+              if (flag) Left();
+              else Right();
+          }
+          function init() {
+              marquees = document.getElementById("marquees1");
+              with (marquees) {
+                  style.width = marqueesWidth + "px";
+                  style.overflowX = "hidden";
+                  style.overflowY = "visible";
+              }
+              Left();
+              marquees.onmouseover = function () { clearInterval(sh); }
+              marquees.onmouseout = function () {
+                  if (flag == true)
+                      sh = setInterval(scrollLeft, speed);
+                  else
+                      sh = setInterval(scrollRight, speed);
+              }
+          }
+    </script>
+</head>
+<body onload="init()">
+   <div class="ma">
+            <div class="ma1">
+                <a href="">学校首页</a> ｜ <a href="#" target="_blank">新闻网首页</a>
+            </div>
+            <div class="ma2">
+                <a href="">加入收藏</a></div>
+        </div>
+    <div id="head">
+    </div>
+    <div id="daohang">
+   <div class="daohangword"><a href="#congratulate" >领导贺词</a></div>
+   <div class="daohangword"><a href="#congratulateword" >学院贺词</a></div>
+   <div class="daohangword"><a href="#tody_left"  >今日微谈</a></div>
+   <div class="daohangword"><a href="#tody_right" >动态追踪</a></div>
+   <div class="daohangword"><a href="#blesswall">祝福播报</a></div>
+    </div>
+    <div id="congratulateall">
+        <div id="congratulate">
+            <div id="congratulatepic">
+            <div id="congratulatepicbig1"><a href="images/bduguangzhen.jpg" target="_blank" title="test" rel="lightbox[roadtrip]"><img src="images/b-duguanzhen.jpg" title="" border="0" /></a></div>
+            <div id="congratulatepicbig2"> </div>
+           
+                                      
+                                
+            </div>
+            <div id="congratulatepic1">
+         <table cellspacing="1" width="100%" border="0">
+                    <tr>
+                        <td>                           
+                             <div id="marquees1" style=" height:235px;">
+                                <table border="0">
+                                    <tr>
+                                        <td align="middle" width="85">
+                                            <table cellspacing="0" cellpadding="0" align="center" border="0">
+                                                <tr>
+                                                    <td>
+                                                    <a href="images/baixiujun.jpg" target="_blank" title="test" alt="test" rel="lightbox[roadtrip]"><img src="images/aixiujun.jpg" alt="test" title="低调低调" border="0" /></a>
+                                                       
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                        <td align="middle" width="85">
+                                            <table cellspacing="0" cellpadding="0" align="center" border="0">
+                                                <tr>
+                                                    <td>
+                                                        <a href="images/bduruicheng.jpg" target="_blank" title="" rel="lightbox[roadtrip]"><img src="images/duruicheng.jpg" title="" border="0" /></a>
+                                                    </td>
+                                            </table>
+                                        </td>
+                                        <td align="middle" width="85">
+                                            <table cellspacing="0" cellpadding="0" align="center" border="0">
+                                                <tr>
+                                                    <td>
+                                                        <a href="images/bheqingmei.jpg" target="_blank" title="" rel="lightbox[roadtrip]"><img src="images/heqingmei.jpg" title="" border="0" /></a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                         <td align="middle" width="85">
+                                            <table cellspacing="0" cellpadding="0" align="center" border="0">
+                                                <tr>
+                                                    <td>
+                                                        <a href="images/bliyiyong.jpg" target="_blank" title="" rel="lightbox[roadtrip]"><img src="images/lishaoyong.jpg" title="" border="0" /></a>
+                                                    </td>
+                                            </table>
+                                        </td>
+                                        <td align="middle" width="85">
+                                            <table cellspacing="0" cellpadding="0" align="center" border="0">
+                                                <tr>
+                                                    <td>
+                                                        <a href="images/btanxiusen.jpg" target="_blank" title="" rel="lightbox[roadtrip]"><img src="images/tanxiusen.jpg" title="" border="0" /></a>
+                                                    </td>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <table border="0">
+                                    <tr>
+                                        <td align="middle" width="85">
+                                            <table cellspacing="0" cellpadding="0" align="center" border="0">
+                                                <tr>
+                                                    <td>
+                                                        <a href="images/bwangjiezhong.jpg" target="_blank" title="" rel="lightbox[roadtrip]"><img src="images/wangjiezhong.jpg" title="" border="0" /></a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                        <td align="middle" width="85">
+                                            <table cellspacing="0" cellpadding="0" align="center" border="0">
+                                                <tr>
+                                                    <td>
+                                                        <a href="images/byiyuchen.jpg" target="_blank" title="" rel="lightbox[roadtrip]"><img src="images/yiyuchen.jpg" title="" border="0" /></a>
+                                                    </td>
+                                            </table>
+                                        </td>
+                                         <td align="middle" width="85">
+                                            <table cellspacing="0" cellpadding="0" align="center" border="0">
+                                                <tr>
+                                                    <td>
+                                                         <a href="images/bzhaixiushu.jpg" target="_blank" title="" rel="lightbox[roadtrip]"><img src="images/zhaixiushu.jpg" title="" border="0" /></a>
+                                                    </td>
+                                            </table>
+                                        </td>
+                                        <td align="middle" width="85">
+                                            <table cellspacing="0" cellpadding="0" align="center" border="0">
+                                                <tr>
+                                                    <td>
+                                                         <a href="images/bzhangyuanli.jpg" target="_blank" title=""  rel="lightbox[roadtrip]"><img src="images/zhangyuanli.jpg" title="" border="0" /></a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div id="templayer" style="left: 0px; visibility: hidden; position: absolute; top: 0px">
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div id="congratulateword">
+            <table width="100%" id="tab" valign="top">
+             <tr><td width="5%" valign="center" align="right"> <img src="images/logo.jpg" width="5" height="8" /> </td> <td><a href="news/33672.html" title="机械工程学院发来贺信" target="_blank">机械工程学院发来贺信</a></td><td width="18%">[11-18]</td></tr><tr><td width="5%" valign="center" align="right"> <img src="images/logo.jpg" width="5" height="8" /> </td> <td><a href="news/33671.html" title="交通与车辆工程学院发来贺信" target="_blank">交通与车辆工程学院发来贺信</a></td><td width="18%">[11-16]</td></tr><tr><td width="5%" valign="center" align="right"> <img src="images/logo.jpg" width="5" height="8" /> </td> <td><a href="news/33588.html" title="电气与电子工程学院发来贺信" target="_blank">电气与电子工程学院发来贺信</a></td><td width="18%">[11-16]</td></tr><tr><td width="5%" valign="center" align="right"> <img src="images/logo.jpg" width="5" height="8" /> </td> <td><a href="news/33587.html" title="鲁泰纺织服装学院发来贺信" target="_blank">鲁泰纺织服装学院发来贺信</a></td><td width="18%">[11-15]</td></tr><tr><td width="5%" valign="center" align="right"> <img src="images/logo.jpg" width="5" height="8" /> </td> <td><a href="news/33586.html" title="材料科学与工程学院发来贺信" target="_blank">材料科学与工程学院发来贺信</a></td><td width="18%">[11-15]</td></tr><tr><td width="5%" valign="center" align="right"> <img src="images/logo.jpg" width="5" height="8" /> </td> <td><a href="news/33585.html" title="文学与新闻传播学院发来贺信" target="_blank">文学与新闻传播学院发来贺信</a></td><td width="18%">[11-15]</td></tr><tr><td width="5%" valign="center" align="right"> <img src="images/logo.jpg" width="5" height="8" /> </td> <td><a href="news/33584.html" title="法学院发来贺信" target="_blank">法学院发来贺信</a></td><td width="18%">[11-14]</td></tr><tr><td width="5%" valign="center" align="right"> <img src="images/logo.jpg" width="5" height="8" /> </td> <td><a href="news/33583.html" title="国防教育学院发来贺信" target="_blank">国防教育学院发来贺信</a></td><td width="18%">[11-17]</td></tr><tr><td width="5%" valign="center" align="right"> <img src="images/logo.jpg" width="5" height="8" /> </td> <td><a href="news/33582.html" title="计算机科学与技术学院发来贺信" target="_blank">计算机科学与技术学院发来贺信</a></td><td width="18%">[11-14]</td></tr><tr><td width="5%" valign="center" align="right"> <img src="images/logo.jpg" width="5" height="8" /> </td> <td><a href="news/33581.html" title="理学院发来贺信" target="_blank">理学院发来贺信</a></td><td width="18%">[11-16]</td></tr><tr><td width="5%" valign="center" align="right"> <img src="images/logo.jpg" width="5" height="8" /> </td> <td><a href="news/33579.html" title="农业工程与食品科学学院发来贺信" target="_blank">农业工程与食品科学学院发来贺..</a></td><td width="18%">[11-14]</td></tr><tr><td width="5%" valign="center" align="right"> <img src="images/logo.jpg" width="5" height="8" /> </td> <td><a href="news/33578.html" title="体育学院发来贺信" target="_blank">体育学院发来贺信</a></td><td width="18%">[11-15]</td></tr><tr><td width="5%" valign="center" align="right"> <img src="images/logo.jpg" width="5" height="8" /> </td> <td><a href="news/33577.html" title="资源与环境工程学院发来贺信" target="_blank">资源与环境工程学院发来贺信</a></td><td width="18%">[11-16]</td></tr>
+            </table>
+        </div>
+    </div>
+    <div id="tody">
+        <div id="tody_left">
+             <div style="  width:408px;
+    height:390px; margin:3px auto">
+        <iframe frameborder="0" scrolling="no" src="http://wall.v.t.qq.com/index.php?c=wall&a=index&t=%E6%8B%BE%E5%B9%B4%E6%8B%BE%E5%BF%86&ak=801270780&w=345&h=590&n=&url=http%3A%2F%2Flgwindow.sdut.edu.cn&s=4&o=35" width="408" height="413"></iframe></div>
+        </div>
+        <div id="tody_right">
+              <table width="100%" class="tody_tab">
+                <tr>
+                    <td width="25%" align="center" rowspan="2" >
+                        <img src="images/1.png" width="108" height="73" />
+                    </td>
+                    <td >
+                    <table width="100%" class="intody_tab" >
+                    <tr><td  height="48">5月26日下午，新闻网第九届学生维护团队携全体实习人员依次走访校电视台、青春在线、理工青年三个校内媒体。走访中，团队成员与各……<span style=" margin-left:300px;">【详细】</span></td></tr>
+                    <tr><td style=" border-bottom : dotted 2px black;">&nbsp;</td></tr>
+                    </table>
+                    </td>
+                </tr>
+            </table>
+              <table width="100%" class="tody_tab">
+                <tr>
+                    <td width="25%" align="center" rowspan="2" valign="top">
+                        <img src="images/2.jpg"  width="108" height="73"/>
+                    </td>
+                    <td >
+                    <table width="100%" class="intody_tab"  valign="top">
+                    <tr><td  height="48">为加强新闻网与我校各学院交流沟通，共同促进各项新闻宣传工作有序开展，5月13日上午，鸿远楼212室座无虚席，来自各学院的新闻中心…… <span style=" margin-left:300px;">【详细】</span></td></tr>
+                    <tr><td style=" border-bottom : dotted 2px black;">&nbsp;</td></tr>
+                    </table>
+                    </td>
+                </tr>
+            </table>
+              <table width="100%" class="tody_tab">
+                <tr>
+                    <td width="25%" align="center" rowspan="2" valign="top">
+                        <img src="images/3.jpg" width="108" height="73" />
+                    </td>
+                    <td >
+                    <table width="100%" class="intody_tab"  valign="top">
+                    <tr><td  height="48">砥砺十载，携手与共。值此新闻网成立十周年之际，为给网站培养后备力量，为网站发展注入新的力量，新闻网2012年春季纳新工作于……<span style=" margin-left:300px;">【详细】</span></td></tr>
+                    <tr><td style=" border-bottom : dotted 2px black;">&nbsp;</td></tr>
+                    </table>
+                    </td>
+                </tr>
+            </table>   
+        </div>
+    </div>
+    <div id="blesswall">
+    <div id="blesswalltiao">
+    <div id="blesslogo"><a href="../blesswall/blessindex.aspx" target="_blank"><img  src="images/blesslogo.jpg" border="0"/></a></div>
+    </div>
+    <div id="blesswallbody">
+    <iframe height="625px" width="1004px"  frameborder="0"   scrolling="no" src="http://lgwindow.sdut.edu.cn/topic/blesswall/blesswall.aspx"></iframe>
+    </div>
+    </div>
+     <div class="bottom"><a href="http://lgwindow.sdut.edu.cn/News/26263.html" target="_blank">关于我们</a>|<a href="http://lgwindow.sdut.edu.cn/News/26262.html" target="_blank">新闻热线</a>|<a href="http://lgwindow.sdut.edu.cn/karat/" target="_blank">诚招英才</a>|<a href="http://lgwindow.sdut.edu.cn/News/26264.html" target="_blank">版权声明</a>
+<hr />
+版权所有@山东理工大学新闻中心网络部　　　地址：山东省淄博市张店区张周路12号　邮编：255049
+<br />
+ 联系电话:0533-2786727　　　Designed by: 
+    <img alt="karat" src="images/karat.gif" align="absmiddle"/><a href="http://lgwindow.sdut.edu.cn/karat/" class="c">卡瑞特工作室</a>
+</div>
+</body>
+</html>

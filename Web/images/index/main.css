@@ -1,0 +1,463 @@
+.more {
+	float: right;
+	height: 20px;
+	color:#999;
+	font-weight: normal;
+	text-align: right;
+	padding-top: 8px;
+	font-size: 12px;
+	width: 100px;
+	padding-right:5px;
+}
+.more_1 {
+	float: right;
+}
+.time {
+	float: right;
+	width: 60px;
+	font-size: 12px;
+	color: #999999;
+}
+#Tongzhi {
+	height: 30px;
+	float: left;
+	font-size: 14px;
+	width: 1000px;
+	overflow: hidden;
+	background-image:url(tongzhi_bg.jpg);
+	background-repeat:repeat-x;
+}
+#Tongzhi #tongzhi_demo {
+	cursor: hand;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+	word-break:keep-all;
+	vertical-align: middle;
+	padding-top: 4px;
+}
+#Tongzhi a{
+	font-size: 12px;
+	margin-left:10px;
+}
+
+
+#box1 {
+	width: 100%;
+}
+#box1 #Flash {
+	overflow: hidden;
+	height: 257px;
+	width: 98%;
+}
+
+#box1 #Meiti {
+	width: 98%;
+	height: 225px;
+	overflow: hidden;
+}
+#box1 #Yaowen {
+	width: 98.5%;
+	height: 325px;
+	overflow: hidden;
+}
+#box1 #Toutiao {
+	width: 99%;
+	height: 150px;
+	overflow: hidden;
+	margin-top: 7px;
+}
+#box1 #Toutiao #TT1 {
+	text-decoration: none;
+}
+#box1 #Toutiao #TT2 {
+	text-decoration: none;
+	font-size: 14px;
+	padding-left: 20px;
+	padding-right: 10px;
+	color: #333333;
+	line-height: 25px;
+}
+#box1 #Toutiao #TT3 {
+	text-align: right;
+	padding-right: 15px;
+}
+
+#XiaoBao{
+	height:260px;
+	width: 99.2%;
+	overflow: hidden;
+}
+#xbLeft {
+	width: 140px;
+	height: 195px;
+	float: left;
+	margin-top:15px;
+}
+
+#xbbiaoti {
+	text-align: center;
+	width: 140px;
+	font-size: 12px;
+	float: left;
+	height: 32px;
+	color: #333333;
+	padding-top: 3px;
+}
+
+.Leftimg  {
+	width: 140px;
+	height: 160px;
+	float: left;
+}
+.Leftimg  img  {
+	height: 165px;
+	width: 140px;
+}
+#XiaoBao  .txt {
+	width: 154px;
+	height: 185px;
+	float: right;
+	line-height: 25px;
+	padding-top:12px;
+	padding-left:5px;
+	font-size:14px;
+	margin-top:0px;
+}
+#XiaoBao .txt ul li {
+	text-decoration: none;
+	margin-left: -20px;
+	color:#999;
+}
+
+#XiaoBao .txt ul li a{
+	text-decoration: none;
+	left: 0px;
+	font-size:14px;
+}
+.menu{
+	width:99%;
+	height: 24px;
+	background-repeat: repeat-x;
+	background-image: url(xbbg.jpg);
+}
+.menu      tr  td{
+	background:url(XB2.jpg) no-repeat;
+	font-size: 14px;
+	height: 20px;
+	padding-right: 3px;
+	padding-top: 4px;
+}
+.menu   tr   .on      {
+	background-image: url(XB1.jpg);
+	cursor: hand;
+
+}
+.menu  tr.on  a,.md_2_menu  li.on  a:visited,.md_2_menu  li.on  a:hover,.md_2_menu  li.on  a:active{color:#982e00; font-weight:bold;}
+#Video {
+	width: 99%;
+	height: 215px;
+	overflow: hidden;
+}
+#Video_top {
+	height:31px;
+	background-image:url(video_top.jpg);
+	background-repeat:no-repeat;
+	padding-top:8px;
+	padding-left:42px;
+	color: #286cbf;
+	font-weight: bold;
+	font-size:14px;
+}
+#box2 {
+	height: 90px;
+	width: 1000px;
+	overflow: hidden;
+	padding-top: 5px;
+}
+#out1 a img {
+	width: 1000px;
+	height: 90px;
+	border:none;
+}
+#out1 {
+	overflow:hidden;
+	width: 100%;
+	height: 90px;
+}
+#box4  #Wenhua {
+	width: 98%;
+	height: 250px;
+	overflow: hidden;
+}
+#box4 #Chuanzhen {
+	width: 98.5%;
+	height: 250px;
+	overflow: hidden;
+}
+#box4  #Xuesheng {
+	width: 98%;
+	height: 250px;
+	overflow: hidden;
+}
+#box4  #Keyan {
+	width: 98.5%;
+	height: 250px;
+	overflow: hidden;
+}
+#box4 #shidian {
+	overflow: hidden;
+	height: 200px;
+	width: 98%;
+}
+#box4 {
+	width: 100%;
+}
+#box4 #Renwu {
+	width: 98.5%;
+	height: 200px;
+	overflow: hidden;
+}
+#box4 #pics2 {
+	height: 90px;
+	width: 100%;
+	overflow: hidden;
+	margin-top: 5px;
+	position: relative;
+}
+#box4 #pics2 img {
+	height: 90px;
+	width: 696px;
+}
+#box4 #Shiping {
+	width: 99%;
+	height: 200px;
+}
+#box5 {
+	width: 100%;
+	overflow: hidden;
+}
+#box5 #kong {
+	text-decoration: none;
+	height: 180px;
+	width: 99%;
+	overflow: hidden;
+}
+#box5 #kong #titlekong {
+	width: 100%;
+	background: url(fuwu.jpg) no-repeat;
+	height: 50px;
+	vertical-align: top;
+}
+#box5  #kong  #textkong  {
+	height: 130px;
+	width: 90%;
+	padding: 0 5% 0 9%;
+}
+#box5   #kong   #textkong  td {
+	width: 100%;
+	text-align: left;
+	height: 25px;
+	font-size: 12px;
+}
+#box5 #Zhuanti {
+	overflow: hidden;
+	width: 99%;
+	height: 370px;
+}
+
+#box5 #Zhuanti #ZtTitle {
+	height: 25px;
+	width: 99%;
+	overflow: hidden;
+	background-color: #FFFFFF;
+}
+#box5 #Zhuanti #ZtImg {
+	width: 99%;
+	text-align: center;
+}
+#box5 #Zhuanti #ZtImg img {
+	height: 60px;
+	width: 280px;
+	margin-left:1px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+#box5 #Zhuanti #ZtTex {
+	text-align: left;
+	width: 99%;
+	
+}
+#box5 #Zhuanti #ZtTex a {
+	line-height: 25px;
+	text-decoration: none;
+	text-align: left;
+	padding-top: 5px;
+}
+#box5  #Zhuanti  #ZtTex  img {
+	padding-top: 10px;
+
+}
+#box5 #Zhuanti #ZtTex td {
+	height: 20px;
+}
+#box5 #Zhuanti #ZtTex a {
+	line-height: 25px;
+	text-decoration: none;
+	text-align: left;
+	padding-top: 5px;
+	font-size:12px;
+}
+#box5 #Gaojian {
+	overflow: hidden;
+	width: 99%;
+	height: 252px;
+}
+#box5 #Gaojian td {
+	height: 25px;
+	font-size: 12px;
+	color: #333333;
+}
+#Guangying {
+	text-decoration: none;
+	width: 998px;
+	text-align: center;
+	overflow: hidden;
+	height: 170px;
+}
+#Guangying #gytitle {
+	width: 100%;
+	background-image: url(lianjie.jpg);
+	background-repeat: no-repeat;
+	text-align: left;
+	float: left;
+}
+
+#Guangying #GYIn {
+	width: 998px;
+	text-align: center;
+	height: 145px;
+	padding-left: 0px;
+	padding-right: 0px;
+	float: left;
+}
+#Guangying #GYIn ul{
+	list-style:none;
+	padding: 0;
+	width: 995px;
+	height: 145px;
+	text-align: center;
+	margin: 0 0 0 3px;
+}
+#Guangying #GYIn li{
+	float:left;
+	width:124px;
+	height:135px;
+	list-style: none;
+	padding-top: 10px;
+	text-align: center;
+	overflow: hidden;
+}
+#Guangying   #GYIn   a{
+	font-size:12px;
+	text-decoration: none;
+	color: #000000;
+	overflow:hidden;
+	text-align: center;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+	word-break:keep-all;
+	width: 124px;
+	margin:0;
+	padding: 0;
+}
+.picStyle{
+	padding:0;
+	background-color:#F0F0F0;
+	width:115px;
+	height:110px;
+	text-decoration: none;
+	margin-bottom:4px;
+}
+.NewsList   {
+	FONT-SIZE: 13px;
+	TEXT-ALIGN: left;
+	background-image: url(list.jpg);
+	padding-left: 20px;
+	background-repeat: no-repeat;
+	line-height: 25px;
+}
+.NewsList    A:link   {
+	text-decoration: none;
+	color: #333333;
+}
+.NewsList   A:visited{
+	color: #333333;
+}
+.NewsList   A:hover   {
+	color: #ff0000;
+}
+.NewsList1   {
+	FONT-SIZE: 13px;
+	TEXT-ALIGN: left;
+	background-image: url(list1.jpg);
+	padding-left: 20px;
+	background-repeat: no-repeat;
+	line-height: 25px;
+}
+.NewsList1    A:link   {
+	text-decoration: none;
+	color: #333333;
+}
+.NewsList1   A:visited{
+	color: #333333;
+}
+.NewsList1   A:hover   {
+	color: #ff0000;
+}
+#Footer1 table tr td a {
+	text-decoration: none;
+	font-size:12px;
+}
+#box5 #kong #textkong table tr td a {
+	text-decoration: none;
+	font-size:12px;
+}
+#box1 table tr td #Yaowen .TitlePic .more a {
+	text-decoration: none;
+	color:#666;
+	font-size:12px;
+}
+#box1 table tr td #Meiti .TitlePic .more a {
+	text-decoration: none;
+	color:#666;
+	font-size:12px;
+}
+#box1 table tr td #Toutiao #TT3 a {
+	text-decoration: none;
+	color:#666;
+	font-size:12px;
+}
+#box1 table tr td #Yaowen .TitlePic .more a {
+	text-decoration: none;
+	color:#666;
+	font-size:12px;
+}
+#box5 #Gaojian div .more a {
+	text-decoration: none;
+	color:#666;
+	font-size:12px;
+}
+#box4 table tr .TitlePic .more a {
+	text-decoration: none;
+	color:#666;
+	font-size:12px;
+}
+#Footer1 table tr td {
+	padding-bottom:5px;
+}
+
+#Guangying #gytitle a {
+	text-decoration: none;
+	color:#666;
+	font-size:12px;
+}

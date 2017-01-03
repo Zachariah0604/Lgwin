@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{ margin:0; padding: 0;}
+.com_juzhong{
+	width:28px;
+	margin:0 auto;
+}
+body
+{
+    margin:0 auto;
+    }
+
+img{ border:0;}
+a:link{
+	color:#000;
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:underline;
+}
+a:visited{
+	text-decoration:none;
+	color:#999;
+}
+#toplink{
+	font-family:"宋体";	
+	height:20px;
+	width:1000px;
+	font-size:12px;
+	padding-top:5px;
+	margin:0 auto;
+	background:url(../images/toplink_bg.jpg) no-repeat;
+}
+#all{
+	width:1000px;
+	margin:0 auto;
+	font-family:"微软雅黑";
+	font-size:16px;
+}
+
+#toplink table{
+	border-collapse:collapse;
+
+	
+}
+#toplink a{
+	color:#4D4D4D;
+}
+#top{
+	height:280px;
+	margin:auto;
+	margin-top:4px;
+	background:url(../images/top_bg.jpg);
+}
+#daohang{
+	position:relative;
+	width:400px;
+	top:240px;
+	left:600px;
+}
+#daohang_1,#daohang_2,#daohang_3,#daohang_4{
+	float:left;
+}
+#daohang_1{ width:75px;}
+#daohang_2,#daohang_3,#daohang_4{ width:100px;}
+
+#footer{
+	border:1px solid #CCC;
+	margin-top:1px;
+	background:#E9FCC8;
+	height:80px;
+	text-align:center;
+	font-family:"楷体";
+	padding:10px;
+	font-size:14px;
+	color:#2670A6;
+	line-height:18px;
+}
+#footer span a{
+	color:#000;
+	font-size:16px;
+	font-weight:900;
+	margin:0 45px;
+}
+#footer a{
+	color:#2670A6;
+}
+#footer hr{
+	margin:10px 0;
+}
+#zhengwen_more a{color:#930;}
+.sheying_pic{
+	width:121px;
+	height:82px;
+	float:left;
+	margin:3px 0 7px 11px;
+}

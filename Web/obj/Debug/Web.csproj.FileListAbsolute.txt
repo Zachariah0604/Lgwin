@@ -1,0 +1,274 @@
+C:\Users\Administrator\Desktop\Lgwin\Web\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Lgwin\Web\obj\Debug\AboutAdmin_AdminCounter_admin_counter.resources
+C:\Users\Administrator\Desktop\Lgwin\Web\obj\Debug\Asp600.AboutAdmin.AdminCounter.admin_counter_about.resources
+C:\Users\Administrator\Desktop\Lgwin\Web\obj\Debug\Asp600.AboutAdmin.AdminCounter.admin_counter_browser.resources
+C:\Users\Administrator\Desktop\Lgwin\Web\obj\Debug\Asp600.AboutAdmin.AdminCounter.admin_counter_ip.resources
+C:\Users\Administrator\Desktop\Lgwin\Web\obj\Debug\Asp600.AboutAdmin.AdminCounter.admin_counter_local.resources
+C:\Users\Administrator\Desktop\Lgwin\Web\obj\Debug\Asp600.AboutAdmin.AdminCounter.admin_counter_month.resources
+C:\Users\Administrator\Desktop\Lgwin\Web\obj\Debug\Asp600.AboutAdmin.AdminCounter.admin_counter_os.resources
+C:\Users\Administrator\Desktop\Lgwin\Web\obj\Debug\Asp600.AboutAdmin.AdminCounter.admin_counter_site.resources
+C:\Users\Administrator\Desktop\Lgwin\Web\obj\Debug\Asp600.AboutAdmin.AdminCounter.admin_counter_year.resources
+C:\Users\Administrator\Desktop\Lgwin\Web\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Administrator\Desktop\Lgwin\Web\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Administrator\Desktop\Lgwin\Web\obj\Debug\Lgwin.Lgwin.manage.AdminCounter.admin_counter.aspxx.resources
+C:\Users\Administrator\Desktop\Lgwin\Web\bin\Lgwin.dll
+C:\Users\Administrator\Desktop\Lgwin\Web\bin\Lgwin.pdb
+C:\Users\Administrator\Desktop\Lgwin\Web\bin\Lgwin.BLL.dll
+C:\Users\Administrator\Desktop\Lgwin\Web\bin\Lgwin.Code.dll
+C:\Users\Administrator\Desktop\Lgwin\Web\bin\Lgwin.Count.dll
+C:\Users\Administrator\Desktop\Lgwin\Web\bin\Lgwin.DALFactory.dll
+C:\Users\Administrator\Desktop\Lgwin\Web\bin\Lgwin.DBUtility.dll
+C:\Users\Administrator\Desktop\Lgwin\Web\bin\Lgwin.IDAL.dll
+C:\Users\Administrator\Desktop\Lgwin\Web\bin\Lgwin.Model.dll
+C:\Users\Administrator\Desktop\Lgwin\Web\bin\Lgwin.SqlDAL.dll
+C:\Users\Administrator\Desktop\Lgwin\Web\bin\Lgwin.BLL.pdb
+C:\Users\Administrator\Desktop\Lgwin\Web\bin\Lgwin.Code.pdb
+C:\Users\Administrator\Desktop\Lgwin\Web\bin\Lgwin.Count.pdb
+C:\Users\Administrator\Desktop\Lgwin\Web\bin\Lgwin.DALFactory.pdb
+C:\Users\Administrator\Desktop\Lgwin\Web\bin\Lgwin.DBUtility.pdb
+C:\Users\Administrator\Desktop\Lgwin\Web\bin\Lgwin.IDAL.pdb
+C:\Users\Administrator\Desktop\Lgwin\Web\bin\Lgwin.Model.pdb
+C:\Users\Administrator\Desktop\Lgwin\Web\bin\Lgwin.SqlDAL.pdb
+C:\Users\Administrator\Desktop\Lgwin\Web\obj\Debug\Lgwin.dll
+C:\Users\Administrator\Desktop\Lgwin\Web\obj\Debug\Lgwin.pdb
+E:\Lgwin\Lgwin\Web\bin\Lgwin.dll
+E:\Lgwin\Lgwin\Web\bin\Lgwin.pdb
+E:\Lgwin\Lgwin\Web\bin\Lgwin.BLL.dll
+E:\Lgwin\Lgwin\Web\bin\Lgwin.Code.dll
+E:\Lgwin\Lgwin\Web\bin\Lgwin.Count.dll
+E:\Lgwin\Lgwin\Web\bin\Lgwin.DALFactory.dll
+E:\Lgwin\Lgwin\Web\bin\Lgwin.DBUtility.dll
+E:\Lgwin\Lgwin\Web\bin\Lgwin.IDAL.dll
+E:\Lgwin\Lgwin\Web\bin\Lgwin.Model.dll
+E:\Lgwin\Lgwin\Web\bin\Lgwin.SqlDAL.dll
+E:\Lgwin\Lgwin\Web\bin\Lgwin.BLL.pdb
+E:\Lgwin\Lgwin\Web\bin\Lgwin.Code.pdb
+E:\Lgwin\Lgwin\Web\bin\Lgwin.Count.pdb
+E:\Lgwin\Lgwin\Web\bin\Lgwin.DALFactory.pdb
+E:\Lgwin\Lgwin\Web\bin\Lgwin.DBUtility.pdb
+E:\Lgwin\Lgwin\Web\bin\Lgwin.IDAL.pdb
+E:\Lgwin\Lgwin\Web\bin\Lgwin.Model.pdb
+E:\Lgwin\Lgwin\Web\bin\Lgwin.SqlDAL.pdb
+E:\Lgwin\Lgwin\Web\obj\Debug\ResolveAssemblyReference.cache
+E:\Lgwin\Lgwin\Web\obj\Debug\AboutAdmin_AdminCounter_admin_counter.resources
+E:\Lgwin\Lgwin\Web\obj\Debug\Lgwin.Lgwin.manage.AdminCounter.admin_counter.aspxx.resources
+E:\Lgwin\Lgwin\Web\obj\Debug\Asp600.AboutAdmin.AdminCounter.admin_counter_about.resources
+E:\Lgwin\Lgwin\Web\obj\Debug\Asp600.AboutAdmin.AdminCounter.admin_counter_browser.resources
+E:\Lgwin\Lgwin\Web\obj\Debug\Asp600.AboutAdmin.AdminCounter.admin_counter_ip.resources
+E:\Lgwin\Lgwin\Web\obj\Debug\Asp600.AboutAdmin.AdminCounter.admin_counter_local.resources
+E:\Lgwin\Lgwin\Web\obj\Debug\Asp600.AboutAdmin.AdminCounter.admin_counter_month.resources
+E:\Lgwin\Lgwin\Web\obj\Debug\Asp600.AboutAdmin.AdminCounter.admin_counter_os.resources
+E:\Lgwin\Lgwin\Web\obj\Debug\Asp600.AboutAdmin.AdminCounter.admin_counter_site.resources
+E:\Lgwin\Lgwin\Web\obj\Debug\Asp600.AboutAdmin.AdminCounter.admin_counter_year.resources
+E:\Lgwin\Lgwin\Web\obj\Debug\GenerateResource.read.1.tlog
+E:\Lgwin\Lgwin\Web\obj\Debug\GenerateResource.write.1.tlog
+E:\Lgwin\Lgwin\Web\obj\Debug\Lgwin.dll
+E:\Lgwin\Lgwin\Web\obj\Debug\Lgwin.pdb
+E:\Lgwin7-11\Lgwin\Web\bin\Lgwin.dll
+E:\Lgwin7-11\Lgwin\Web\bin\Lgwin.pdb
+E:\Lgwin7-11\Lgwin\Web\bin\Lgwin.BLL.dll
+E:\Lgwin7-11\Lgwin\Web\bin\Lgwin.Code.dll
+E:\Lgwin7-11\Lgwin\Web\bin\Lgwin.Count.dll
+E:\Lgwin7-11\Lgwin\Web\bin\Lgwin.DALFactory.dll
+E:\Lgwin7-11\Lgwin\Web\bin\Lgwin.DBUtility.dll
+E:\Lgwin7-11\Lgwin\Web\bin\Lgwin.IDAL.dll
+E:\Lgwin7-11\Lgwin\Web\bin\Lgwin.Model.dll
+E:\Lgwin7-11\Lgwin\Web\bin\Lgwin.SqlDAL.dll
+E:\Lgwin7-11\Lgwin\Web\bin\Lgwin.BLL.pdb
+E:\Lgwin7-11\Lgwin\Web\bin\Lgwin.Code.pdb
+E:\Lgwin7-11\Lgwin\Web\bin\Lgwin.Count.pdb
+E:\Lgwin7-11\Lgwin\Web\bin\Lgwin.DALFactory.pdb
+E:\Lgwin7-11\Lgwin\Web\bin\Lgwin.DBUtility.pdb
+E:\Lgwin7-11\Lgwin\Web\bin\Lgwin.IDAL.pdb
+E:\Lgwin7-11\Lgwin\Web\bin\Lgwin.Model.pdb
+E:\Lgwin7-11\Lgwin\Web\bin\Lgwin.SqlDAL.pdb
+E:\Lgwin7-11\Lgwin\Web\obj\Debug\ResolveAssemblyReference.cache
+E:\Lgwin7-11\Lgwin\Web\obj\Debug\AboutAdmin_AdminCounter_admin_counter.resources
+E:\Lgwin7-11\Lgwin\Web\obj\Debug\Lgwin.Lgwin.manage.AdminCounter.admin_counter.aspxx.resources
+E:\Lgwin7-11\Lgwin\Web\obj\Debug\Asp600.AboutAdmin.AdminCounter.admin_counter_about.resources
+E:\Lgwin7-11\Lgwin\Web\obj\Debug\Asp600.AboutAdmin.AdminCounter.admin_counter_browser.resources
+E:\Lgwin7-11\Lgwin\Web\obj\Debug\Asp600.AboutAdmin.AdminCounter.admin_counter_ip.resources
+E:\Lgwin7-11\Lgwin\Web\obj\Debug\Asp600.AboutAdmin.AdminCounter.admin_counter_local.resources
+E:\Lgwin7-11\Lgwin\Web\obj\Debug\Asp600.AboutAdmin.AdminCounter.admin_counter_month.resources
+E:\Lgwin7-11\Lgwin\Web\obj\Debug\Asp600.AboutAdmin.AdminCounter.admin_counter_os.resources
+E:\Lgwin7-11\Lgwin\Web\obj\Debug\Asp600.AboutAdmin.AdminCounter.admin_counter_site.resources
+E:\Lgwin7-11\Lgwin\Web\obj\Debug\Asp600.AboutAdmin.AdminCounter.admin_counter_year.resources
+E:\Lgwin7-11\Lgwin\Web\obj\Debug\GenerateResource.read.1.tlog
+E:\Lgwin7-11\Lgwin\Web\obj\Debug\GenerateResource.write.1.tlog
+E:\Lgwin7-11\Lgwin\Web\obj\Debug\Lgwin.dll
+E:\Lgwin7-11\Lgwin\Web\obj\Debug\Lgwin.pdb
+G:\网站源码--勿动\张水生\Lgwin\Web\bin\Lgwin.dll
+G:\网站源码--勿动\张水生\Lgwin\Web\bin\Lgwin.pdb
+G:\网站源码--勿动\张水生\Lgwin\Web\bin\Lgwin.BLL.dll
+G:\网站源码--勿动\张水生\Lgwin\Web\bin\Lgwin.Code.dll
+G:\网站源码--勿动\张水生\Lgwin\Web\bin\Lgwin.Count.dll
+G:\网站源码--勿动\张水生\Lgwin\Web\bin\Lgwin.DALFactory.dll
+G:\网站源码--勿动\张水生\Lgwin\Web\bin\Lgwin.DBUtility.dll
+G:\网站源码--勿动\张水生\Lgwin\Web\bin\Lgwin.IDAL.dll
+G:\网站源码--勿动\张水生\Lgwin\Web\bin\Lgwin.Model.dll
+G:\网站源码--勿动\张水生\Lgwin\Web\bin\Lgwin.SqlDAL.dll
+G:\网站源码--勿动\张水生\Lgwin\Web\bin\Lgwin.BLL.pdb
+G:\网站源码--勿动\张水生\Lgwin\Web\bin\Lgwin.Code.pdb
+G:\网站源码--勿动\张水生\Lgwin\Web\bin\Lgwin.Count.pdb
+G:\网站源码--勿动\张水生\Lgwin\Web\bin\Lgwin.DALFactory.pdb
+G:\网站源码--勿动\张水生\Lgwin\Web\bin\Lgwin.DBUtility.pdb
+G:\网站源码--勿动\张水生\Lgwin\Web\bin\Lgwin.IDAL.pdb
+G:\网站源码--勿动\张水生\Lgwin\Web\bin\Lgwin.Model.pdb
+G:\网站源码--勿动\张水生\Lgwin\Web\bin\Lgwin.SqlDAL.pdb
+G:\网站源码--勿动\张水生\Lgwin\Web\obj\Debug\ResolveAssemblyReference.cache
+G:\网站源码--勿动\张水生\Lgwin\Web\obj\Debug\AboutAdmin_AdminCounter_admin_counter.resources
+G:\网站源码--勿动\张水生\Lgwin\Web\obj\Debug\Lgwin.Lgwin.manage.AdminCounter.admin_counter.aspxx.resources
+G:\网站源码--勿动\张水生\Lgwin\Web\obj\Debug\Asp600.AboutAdmin.AdminCounter.admin_counter_about.resources
+G:\网站源码--勿动\张水生\Lgwin\Web\obj\Debug\Asp600.AboutAdmin.AdminCounter.admin_counter_browser.resources
+G:\网站源码--勿动\张水生\Lgwin\Web\obj\Debug\Asp600.AboutAdmin.AdminCounter.admin_counter_ip.resources
+G:\网站源码--勿动\张水生\Lgwin\Web\obj\Debug\Asp600.AboutAdmin.AdminCounter.admin_counter_local.resources
+G:\网站源码--勿动\张水生\Lgwin\Web\obj\Debug\Asp600.AboutAdmin.AdminCounter.admin_counter_month.resources
+G:\网站源码--勿动\张水生\Lgwin\Web\obj\Debug\Asp600.AboutAdmin.AdminCounter.admin_counter_os.resources
+G:\网站源码--勿动\张水生\Lgwin\Web\obj\Debug\Asp600.AboutAdmin.AdminCounter.admin_counter_site.resources
+G:\网站源码--勿动\张水生\Lgwin\Web\obj\Debug\Asp600.AboutAdmin.AdminCounter.admin_counter_year.resources
+G:\网站源码--勿动\张水生\Lgwin\Web\obj\Debug\GenerateResource.read.1.tlog
+G:\网站源码--勿动\张水生\Lgwin\Web\obj\Debug\GenerateResource.write.1.tlog
+G:\网站源码--勿动\张水生\Lgwin\Web\obj\Debug\Lgwin.dll
+G:\网站源码--勿动\张水生\Lgwin\Web\obj\Debug\Lgwin.pdb
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\Web\bin\Lgwin.dll
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\Web\bin\Lgwin.pdb
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\Web\bin\BloClass.dll
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\Web\bin\Lgwin.BLL.dll
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\Web\bin\Lgwin.Code.dll
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\Web\bin\Lgwin.Count.dll
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\Web\bin\Lgwin.DALFactory.dll
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\Web\bin\Lgwin.DBUtility.dll
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\Web\bin\Lgwin.IDAL.dll
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\Web\bin\Lgwin.Model.dll
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\Web\bin\Lgwin.SqlDAL.dll
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\Web\bin\log4net.dll
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\Web\bin\Lgwin.BLL.pdb
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\Web\bin\BloClass.pdb
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\Web\bin\Lgwin.Code.pdb
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\Web\bin\Lgwin.Count.pdb
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\Web\bin\Lgwin.DALFactory.pdb
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\Web\bin\Lgwin.DBUtility.pdb
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\Web\bin\Lgwin.IDAL.pdb
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\Web\bin\Lgwin.Model.pdb
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\Web\bin\Lgwin.SqlDAL.pdb
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\Web\obj\Debug\ResolveAssemblyReference.cache
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\Web\obj\Debug\AboutAdmin_AdminCounter_admin_counter.resources
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\Web\obj\Debug\Lgwin.Lgwin.manage.AdminCounter.admin_counter.aspxx.resources
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\Web\obj\Debug\Asp600.AboutAdmin.AdminCounter.admin_counter_about.resources
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\Web\obj\Debug\Asp600.AboutAdmin.AdminCounter.admin_counter_browser.resources
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\Web\obj\Debug\Asp600.AboutAdmin.AdminCounter.admin_counter_ip.resources
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\Web\obj\Debug\Asp600.AboutAdmin.AdminCounter.admin_counter_local.resources
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\Web\obj\Debug\Asp600.AboutAdmin.AdminCounter.admin_counter_month.resources
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\Web\obj\Debug\Asp600.AboutAdmin.AdminCounter.admin_counter_os.resources
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\Web\obj\Debug\Asp600.AboutAdmin.AdminCounter.admin_counter_site.resources
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\Web\obj\Debug\Asp600.AboutAdmin.AdminCounter.admin_counter_year.resources
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\Web\obj\Debug\GenerateResource.read.1.tlog
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\Web\obj\Debug\GenerateResource.write.1.tlog
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\Web\obj\Debug\Lgwin.dll
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\Web\obj\Debug\Lgwin.pdb
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\Web\bin\Lgwin.dll
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\Web\bin\Lgwin.pdb
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\Web\bin\BloClass.dll
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\Web\bin\Lgwin.BLL.dll
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\Web\bin\Lgwin.Code.dll
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\Web\bin\Lgwin.Count.dll
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\Web\bin\Lgwin.DALFactory.dll
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\Web\bin\Lgwin.DBUtility.dll
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\Web\bin\Lgwin.IDAL.dll
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\Web\bin\Lgwin.Model.dll
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\Web\bin\Lgwin.SqlDAL.dll
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\Web\bin\log4net.dll
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\Web\bin\Lgwin.BLL.pdb
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\Web\bin\BloClass.pdb
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\Web\bin\Lgwin.Code.pdb
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\Web\bin\Lgwin.Count.pdb
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\Web\bin\Lgwin.DALFactory.pdb
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\Web\bin\Lgwin.DBUtility.pdb
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\Web\bin\Lgwin.IDAL.pdb
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\Web\bin\Lgwin.Model.pdb
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\Web\bin\Lgwin.SqlDAL.pdb
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\Web\obj\Debug\Web.csprojResolveAssemblyReference.cache
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\Web\obj\Debug\AboutAdmin_AdminCounter_admin_counter.resources
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\Web\obj\Debug\Lgwin.Lgwin.manage.AdminCounter.admin_counter.aspxx.resources
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\Web\obj\Debug\Asp600.AboutAdmin.AdminCounter.admin_counter_about.resources
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\Web\obj\Debug\Asp600.AboutAdmin.AdminCounter.admin_counter_browser.resources
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\Web\obj\Debug\Asp600.AboutAdmin.AdminCounter.admin_counter_ip.resources
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\Web\obj\Debug\Asp600.AboutAdmin.AdminCounter.admin_counter_local.resources
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\Web\obj\Debug\Asp600.AboutAdmin.AdminCounter.admin_counter_month.resources
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\Web\obj\Debug\Asp600.AboutAdmin.AdminCounter.admin_counter_os.resources
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\Web\obj\Debug\Asp600.AboutAdmin.AdminCounter.admin_counter_site.resources
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\Web\obj\Debug\Asp600.AboutAdmin.AdminCounter.admin_counter_year.resources
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\Web\obj\Debug\Web.csproj.GenerateResource.Cache
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\Web\obj\Debug\Lgwin.dll
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\Web\obj\Debug\Lgwin.pdb
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\Web\bin\Lgwin.dll
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\Web\bin\Lgwin.pdb
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\Web\bin\BloClass.dll
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\Web\bin\Lgwin.BLL.dll
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\Web\bin\Lgwin.Code.dll
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\Web\bin\Lgwin.Count.dll
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\Web\bin\Lgwin.DALFactory.dll
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\Web\bin\Lgwin.DBUtility.dll
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\Web\bin\Lgwin.IDAL.dll
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\Web\bin\Lgwin.Model.dll
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\Web\bin\Lgwin.SqlDAL.dll
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\Web\bin\log4net.dll
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\Web\bin\Lgwin.BLL.pdb
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\Web\bin\BloClass.pdb
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\Web\bin\Lgwin.Code.pdb
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\Web\bin\Lgwin.Count.pdb
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\Web\bin\Lgwin.DALFactory.pdb
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\Web\bin\Lgwin.DBUtility.pdb
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\Web\bin\Lgwin.IDAL.pdb
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\Web\bin\Lgwin.Model.pdb
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\Web\bin\Lgwin.SqlDAL.pdb
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\Web\obj\Debug\Web.csprojResolveAssemblyReference.cache
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\Web\obj\Debug\AboutAdmin_AdminCounter_admin_counter.resources
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\Web\obj\Debug\Lgwin.Lgwin.manage.AdminCounter.admin_counter.aspxx.resources
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\Web\obj\Debug\Asp600.AboutAdmin.AdminCounter.admin_counter_about.resources
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\Web\obj\Debug\Asp600.AboutAdmin.AdminCounter.admin_counter_browser.resources
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\Web\obj\Debug\Asp600.AboutAdmin.AdminCounter.admin_counter_ip.resources
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\Web\obj\Debug\Asp600.AboutAdmin.AdminCounter.admin_counter_local.resources
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\Web\obj\Debug\Asp600.AboutAdmin.AdminCounter.admin_counter_month.resources
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\Web\obj\Debug\Asp600.AboutAdmin.AdminCounter.admin_counter_os.resources
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\Web\obj\Debug\Asp600.AboutAdmin.AdminCounter.admin_counter_site.resources
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\Web\obj\Debug\Asp600.AboutAdmin.AdminCounter.admin_counter_year.resources
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\Web\obj\Debug\Web.csproj.GenerateResource.Cache
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\Web\obj\Debug\Lgwin.dll
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\Web\obj\Debug\Lgwin.pdb
+D:\Program Files\Vs Projects\Lgwin\Web\bin\Lgwin.dll.config
+D:\Program Files\Vs Projects\Lgwin\Web\bin\Lgwin.dll
+D:\Program Files\Vs Projects\Lgwin\Web\bin\Lgwin.pdb
+D:\Program Files\Vs Projects\Lgwin\Web\bin\BloClass.dll
+D:\Program Files\Vs Projects\Lgwin\Web\bin\Lgwin.BLL.dll
+D:\Program Files\Vs Projects\Lgwin\Web\bin\Lgwin.Code.dll
+D:\Program Files\Vs Projects\Lgwin\Web\bin\Lgwin.Count.dll
+D:\Program Files\Vs Projects\Lgwin\Web\bin\Lgwin.DALFactory.dll
+D:\Program Files\Vs Projects\Lgwin\Web\bin\Lgwin.DBUtility.dll
+D:\Program Files\Vs Projects\Lgwin\Web\bin\Lgwin.IDAL.dll
+D:\Program Files\Vs Projects\Lgwin\Web\bin\Lgwin.Model.dll
+D:\Program Files\Vs Projects\Lgwin\Web\bin\Lgwin.SqlDAL.dll
+D:\Program Files\Vs Projects\Lgwin\Web\bin\log4net.dll
+D:\Program Files\Vs Projects\Lgwin\Web\bin\Lgwin.BLL.pdb
+D:\Program Files\Vs Projects\Lgwin\Web\bin\BloClass.pdb
+D:\Program Files\Vs Projects\Lgwin\Web\bin\Lgwin.Code.pdb
+D:\Program Files\Vs Projects\Lgwin\Web\bin\Lgwin.Count.pdb
+D:\Program Files\Vs Projects\Lgwin\Web\bin\Lgwin.DALFactory.pdb
+D:\Program Files\Vs Projects\Lgwin\Web\bin\Lgwin.DBUtility.pdb
+D:\Program Files\Vs Projects\Lgwin\Web\bin\Lgwin.IDAL.pdb
+D:\Program Files\Vs Projects\Lgwin\Web\bin\Lgwin.Model.pdb
+D:\Program Files\Vs Projects\Lgwin\Web\bin\Lgwin.SqlDAL.pdb
+D:\Program Files\Vs Projects\Lgwin\Web\obj\Debug\Web.csprojResolveAssemblyReference.cache
+D:\Program Files\Vs Projects\Lgwin\Web\obj\Debug\AboutAdmin_AdminCounter_admin_counter.resources
+D:\Program Files\Vs Projects\Lgwin\Web\obj\Debug\Lgwin.Lgwin.manage.AdminCounter.admin_counter.aspxx.resources
+D:\Program Files\Vs Projects\Lgwin\Web\obj\Debug\Asp600.AboutAdmin.AdminCounter.admin_counter_about.resources
+D:\Program Files\Vs Projects\Lgwin\Web\obj\Debug\Asp600.AboutAdmin.AdminCounter.admin_counter_browser.resources
+D:\Program Files\Vs Projects\Lgwin\Web\obj\Debug\Asp600.AboutAdmin.AdminCounter.admin_counter_ip.resources
+D:\Program Files\Vs Projects\Lgwin\Web\obj\Debug\Asp600.AboutAdmin.AdminCounter.admin_counter_local.resources
+D:\Program Files\Vs Projects\Lgwin\Web\obj\Debug\Asp600.AboutAdmin.AdminCounter.admin_counter_month.resources
+D:\Program Files\Vs Projects\Lgwin\Web\obj\Debug\Asp600.AboutAdmin.AdminCounter.admin_counter_os.resources
+D:\Program Files\Vs Projects\Lgwin\Web\obj\Debug\Asp600.AboutAdmin.AdminCounter.admin_counter_site.resources
+D:\Program Files\Vs Projects\Lgwin\Web\obj\Debug\Asp600.AboutAdmin.AdminCounter.admin_counter_year.resources
+D:\Program Files\Vs Projects\Lgwin\Web\obj\Debug\Web.csproj.GenerateResource.Cache
+D:\Program Files\Vs Projects\Lgwin\Web\obj\Debug\Lgwin.dll
+D:\Program Files\Vs Projects\Lgwin\Web\obj\Debug\Lgwin.pdb

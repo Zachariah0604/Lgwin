@@ -1,0 +1,7 @@
+﻿%%gonggao%%,149,8,17,false,no,1
+%%zhinan%%,150,8,17,false,no,1
+%%yunitongxing%%,146,10,15,false,Havedate,1
+%%taneizhisheng%%,147,8,15,false,Havedate,1
+%%tawaizhisi%%,148,8,15,false,Havedate,0
+1
+grade2,30,20

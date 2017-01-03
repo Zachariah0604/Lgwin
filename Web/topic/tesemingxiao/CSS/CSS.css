@@ -1,0 +1,262 @@
+
+*{
+border:0px;
+}
+body{
+width:1002px;
+height:auto;
+margin:0 auto;
+background-color:#f9f9f9;
+font-family:"宋体";
+font-size:16px;
+}
+
+a:link{
+color:#000;
+text-decoration:none;
+}
+a:hover
+{
+color:Blue;
+text-decoration:none;
+}
+a:active
+{
+color:#000;
+text-decoration:none;
+}
+a:visited
+{
+color:#000;
+text-decoration:none;
+}
+
+#top{
+width:996px;
+height:22px;
+margin-top:2px;
+border:1px solid #c3c6c5;
+border-left:2px solid #c3c6c5;
+border-right:2px solid #c3c6c5;
+font-family:"宋体";
+font-size:14px;
+color:#a3a3a3;
+text-align:center;
+line-height:16px;
+}
+
+#top a{
+color:#a3a3a3;
+}
+
+.logo{
+width:998px;
+height:222px;
+margin-top:3px;
+background-image:url(../images/logo.jpg);
+font-family:"宋体";
+font-size:15px;
+color:#bbfdf9;
+font-weight:100;
+text-align:center;
+border:1px solid #dedede;
+}
+.logo a:link{
+color:#bbfef7;
+}
+.logo a:hover{
+color:#b2f1ea;
+text-decoration:underline;
+}
+.logo a:active{
+color:#bbfef7;
+}
+.logo a:visited{
+color:#bbfef7;
+}
+
+.md1{
+width:1000px;
+height:900px;
+margin-top:4px;
+}
+.md1 a:hover{
+color:Blue;
+text-decoration:underline;
+}
+
+.md2{
+width:715px;
+height:900px;
+background-color:#f3f4f4;
+float:left;
+border:1px solid #dedede;
+}
+
+.md2a{
+width:675px;
+height:33px;
+padding-left:40px;
+padding-top:10px;
+background-image:url(../images/dangqianwz.jpg);
+background-repeat:no-repeat;
+font-size:14px;
+}
+
+.md3{
+width:277px;
+height:848px;
+float:left;
+margin-left:4px;
+}
+
+.md4, .md5, .md6, .md7{
+background-color:#f1f2f7;
+}
+
+.md4{
+width:277px;
+height:300px;
+margin-top:-2px;
+padding-left:2px;
+margin-bottom:4px;
+border:0px solid #d2d2d2;
+}
+
+.md4a{
+width:277px;
+height:30px;
+margin-bottom:4px;
+background-image:url(../images/jinqiph.jpg);
+background-repeat:no-repeat
+}
+
+.md4b{
+width:272px; height:26px;
+}
+
+.md5{
+width:277px;
+height:220px;
+margin-top:6px;
+border:1px solid #d2d2d2;
+}
+
+.md5a{
+width:277px;
+height:25px;
+background-image:url(../images/zhuantibd.jpg);
+background-repeat:no-repeat;
+}
+
+.md5b img{
+margin-left:7px;
+margin-top:3px;
+}
+
+.md6{
+width:277px;
+height:190px;
+margin-top:4px;
+border:1px solid #d2d2d2;
+}
+
+.md6a{
+width:277px;
+height:28px;
+background-image:url(../images/lianxiwm.jpg);
+background-repeat:no-repeat;
+}
+
+.md6b{
+margin-left:7px;
+margin-top:4px;
+font-size:14px;
+}
+
+.md7{
+width:277px;
+height:30px;
+margin-top:4px;
+border:1px solid #d2d2d2;
+font-size:16px;
+}
+
+.list{
+text-align:center;
+color:#000000;
+font-stretch:wider;
+margin-top:6px;
+}
+
+.list a:link{
+color:#000005;
+}
+.list a:hover{
+color:Blue;
+text-decoration:underline;
+}
+.list a:active{
+color:#000005;
+}
+.list a:visited{
+color:#000005;
+}
+
+.content{
+width:713px;
+height:846px;
+border:1px;
+overflow:hidden;
+}
+
+.daohang1{
+float:left; width:69px; margin-top:8px;
+}
+
+.daohang2{
+float:left; width:8px;
+}
+
+.Abiaoti{
+width:666px; font-family:"黑体"; font-weight:bold; font-size:18px; color:#003399; margin-top:20px; margin-left:40px; text-align:center;
+}
+.Aabout{
+width:640px; font-family:"宋体"; font-size:14px; color:#3d3d3d; margin-top:20px; margin-left:40px; text-align:center;
+}
+.Acontent{
+width:645px; height:640px; line-height:21pt; overflow-y:scroll; overflow-x:hidden; font-family:"宋体"; font-size:16px; color:#000; margin-left:40px; margin-top:10px; padding-right:25px;
+}
+
+.Afoot{
+width:316px; font-family:"宋体"; font-size:16px; color:#3d3d3d; margin-top:20px; padding-top:10px; margin-left:350px; text-align:right; background-image:url(../images/bianji_bg.jpg); background-repeat:repeat-x;
+}
+
+.A1{
+text-align:center; margin-top:8px; margin-left:2px; background-image:url(../images/Alist_bg.jpg); width:674px; height:22px; float:left; background-repeat:no-repeat; display:block;
+}
+.A2{
+width:20px; float:left; margin-top:14px; margin-left:12px; margin-right:4px;
+}
+.A3{
+width:558px; float:left; text-align:left;
+}
+.A4{
+width:110px; float:left;
+}
+.paging{
+display:block; margin-left:180px; padding-top:20px; width:290px; height:16px; font-family:"宋体"; font-size:13px; text-align:center; clear:both;
+}
+
+.jqphA1{
+float:left; margin-top:0px; margin-left:2px;
+}
+.jqphA2{
+float:left; font-family:"宋体"; font-size:14px; margin-top:0px; margin-left:3px;
+}
+
+.foot a:hover{
+color:Blue;
+text-decoration:underline;
+}
+

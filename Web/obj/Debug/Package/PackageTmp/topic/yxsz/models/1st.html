@@ -1,0 +1,361 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>十周年站庆专题--印象十载--山东理工大学新闻网</title>
+    <link href="css/yxsz.css" rel="Stylesheet" type="text/css" />
+
+    <script language="JavaScript" type="text/javascript">
+
+        /* ========== 滚动方法begin =========*/
+        function Marquee() {
+            this.ID = document.getElementById(arguments[0]);
+            if (!this.ID) {
+                alert("您要设置的\"" + arguments[0] + "\"初始化错误\r\n请检查标签ID设置是否正确!");
+                this.ID = -1;
+                return;
+            }
+            this.Direction = this.Width = this.Height = this.DelayTime = this.WaitTime = this.CTL = this.StartID = this.Stop = this.MouseOver = 0;
+            this.Step = 1;
+            this.Timer = 30;
+            this.DirectionArray = { "top": 0, "up": 0, "bottom": 1, "down": 1, "left": 2, "right": 3 };
+            if (typeof arguments[1] == "number" || typeof arguments[1] == "string") this.Direction = arguments[1];
+            if (typeof arguments[2] == "number") this.Step = arguments[2];
+            if (typeof arguments[3] == "number") this.Width = arguments[3];
+            if (typeof arguments[4] == "number") this.Height = arguments[4];
+            if (typeof arguments[5] == "number") this.Timer = arguments[5];
+            if (typeof arguments[6] == "number") this.DelayTime = arguments[6];
+            if (typeof arguments[7] == "number") this.WaitTime = arguments[7];
+            if (typeof arguments[8] == "number") this.ScrollStep = arguments[8];
+            this.ID.style.overflow = this.ID.style.overflowX = this.ID.style.overflowY = "hidden";
+            this.ID.noWrap = true;
+            this.IsNotOpera = (navigator.userAgent.toLowerCase().indexOf("opera") == -1);
+            if (arguments.length >= 7) this.Start();
+        }
+
+        Marquee.prototype.Start = function () {
+            if (this.ID == -1) return;
+            if (this.WaitTime < 800) this.WaitTime = 800;
+            if (this.Timer < 20) this.Timer = 20;
+            if (this.Width == 0) this.Width = parseInt(this.ID.style.width);
+            if (this.Height == 0) this.Height = parseInt(this.ID.style.height);
+            if (typeof this.Direction == "string") this.Direction = this.DirectionArray[this.Direction.toString().toLowerCase()];
+            this.HalfWidth = Math.round(this.Width / 2);
+            this.HalfHeight = Math.round(this.Height / 2);
+            this.BakStep = this.Step;
+            this.ID.style.width = this.Width + "px";
+            this.ID.style.height = this.Height + "px";
+            if (typeof this.ScrollStep != "number") this.ScrollStep = this.Direction > 1 ? this.Width : this.Height;
+            var templateLeft = "<table cellspacing='0' cellpadding='0' style='border-collapse:collapse;display:inline;'><tr><td noWrap=true style='white-space: nowrap;word-break:keep-all;'>MSCLASS_TEMP_HTML</td><td noWrap=true style='white-space: nowrap;word-break:keep-all;'>MSCLASS_TEMP_HTML</td></tr></table>";
+            var templateTop = "<table cellspacing='0' cellpadding='0' style='border-collapse:collapse;'><tr><td>MSCLASS_TEMP_HTML</td></tr><tr><td>MSCLASS_TEMP_HTML</td></tr></table>";
+            var msobj = this;
+            msobj.tempHTML = msobj.ID.innerHTML;
+            if (msobj.Direction <= 1) {
+                msobj.ID.innerHTML = templateTop.replace(/MSCLASS_TEMP_HTML/g, msobj.ID.innerHTML);
+            }
+            else {
+                if (msobj.ScrollStep == 0 && msobj.DelayTime == 0) {
+                    msobj.ID.innerHTML += msobj.ID.innerHTML;
+                }
+                else {
+                    msobj.ID.innerHTML = templateLeft.replace(/MSCLASS_TEMP_HTML/g, msobj.ID.innerHTML);
+                }
+            }
+            var timer = this.Timer;
+            var delaytime = this.DelayTime;
+            var waittime = this.WaitTime;
+            msobj.StartID = function () { msobj.Scroll() }
+            msobj.Continue = function () {
+                if (msobj.MouseOver == 1) {
+                    setTimeout(msobj.Continue, delaytime);
+                }
+                else {
+                    clearInterval(msobj.TimerID);
+                    msobj.CTL = msobj.Stop = 0;
+                    msobj.TimerID = setInterval(msobj.StartID, timer);
+                }
+            }
+
+            msobj.Pause = function () {
+                msobj.Stop = 1;
+                clearInterval(msobj.TimerID);
+                setTimeout(msobj.Continue, delaytime);
+            }
+
+            msobj.Begin = function () {
+                msobj.ClientScroll = msobj.Direction > 1 ? msobj.ID.scrollWidth / 2 : msobj.ID.scrollHeight / 2;
+                if ((msobj.Direction <= 1 && msobj.ClientScroll <= msobj.Height + msobj.Step) || (msobj.Direction > 1 && msobj.ClientScroll <= msobj.Width + msobj.Step)) {
+                    msobj.ID.innerHTML = msobj.tempHTML;
+                    delete (msobj.tempHTML);
+                    return;
+                }
+                delete (msobj.tempHTML);
+                msobj.TimerID = setInterval(msobj.StartID, timer);
+                if (msobj.ScrollStep < 0) return;
+                msobj.ID.onmousemove = function (event) {
+                    if (msobj.ScrollStep == 0 && msobj.Direction > 1) {
+                        var event = event || window.event;
+                        if (window.event) {
+                            if (msobj.IsNotOpera) {
+                                msobj.EventLeft = event.srcElement.id == msobj.ID.id ? event.offsetX - msobj.ID.scrollLeft : event.srcElement.offsetLeft - msobj.ID.scrollLeft + event.offsetX;
+                            }
+                            else {
+                                msobj.ScrollStep = null;
+                                return;
+                            }
+                        }
+                        else {
+                            msobj.EventLeft = event.layerX - msobj.ID.scrollLeft;
+                        }
+                        msobj.Direction = msobj.EventLeft > msobj.HalfWidth ? 3 : 2;
+                        msobj.AbsCenter = Math.abs(msobj.HalfWidth - msobj.EventLeft);
+                        msobj.Step = Math.round(msobj.AbsCenter * (msobj.BakStep * 2) / msobj.HalfWidth);
+                    }
+                }
+                msobj.ID.onmouseover = function () {
+                    if (msobj.ScrollStep == 0) return;
+                    msobj.MouseOver = 1;
+                    clearInterval(msobj.TimerID);
+                }
+                msobj.ID.onmouseout = function () {
+                    if (msobj.ScrollStep == 0) {
+                        if (msobj.Step == 0) msobj.Step = 1;
+                        return;
+                    }
+                    msobj.MouseOver = 0;
+                    if (msobj.Stop == 0) {
+                        clearInterval(msobj.TimerID);
+                        msobj.TimerID = setInterval(msobj.StartID, timer);
+                    }
+                }
+            }
+            setTimeout(msobj.Begin, waittime);
+        }
+
+        Marquee.prototype.Scroll = function () {
+            switch (this.Direction) {
+                case 0:
+                    this.CTL += this.Step;
+                    if (this.CTL >= this.ScrollStep && this.DelayTime > 0) {
+                        this.ID.scrollTop += this.ScrollStep + this.Step - this.CTL;
+                        this.Pause();
+                        return;
+                    }
+                    else {
+                        if (this.ID.scrollTop >= this.ClientScroll) {
+                            this.ID.scrollTop -= this.ClientScroll;
+                        }
+                        this.ID.scrollTop += this.Step;
+                    }
+                    break;
+
+                case 1:
+                    this.CTL += this.Step;
+                    if (this.CTL >= this.ScrollStep && this.DelayTime > 0) {
+                        this.ID.scrollTop -= this.ScrollStep + this.Step - this.CTL;
+                        this.Pause();
+                        return;
+                    }
+                    else {
+                        if (this.ID.scrollTop <= 0) {
+                            this.ID.scrollTop += this.ClientScroll;
+                        }
+                        this.ID.scrollTop -= this.Step;
+                    }
+                    break;
+
+                case 2:
+                    this.CTL += this.Step;
+                    if (this.CTL >= this.ScrollStep && this.DelayTime > 0) {
+                        this.ID.scrollLeft += this.ScrollStep + this.Step - this.CTL;
+                        this.Pause();
+                        return;
+                    }
+                    else {
+                        if (this.ID.scrollLeft >= this.ClientScroll) {
+                            this.ID.scrollLeft -= this.ClientScroll;
+                        }
+                        this.ID.scrollLeft += this.Step;
+                    }
+                    break;
+
+                case 3:
+                    this.CTL += this.Step;
+                    if (this.CTL >= this.ScrollStep && this.DelayTime > 0) {
+                        this.ID.scrollLeft -= this.ScrollStep + this.Step - this.CTL;
+                        this.Pause();
+                        return;
+                    }
+                    else {
+                        if (this.ID.scrollLeft <= 0) {
+                            this.ID.scrollLeft += this.ClientScroll;
+                        }
+                        this.ID.scrollLeft -= this.Step;
+                    }
+                    break;
+            }
+        }
+        /* ========== 滚动方法end =========*/
+</script>
+    </head>
+<body>
+<div class="ma"><div class="ma1"><a href="http://www.sdut.edu.cn/" target="_blank">学校首页</a> ｜　<a href="http://lgwindow.sdut.edu.cn/" target="_blank">新闻网首页</a>　</div><div class="ma2"><a href="#" onclick="javascript:window.external.AddFavorite('http://lgwindow.sdut.edu.cn/','山东理工大学新闻网')" title="收藏本站到你的收藏夹">加入收藏</a></div></div>
+<div class="mb">山东理工大学新闻网十周年站庆专题</div>
+
+
+<div class="mc">
+<ul>
+<li><a href="#a">印象·成长</a></li>
+<li><a href="#b">印象·记忆</a></li>
+<li><a href="#c">印象·点滴</a></li>
+<li><a href="#d">印象·感悟</a></li>
+<li><a href="#e">印象·成果</a></li>
+</ul>
+</div>
+
+
+<div class="md">
+<div class="md1">
+    <img src="images/karat2.jpg" /></div>
+<div class="md2">　　<a href="#">深秋终于过去，冬天也慢慢降临，可是没来由的，天空越发的湛蓝，连云朵飘过的痕迹都可见，有鸽子飞翔，树叶唰唰地落下。我在 记忆的这一端，凝望彼端的你，一路走来……</a></div>
+</div>
+
+<div class="me"><a name="a"></a>
+</div>
+<div class="mf">
+<div class="mfl">
+<table width="742" border="0" height="350">
+  <tr>
+    <td><a href=""><img src="images/1.jpg" /></a></td>
+    <td><a href=""><img src="images/2.jpg" /></a></td>
+    <td><a href=""><img src="images/3.jpg" /></a></td>
+  </tr>
+  <tr>
+    <td><a href="">新闻网四周年站庆合影</a></td>
+    <td><a href="">新闻网五周年站庆合影</a></td>
+    <td><a href="">新闻网六周年站庆合影</a></td>
+  </tr>
+  <tr>
+    <td><a href=""><img src="images/4.jpg" /></a></td>
+    <td><a href=""><img src="images/5.jpg" /></a></td>
+    <td><a href=""><img src="images/6.jpg" /></a></td>
+  </tr>
+  <tr>
+    <td><a href="">新闻网七周年站庆合影</a></td>
+    <td><a href="">新闻网八周年站庆合影</a></td>
+    <td><a href="">新闻网九周年站庆合影</a></td>
+  </tr>
+</table>
+</div>
+<div class="mfc"></div>
+<div class="mfr">时光停驻，<br />
+    是我们飞驰而去。<br />
+    飞机拖着长长的尾云<br />
+    划破长空……
+    <br />
+    天终于变得很蓝很蓝<br />
+    像经历了一场漫长<br />
+    而彻底的洗涤<br />
+    远方传来模糊的歌。<br />
+    曾经年少，<br />
+    日夜伴随，<br />
+    转眼雪花飞……</div>
+</div>
+
+<div class="memory"><a name="b"></a></div>
+<div class="m_content">
+<iframe src="xc/gallery.html" width="997" height="360" frameborder="0" scrolling="no"
+                style="position: absolute;"></iframe>
+</div>
+
+
+<div class="mg">
+<div class="mgl">
+<div class="mgl_1"><a name="c"></a></div>
+
+<div id="Guangying" class="Bord">
+         <div id="GYIn">
+      <ul id="marquee">
+        <li><img src="images/11.jpg"  class="picStyle"/></li>
+		<li><img src="images/12.jpg"  class="picStyle"/></li>
+		<li><img src="images/13.jpg"  class="picStyle"/></li>
+		<li><img src="images/14.jpg"  class="picStyle"/></li>
+
+		<li><img src="images/15.jpg"  class="picStyle"/></li>
+		<li><img src="images/16.jpg"  class="picStyle"/></li>
+		<li><img src="images/17.jpg"  class="picStyle"/></li>
+		<li><img src="images/18.jpg"  class="picStyle"/></li>
+
+		<li><img src="images/19.jpg"  class="picStyle"/></li>
+		<li><img src="images/20.jpg"  class="picStyle"/></li>
+		<li><img src="images/21.jpg"  class="picStyle"/></li>
+		<li><img src="images/22.jpg"  class="picStyle"/></li>
+
+
+        <li><img src="images/23.jpg"  class="picStyle"/></li>
+		<li><img src="images/24.jpg"  class="picStyle"/></li>
+		<li><img src="images/25.jpg"  class="picStyle"/></li>
+		<li><img src="images/26.jpg"  class="picStyle"/></li>
+      </ul>
+    </div>
+  </div>
+ <script defer>
+     new Marquee("marquee", 0, 5, 648, 262, 10, 6000, 6000)
+</script>
+
+</div>
+<div class="mgr">
+<div class="mgr_1"><a name="d"></a></div>
+<div class="mgr_2">
+<div class="mgr_2in">
+<table width="343" border="0">
+ %%ganwu%%
+</table>
+
+</div>
+<div class="m_more">>><a href="#" title="查看更多">更多</a></div>
+</div>
+</div>
+</div>
+
+
+<div class="mh"><a name="e"></a></div>
+<div class="mi">
+<div class="mi1">
+<table width="968" border="0" height="162">
+  <tr>
+  <td width="20"><a href="#">五周年站庆</a></td>
+    <td>
+        <a href=""><img alt="新闻网五周年" src="images/a5.jpg" /></a></td>
+       <td width="20"><a href="#">六周年站庆</a></td>
+       <td>
+        <a href=""><img alt="新闻网六周年"  src="images/a6.jpg" /></a></td>
+        <td width="20"><a href="#">七周年站庆</a></td>
+        <td>
+        <a href=""><img alt="新闻网七周年" src="images/a7.jpg" /></a></td>
+  </tr>
+</table>
+</div>
+<div class="mi2">
+<table width="650" border="0" height="156">
+  <tr>
+    <td width="20"><a href="#">八周年站庆</a></td>
+	<td>
+        <a href=""><img alt="八周年" src="images/a8.gif" /></a></td>
+	<td width="20"><a href="#">九周年站庆</a></td>
+    <td>
+        <a href=""><img alt="九周年" src="images/a9.jpg" /></a></td>
+  </tr>
+</table>
+</div>
+</div>
+
+<div class="bottom"><a href="http://lgwindow.sdut.edu.cn/News/26263.html" target="_blank">关于我们</a>|<a href="http://lgwindow.sdut.edu.cn/News/26262.html" target="_blank">新闻热线</a>|<a href="http://lgwindow.sdut.edu.cn/karat/" target="_blank">诚招英才</a>|<a href="http://lgwindow.sdut.edu.cn/News/26264.html" target="_blank">版权声明</a>
+<hr />
+版权所有?山东理工大学新闻中心网络部　　　地址：山东省淄博市张店区张周路12号　邮编：255049
+<br />
+ 联系电话:0533-2786727　　　Designed by: 
+    <a href="http://lgwindow.sdut.edu.cn/karat/" class="c">
+        <img src="images/karat.gif" height="17" align="absmiddle"/>卡瑞特工作室</a></div>
+</body>
+</html>

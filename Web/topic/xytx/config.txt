@@ -1,0 +1,3 @@
+%%xueyuanheci%%,173,16,14,false,Havedate,1
+1
+grade2,30,20

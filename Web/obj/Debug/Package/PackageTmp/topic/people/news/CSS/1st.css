@@ -1,0 +1,67 @@
+/* 首页样式 */
+*{ margin:0; padding:0; border:0; font-size:14px;}
+a {color:#D22028; text-decoration:none;}
+a:visited {text-decoration:none;}
+a:hover {color:#ba2636;text-decoration:underline;}
+a:active {color:#ba2636;}
+body{ background-image:url(../images/banner_bg_01.png); background-position:center; background-position:top; background-repeat:no-repeat; background-color:#ffffff;}
+#banner{width:1000px; height:286px; margin: 0 auto;}
+#area1{width:1000px; height:372px; margin: 0 auto;}
+#area2{width:1000px; height:372px; margin: 0 auto;}
+#area3{width:997px; padding-left:3px; height:230px; margin: 0 auto;}
+#area4{width:992px; height:105px; margin: 0 auto; border: #d01126 solid 1px;}
+#foot{width:100%; height:117px; margin: 0 auto; margin-top:19px; background-image:url(../images/foot_bg_95.png); background-repeat:repeat-x;}
+
+#top{ width:1000px; height:29px;}
+.top1, .top2, .top3, .top4{height:29px; float:left; line-height:29px; font-size:15px; font-family:"黑体"; color:#171717;}
+.top1{ width:23px; }
+.top2{ width:219px; }
+.top3{ width:578px; }
+.top4{ width:168px; }
+.daohang_k{ width:950px; height:257px; padding-left:50px;}
+.daohang_big{ width:100%; height:auto; background-image:url(../images/daohang_bg_03.png); background-repeat:repeat-x;}
+.daohang{  width:950px; height:44px; padding-left:50px; margin:0 auto;}
+.dh1, .dh2, .dh3, .dh4, .dh5, .dh6, .dh7{ width:128px; text-align:center; line-height:32px; float:left;}
+.jiaodiantu{ width:412px; height:367px; float:left; padding-top:2px; padding-left:4px; overflow:hidden;}
+.dongtai_big{ width:566px; height:371px; padding-left:8px; float:left; }
+.toutiao_title { width:576px; height:34px; padding-top:14px; text-align:center; }
+.toutiao_body { width:548px; height:52px; padding-top:5px; padding-left:16px; padding-right:8px; overflow:hidden; }
+.dongtai_title{ width:561px; height:17px; padding-top:14px; padding-right:12px; margin-left:0px; overflow:hidden; background-image:url(../images/dongtai_bg.png); background-repeat:no-repeat; text-align:right; color:#c5080a; font-weight:bold; font-family:"宋体";}
+.dongtai_body{ width:568px; height:226px; padding-top:4px; margin-left:3px; border:#ab0705 solid 1px; border-top:none;}
+.dongtai_list{ width:556px; height:25px; }
+.dongtai_list1{width:484px; height:25px;  line-height:25px; float:left; color:#d22028;  font-family:"宋体"; overflow:hidden;}
+.dongtai_list2{width:70px; height:25px; line-height:25px; float:right; text-align:left; color:#d22028;  font-family:"宋体";}
+.area2_left{ width:740px; height:371px;  float:left;}
+.area2_right{ width:260px; height:371px; float:left;}
+.area2_left_1{ width:738px; height:269px;}
+.area2_left_ad{ width:734px; height:100px; padding-left:3px;}
+.chuanzhen{ width:368px; height:265px; float:left;}
+.chuanzhen_title{ width:358px; height:17px; padding-top:14px; padding-right:10px; background-image:url(../images/chuanzhen_title_bg_03.png); background-repeat:no-repeat; text-align:right; color:#c5080a; font-weight:bold; font-family:"宋体";}
+.chuanzhen_body{width:363px; height:230px; padding-top:4px; margin-left:3px; border:#ab0705 solid 1px; border-top:none;}
+.chuanzhen_list{ width:363px; height:25px; }
+.chuanzhen_list1{width:278px; height:25px;  line-height:25px; float:left; color:#c5080a; font-weight:400; font-family:"宋体"; overflow:hidden;}
+.chuanzhen_list2{width:80px; height:25px; line-height:25px; float:right; text-align:left; color:#c5080a; font-family:"宋体";}
+.jianbao{ width:370px; height:265px; float:left;}
+.jianbao_title{ width:359px; height:17px; margin-left:1px; padding-top:14px; padding-right:10px; background-image:url(../images/jianbao_title_bg_04.png); background-repeat:no-repeat; text-align:right; color:#c5080a; font-weight:bold; font-family:"宋体";}
+.jianbao_body{width:363px; height:230px; padding-top:4px; margin-left:5px; border:#ab0705 solid 1px; border-top:none;}
+.jianbao_list{ width:363px; height:25px; }
+.jianbao_list1{width:278px; height:25px;  line-height:25px; float:left; color:#c5080a; font-family:"宋体";}
+.jianbao_list2{width:80px; height:25px; line-height:25px; float:right; text-align:left; color:#c5080a; font-family:"宋体";}
+.jingshen_title{ width:245px; height:17px; padding-right:12px; padding-top:14px; background-image:url(../images/jingshen_title_05.png); background-repeat:no-repeat; text-align:right; color:#c5080a; font-weight:bold; font-family:"宋体";}
+.jingshen_body{width:251px; height:333px; padding-top:5px; margin-left:4px; border:#ab0705 solid 1px; border-top:none;}
+.jingshen_list{ width:249px; height:25px; }
+.jingshen_list1{width:247px; height:25px;  line-height:25px; float:left; color:#c5080a; font-family:"宋体"; overflow:hidden;}
+.jingshen_list2{width:45px; height:25px; line-height:25px; float:right; text-align:left; color:#c5080a;  font-family:"宋体";}
+.guandian{ width:263px; height:223px; margin-left:0px; float:left; border:#ab0705 solid 1px;}
+.guandian_title{ width:252px; height:31px; padding-top:6px; padding-right:10px; background-image:url(../images/guandian_title_bg_33.png); background-repeat:no-repeat; text-align:right; color:#FFFFFF; font-weight:bold; font-family:"宋体";}
+.guandian_list{width:263px; height:25px;  line-height:25px; float:left; color:#c5080a; font-family:"宋体";}
+.ziliao{ width:263px; height:223px; margin-left:6px; float:left; border:#ab0705 solid 1px;}
+.ziliao_title{ width:252px; height:31px; padding-top:6px; padding-right:10px; background-image:url(../images/ziliao_article_bg_69.png); background-repeat:no-repeat; text-align:right; color:#FFFFFF; font-weight:bold; font-family:"宋体";}
+.ziliao_list{width:263px; height:22px;  line-height:22px; float:left; color:#c5080a; font-weight:bold; font-family:"宋体";}
+.jiaodian2{ width:451px; height:223px; padding-top:1px; padding-left:7px; float:left; overflow:hidden;}
+.area4_1{ width:976px; height:29px; padding-left:14px; margin:0 auto; font-size:16px; line-height:29px; font-family:"黑体"; font-weight:bold; color:#b03e3e; text-align:left; border-bottom: #d01126 solid 1px;}
+.area4_2{ width:974px; height:56px; padding-left:10px; padding-top:10px; }
+.link_img{ width:auto; height:56px; float:left; margin-left:5px;}
+
+/* 二级页样式表 */
+

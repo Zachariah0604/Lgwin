@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>无标题文档</title>
+<style>
+*{
+font-size:16px;
+color:#02ACF5;
+width:135px;
+height:18px;
+padding-top:0px;
+font-weight:500;
+background-color:#A3DCED;
+margin:0px;
+padding:0px;
+line-height:18px;
+text-align:center;
+}
+</style>
+</head>
+
+<body style="width:135px; height:18px; margin:0px; padding:0px;">
+
+<SCRIPT language=JavaScript1.2>
+function setcountdown(theyear,themonth,theday){
+yr=theyear;mo=themonth;da=theday
+}
+setcountdown(2013,7,02)
+var occasion=" "
+var message_on_occasion=" "
+var countdownwidth='480px'
+var countdownheight='20px'
+var countdownbgcolor='none'
+var opentags='<font face="宋体"><small>'
+var closetags='</small></font>'
+var montharray=new Array("Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec")
+var crosscount=''
+function start_countdown(){
+if (document.layers)
+document.countdownnsmain.visibility="show"
+else if (document.all||document.getElementById)
+crosscount=document.getElementById&&!document.all?document.getElementById("countdownie") : countdownie
+countdown()
+}
+if (document.all||document.getElementById)
+document.write('<span id="countdownie" style="width:'+countdownwidth+'; background-color:'+countdownbgcolor+'"></span>')
+window.onload=start_countdown
+function countdown(){
+var today=new Date()
+var todayy=today.getYear()
+if (todayy < 1000)
+todayy+=1900
+var todaym=today.getMonth()
+var todayd=today.getDate()
+var todayh=today.getHours()
+var todaymin=today.getMinutes()
+var todaysec=today.getSeconds()
+var todaystring=montharray[todaym]+" "+todayd+", "+todayy+" "+todayh+":"+todaymin+":"+todaysec
+futurestring=montharray[mo-1]+" "+da+", "+yr
+dd=Date.parse(futurestring)-Date.parse(todaystring)
+dday=Math.floor(dd/(60*60*1000*24)*1)
+dhour=Math.floor((dd%(60*60*1000*24))/(60*60*1000)*1)
+dmin=Math.floor(((dd%(60*60*1000*24))%(60*60*1000))/(60*1000)*1)
+dsec=Math.floor((((dd%(60*60*1000*24))%(60*60*1000))%(60*1000))/1000*1)
+if(dday<=0&&dhour<=0&&dmin<=0&&dsec<=1&&todayd==da){
+if (document.layers){
+document.countdownnsmain.document.countdownnssub.document.write(opentags+message_on_occasion+closetags)
+document.countdownnsmain.document.countdownnssub.document.close()
+}
+else if (document.all||document.getElementById)
+crosscount.innerHTML=opentags+message_on_occasion+closetags
+return
+}
+else if (dday<=-1){
+if (document.layers){
+document.countdownnsmain.document.countdownnssub.document.write(opentags+"毕业了!"+closetags)
+document.countdownnsmain.document.countdownnssub.document.close()
+}
+else if (document.all||document.getElementById)
+crosscount.innerHTML=opentags+"Occasion already passed! "+closetags
+return
+}
+else{
+if (document.layers){
+document.countdownnsmain.document.countdownnssub.document.write(opentags+dday+ " days, "+dhour+" hours, "+dmin+" minutes, and "+dsec+" seconds left until "+occasion+closetags)
+document.countdownnsmain.document.countdownnssub.document.close()
+}
+else if (document.all||document.getElementById)
+crosscount.innerHTML=opentags+""+dday+ "天"+dhour+"小时"+dmin+"分"+dsec+"秒"+occasion+closetags
+}
+setTimeout("countdown()",1000)
+}
+</SCRIPT>
+<ILAYER id=countdownnsmain visibility="hide" bgColor="&{countdownbgcolor};" height="&{countdownheight};" width="&{countdownwidth};"><LAYER id=countdownnssub height="&{countdownheight};" width="&{countdownwidth};" top="0" left="0"></LAYER></ILAYER>
+</body>
+</html>

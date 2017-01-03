@@ -1,0 +1,38 @@
+C:\Users\Administrator\Desktop\Lgwin\DBUtility\bin\Debug\Lgwin.DBUtility.dll
+C:\Users\Administrator\Desktop\Lgwin\DBUtility\bin\Debug\Lgwin.DBUtility.pdb
+C:\Users\Administrator\Desktop\Lgwin\DBUtility\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Lgwin\DBUtility\obj\Debug\Lgwin.DBUtility.dll
+C:\Users\Administrator\Desktop\Lgwin\DBUtility\obj\Debug\Lgwin.DBUtility.pdb
+E:\Lgwin\Lgwin\DBUtility\bin\Debug\Lgwin.DBUtility.dll
+E:\Lgwin\Lgwin\DBUtility\bin\Debug\Lgwin.DBUtility.pdb
+E:\Lgwin\Lgwin\DBUtility\obj\Debug\ResolveAssemblyReference.cache
+E:\Lgwin\Lgwin\DBUtility\obj\Debug\Lgwin.DBUtility.dll
+E:\Lgwin\Lgwin\DBUtility\obj\Debug\Lgwin.DBUtility.pdb
+E:\Lgwin7-11\Lgwin\DBUtility\bin\Debug\Lgwin.DBUtility.dll
+E:\Lgwin7-11\Lgwin\DBUtility\bin\Debug\Lgwin.DBUtility.pdb
+E:\Lgwin7-11\Lgwin\DBUtility\obj\Debug\ResolveAssemblyReference.cache
+E:\Lgwin7-11\Lgwin\DBUtility\obj\Debug\Lgwin.DBUtility.dll
+E:\Lgwin7-11\Lgwin\DBUtility\obj\Debug\Lgwin.DBUtility.pdb
+G:\网站源码--勿动\张水生\Lgwin\DBUtility\bin\Debug\Lgwin.DBUtility.dll
+G:\网站源码--勿动\张水生\Lgwin\DBUtility\bin\Debug\Lgwin.DBUtility.pdb
+G:\网站源码--勿动\张水生\Lgwin\DBUtility\obj\Debug\ResolveAssemblyReference.cache
+G:\网站源码--勿动\张水生\Lgwin\DBUtility\obj\Debug\Lgwin.DBUtility.dll
+G:\网站源码--勿动\张水生\Lgwin\DBUtility\obj\Debug\Lgwin.DBUtility.pdb
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\DBUtility\bin\Debug\Lgwin.DBUtility.dll
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\DBUtility\bin\Debug\Lgwin.DBUtility.pdb
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\DBUtility\obj\Debug\ResolveAssemblyReference.cache
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\DBUtility\obj\Debug\Lgwin.DBUtility.dll
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\DBUtility\obj\Debug\Lgwin.DBUtility.pdb
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\DBUtility\bin\Debug\Lgwin.DBUtility.dll
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\DBUtility\bin\Debug\Lgwin.DBUtility.pdb
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\DBUtility\obj\Debug\Lgwin.DBUtility.dll
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\DBUtility\obj\Debug\Lgwin.DBUtility.pdb
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\DBUtility\bin\Debug\Lgwin.DBUtility.dll
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\DBUtility\bin\Debug\Lgwin.DBUtility.pdb
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\DBUtility\obj\Debug\Lgwin.DBUtility.dll
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\DBUtility\obj\Debug\Lgwin.DBUtility.pdb
+D:\Program Files\Vs Projects\Lgwin\DBUtility\bin\Debug\Lgwin.DBUtility.dll
+D:\Program Files\Vs Projects\Lgwin\DBUtility\bin\Debug\Lgwin.DBUtility.pdb
+D:\Program Files\Vs Projects\Lgwin\DBUtility\obj\Debug\Lgwin.DBUtility.dll
+D:\Program Files\Vs Projects\Lgwin\DBUtility\obj\Debug\Lgwin.DBUtility.pdb
+D:\Program Files\Vs Projects\Lgwin\DBUtility\obj\Debug\DBUtility.csprojResolveAssemblyReference.cache

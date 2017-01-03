@@ -1,0 +1,11 @@
+/*Example for a Menu Style*/
+.menu { color:#272727; border-bottom:0px solid #d7d7d7; height:47px;width:353px; float:left;}
+.menu_1 {float:left; padding-left:16px; padding-top:10px; font-size:16px; font-family:"¿¬Ìå_GB2312"; font-weight:bold }
+.menu ul {margin:0px; padding:10px;list-style:disc; font-size:12px; float:left; overflow:hidden; padding-left:0px; padding-right:0px;}
+.menu li {display:inline; line-height:23px; }
+.menu li a {color:#000000; text-decoration:none; padding:4px 8px 10px 9px; margin:0px 5px 0px 2px}
+.menu li a.tabactive { background-color:#FFF;position:relative; color:#06F}
+#tabcontent1,#tabcontent2{ width:323px; font-size:13px; margin-bottom:5px; height:156px; line-height:1.2em!important;line-height:1.2em}
+#tabcontents1,#tabcontents2{ width:323px; font-size:13px; margin-bottom:5px; height:156px; line-height:1.2em!important;line-height:1.2em; padding-left:18px; text-decoration:none}
+#tabcontent1 a,#tabcontent2 a{text-decoration:none; color:#0055aa}
+#tabcontents1 a,#tabcontents2 a{text-decoration:none;color:#0055aa}

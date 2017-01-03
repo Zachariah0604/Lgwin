@@ -1,0 +1,7 @@
+%%kuaixun%%,139,10,28,false,Havedate,1
+%%laiwen%%,140,5,12,false,Havedate,1
+%%tieshi%%,141,5,15,false,Havedate,0
+%%zhanshi%%,142,6,28,false,Havedate,0
+%%rzhi%%,143,6,28,false,Havedate,4
+1
+grade2,30,20

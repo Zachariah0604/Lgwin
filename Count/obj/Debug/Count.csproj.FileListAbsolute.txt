@@ -1,0 +1,38 @@
+C:\Users\Administrator\Desktop\Lgwin\Count\bin\Debug\Lgwin.Count.dll
+C:\Users\Administrator\Desktop\Lgwin\Count\bin\Debug\Lgwin.Count.pdb
+C:\Users\Administrator\Desktop\Lgwin\Count\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Lgwin\Count\obj\Debug\Lgwin.Count.dll
+C:\Users\Administrator\Desktop\Lgwin\Count\obj\Debug\Lgwin.Count.pdb
+E:\Lgwin\Lgwin\Count\bin\Debug\Lgwin.Count.dll
+E:\Lgwin\Lgwin\Count\bin\Debug\Lgwin.Count.pdb
+E:\Lgwin\Lgwin\Count\obj\Debug\ResolveAssemblyReference.cache
+E:\Lgwin\Lgwin\Count\obj\Debug\Lgwin.Count.dll
+E:\Lgwin\Lgwin\Count\obj\Debug\Lgwin.Count.pdb
+E:\Lgwin7-11\Lgwin\Count\bin\Debug\Lgwin.Count.dll
+E:\Lgwin7-11\Lgwin\Count\bin\Debug\Lgwin.Count.pdb
+E:\Lgwin7-11\Lgwin\Count\obj\Debug\ResolveAssemblyReference.cache
+E:\Lgwin7-11\Lgwin\Count\obj\Debug\Lgwin.Count.dll
+E:\Lgwin7-11\Lgwin\Count\obj\Debug\Lgwin.Count.pdb
+G:\网站源码--勿动\张水生\Lgwin\Count\bin\Debug\Lgwin.Count.dll
+G:\网站源码--勿动\张水生\Lgwin\Count\bin\Debug\Lgwin.Count.pdb
+G:\网站源码--勿动\张水生\Lgwin\Count\obj\Debug\ResolveAssemblyReference.cache
+G:\网站源码--勿动\张水生\Lgwin\Count\obj\Debug\Lgwin.Count.dll
+G:\网站源码--勿动\张水生\Lgwin\Count\obj\Debug\Lgwin.Count.pdb
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\Count\bin\Debug\Lgwin.Count.dll
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\Count\bin\Debug\Lgwin.Count.pdb
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\Count\obj\Debug\ResolveAssemblyReference.cache
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\Count\obj\Debug\Lgwin.Count.dll
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\Count\obj\Debug\Lgwin.Count.pdb
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\Count\bin\Debug\Lgwin.Count.dll
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\Count\bin\Debug\Lgwin.Count.pdb
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\Count\obj\Debug\Lgwin.Count.dll
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\Count\obj\Debug\Lgwin.Count.pdb
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\Count\bin\Debug\Lgwin.Count.dll
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\Count\bin\Debug\Lgwin.Count.pdb
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\Count\obj\Debug\Lgwin.Count.dll
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\Count\obj\Debug\Lgwin.Count.pdb
+D:\Program Files\Vs Projects\Lgwin\Count\bin\Debug\Lgwin.Count.dll
+D:\Program Files\Vs Projects\Lgwin\Count\bin\Debug\Lgwin.Count.pdb
+D:\Program Files\Vs Projects\Lgwin\Count\obj\Debug\Lgwin.Count.dll
+D:\Program Files\Vs Projects\Lgwin\Count\obj\Debug\Lgwin.Count.pdb
+D:\Program Files\Vs Projects\Lgwin\Count\obj\Debug\Count.csprojResolveAssemblyReference.cache

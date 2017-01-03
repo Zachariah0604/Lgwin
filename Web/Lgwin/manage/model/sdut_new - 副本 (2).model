@@ -1,0 +1,704 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!-- saved from url=(0034)http://www.sdut.edu.cn/guozhu.html -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><HTML 
+xmlns="http://www.w3.org/1999/xhtml"><HEAD>
+<META content="text/html; charset=GB2312" http-equiv="Content-Type">
+<TITLE>欢迎访问山东理工大学网站</TITLE>
+<STYLE type="text/css">
+@import url("css/sdut.css");
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #FFF;
+}
+</STYLE>
+
+<SCRIPT type="text/JavaScript">
+<!--
+    //window.open('http://www.sdut.edu.cn/1138/38.htm','window','scrollbars=no,directories=no,status=no,menubar=no,location=no,resizable=no,  toolbar=no, height=195,width=264,top=298,left=145');
+
+    function MM_swapImgRestore() { //v3.0
+        var i, x, a = document.MM_sr; for (i = 0; a && i < a.length && (x = a[i]) && x.oSrc; i++) x.src = x.oSrc;
+    }
+
+    function MM_preloadImages() { //v3.0
+        var d = document; if (d.images) {
+            if (!d.MM_p) d.MM_p = new Array();
+            var i, j = d.MM_p.length, a = MM_preloadImages.arguments; for (i = 0; i < a.length; i++)
+                if (a[i].indexOf("#") != 0) { d.MM_p[j] = new Image; d.MM_p[j++].src = a[i]; }
+        }
+    }
+
+    function MM_findObj(n, d) { //v4.01
+        var p, i, x; if (!d) d = document; if ((p = n.indexOf("?")) > 0 && parent.frames.length) {
+            d = parent.frames[n.substring(p + 1)].document; n = n.substring(0, p);
+        }
+        if (!(x = d[n]) && d.all) x = d.all[n]; for (i = 0; !x && i < d.forms.length; i++) x = d.forms[i][n];
+        for (i = 0; !x && d.layers && i < d.layers.length; i++) x = MM_findObj(n, d.layers[i].document);
+        if (!x && d.getElementById) x = d.getElementById(n); return x;
+    }
+
+    function win_show(url) { window.open(url, "_blank"); }
+    function winopen(url) {
+        window.open(url, "search", "toolbar=0,location=0,directories=0,status=0,menubar=0,scrollbars=1,resizable=0,width=550,height=450,top=0,left=0");
+    }
+    function searchsub() {
+        window.open("http://210.44.176.212/search?q=" + encodeURI(document.all.s.value));
+    }
+    function GetObj(objName) { if (document.getElementById) { return eval('document.getElementById("' + objName + '")') } else { return eval('document.all.' + objName) } }
+
+    function Show_Sub(count, active_index) {//òtè￥num1￡???ê?num2
+        var i = 1;
+        while (i <= count) {
+            if (active_index == 1) {
+                //GetObj("S_Cont_" + i).style.display = 'block';
+                document.all.S_Cont_1.style.display = 'block';
+                document.all.S_Cont_2.style.display = 'none';
+            }
+            else {
+                document.all.S_Cont_1.style.display = 'none';
+                document.all.S_Cont_2.style.display = 'block';
+            }
+            i++;
+        }
+    }
+
+//-->
+</SCRIPT>
+
+<SCRIPT type="text/javascript">
+    function reset1() {
+        window.location.reload();
+    }
+</SCRIPT>
+
+<SCRIPT language="javascript" type="text/javascript">
+function empty() {
+           document.getElementById("s").value = "";
+       }
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</SCRIPT>
+
+<script src="image/ASUSTeK/jquery.min.js"></script>
+    <script type="text/javascript" src="image/ASUSTeK/XML.js"></script>
+    <script type="text/javascript" src="image/ASUSTeK/default.js"></script>
+    <link href="image/ASUSTeK/jquery-ui.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="image/ASUSTeK/Homebanner.js"></script>
+
+<BODY onLoad="MM_preloadImages('image/Rindex/Rindex_3_r1_c7_1.png','image/Rindex/Rindex_3_r1_c11_1.png','image/Rindex/Rindex_b1_22.png','image/Rindex/Rindex_b4_22.png','image/Rindex/Rindex_b2_22.png','image/Rindex/Rindex_b3_22.png','image/Rindex/Rindex_sh_m33.png','image/Rindex/Rindex_2_r1_c6_22.png','image/Rindex/Rindex_2_r1_c8_2.png','image/Rindex/Rindex_3_r1_c12_1.png')">
+<div width="100%" height="175" id="top">
+   <div id="top_1" style="width:966px; margin:0 auto auto auto;" align="center">
+   <div style="width:966px; " align="left" >
+     <table width="966" height="26" border="0" cellspacing="0" cellpadding="0">
+       <tr>
+         <td width="21" align="left" valign="top"><img src="image/Rindex/Rindex_1_r1_c1.png" width="21" height="26" /></td>
+         <td align="left" valign="top"><table width="924"  height="26"border="0" cellspacing="0" cellpadding="0">
+           <tr>
+             <td align="left" valign="middle" class="wordtext" background="image/Rindex/Rindex_1_r1_c2.png">&nbsp;&nbsp;<a href="http://my.sdut.edu.cn/">校园信息门户</a><span class="word">&nbsp;|&nbsp;</span><span class="word"><a href="http://172.18.103.176/">办公系统</a>&nbsp;|&nbsp;<a href="http://202.110.209.178/">邮件系统</a>&nbsp;|&nbsp;<a href="http://www.sdut.edu.cn/10/10_1.html">电话查询</a>&nbsp;|&nbsp;<a href="http://lgwindow.sdut.edu.cn/map/">虚拟校园</a>&nbsp;|&nbsp;<a href="http://www.sdut.edu.cn/10/10_3.html">校内站点</a>&nbsp;|&nbsp;<a href="http://www.hao123.com/">校外站点</a>&nbsp;|&nbsp;<a href="http://ziyuan.eol.cn/college.php">高校导航</a></span></td>
+           </tr>
+         </table></td>
+         <td width="21" align="right" valign="top"><img src="image/Rindex/Rindex_1_r1_c3.png" width="21" height="26" /></td>
+       </tr>
+     </table>
+   </div>
+   <div><TABLE border="0" cellSpacing="0" cellPadding="0" width="966" 
+            height="113">
+              <TBODY>
+              <TR>
+                <TD vAlign="top" background="image/Rindex/Rindex_2_r1_c1.png" 
+                width="21" align="left"><IMG src="image/Rindex/1_1.gif" 
+                  width="1" height="1"></TD>
+                <TD vAlign="top" width="36" align="left">&nbsp;</TD>
+                <TD vAlign="top" background="image/Rindex/Rindex_2_r1_c3.jpg" 
+                width="408" align="left"></TD>
+                <TD vAlign="top" width="41" align="left">&nbsp;</TD>
+                <TD vAlign="top" background="image/Rindex/Rindex_2_r1_c5.png" 
+                width="152" align="left"></TD>
+                <TD vAlign="top" width="43" align="left">
+                  <TABLE border="0" cellSpacing="0" cellPadding="0" width="43" 
+                  height="113">
+                    <TBODY>
+                    <TR>
+                      <TD height="21" vAlign="top" background="image/Rindex/Rindex_2_r1_c6_1.png" 
+                      align="left">&nbsp;</TD></TR>
+                    <TR>
+                      <TD height="8" vAlign="top" align="left"><A onFocus="this.blur()" 
+                        onmouseover="MM_swapImage('Image62','','image/Rindex/Rindex_2_r1_c6_22.png',1)" 
+                        onmouseout="MM_swapImgRestore()" href="http://www.sdut.edu.cn/en/index.htm"><IMG 
+                        id="Image62" border="0" name="Image62" src="image/Rindex/Rindex_2_r1_c6_2.png" 
+                        width="43" height="8"></A></TD></TR>
+                    <TR>
+                      <TD height="84" vAlign="top" 
+                    align="left">&nbsp;</TD></TR></TBODY></TABLE></TD>
+                <TD vAlign="top" background="image/Rindex/Rindex_2_r1_c7.png" 
+                width="30" align="left"></TD>
+                <TD vAlign="top" width="47" align="left">
+                  <TABLE border="0" cellSpacing="0" cellPadding="0" width="47" 
+                  height="113">
+                    <TBODY>
+                    <TR>
+                      <TD height="19" vAlign="top" background="image/Rindex/Rindex_2_r1_c8_1.png" 
+                      align="left">&nbsp;</TD></TR>
+                    <TR>
+                      <TD height="8" vAlign="top" align="left"><A onMouseOver="MM_swapImage('Image63','','image/Rindex/Rindex_2_r1_c8_22.png',1)" 
+                        onmouseout="MM_swapImgRestore()" href="mailto:president@sdut.edu.cn" 
+                        ?=""><IMG id="Image63" border="0" name="Image63" src="image/Rindex/Rindex_2_r1_c8_2.png" 
+                        width="47" height="12"></A></TD></TR>
+                    <TR>
+                      <TD height="82" vAlign="top" background="image/Rindex/Rindex_2_r1_c8_3.png" 
+                      align="left">&nbsp;</TD></TR></TBODY></TABLE></TD>
+                <TD vAlign="top" background="image/Rindex/Rindex_2_r1_c9.png" 
+                width="46" align="left"></TD>
+                <TD vAlign="top" width="116" align="left">
+                  <TABLE border="0" cellSpacing="0" cellPadding="0" 
+                    width="116"><TBODY>
+                    <TR>
+                      <TD height="15" vAlign="top" width="96" 
+                        align="left"><IMG src="image/Rindex/Rindex_2_r1_c10_1.png" 
+                        width="96" height="15"></TD>
+                      <TD height="15" vAlign="top" width="20" 
+                        align="left"><IMG src="image/Rindex/Rindex_2_r1_c10_1_1.png" 
+                        width="20" height="15"></TD></TR>
+                    <TR>
+                      <TD height="19" vAlign="top" width="96" align="left">
+                        <DIV><INPUT style="border: 1px solid grey; color: gray;" 
+                        id="s" onMouseDown="empty();" name="s" value="关键字查询" 
+                        size="13" height="11" type="text"></DIV></TD>
+                      <TD height="19" vAlign="top" width="20" align="left"><A 
+                        onfocus="this.blur()" onMouseOver="MM_swapImage('Image28','','image/Rindex/Rindex_2_r1_c10_2_2.png',0)" 
+                        onmouseout="MM_swapImgRestore()" href="javascript:searchsub()"><IMG 
+                        id="Img1" border="0" name="Image28" src="image/Rindex/Rindex_2_r1_c10_2_2.png" 
+                        width="20" height="19"></A></TD></TR>
+                    <TR>
+                      <TD height="79" vAlign="top" width="96" 
+                        align="left"><IMG src="image/Rindex/Rindex_2_r1_c10_3.png" 
+                        width="96" height="79"></TD>
+                      <TD height="79" vAlign="top" width="20" 
+                        align="left"><IMG src="image/Rindex/Rindex_2_r1_c10_3_3.png" 
+                        width="20" height="79"></TD></TR></TBODY></TABLE></TD>
+                <TD vAlign="top" background="image/Rindex/Rindex_2_r1_c11.png" 
+                width="26" align="left"></TD></TR></TBODY></TABLE>
+                </div>
+  </div>
+  <div id="nagtive" style=" background-image:url(image/Rindex/Rindex_3_r1_c1.png); background-repeat:repeat-x; width:100%"> 
+   <div style=" margin:0 auto auto auto; width:966px; " align="center;">
+  <TABLE border="0" cellSpacing="0" cellPadding="0" width="966"  height="35" >
+              <TBODY>
+              <TR>
+                <TD height="35" vAlign="top" background="image/Rindex/Rindex_3_r1_c1.png" 
+                width="22" align="left"></TD>
+                <TD vAlign="top" width="85" align="left"><A onFocus="this.blur()" 
+                  onmouseover="MM_swapImage('Image1','','image/Rindex/Rindex_3_r1_c2_1.png',1)" 
+                  onmouseout="MM_swapImgRestore()" href="http://www.sdut.edu.cn/01/01.html"><IMG 
+                  id="Image1" border="0" name="Image1" src="image/Rindex/Rindex_3_r1_c2.png" 
+                  width="85" height="35"></A></TD>
+                <TD vAlign="top" width="85" align="left"><A onFocus="this.blur()" 
+                  onmouseover="MM_swapImage('Image21','','image/Rindex/Rindex_3_r1_c3_1.png',1)" 
+                  onmouseout="MM_swapImgRestore()" href="http://www.sdut.edu.cn/02/02.html"><IMG 
+                  id="Image21" border="0" name="Image21" src="image/Rindex/Rindex_3_r1_c3.png" 
+                  width="85" height="35"></A></TD>
+                <TD vAlign="top" width="85" align="left"><A onFocus="this.blur()" 
+                  onmouseover="MM_swapImage('Image22','','image/Rindex/Rindex_3_r1_c4_1.png',1)" 
+                  onmouseout="MM_swapImgRestore()" href="http://www.sdut.edu.cn/03/03.html"><IMG 
+                  id="Image22" border="0" name="Image22" src="image/Rindex/Rindex_3_r1_c4.png" 
+                  width="85" height="35"></A></TD>
+                <TD vAlign="top" width="85" align="left"><A onFocus="this.blur()" 
+                  onmouseover="MM_swapImage('Image23','','image/Rindex/Rindex_3_r1_c5_1.png',1)" 
+                  onmouseout="MM_swapImgRestore()" href="http://www.sdut.edu.cn/04/04.html"><IMG 
+                  id="Image23" border="0" name="Image23" src="image/Rindex/Rindex_3_r1_c5.png" 
+                  width="85" height="35"></A></TD>
+                <TD vAlign="top" width="85" align="left"><A onFocus="this.blur()" 
+                  onmouseover="MM_swapImage('Image24','','image/Rindex/Rindex_3_r1_c6_1.png',1)" 
+                  onmouseout="MM_swapImgRestore()" href="http://www.sdut.edu.cn/05/05.html"><IMG 
+                  id="Image24" border="0" name="Image24" src="image/Rindex/Rindex_3_r1_c6.png" 
+                  width="85" height="35"></A></TD>
+                <TD vAlign="top" width="85" align="left"><A onFocus="this.blur()" 
+                  onmouseover="MM_swapImage('Image8','','image/Rindex/Rindex_3_r1_c7_1.png',1)" 
+                  onmouseout="MM_swapImgRestore()" href="http://www.sdut.edu.cn/06/06.html"><IMG 
+                  id="Image8" border="0" name="Image8" src="image/Rindex/Rindex_3_r1_c7.png" 
+                  width="85" height="35"></A></TD>
+                <TD vAlign="top" width="85" align="left"><A onFocus="this.blur()" 
+                  onmouseover="MM_swapImage('Image25','','image/Rindex/Rindex_3_r1_c8_1.png',1)" 
+                  onmouseout="MM_swapImgRestore()" href="http://www.sdut.edu.cn/07/07.html"><IMG 
+                  id="Image25" border="0" name="Image25" src="image/Rindex/Rindex_3_r1_c8.png" 
+                  width="85" height="35"></A></TD>
+                <TD vAlign="top" width="85" align="left"><A onFocus="this.blur()" 
+                  onmouseover="MM_swapImage('Image26','','image/Rindex/Rindex_3_r1_c9_1.png',1)" 
+                  onmouseout="MM_swapImgRestore()" href="http://www.sdut.edu.cn/08/08.html"><IMG 
+                  id="Image26" border="0" name="Image26" src="image/Rindex/Rindex_3_r1_c9.png" 
+                  width="85" height="35"></A></TD>
+                <TD vAlign="top" width="85" align="left"><A onFocus="this.blur()" 
+                  onmouseover="MM_swapImage('Image27','','image/Rindex/Rindex_3_r1_c10_1.png',1)" 
+                  onmouseout="MM_swapImgRestore()" href="http://www.sdut.edu.cn/09/09.html"><IMG 
+                  id="Image27" border="0" name="Image27" src="image/Rindex/Rindex_3_r1_c10.png" 
+                  width="85" height="35"></A></TD>
+                <TD vAlign="top" width="73" align="left"><A onFocus="this.blur()" 
+                  onmouseover="MM_swapImage('Image18','','image/Rindex/Rindex_3_r1_c11_1.png',1)" 
+                  onmouseout="MM_swapImgRestore()" href="http://lib.sdut.edu.cn/" 
+                  target="_blank"><IMG id="Image18" border="0" name="Image18" 
+                  src="image/Rindex/Rindex_3_r1_c11.png" width="73" 
+                  height="35"></A></TD>
+                <TD vAlign="top" width="85" align="left"><A onFocus="this.blur()" 
+                  onmouseover="MM_swapImage('Image281','','image/Rindex/Rindex_3_r1_c12_1.png',1)" 
+                  onmouseout="MM_swapImgRestore()" href="http://xy.sdut.edu.cn/" 
+                  target="_blank"><IMG id="Image281" border="0" name="Image281" 
+                  src="image/Rindex/Rindex_3_r1_c12.png" width="85" 
+                  height="35"></A></TD>
+                <TD height="35" vAlign="top" background="image/Rindex/Rindex_3_r1_c13.png" 
+                width="21" align="right"></TD></TR></TBODY></TABLE></div></div>
+ <div id="pic" style="width:966px; margin:0 auto auto auto;" align="center">
+                  <table width="966" height="324" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td align="left" valign="top"><script language="JavaScript" type="text/javascript"> 
+<!-- 
+today=new Date(); 
+jran=today.getTime(); 
+function rnd() { 
+ia=9301; 
+ic=49297; 
+im=233280; 
+jran = (jran*ia+ic) % im; 
+return jran/(im*1.0); 
+}; 
+function rand(number) { 
+return Math.ceil(rnd()*number); 
+}; 
+document.write("<CENTER>"); 
+for(i=1;i<=1;i++) { 
+myNum=(rand(3)); //改成你要随机显示的图片数； 
+if(myNum == 1) document.write("<img src='image/rindex/Rindex_4_1.jpg'>"); 
+if(myNum == 2) document.write("<img src='image/rindex/Rindex_4_2.jpg'>"); 
+if(myNum == 3) document.write("<img src='image/rindex/Rindex_4_3.jpg'>");
+else { 
+document.write(); 
+} 
+}; 
+document.write("</CENTER>"); 
+//--> 
+            </script></td>
+                    </tr>
+                  </table>
+                  <TABLE border="0" cellSpacing="0" cellPadding="0" width="966" 
+                  height="15">
+                    <TBODY>
+                    <TR>
+                      <TD height="16" vAlign="top" background="image/Rindex/Rindex_451.png" 
+                      width="21" align="left"><IMG src="image/Rindex/1_1.gif" 
+                        width="1" height="1"></TD>
+                      <TD height="16" vAlign="top" width="924" 
+                        align="left"><IMG src="image/Rindex/1_1.gif" 
+                        width="1" height="1"></TD>
+                      <TD height="16" vAlign="top" background="image/Rindex/Rindex_452.png" 
+                      width="21" align="right"><IMG src="image/Rindex/1_1.gif" 
+                        width="1" height="1"></TD></TR></TBODY></TABLE>
+                  <TABLE border="0" cellSpacing="0" cellPadding="0" width="966" 
+                  height="277">
+                    <TBODY>
+                    <TR>
+                      <TD vAlign="top" background="image/Rindex/Rindex_451.png" 
+                      width="21" align="left">&nbsp;</TD>
+                      <TD vAlign="top" width="924" align="left">
+                        <TABLE border="0" cellSpacing="0" cellPadding="0" width="924" 
+                        height="265">
+                          <TBODY>
+                          <TR>
+                            <TD vAlign="top" width="317" align="left">
+                              <TABLE border="0" cellSpacing="0" cellPadding="0" 
+                              width="317" height="265">
+                                <TBODY>
+                                <TR>
+                                <TD height="7" vAlign="top" colSpan="3" align="left"><IMG 
+                                src="image/Rindex/1_1.gif" width="1" 
+                                height="1"></TD></TR>
+                                <TR>
+                                <TD height="14" vAlign="top" width="87" align="left"><IMG 
+                                src="image/Rindex/Rindex_b1_1.png" width="87" 
+                                height="14"></TD>
+                                <TD height="14" vAlign="top" background="image/Rindex/Rindex_l.png" 
+                                width="167" align="left"><IMG src="image/Rindex/1_1.gif" 
+                                width="1" height="1"></TD>
+                                <td width="63" height="14" align="left" valign="top"><a href="http://lgwindow.sdut.edu.cn/" onFocus="this.blur()" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image42','','image/Rindex/Rindex_b1_22.png',1)"><img src="image/Rindex/Rindex_b1_2.png" name="Image42" width="63" height="14" border="0" id="Image42" /></a></td>
+                                </TR>
+                                <TR>
+                                <TD height="21" vAlign="top" colSpan="3" align="left"><IMG 
+                                src="image/Rindex/1_1.gif" width="1" 
+                                height="1"></TD></TR>
+                                <TR>
+                                <td height="137" colspan="3" align="left" valign="top"  id="S_Cont_3">$$titles$$</td></TR>
+                                <TR>
+                                <TD height="14" vAlign="top" colSpan="3" align="left">
+                                <TABLE border="0" cellSpacing="0" cellPadding="0" 
+                                width="317">
+                                <TBODY>
+                                <TR>
+                                <TD vAlign="top" width="87" align="left"><IMG 
+                                src="image/Rindex/Rindex_b2_1.png" width="87" 
+                                height="14"></TD>
+                                <TD height="14" vAlign="top" background="image/Rindex/Rindex_l.png" 
+                                width="179" align="left"><IMG src="image/Rindex/1_1.gif" 
+                                width="1" height="1"></TD>
+                                <TD vAlign="top" width="51" align="left"><a href="#.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image46','','image/Rindex/Rindex_b2_22.png',1)"><img src="image/Rindex/Rindex_b2_2.png" name="Image46" width="51" height="14" border="0" id="Image46" /></a><A 
+                                onmouseover="MM_swapImage('Image46','','image/Rindex/Rindex_b2_22.png',1)" 
+                                onmouseout="MM_swapImgRestore()" href="http://www.sdut.edu.cn/guozhu.html#.html"></A></TD></TR></TBODY></TABLE></TD></TR>
+                                <TR>
+                                <TD height="31" vAlign="top" colSpan="3" align="left"><IMG 
+                                src="image/Rindex/1_1.gif" width="1" 
+                                height="1">
+                                <P></P>
+                                <div id="news_area">
+<a href="javascript:Previous_News()" id="pre_button"><img src="image/ASUSTeK/pre_btn.gif" alt="pre" width="10" height="9"></a>
+        <div id="divNews" style="display:none">
+            <p id="spanTitle">山东理工大学2012年工商管理硕士（MBA）招生简章</p>
+            <p id="spanDate">12/19/2011</p>
+            <p id="spanLink">/info/20111010.htm</p>
+        </div>
+     
+        <div id="divNews" style="display:none">
+            <p id="spanTitle">山东理工大学2012年研究生招生简章</p>
+            <p id="spanDate">12/16/2011</p>
+            <p id="spanLink">http://yjsh.sdut.edu.cn/plus/view.php?aid=139</p>
+        </div>
+     
+        <div id="divNews" style="display:none">
+            <p id="spanTitle">严肃山东省市县乡换届纪律学习教育专题</p>
+            <p id="spanDate">12/08/2011</p>
+            <p id="spanLink">http://www.sdut.edu.cn/info/c_02.doc</p>
+        </div>
+     
+        <div id="divNews" style="display:none">
+            <p id="spanTitle">山东理工大学采购网</p>
+            <p id="spanDate">12/02/2011</p>
+            <p id="spanLink">http://202.110.209.181/zhaob/index.aspx</p>
+        </div>
+     
+        <div id="divNews" style="display:none">
+            <p id="spanTitle">2010年美国的人权纪录</p>
+            <p id="spanDate">12/01/2011</p>
+            <p id="spanLink">/info/20110413.htm</p>
+        </div>
+<a href="javascript:Next_News()" id="next_button"><img src="image/ASUSTeK/next_btn.gif" alt="pre" width="10" height="9"></a>     
+    <span></span>
+    <span id="news" style="display: inline; width:200px; height:20px; overflow:hidden; ">
+    <span id="new_date"></span>
+        <a href="http://www.sdut.edu.cn" id="newtitle" target="_blank" style="display: inline; width:200px; height:20px; overflow:hidden; "></a>
+     </span>  
+     <span id="spanTransTitle" style="display:none"></span>                                 
+</div>
+<script type="text/javascript">
+    var intNewsSpeed = 9000;
+    var intNewsTimerId;
+    var intNewsId = 0;
+    var strNews_Date = new Array;
+    var strNews_Content = new Array;
+    var strNews_Link = new Array;
+    var dateformat;
+
+    var intControlsindexNewsSysWordingCheckId;
+    intControlsindexNewsSysWordingCheckId = setInterval("controlsindexNewsSysWordingCheck()", intSysWordingCheckSpeed);
+
+    function controlsindexNewsSysWordingCheck() {
+        if (sysWordingRead) {
+            $("#news_area span:first").html($("NewsTitle", sysWording).text() + " ");
+            clearTimeout(intControlsindexNewsSysWordingCheckId);
+        }
+    }
+
+    $(document).ready(function () {
+        $("#news_area div").each(function (i) {
+            strNews_Content[i] = $("#spanTitle", this).text();
+            strNews_Date[i] = date_format($("#spanDate", this).text(), $("DateFormat", sysWording).text());
+            strNews_Link[i] = $("#spanLink", this).text();
+        });
+
+        get_news();
+        intNewsId = intNewsId + 1;
+        intNewsTimerId = setInterval("news_timer()", intNewsSpeed);
+    });
+
+    function NewsPreLoadSetting(arrData) {
+        var val = arrData.split('*');
+        dateformat = val[1];
+        $("#news_area span:first").html(val[0] + " ");
+    }
+
+    function news_timer() {
+        reset_news();
+        $("#news").fadeOut("slow", function () {
+            get_news();
+            $("#news").fadeIn("slow", function () {
+                intNewsId = intNewsId + 1;
+            });
+        });
+    }
+
+    function reset_news() {
+        if (intNewsId == strNews_Date.length) {
+            intNewsId = 0;
+        }
+    }
+
+    function get_news() {
+        $("#new_date").html('');
+        //$("#newtitle").html(strNews_Content[intNewsId]);
+        $("#spanTransTitle").html(strNews_Content[intNewsId]);
+        $("#newtitle").html($("#spanTransTitle").text());
+        $("#newtitle").attr({ href: strNews_Link[intNewsId] });
+    }
+
+    function Next_News() {
+        clearTimeout(intNewsTimerId);
+        if (intNewsId > strNews_Date.length - 1) {
+            intNewsId = 0;
+        }
+        news_timer();
+        intNewsTimerId = setInterval("news_timer()", intNewsSpeed);
+    }
+
+    function Previous_News() {
+        clearTimeout(intNewsTimerId);
+        intNewsId = intNewsId - 2;
+        if (intNewsId < 0) {
+            intNewsId = strNews_Date.length - 1;
+        }
+        news_timer();
+        intNewsTimerId = setInterval("news_timer()", intNewsSpeed);
+    }
+</script>
+                                </TD></TR><!-- <tr>
+                            <td height="8" colspan="3" align="left" valign="top"><img src="image/Rindex/1_1.gif" width="1" height="1" /></td>
+                          </tr>
+                          <tr>
+                            <td height="8" colspan="3" align="left" valign="top"><img src="image/Rindex/1_1.gif" width="1" height="1" /></td>
+                          </tr>--></TBODY></TABLE></TD>
+                            <TD vAlign="top" background="image/Rindex/Rindex_d.png" 
+                            width="41" align="left">&nbsp;</TD>
+                            <TD vAlign="top" width="296" align="left">
+                              <TABLE border="0" cellSpacing="0" cellPadding="0" 
+                              width="296" height="265">
+                                <TBODY>
+                                <TR>
+                                <TD height="7" vAlign="top" align="left"><IMG 
+                                src="image/Rindex/1_1.gif" width="1" 
+                                height="1"></TD></TR>
+                                <TR>
+                                <TD height="220" vAlign="top" align="left">
+                                <table  border="0" cellpadding="0" cellspacing="0" id="Flash"  >
+<tr><td align="center"><a target=_self href="javascript:goUrl()"> 
+<span >
+<script type="text/javascript">
+$$pic$$
+    var focus_width = 296
+    var focus_height = 220
+    var text_height = 30
+    var swf_height = focus_height + text_height
+
+    var pics = imgUrl1 + "|" + imgUrl2 + "|" + imgUrl3 + "|" + imgUrl4 + "|" + imgUrl5
+    var links = imgLink1 + "|" + imgLink2 + "|" + imgLink3 + "|" + imgLink4 + "|" + imgLink5
+    var texts = imgtext1 + "|" + imgtext2 + "|" + imgtext3 + "|" + imgtext4 + "|" + imgtext5
+
+    document.write('<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="' + focus_width + '" height="' + swf_height + '">');
+    document.write('<param name="allowScriptAccess" value="sameDomain"><param name="movie" value="http://lgwindow.sdut.edu.cn/images/index/focus.swf"><param name="quality" value="high"><param name="bgcolor" value="#F0F0F0">');
+    document.write('<param name="menu" value="false"><param name=wmode value="opaque">');
+    document.write('<param name="FlashVars" value="pics=' + pics + '&links=' + links + '&texts=' + texts + '&borderwidth=' + focus_width + '&borderheight=' + focus_height + '&textheight=' + text_height + '">');
+    document.write('<embed src="http://lgwindow.sdut.edu.cn/images/index/focus.swf" wmode="opaque" FlashVars="pics=' + pics + '&links=' + links + '&texts=' + texts + '&borderwidth=' + focus_width + '&borderheight=' + focus_height + '&textheight=' + text_height + '" menu="false" bgcolor="#F0F0F0" quality="high" width="' + focus_width + '" height="' + focus_height + '" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />');
+    document.write('</object>');</script>
+</span></a></td></tr></table></TD></TR><!--<tr>
+                            <td height="8" align="left" valign="top"><img src="image/Rindex/1_1.gif" width="1" height="1" /></td>
+                          </tr>
+                          <tr>
+                            <td height="8" align="left" valign="top"><img src="image/Rindex/1_1.gif" width="1" height="1" /></td>
+                          </tr>--></TBODY></TABLE></TD>
+                            <TD vAlign="top" background="image/Rindex/Rindex_d.png" 
+                            width="41" align="left">&nbsp;</TD>
+                            <TD vAlign="top" width="229" align="left">
+                              <TABLE border="0" cellSpacing="0" cellPadding="0" 
+                              width="229" height="265">
+                                <TBODY>
+                                <TR>
+                                <TD height="7" vAlign="top" colSpan="3" align="left"><IMG 
+                                src="image/Rindex/1_1.gif" width="1" 
+                                height="1"></TD></TR>
+                                <TR>
+                                <TD height="107" vAlign="top" colSpan="3" align="left">
+                                
+<TABLE border="0" cellSpacing="0" cellPadding="0" 
+                                width="229">
+                                <TBODY>
+                                <TR>
+                                <TD height="14" vAlign="top" width="115" align="left"><IMG 
+                                src="image/Rindex/Rindex_b3.png" width="115" 
+                                height="14"></TD>
+                                <TD height="14" vAlign="top" background="image/Rindex/Rindex_l.png" 
+                                width="63" align="left"><IMG src="image/Rindex/1_1.gif" 
+                                width="1" height="1"></TD>
+                                <TD height="14" vAlign="top" width="51" align="left"><A 
+                                onfocus="this.blur()" onMouseOver="MM_swapImage('Image48','','image/Rindex/Rindex_b3_22.png',1)" 
+                                onmouseout="MM_swapImgRestore()" href="http://oa.sdut.edu.cn/fullScreenNotice.action?id=2091" 
+                                target="_blank"><img src="image/Rindex/Rindex_b3_2.png" name="Image48" width="51" height="14" border="0" id="Image48" /></A></TD></TR></TBODY></TABLE>
+                                
+
+<div id="login">
+		<form id="loginForm1" name="loginForm1" method="post" action="http://my.sdut.edu.cn/loginPortalUrl.portal" target="_blank"> 
+<TABLE border="0" cellSpacing="0" cellPadding="0" 
+                                width="229">
+                                <TBODY>
+                                <TR>
+                                <TD height="14" vAlign="top" align="left"><IMG 
+                                src="image/Rindex/1_1.gif" width="1" 
+                                height="1"></TD></TR></TBODY></TABLE>
+                                
+
+<TABLE border="0" cellSpacing="0" cellPadding="0" 
+                                width="229">
+                                <TBODY>
+                                <TR>
+                                <TD height="20" vAlign="top" background="image/Rindex/Rindex_sh_b1.png" 
+                                width="6" align="left">&nbsp;</TD>
+                                <TD height="20" vAlign="top" width="21" align="left"><IMG 
+                                src="image/Rindex/1_1.gif" width="1" 
+                                height="1"></TD>
+                                <TD height="20" vAlign="top" background="image/Rindex/Rindex_sh_m11.png" 
+                                width="47" align="left">&nbsp;</TD>
+                                <TD height="20" vAlign="top" width="21" align="left"><IMG 
+                                src="image/Rindex/1_1.gif" width="1" 
+                                height="1"></TD>
+                                <TD height="20" vAlign="top" width="134" align="left"><input class="text_bg" type="text" name="userName"  eMsg=""  id="username" /></TD></TR></TBODY></TABLE>
+
+                                
+<TABLE border="0" cellSpacing="0" cellPadding="0" 
+                                width="229">
+                                <TBODY>
+                                <TR>
+                                <TD height="9" vAlign="top" align="left"><IMG 
+                                src="image/Rindex/1_1.gif" width="1" 
+                                height="1"></TD></TR></TBODY></TABLE>
+
+                                
+<TABLE border="0" cellSpacing="0" cellPadding="0" 
+                                width="229">
+                                <TBODY>
+                                <TR>
+                                <TD height="20" vAlign="top" background="image/Rindex/Rindex_sh_b1.png" 
+                                width="6" align="left">&nbsp;</TD>
+                                <TD height="20" vAlign="top" width="21" align="left"><IMG 
+                                src="image/Rindex/1_1.gif" width="1" 
+                                height="1"></TD>
+                                <TD height="20" vAlign="top" background="image/Rindex/Rindex_sh_m22.png" 
+                                width="47" align="left">&nbsp;</TD>
+                                <TD height="20" vAlign="top" width="21" align="left"><IMG 
+                                src="image/Rindex/1_1.gif" width="1" 
+                                height="1"></TD>
+                                <TD height="20" vAlign="top" width="134" align="left"><input class="text_bg" type="password" name="password" size="19px" /></TD></TR></TBODY></TABLE>
+
+
+                                <TABLE border="0" cellSpacing="0" cellPadding="0" 
+                                width="229">
+                                <TBODY>
+                                <TR>
+                                <TD height="9" vAlign="top" align="left"><IMG 
+                                src="image/Rindex/1_1.gif" width="1" 
+                                height="1"></TD></TR></TBODY></TABLE>
+                                
+<TABLE border="0" cellSpacing="0" cellPadding="0" 
+                                width="229">
+                                <TBODY>
+                                <TR>
+                                <TD height="21" vAlign="top" background="image/Rindex/Rindex_sh_b2.png" 
+                                width="6" align="left">&nbsp;</TD>
+                                <TD height="21" vAlign="top" width="21" align="left">&nbsp;</TD>
+                                <TD height="21" vAlign="top" width="47" align="left"><A 
+                                onfocus="this.blur()" onMouseOver="MM_swapImage('Image58','','image/Rindex/Rindex_sh_m33.png',1)" 
+                                onmouseout="MM_swapImgRestore()" href="http://my.sdut.edu.cn/getBackPassword.portal" 
+                                target="_blank"><IMG id="Image58" border="0" 
+                                name="Image58" src="image/Rindex/Rindex_sh_m3.png" 
+                                width="47" height="21"></A></TD>
+                                <TD height="21" vAlign="top" width="21" align="left">&nbsp;</TD>
+                                <TD height="21" vAlign="top" width="48" align="left"><input type="image" src="image/Rindex/Rindex_sh_d1.png" width="48" height="21" tabIndex="3" style="margin-left:25px;"/></TD>
+
+
+                                <TD height="21" vAlign="top" width="18" align="left"><IMG 
+                                src="image/Rindex/1_1.gif" width="1" 
+                                height="1"></TD>
+                                <TD height="21" vAlign="top" width="58" align="left"><IMG 
+                                src="image/Rindex/Rindex_sh_d2.png" onclick="reset1()" width="58" 
+                                height="21"></TD></TR></TBODY></TABLE></TD></TR>
+
+                                <TR>
+                                <TD height="19" vAlign="top" colSpan="3" align="left"><IMG 
+                                src="image/Rindex/1_1.gif" width="1" 
+                                height="1"></TD></TR>
+                                <TR>
+                                <TD height="14" vAlign="top" width="87" align="left"><IMG 
+                                src="image/Rindex/Rindex_b4_1.png" width="87" 
+                                height="14"></TD>
+                                <TD height="14" vAlign="top" background="image/Rindex/Rindex_l.png" 
+                                width="91" align="left"><IMG src="image/Rindex/1_1.gif" 
+                                width="1" height="1"></TD>
+                                <TD height="14" vAlign="top" width="51" align="left"><a href="#.html" onFocus="this.blur()" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image45','','image/Rindex/Rindex_b4_22.png',1)"><img src="image/Rindex/Rindex_b4_2.png" name="Image45" width="51" height="14" border="0" id="Image45" /></a><A 
+                                onfocus="this.blur()" onMouseOver="MM_swapImage('Image45','','image/Rindex/Rindex_b4_22.png',1)" 
+                                onmouseout="MM_swapImgRestore()" href="http://www.sdut.edu.cn/guozhu.html#.html"></A></TD></TR>
+                                <TR>
+                                <TD height="17" vAlign="top" colSpan="3" align="left"><IMG 
+                                src="image/Rindex/1_1.gif" width="1" 
+                                height="1"></TD></TR>
+                                <TR>
+                                <TD height="96" vAlign="top" colSpan="3" align="left">
+<SCRIPT type="text/javascript">
+    var swf_width = 229;
+    var swf_height = 96;
+    var config = '5|0xffffff|0x666666|80|0xffffff|0x666666|0x000000';
+    //-- config 参数设置 -- 自动播放时间(秒)|文字颜色|文字背景色|文字背景透明度|按键数字颜色|当前按键颜色|普通按键色彩 --
+    var files = '', links = '', texts = '';
+  files += '|image/Rindex/Rindex_zh2.png'; links += '|http://hfjs.sdut.edu.cn/';
+   files += '|image/Rindex/Rindex_zh1.png'; links += '|http://sysfzx.sdut.edu.cn/';
+	files += '|image/Rindex/Rindex_zh3.png'; links += '|http://lgwindow.sdut.edu.cn/topic/cyzxzt/';
+    files = files.substring(1); links = links.substring(1); texts = texts.substring(1);
+    document.write('<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="' + swf_width + '" height="' + swf_height + '">');
+    document.write('<param name="movie" value="image/focus.swf" />');
+    document.write('<param name="quality" value="high" />');
+    document.write('<param name="menu" value="false" />');
+    document.write('<param name=wmode value="opaque" />');
+    document.write('<param name="FlashVars" value="config=' + config + '&bcastr_flie=' + files + '&bcastr_link=' + links + '&bcastr_title=' + texts + '" />');
+    document.write('<embed src="image/focus.swf" wmode="opaque" FlashVars="config=' + config + '&bcastr_flie=' + files + '&bcastr_link=' + links + '&bcastr_title=' + texts + '& menu="false" quality="high" width="' + swf_width + '" height="' + swf_height + '" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />');
+    document.write('</object>');
+</SCRIPT>
+                                </TD></TR><!--     <tr>
+                            <td height="8" align="left" valign="top"><img src="image/Rindex/1_1.gif" width="1" height="1" /></td>
+                          </tr>
+                          <tr>
+                            <td height="8" colspan="3" align="left" valign="top"><img src="image/Rindex/1_1.gif" width="1" height="1" /></td>
+                          </tr>--></TBODY></TABLE></TD></TR></TBODY></TABLE>
+                        <TABLE border="0" cellSpacing="0" cellPadding="0" width="924">
+                          <TBODY>
+                          <TR>
+                            <TD height="13" vAlign="top" align="left"><IMG 
+                              src="image/Rindex/1_1.gif" width="1" height="1"></TD></TR></TBODY></TABLE></TD>
+                      <TD vAlign="top" background="image/Rindex/Rindex_452.png" 
+                      width="21" align="right">&nbsp;</TD></TR></TBODY></TABLE>
+                 
+ 
+ </div>
+ <div id=" bottom" style="background-image:url(image/Rindex/Rindex_6_r1_c1.png)">
+    <div style="width:966px; margin:0 auto auto auto" align="center">
+     <TABLE border="0" cellSpacing="0" cellPadding="0" width="966" 
+                  height="63">
+                    <TBODY>
+                    <TR>
+                      <TD align="left" vAlign="top" background="image/Rindex/Rindex_6_r1_c1.png"><img src="image/Rindex/bq.png" width="966" height="63" border="0" usemap="#Map" /></TD>
+                      </TR></TBODY></TABLE></TD>
+    </div>
+ 
+ </div>
+  
+ <map name="Map"><area shape="rect" coords="690,16,708,52" href="mailto:webmaster@sdut.edu.cn" target="_blank" />
+   <area shape="rect" coords="865,10,942,50" href="http://zibo.cyberpolice.cn/" target="_blank" onFocus="this.blur()" >
+   <area shape="rect" coords="690,13,708,49" href="mailto:webmaster@sdut.edu.cn" target="_blank" />
+ </map>
+</BODY>
+  </HTML>

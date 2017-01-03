@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>KinSlideshow默认设置效果代码</title>
+<script src="js/jquery-1.4a2.min.js" type="text/javascript"></script>
+<script src="js/jquery.KinSlideshow-1.2.1.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+
+//打开页面随机选择 切换方式（方向）,怕增大KinSlideshow.js文件 就没把随机切换写到里面。
+//使用时如有需要随机自己写在前面是一样的。而且还可以只固定随机切换哪几种。
+
+var moveStyle
+var rand =parseInt(Math.random()*4)
+switch(rand){
+	case 0:	moveStyle="left" ;break;
+	case 1:	moveStyle="right" ;break;
+	case 2:	moveStyle="down" ;break;
+	case 3:	moveStyle="up" ;break;
+}
+$(function(){
+	$("#KinSlideshow1").KinSlideshow({moveStyle:moveStyle});
+	
+})
+</script>
+<style type="text/css">
+#KinSlideshow{ overflow:hidden; width:686px; height:426px; margin:0px; position:absolute; left:0px; top:0px;}
+</style>
+
+</head>
+
+<body style="margin:0px;">
+    <div id="KinSlideshow1" style="visibility:hidden; position:absolute; left:0px; top:0px;">
+        <a href="http://" target="_blank"><img src="images/lunbo_1.jpg" title="这是标题一" alt="这是标题一" width="686" height="426" /></a>
+        <a href="http://m" target="_blank"><img src="images/yingxiang_lunhuan_img1_14.jpg" title="这是标题二" alt="这是标题二" width="686" height="426" /></a>
+        <a href="http://" target="_blank"><img src="images/yingxiang_lunhuan_img1_14.jpg" title="这是标题三" alt="这是标题三" width="686" height="426" /></a>
+        <a href="http://m" target="_blank"><img src="images/yingxiang_lunhuan_img1_14.jpg" title="这是标题四" alt="这是标题四" width="686" height="426" /></a>
+        <a href="http://om" target="_blank"><img src="images/yingxiang_lunhuan_img1_14.jpg" title="这是标题五" alt="这是标题五" width="686" height="426" /></a>
+        <a href="http://wom" target="_blank"><img src="images/yingxiang_lunhuan_img1_14.jpg" title="这是标题六" alt="这是标题六" width="686" height="426" /></a>
+    </div>
+       
+</body>
+</html>

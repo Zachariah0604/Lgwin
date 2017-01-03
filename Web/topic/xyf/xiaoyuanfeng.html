@@ -1,0 +1,325 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="css/xiaoyuanfeng.css"/>
+<link rel="stylesheet" type="text/css" href="css/xixi.css">
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/lrtk.js"></script>
+<script>
+function addfavorite()
+{
+   if (document.all)
+   {
+      window.external.addFavorite('http://lgwindow.sdut.edu.cn','山东理工大学新闻网');
+   }
+   else if (window.sidebar)
+   {
+      window.sidebar.addPanel('山东理工大学新闻网', 'http://lgwindow.sdut.edu.cn', "");
+   }
+} 
+</script>
+<title>校园风</title>
+</head>
+
+<body>
+<div id="all">
+  <div id="toplink"><!--<a href="#" target="_blank">学校首页</a><a href="#" target="_blank">新闻网首页</a> 
+     <div style="width:100px; float:right;"><a href="#" onclick="javascript:window.external.AddFavorite('http://lgwindow.sdut.edu.cn','山东理工大学新闻网')" title="收藏本站到你的收藏夹">加入收藏</a></div>-->
+     <table height="25px">
+     	<tr>
+        	<td width="80" align="right"><a href="http://www.sdut.edu.cn" target="_blank">学校首页</a></td>
+            <td width="80" align="right"><a href="http://lgwindow.sdut.edu.cn" target="_blank">新闻网首页</a></td>
+            <td width="810" align="right"><a href="#" onclick="addfavorite()">加入收藏</a></td>
+        </tr>
+     </table>
+  </div>
+  <div id="top">
+    <div id="daohang">
+      <div id="daohang_1"><a href="#" target="_blank"><img src="images/shouye.png" onmouseover="this.src='images/shouye1.png'" onmouseout="this.src='images/shouye.png'" /></a></div>
+      <div id="daohang_2"><a href="#" target="_blank"><img src="images/zhengwen.png" onmouseover="this.src='images/zhengwen1.png';document.getElementById('zhengwen_more').style.visibility='visible'" onmouseout="this.src='images/zhengwen.png';document.getElementById('zhengwen_more').style.visibility='hidden'" /></a></div>
+      <div id="daohang_3"><a href="#" target="_blank"><img src="images/sheying.png" onmouseover="this.src='images/sheying1.png'" onmouseout="this.src='images/sheying.png'" /></a></div>
+      <div id="daohang_4"><a href="#" target="_blank"><img src="images/zhizuo.png" onmouseover="this.src='images/zhizuo1.png'" onmouseout="this.src='images/zhizuo.png'" /></a></div>
+    </div>
+  </div>
+  <div style="position:relative; height:1px; width:1000px; overflow:visible;">
+      <div id="zhengwen_more" onmouseover="this.style.visibility='visible'" onmouseout="this.style.visibility='hidden'" style="position:absolute; width:240px; height:35px; line-height:35px; font-size:14px; right:150px; visibility:hidden;">
+            <a href="#" target="_blank">追踪报道</a> 
+            <a href="#" target="_blank">视点杂谈</a> 
+            <a href="#" target="_blank">人物通讯</a> 
+            <a href="#" target="_blank">美文欣赏</a>
+      </div>
+  </div>
+  <div id="middle">
+    <div id="left">
+      <div>
+        <div id="bisaitongzhi_t"></div>
+        <div id="bisaitongzhi_m">
+          <div id="bisaim_t"></div>
+          <div id="bisaim_m">
+            <ul>
+              <li><a href="#" target="_blank">征文比赛正式开始！</a></li>
+              <li><a href="#" target="_blank">两个奥运 同样精彩 人民报圆梦记</a></li>
+              <li><a href="#" target="_blank">人民网记者现场带来残奥会精彩报道</a></li>
+              <li><a href="#" target="_blank">北京2008残奥会火炬传递海外</a></li>
+              <li><a href="#" target="_blank">《五环旗下的中国》全景记录北京奥运</a></li>
+              <li><a href="#" target="_blank">奥运日送水果万余斤</a></li>
+            </ul>
+          </div>
+          <div id="bisaim_b"></div>
+        </div>
+      </div>
+      <div>
+        <div id="shipin_t"><img src="images/shipin.png" /></div>
+        <div id="shipin_m"><img src="images/temp.jpg" /></div>
+        <div id="shipin_b">
+          <ul>
+            <li><a href="#" target="_blank">互联网，因为有你奥运更精彩</a></li>
+            <li><a href="#" target="_blank">中国军团里最可爱的人</a></li>
+            <li><a href="#" target="_blank">人鱼女孩云梦记</a></li>
+            <li><a href="#" target="_blank">香草杯手机摄影</a></li>
+            <li><a href="#" target="_blank">记者带来奥运现场直播</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="right">
+      <div id="zuizong">
+        <div id="zuizong_t">
+        	<div id="zuizong_tf"><a href="#" target="_blank" class="more" style="color:#42B436;">more>></a></div>
+        </div>
+        <div id="zuizong_m">
+          <div>
+            <div id="z_content" class="z_content"></div>
+            <div id="z_content2" class="z_content2"><a href="#" target="_blank">如何应用网络文学</a></div>
+            <div id="z_content3" class="z_content3">[05-27]</div>
+          </div>
+          <div>
+            <div id="z_content" class="z_content"></div>
+            <div id="z_content2" class="z_content2"><a href="#" target="_blank">手机用户破百万 节目精彩看 随时与我百万 节目精彩看 随时与我们联通百万 节目精彩看 随时与我们联通们联通</a></div>
+            <div id="z_content3" class="z_content3">[05-27]</div>
+          </div>
+          <div>
+            <div id="z_content" class="z_content"></div>
+            <div id="z_content2" class="z_content2"><a href="#" target="_blank">就这样止步 我们从零开始</a></div>
+            <div id="z_content3" class="z_content3">[05-27]</div>
+          </div>
+          <div>
+            <div id="z_content" class="z_content"></div>
+            <div id="z_content2" class="z_content2"><a href="#" target="_blank">中国教练执教外国队是不爱国吗</a></div>
+            <div id="z_content3" class="z_content3">[05-27]</div>
+          </div>
+          <div>
+            <div id="z_content" class="z_content"></div>
+            <div id="z_content2" class="z_content2"><a href="#" target="_blank">中国姑娘逆境分歧获铜牌</a></div>
+            <div id="z_content3" class="z_content3">[05-27]</div>
+          </div>
+          <div>
+            <div id="z_content" class="z_content"></div>
+            <div id="z_content2" class="z_content2"><a href="#" target="_blank">伦敦奥运会揭开帷幕</a></div>
+            <div id="z_content3" class="z_content3">[05-27]</div>
+          </div>
+        </div>
+      </div>
+      <div id="zatan">
+        <div id="zatan_t">
+          		<div id="zatan_tf"><a href="#" target="_blank" class="more" style="color:#4D5883;">more>></a></div>        
+        </div>
+        <div id="zatan_m">
+          <div id="zatan_ml"></div>
+          <div id="zatan_mm">
+            <div>
+              <div id="z_content" class="z_content"></div>
+              <div id="z_content2" class="z_content2"><a href="#" target="_blank">国内资本现出逃现象</a></div>
+              <div id="z_content3" class="z_content3">[05-27]</div>
+            </div>
+            <div>
+              <div id="z_content" class="z_content"></div>
+              <div id="z_content2" class="z_content2"><a href="#" target="_blank">存量基金博弈 基金超配沦为反向指标 季末专题</a></div>
+              <div id="z_content3" class="z_content3">[05-27]</div>
+            </div>
+            <div>
+              <div id="z_content" class="z_content"></div>
+              <div id="z_content2" class="z_content2"><a href="#" target="_blank">国办发文整顿交易市场 六情况划入整理范围</a></div>
+              <div id="z_content3" class="z_content3">[05-27]</div>
+            </div>
+            <div>
+              <div id="z_content" class="z_content"></div>
+              <div id="z_content2" class="z_content2"><a href="#" target="_blank">房地产贷款增速两年来首次回升 中海竞得天津新地王</a></div>
+              <div id="z_content3" class="z_content3">[05-27]</div>
+            </div>
+            <div>
+              <div id="z_content" class="z_content"></div>
+              <div id="z_content2" class="z_content2"><a href="#" target="_blank">3步快速注册企业微博 浙商全国500强</a></div>
+              <div id="z_content3" class="z_content3">[05-27]</div>
+            </div>
+          </div>
+          <div id="zatan_mr"></div>
+        </div>
+      </div>
+      <div id="renwu">
+        <div id="renwu_t">          
+          	 <div id="renwu_tf"><a href="#" target="_blank" class="more" style="color:#5E86A8;">more>></a></div>
+        </div>
+        <div id="renwu_m">
+          <div id="renwu_ml"></div>
+          <div id="renwu_mm">
+            <div id="renwu_mmt">
+              <div id="renwu_mmtpic"><img src="images/renwu_pic.jpg" /></div>
+              <div id="renwu_mmtcont">财富自动缩水不只是梁稳根一个人的库逆境财富自动缩水不只是梁稳根一个人的库逆境财富自动缩水不只是梁稳根一个人的库逆境财富自动缩水不只是梁稳根一个人的库逆境财富自动缩水不只是梁稳根一个人的库逆境财富自动缩水不只是梁稳根一个人的库逆境……<a href="#" target="_blank">【详细】</a></div>
+            </div>
+            <div class="r_left">
+              <div>
+                <div class="r_content"></div>
+                <div class="r_content2"><a href="#" target="_blank">追忆似水年华的脚步</a></div>
+                <div class="r_content3">[05-28]</div>
+              </div>
+              <div>
+                <div class="r_content"></div>
+                <div class="r_content2"><a href="#" target="_blank">大学期末打响突击保卫战</a></div>
+                <div class="r_content3">[05-28]</div>
+              </div>
+              <div>
+                <div class="r_content"></div>
+                <div class="r_content2"><a href="#" target="_blank">浅显的语言 平易的历史</a></div>
+                <div class="r_content3">[05-28]</div>
+              </div>
+            </div>
+            <div class="r_left">
+              <div>
+                <div class="r_content"></div>
+                <div class="r_content2"><a href="#" target="_blank">我的Acm生涯</a></div>
+                <div class="r_content3">[05-28]</div>
+              </div>
+              <div>
+                <div class="r_content"></div>
+                <div class="r_content2"><a href="#" target="_blank">校学生会教师节拜访教师</a></div>
+                <div class="r_content3">[05-28]</div>
+              </div>
+              <div>
+                <div class="r_content"></div>
+                <div class="r_content2"><a href="#" target="_blank">三尺生涯</a></div>
+                <div class="r_content3">[05-28]</div>
+              </div>
+            </div>
+          </div>
+          <div id="renwu_mr"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="meiwen">
+    <div id="meiwen_l"></div>
+    <div id="meiwen_m">
+      <div id="meiwen_mt" class="meiwen_mrt"><img src="images/meiwen.png" align="left" /></div>
+      <div>
+        <div class="m_content"></div>
+        <div class="m_content2"><a href="#" target="_blank">蒲草韧如丝 磐石无转移</a></div>
+        <div class="m_content3">[05-29]</div>
+      </div>
+      <div>
+        <div class="m_content"></div>
+        <div class="m_content2"><a href="#" target="_blank">这一站说再见</a></div>
+        <div class="m_content3">[05-29]</div>
+      </div>
+      <div>
+        <div class="m_content"></div>
+        <div class="m_content2"><a href="#" target="_blank">繁华落尽 空留余香</a></div>
+        <div class="m_content3">[05-29]</div>
+      </div>
+      <div>
+        <div class="m_content"></div>
+        <div class="m_content2"><a href="#" target="_blank">你是我的细小 我是你的不忘</a></div>
+        <div class="m_content3">[05-29]</div>
+      </div>
+      <div>
+        <div class="m_content"></div>
+        <div class="m_content2"><a href="#" target="_blank">只为触摸你的指尖</a></div>
+        <div class="m_content3">[05-29]</div>
+      </div>
+    </div>
+    <div id="meiwen_r">
+      <div class="meiwen_mrt"><a href="#" target="_blank">more>></a></div>
+    </div>
+  </div>
+  <div id="zhanqh">
+    <div id="zhanqh_z">
+      <div id="zhanqh_zz">
+        <div id="zhanqh_zzt" class="com_juzhong"><img src="images/zhanqi.jpg" /></div>
+        <div id="zhanqh_zzb" class="com_juzhong"><a href="#" target="_blank"><img src="images/button_more.jpg" border="0" /></a></div>
+      </div>
+      <div class="zhanqh_cy">
+        <div class="zhanqh_cyone">
+          <div class="zhanqh_cyone_t"></div>
+          <div class="zhanqh_cyone_m"><img src="images/kenuoer.jpg" /></div>
+          <div class="zhanqh_cyone_b"></div>
+        </div>
+        <div class="zhanqh_cytwo">
+          <div class="zhanqh_cyone_t"></div>
+          <div class="zhanqh_cyone_m"><img src="images/kenuoer2.jpg" /></div>
+          <div class="zhanqh_cyone_b"></div>
+        </div>
+        <div class="zhanqh_cythr"><span>设计说明：</span>这幅站旗风格简洁洁旗旗风旗风洁旗旗风风站旗风格简……<a href="#" target="_blank">【详细】</a></div>
+        <div class="zhanqh_cyfou"><span>设计说明：</span>这幅站旗风格洁旗旗风洁洁旗旗风幅站旗风风站旗风格简……<a href="#" target="_blank">【详细】</a></div>
+      </div>
+    </div>
+    <div id="zhanqh_y">
+      <div id="zhanqh_yz">
+        <div id="zhanqh_yzt" class="com_juzhong"><img src="images/zhanqi.jpg" /></div>
+        <div id="zhanqh_yzb" class="com_juzhong"><a href="#" target="_blank"><img src="images/button_more.jpg" border="0" /></a></div>
+      </div>
+      <div class="zhanqh_cy">
+        <div class="zhanqh_cyone">
+          <div class="zhanqh_cyone_t"></div>
+          <div class="zhanqh_cyone_m"><img src="images/xiaohui1.jpg" /></div>
+          <div class="zhanqh_cyone_b"></div>
+        </div>
+        <div class="zhanqh_cytwo">
+          <div class="zhanqh_cyone_t"></div>
+          <div class="zhanqh_cyone_m"><img src="images/xiaohui2.jpg" /></div>
+          <div class="zhanqh_cyone_b"></div>
+        </div>
+        <div class="zhanqh_cythr"><span>设计说明：</span>这幅站旗风格洁旗旗洁旗旗风简洁幅站旗风风站旗风格简……<a href="#" target="_blank">【详细】</a></div>
+        <div class="zhanqh_cyfou"><span>设计说明：</span>这幅站旗风格简洁旗旗风洁旗旗风幅站旗风风站旗风格简……<a href="#" target="_blank">【详细】</a></div>
+      </div>
+    </div>
+  </div>
+  <div id="sheying">
+    <div id="sheying_top2"></div>
+    <div id="sheying_top">
+      <div id="sheying_topl"><img src="images/sheying.png" /></div>
+      <div id="sheying_topr"><img src="images/sheying_dlxs.png" /></div>
+    </div>
+    <div id="sheying_m">
+      <div id="sheying_ml">
+        <div class="sheying_pic"><a href="#" target="_blank"><img src="images/temp_1.jpg" /></a></div>
+        <div class="sheying_pic"><a href="#" target="_blank"><img src="images/temp_1.jpg" /></a></div>
+        <div class="sheying_pic"><a href="#" target="_blank"><img src="images/temp_1.jpg" /></a></div>
+        <div class="sheying_pic"><a href="#" target="_blank"><img src="images/temp_1.jpg" /></a></div>
+      </div>
+      <div id="sheying_mm">
+        <div class="focus">
+          <ul class="rslides f426x240">
+            <li><a href="#" target="_blank"><img src="images/01.jpg" alt="懒人图库全新改版" /></a></li>
+            <li><a href="#" target="_blank"><img src="images/02.jpg" alt="JS代码" /></a></li>
+            <li><a href="#" target="_blank"><img src="images/03.jpg" alt="读。书。" /></a></li>
+            <li><a href="#" target="_blank"><img src="images/04.jpg" alt="网页背景" /></a></li>
+            <li><a href="#" target="_blank"><img src="images/05.jpg" alt="掀起兔斯基主义运动新高潮" /></a></li>
+          </ul>
+        </div>
+      </div>
+      <div id="sheying_mr">
+        <div class="sheying_pic"><a href="#" target="_blank"><img src="images/temp_1.jpg" /></a></div>
+        <div class="sheying_pic"><a href="#" target="_blank"><img src="images/temp_1.jpg" /></a></div>
+        <div class="sheying_pic"><a href="#" target="_blank"><img src="images/temp_1.jpg" /></a></div>
+        <div class="sheying_pic"><a href="#" target="_blank"><img src="images/temp_1.jpg" /></a></div>
+      </div>
+    </div>
+  </div>
+  <div id="footer"> <span><a href="http://lgwindow.sdut.edu.cn/News/26263.html" target="_blank">关于我们</a></span> <span><a href="http://lgwindow.sdut.edu.cn/News/26262.html" target="_blank">新闻热线</a></span> <span><a href="http://lgwindow.sdut.edu.cn/TouGao/TouGao.aspx" target="_blank">在线投稿</a></span> <span><a href="http://lgwindow.sdut.edu.cn/karat/" target="_blank">诚招英才</a></span> <span><a href="http://lgwindow.sdut.edu.cn/News/26264.html" target="_blank">版权声明</a></span>
+    <hr />
+    版权所有　　&copy;山东理工大学新闻中心网络部　　地址：山东省淄博市张店区张周路12号<br />
+    邮编：255049　　联系电话：0533-2786727　　Designed by:<a href="http://lgwindow.sdut.edu.cn/karat/" target="_blank">卡瑞特工作室</a> </div>
+</div>
+</body>
+</html>

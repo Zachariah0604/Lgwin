@@ -1,0 +1,169 @@
+body {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+	margin-top: 0px;
+}
+
+img {border:none;
+}
+/*=========================栏目结束==========================*/
+
+
+/*=========================超链接==========================*/
+a 
+ {
+	text-decoration: none;
+	color: #000000;
+	font-size: 14px;
+}
+a:visited
+{
+	text-decoration: none;
+	color: #000000;
+	font-size: 14px;
+}
+a:hover {
+	color: #444444;
+}
+a:active {
+	text-decoration: none;
+}
+.Bord {
+	border: solid #d1d1d1 1px;
+	margin-top: 2px;
+}
+.time {
+	float: right;
+	width: 60px;
+	font-size: 12px;
+	color: #999999;
+}
+.NewsList   {
+	FONT-SIZE: 13px;
+	TEXT-ALIGN: left;
+	background-image: url(list.jpg);
+	padding-left: 20px;
+	background-repeat: no-repeat;
+	line-height: 25px;
+}
+.NewsList    A:link   {
+	text-decoration: none;
+	color: #333333;
+}
+.NewsList   A:hover   {
+	color: #000000;
+}
+
+.TitleBig {
+	height: 22px;
+	color: #286cbf;
+	font-weight: bold;
+	padding-left: 30px;
+	padding-top: 6px;
+	float: left;
+	font-size:14px;
+}
+.TitlePic {
+	background-image: url(titleBg.jpg);
+	background-repeat: no-repeat;
+	height: 25px;
+	overflow: hidden;
+}
+
+.TitleBig A {
+	color: #002F8E;
+
+}
+
+
+
+#Top1 {
+	border: solid #d1d1d1 1px;
+background-image:url(dinglan.jpg);
+	height: 25px;
+	overflow: hidden;
+	width: 998px;
+}
+#Top1 .top_2 {
+	margin-left: 15px;
+	font-size:13px;
+	color:#858383;
+}
+
+#Top2  {
+	width: 100%;
+	margin-top: 3px;
+	height: 135px;
+	overflow: hidden;
+}
+#menu/*=========================超链接结束==========================*/
+
+/*=========================导航==========================*/
+
+ {
+	WIDTH: 1000px;
+background-image:none;
+background-repeat:repeat-x;
+height:26px;
+padding-top:6px;
+}
+#menu  span{
+	margin-right:25px;
+}
+#menu  span a{
+	font-size:9pt;
+	color:#FFF;
+	font-family:"新宋体";
+}
+#menu span A:hover  {
+	TEXT-DECORATION: none;
+	text-decoration:underline;
+}
+#Footer {
+	width: 100%;
+	height:81px;
+}
+#footer1 {
+	float:left;
+	width:850px;
+	height:71px;
+	background-image:none;
+	background-repeat:no-repeat;
+	padding-top:10px;
+	color:#707070;
+}
+#footer2 {
+	float:left;
+	width:76px;
+	height:81px;
+}
+#footer3 {
+	width:850px;
+	float:left;
+	padding-top:10px;
+	text-align:center;
+	font-size:12px;
+	color:#286cbf;
+	line-height:1.6em;
+	padding-left:47px;
+	color:#000000;
+
+}#Footer #footer1 #footer3 a {
+	font-size:12px;
+	color:#000000;
+}
+#Footer #footer1 div table tr td a {
+	font-size:12px;
+	color:#000000;
+}
+#Tongzhi a {
+	font-size:12px;
+}
+#menu table tr td a {
+	color:#0b69c0;
+}
+#foot1-1 {
+	background-image:none;
+	background-repeat: no-repeat;
+}

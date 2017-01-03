@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>活动动态</title>
+<link href="TopFooter.css" rel="stylesheet" type="text/css" />
+<link href="main.css" rel="stylesheet" type="text/css" />
+
+<script src="Scripts/swfobject_modified.js" type="text/javascript"></script>
+<SCRIPT type=text/javascript>
+    function $(id) { return document.getElementById(id) }
+    function show(id, jiange, qihuan) {
+        this.now = 0;
+        this.style_num = 0;
+        this.div = document.getElementById(id);
+        this.ttstyle = new Array();
+        this.ttstyle[0] = "progid:DXImageTransform.Microsoft.RandomDissolve()";
+        this.ttstyle[1] = "progid:DXImageTransform.Microsoft.Iris(irisStyle='star', motion='out')";
+        this.ttstyle[2] = "progid:DXImageTransform.Microsoft.Stretch(stretchStyle='push')";
+        this.ttstyle[3] = "progid:DXImageTransform.Microsoft.Stretch(stretchStyle='pop')";
+        this.ttstyle[4] = "progid:DXImageTransform.Microsoft.Fade(overlap=0)";
+        this.ttstyle[5] = "progid:DXImageTransform.Microsoft.GradientWipe(gradientSize=0.25,motion=forward )";
+        this.ttstyle[6] = "progid:DXImageTransform.Microsoft.Wheel(spokes=16)";
+        this.ttstyle[7] = "progid:DXImageTransform.Microsoft.RadialWipe(wipeStyle=CLOCK)";
+        this.ttstyle[8] = "progid:DXImageTransform.Microsoft.RandomBars(orientation=vertical)";
+        this.ttstyle[9] = "progid:DXImageTransform.Microsoft.Blinds(bands=20)";
+        this.ttstyle[10] = "progid:DXImageTransform.Microsoft.Checkerboard(squaresX=20,squaresY=20)";
+        this.ttstyle[11] = "progid:DXImageTransform.Microsoft.Strips(motion=rightdown)";
+        this.ttstyle[12] = "progid:DXImageTransform.Microsoft.Slide(slideStyle=push)";
+        this.ttstyle[13] = "progid:DXImageTransform.Microsoft.Spiral(gridSizeX=40,gridSizeY=40)";
+        this.ttstyle[14] = "progid:DXImageTransform.Microsoft.RevealTrans(transition=23)";
+
+
+
+        this.alist = new Array();
+        this.alist = this.div.getElementsByTagName("a");
+        this.num = this.alist.length;
+
+
+        this.Play = function () {
+            //alert(this.now);
+            this.div.style.filter = this.ttstyle[this.style_num];
+            this.div.filters.item(0).duration = qihuan;
+            this.div.filters.item(0).Apply();
+            for (var i = 0; i < this.num; i++) {
+                if (i == this.now) {
+                    //设置按钮样式
+                    $("but" + i).className = "but2";
+                    this.alist[i].style.display = "block";
+                }
+                else {
+                    //设置按钮样式
+                    $("but" + i).className = "but1";
+                    this.alist[i].style.display = "none";
+                }
+            }
+            this.div.filters.item(0).Play();
+
+
+
+            this.now++;
+            this.style_num++;
+            if (this.now == this.num)
+                this.now = 0;
+            if (this.style_num == this.ttstyle.length)
+                this.style_num = 0;
+            //return;
+        };
+
+        this.autoPlay = function () {
+            this.sit = setInterval("show" + id + ".Play()", jiange);
+
+
+        };
+    }
+</SCRIPT>
+</head>
+
+<body>
+<div id="pic">
+	<div id="pic_1"></div>
+	<div id="pic_2">
+	  	<div style="width:61px; height:215px; float:left"><img src="images/index/index_10.jpg" width="61" height="215" /></div>
+	  	<div style="width:319px; height:215px; float:left">
+         <div id="buts"><a id="but0" class="but1" onmouseover=javascript:showout1.now=0;showout1.Play(); href="#"><img %%pic_1%% width="64" height="46"></a> <a id="but1" class="but1" onmouseover=javascript:showout1.now=1;showout1.Play(); href="#"><img %%pic_2%% width="64" height="46"></a> <a id="but2" class="but1" onmouseover=javascript:showout1.now=2;showout1.Play(); href="#"><img %%pic_3%% width="64" height="46"></a> <a id="but3" class="but1" onmouseover=javascript:showout1.now=3;showout1.Play(); href="#"><img %%pic_4%% width="64" height="46"></a><a id="but4" class="but1" onmouseover=javascript:showout1.now=4;showout1.Play(); href="#"><img %%pic_5%% width="64" height="46"></a> </div>
+
+    <div id=out1 onmouseover=javascript:clearInterval(showout1.sit); 
+onmouseout=javascript:showout1.autoPlay();>
+%%title_pic%%</div>
+<script language=javascript type=text/javascript>
+    var showout1 = new show("out1", 3000, "0.5");
+    showout1.Play();
+    showout1.autoPlay();
+</script></div>
+    	<div style="width:33px; height:215px; float:left"><img src="images/index/index_12.jpg" width="33" height="215" /></div></div>
+    <div id="pic_3"></div></div>
+</body>
+</html>

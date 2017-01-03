@@ -1,0 +1,108 @@
+C:\Users\Administrator\Desktop\Lgwin\BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Lgwin\BLL\bin\Debug\Lgwin.BLL.dll
+C:\Users\Administrator\Desktop\Lgwin\BLL\bin\Debug\Lgwin.BLL.pdb
+C:\Users\Administrator\Desktop\Lgwin\BLL\bin\Debug\Lgwin.DALFactory.dll
+C:\Users\Administrator\Desktop\Lgwin\BLL\bin\Debug\Lgwin.IDAL.dll
+C:\Users\Administrator\Desktop\Lgwin\BLL\bin\Debug\Lgwin.Model.dll
+C:\Users\Administrator\Desktop\Lgwin\BLL\bin\Debug\Lgwin.DALFactory.pdb
+C:\Users\Administrator\Desktop\Lgwin\BLL\bin\Debug\Lgwin.IDAL.pdb
+C:\Users\Administrator\Desktop\Lgwin\BLL\bin\Debug\Lgwin.Model.pdb
+C:\Users\Administrator\Desktop\Lgwin\BLL\obj\Debug\Lgwin.BLL.dll
+C:\Users\Administrator\Desktop\Lgwin\BLL\obj\Debug\Lgwin.BLL.pdb
+E:\Lgwin\Lgwin\BLL\bin\Debug\Lgwin.BLL.dll
+E:\Lgwin\Lgwin\BLL\bin\Debug\Lgwin.BLL.pdb
+E:\Lgwin\Lgwin\BLL\bin\Debug\Lgwin.DALFactory.dll
+E:\Lgwin\Lgwin\BLL\bin\Debug\Lgwin.IDAL.dll
+E:\Lgwin\Lgwin\BLL\bin\Debug\Lgwin.Model.dll
+E:\Lgwin\Lgwin\BLL\bin\Debug\Lgwin.DALFactory.pdb
+E:\Lgwin\Lgwin\BLL\bin\Debug\Lgwin.IDAL.pdb
+E:\Lgwin\Lgwin\BLL\bin\Debug\Lgwin.Model.pdb
+E:\Lgwin\Lgwin\BLL\obj\Debug\ResolveAssemblyReference.cache
+E:\Lgwin\Lgwin\BLL\obj\Debug\Lgwin.BLL.dll
+E:\Lgwin\Lgwin\BLL\obj\Debug\Lgwin.BLL.pdb
+E:\Lgwin7-11\Lgwin\BLL\bin\Debug\Lgwin.BLL.dll
+E:\Lgwin7-11\Lgwin\BLL\bin\Debug\Lgwin.BLL.pdb
+E:\Lgwin7-11\Lgwin\BLL\bin\Debug\Lgwin.DALFactory.dll
+E:\Lgwin7-11\Lgwin\BLL\bin\Debug\Lgwin.IDAL.dll
+E:\Lgwin7-11\Lgwin\BLL\bin\Debug\Lgwin.Model.dll
+E:\Lgwin7-11\Lgwin\BLL\bin\Debug\Lgwin.DALFactory.pdb
+E:\Lgwin7-11\Lgwin\BLL\bin\Debug\Lgwin.IDAL.pdb
+E:\Lgwin7-11\Lgwin\BLL\bin\Debug\Lgwin.Model.pdb
+E:\Lgwin7-11\Lgwin\BLL\obj\Debug\ResolveAssemblyReference.cache
+E:\Lgwin7-11\Lgwin\BLL\obj\Debug\Lgwin.BLL.dll
+E:\Lgwin7-11\Lgwin\BLL\obj\Debug\Lgwin.BLL.pdb
+G:\网站源码--勿动\张水生\Lgwin\BLL\bin\Debug\Lgwin.BLL.dll
+G:\网站源码--勿动\张水生\Lgwin\BLL\bin\Debug\Lgwin.BLL.pdb
+G:\网站源码--勿动\张水生\Lgwin\BLL\bin\Debug\Lgwin.DALFactory.dll
+G:\网站源码--勿动\张水生\Lgwin\BLL\bin\Debug\Lgwin.IDAL.dll
+G:\网站源码--勿动\张水生\Lgwin\BLL\bin\Debug\Lgwin.Model.dll
+G:\网站源码--勿动\张水生\Lgwin\BLL\bin\Debug\Lgwin.SqlDAL.dll
+G:\网站源码--勿动\张水生\Lgwin\BLL\bin\Debug\Lgwin.DBUtility.dll
+G:\网站源码--勿动\张水生\Lgwin\BLL\bin\Debug\Lgwin.DALFactory.pdb
+G:\网站源码--勿动\张水生\Lgwin\BLL\bin\Debug\Lgwin.IDAL.pdb
+G:\网站源码--勿动\张水生\Lgwin\BLL\bin\Debug\Lgwin.Model.pdb
+G:\网站源码--勿动\张水生\Lgwin\BLL\bin\Debug\Lgwin.SqlDAL.pdb
+G:\网站源码--勿动\张水生\Lgwin\BLL\bin\Debug\Lgwin.DBUtility.pdb
+G:\网站源码--勿动\张水生\Lgwin\BLL\obj\Debug\ResolveAssemblyReference.cache
+G:\网站源码--勿动\张水生\Lgwin\BLL\obj\Debug\Lgwin.BLL.dll
+G:\网站源码--勿动\张水生\Lgwin\BLL\obj\Debug\Lgwin.BLL.pdb
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\BLL\bin\Debug\Lgwin.BLL.dll
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\BLL\bin\Debug\Lgwin.BLL.pdb
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\BLL\bin\Debug\Lgwin.DALFactory.dll
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\BLL\bin\Debug\Lgwin.IDAL.dll
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\BLL\bin\Debug\Lgwin.Model.dll
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\BLL\bin\Debug\Lgwin.SqlDAL.dll
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\BLL\bin\Debug\Lgwin.DBUtility.dll
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\BLL\bin\Debug\Lgwin.DALFactory.pdb
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\BLL\bin\Debug\Lgwin.IDAL.pdb
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\BLL\bin\Debug\Lgwin.Model.pdb
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\BLL\bin\Debug\Lgwin.SqlDAL.pdb
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\BLL\bin\Debug\Lgwin.DBUtility.pdb
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\BLL\obj\Debug\ResolveAssemblyReference.cache
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\BLL\obj\Debug\Lgwin.BLL.dll
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\BLL\obj\Debug\Lgwin.BLL.pdb
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\BLL\bin\Debug\Lgwin.BLL.dll
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\BLL\bin\Debug\Lgwin.BLL.pdb
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\BLL\bin\Debug\Lgwin.DALFactory.dll
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\BLL\bin\Debug\Lgwin.IDAL.dll
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\BLL\bin\Debug\Lgwin.Model.dll
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\BLL\bin\Debug\Lgwin.SqlDAL.dll
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\BLL\bin\Debug\Lgwin.DBUtility.dll
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\BLL\bin\Debug\Lgwin.DALFactory.pdb
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\BLL\bin\Debug\Lgwin.IDAL.pdb
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\BLL\bin\Debug\Lgwin.Model.pdb
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\BLL\bin\Debug\Lgwin.SqlDAL.pdb
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\BLL\bin\Debug\Lgwin.DBUtility.pdb
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\BLL\obj\Debug\Lgwin.BLL.dll
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\BLL\obj\Debug\Lgwin.BLL.pdb
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\BLL\bin\Debug\Lgwin.BLL.dll
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\BLL\bin\Debug\Lgwin.BLL.pdb
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\BLL\bin\Debug\Lgwin.DALFactory.dll
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\BLL\bin\Debug\Lgwin.IDAL.dll
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\BLL\bin\Debug\Lgwin.Model.dll
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\BLL\bin\Debug\Lgwin.SqlDAL.dll
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\BLL\bin\Debug\Lgwin.DBUtility.dll
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\BLL\bin\Debug\Lgwin.DALFactory.pdb
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\BLL\bin\Debug\Lgwin.IDAL.pdb
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\BLL\bin\Debug\Lgwin.Model.pdb
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\BLL\bin\Debug\Lgwin.SqlDAL.pdb
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\BLL\bin\Debug\Lgwin.DBUtility.pdb
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\BLL\obj\Debug\Lgwin.BLL.dll
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\BLL\obj\Debug\Lgwin.BLL.pdb
+D:\Program Files\Vs Projects\Lgwin\BLL\bin\Debug\Lgwin.BLL.dll
+D:\Program Files\Vs Projects\Lgwin\BLL\bin\Debug\Lgwin.BLL.pdb
+D:\Program Files\Vs Projects\Lgwin\BLL\bin\Debug\Lgwin.DALFactory.dll
+D:\Program Files\Vs Projects\Lgwin\BLL\bin\Debug\Lgwin.IDAL.dll
+D:\Program Files\Vs Projects\Lgwin\BLL\bin\Debug\Lgwin.Model.dll
+D:\Program Files\Vs Projects\Lgwin\BLL\bin\Debug\Lgwin.SqlDAL.dll
+D:\Program Files\Vs Projects\Lgwin\BLL\bin\Debug\Lgwin.DBUtility.dll
+D:\Program Files\Vs Projects\Lgwin\BLL\bin\Debug\Lgwin.DALFactory.pdb
+D:\Program Files\Vs Projects\Lgwin\BLL\bin\Debug\Lgwin.IDAL.pdb
+D:\Program Files\Vs Projects\Lgwin\BLL\bin\Debug\Lgwin.Model.pdb
+D:\Program Files\Vs Projects\Lgwin\BLL\bin\Debug\Lgwin.SqlDAL.pdb
+D:\Program Files\Vs Projects\Lgwin\BLL\bin\Debug\Lgwin.DBUtility.pdb
+D:\Program Files\Vs Projects\Lgwin\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+D:\Program Files\Vs Projects\Lgwin\BLL\obj\Debug\Lgwin.BLL.dll
+D:\Program Files\Vs Projects\Lgwin\BLL\obj\Debug\Lgwin.BLL.pdb

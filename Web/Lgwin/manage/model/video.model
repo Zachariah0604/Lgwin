@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=GB2312" />
+<link href="../../images/index/TopFooter.css" rel="stylesheet" type="text/css" />
+<title>%%title%%</title>
+<link href="../../images/news/news.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<iframe src="../../images/Top.html" width="1000px" height="197" scrolling="No" frameborder="0"></iframe>
+<table  border="0"  cellpadding="0" cellspacing="0" id="content" class="Bord"> 
+<tr><td colspan="2" align="left" id="menutop"><span style="color: #000000">当前位置</span>：<a href="http://lgwindow.sdut.edu.cn/">首页</a>&gt;&gt;%%caption%%&gt;&gt;
+</td></tr>
+<tr ><td  height="35"  align="center" class="title" > <p style="height:16px; font-size:20px; margin-top:10px; margin-bottom:8px">%%title%%</p></td></tr>
+<tr><td height="30"  align="center"> %%author%% 　 %%fro%%　　发布时间：%%datee%%　　观看次数：<span id="hit"></span></td></tr>
+<tr><td  height="420px"  style="text-align:center;">
+<object type="application/x-shockwave-flash" data="../../images/VideoPlayer/lgwinplayer.swf" width="650" height="400" id="vcastr3"><param name="movie" value="../../images/VideoPlayer/lgwinplayer.swf"/><param name="allowFullScreen" value="true" /><param name="FlashVars" value="xml=<vcastr>%%videosource%%<config>  <bufferTime>4</bufferTime><contralPanelAlpha>0.75</contralPanelAlpha> <controlPanelBgColor>0x000000</controlPanelBgColor><controlPanelBtnColor>0xffffff</controlPanelBtnColor><controlPanelBtnGlowColor>0x00ff00</controlPanelBtnGlowColor><controlpanelmode>float</controlpanelmode><defautVolume>0.8</defautVolume><isAutoPlay>true</isAutoPlay>             <isLoadBegin>true</isLoadBegin><isShowAbout>false</isShowAbout><scaleMode>showAll</scaleMode></config><plugIns><logoPlugIn> <url>../../images/VideoPlayer/logoPlugIn.swf</url><logoClipUrl>../../images/VideoPlayer/backlogo2.png</logoClipUrl>	<logoClipAlpha>0</logoClipAlpha><logoClipLink>http://lgwindow.sdut.edu.cn/</logoClipLink><logoTextColor>0xffffff</logoTextColor>	<clipMargin>10 20 auto auto</clipMargin>
+</logoPlugIn></plugIns> </vcastr>"/></object></td></tr>
+<tr><td height="30"><span id="conmment" class="title">视频简评：</span></td></tr>
+<tr><td><span id="conmmentnr">%%commcontent%%</span></td></tr>
+<script language="javascript" src="../VideoPreNextHandler.ashx?Id=%%id%%" type="text/javascript"></script>
+<script language="javascript" src="../../FWStatistics.aspx" type="text/javascript"></script>
+</table>
+<iframe src="../../images/Right.html" width="280" height="760" style=" float:right;" scrolling="No" align="left" frameborder="0"></iframe>
+<iframe src="../../images/Footer.html" width="1000" height="110" scrolling="No" align="left" frameborder="0"></iframe>
+</body>
+</html>

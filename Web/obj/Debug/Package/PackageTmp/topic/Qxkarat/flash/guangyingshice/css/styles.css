@@ -1,0 +1,12 @@
+/*
+MD_Gallery CSS File - Please keep in mind that Flash has VERY limited CSS capabilities
+*/
+
+
+a  {
+	color: #FFFFFF;
+}
+
+a:hover {
+	color: #8BBB1A;
+}

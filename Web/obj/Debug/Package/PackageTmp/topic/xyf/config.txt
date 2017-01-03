@@ -1,0 +1,8 @@
+%%tongzhi%%,166,6,16,false,no,1
+%%zuizong%%,167,6,31,false,Havedate,1
+%%shidian%%,168,6,31,false,Havedate,1
+%%renwu%%,169,6,10,false,Havedate,1
+%%shipin%%,170,5,14,false,no,1
+%%meiwen%%,171,5,14,false,Havedate,1
+1
+grade2,30,20

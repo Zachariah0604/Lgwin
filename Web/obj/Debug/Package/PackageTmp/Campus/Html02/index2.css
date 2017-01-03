@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	background-image:url(index2/xywh_2_01.jpg);
+	background-repeat:repeat-x;
+	margin-top:0px;
+}
+.public
+{
+	width:996px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#top{
+	height:167px;
+	}
+#middle_left
+{
+	
+	min-height:849px;
+	background-color:#FFF;
+	width:677px;
+	margin-left:0px;
+	float:left;
+}
+#middle_left_01
+{
+	width:660px;
+	height:20px;
+	margin-top:10px;
+	margin-left:10px;
+	font-size:14px;
+	}
+#middle_left_02
+{
+	background-image:url(index2/xywh_2_05.jpg);
+	background-repeat:repeat-y;
+	width:611px;
+	min-height:620px;
+	color:#5a5a5a;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:40px;
+}
+.middle_left_02
+{
+	height:19px;
+	width:550px;
+	margin-left:auto;
+	margin-right:auto; 
+	padding-top:12px; 
+	font-size:12px;
+}	
+#middle_right
+{
+	float:right;
+	margin-right:0px;
+	height:849px;
+	width:319px;
+	
+}
+.middle_right_01
+{
+	margin-left:40px;
+	margin-right:auto;
+	margin-top:12px;
+	width:250px;
+	font-size:12px;
+	height:14px;
+	
+	}
+#bottom
+{
+	height:50px;
+}
+.public #middle_left #middle_left_02 .middle_left_02 div a {
+	color: #5a5a5a;
+}
+.public #middle_left div div a {
+	color: #666;
+}
+.public #middle_left #middle_left_01 div a {
+	color: #000;
+}

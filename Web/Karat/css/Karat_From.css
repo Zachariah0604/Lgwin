@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+
+#body 
+{
+	/*background-image: url(../images/background.jpg);*/
+	background-repeat: repeat-x;
+	margin: auto;
+}#From_main {
+	margin: auto;
+	height: 500px;
+	width: 950px;
+}
+#From_main_left 
+{
+	float: left;
+	width: 220px;
+}
+#From_main_left a
+{
+	color:#666;
+	text-decoration: none;
+}
+#From_main_left a:hover
+{
+	color:#FC3;
+}
+#From_main_right 
+{
+	float: left;
+	text-align:center;
+	height: 500px;
+	width: 730px;
+}
+#bottom 
+{
+	width: 950px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+}

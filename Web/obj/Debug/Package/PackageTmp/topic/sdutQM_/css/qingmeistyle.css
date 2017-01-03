@@ -1,0 +1,171 @@
+/* CSS Document */
+*
+{
+ margin: 0px;
+ padding: 0px;
+}
+
+body
+{
+	background-color:#ffffff;
+	font-size: 12px;
+	border: 0px;
+	background-image:url(../images/QM_bg_02.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-position:top;
+}
+a
+{
+	color:#185d7a;
+}
+a:link {
+    color: #185d7a;
+    text-decoration: none;
+}
+a:hover {
+	color: #000000;
+    text-decoration: underline;
+}
+a:visited {
+    color: #000000;
+    text-decoration: none;
+}
+
+.d1
+{
+	position:relative;
+	width:960px;
+	margin:0 auto;
+}
+
+.d2
+{
+	position:absolute;left:0;top:0;
+	width:960px;
+	height: 170px;
+	padding-top: 4px;
+}
+.d2 table
+{
+	font-size:13px;
+	font-family:"Î¢ÈíÑÅºÚ";
+	font-weight:normal;
+}
+
+.download
+{
+	width:114px;
+	height: 42px;
+	padding-top: 4px;
+	margin-left:846px;
+	margin-top:100px;
+}
+.download table
+{
+	font-size:22px;
+	color:#ff0000;
+}
+
+.d3
+{
+	position:absolute;left:0;top:200px;
+	width: 960px;
+	margin-right:auto;
+	margin-left:auto;
+}
+
+.d31
+{
+	margin-top: 66px;
+	margin-left: 524px;
+	width: 298px;
+	height: 150px;
+}
+.d31 table
+{
+	font-size: 14px;
+	font-family:"ËÎÌå";
+	color: #101011;
+	font-weight: normal;
+}
+
+.xiazai
+{
+	margin-top: 24px;
+	margin-left: 582px;
+	width: 146px;
+	height: 48px;
+	font-size: 36px;
+}
+.xiazai a:link
+{
+	text-decoration: none;
+	color:#34d5ff;
+
+}
+
+.xiazai a:hover
+{
+    text-decoration: underline;
+	color:#34d5ff;
+}
+.xiazai a:visited
+{
+    text-decoration: none;
+	color:#34d5ff;
+}
+
+.d32
+{
+	margin-top: 10px;
+	margin-left: 590px;
+	width: 134px;
+	height: 20px;
+	font-size: 18px;
+	font-family:"Î¢ÈíÑÅºÚ";
+	color:#000000;
+	font-weight: normal;
+}
+
+.d33
+{
+	margin-top: 20px;
+	margin-left: 586px;
+	width: 320px;
+	height: 144px;
+}
+.d33l
+{
+	float: left;
+	height: 142px;
+	width: 142px;
+}
+.d33r
+{
+	float: left;
+	margin-left: 22px;
+	margin-top: 13px;
+	width: 154px;
+	height: 94px;
+}
+.d33r table
+{
+	font-family:"Î¢ÈíÑÅºÚ";
+	font-size: 12px;
+	color:#000000;
+	font-weight:normal;
+}
+
+.d34
+{
+	margin-top: 58px;
+	margin-left: 770px;
+	width: 204px;
+	height: 34px;
+}
+.zhu a:link
+{
+	color:#FF0000;
+}
+

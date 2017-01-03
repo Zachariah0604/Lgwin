@@ -1,0 +1,524 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>欢迎访问山东理工大学网站</title>
+<style type="text/css">
+<!--
+@import url("css/sdut.css");
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+#out1 a img {
+	margin-left:2px;
+	width: 157px;
+	height: 104px;
+	border:none;
+	margin-top:0px;
+	padding-bottom: 10px;
+}
+#out1 {
+	overflow:hidden;
+	width: 157px;
+	height: 104px;
+}
+#buts {
+	height:0px;
+	text-align: right;
+	width: auto;
+	z-index:200;
+	position:relative;
+	top:-13px;
+	left:88px;
+}
+#buts a {
+font-size:9px;
+display:block;
+width:10px;
+height:10px;
+margin-right:2px;
+text-align:center;
+border:#FFFFFF solid 1px;
+float:left;
+line-height: 10px;
+text-decoration:none;
+color:#FFFFFF
+}
+.but1 {
+background-color:#990000;
+}
+.but2 {
+background-color:#FF0000;
+}
+-->
+</style>
+<script type="text/JavaScript">
+<!--
+//window.open('http://www.sdut.edu.cn/1138/38.htm','window','scrollbars=no,directories=no,status=no,menubar=no,location=no,resizable=no,  toolbar=no, height=195,width=264,top=298,left=145');
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function win_show(url){window.open(url,"_blank");}
+function winopen(url)                    
+     {                    
+        window.open(url,"search","toolbar=0,location=0,directories=0,status=0,menubar=0,scrollbars=1,resizable=0,width=550,height=450,top=0,left=0");                    
+      }
+function searchsub() {
+window.open("http://210.44.176.212/search?q="+encodeURI(document.all.s.value));
+}
+function GetObj(objName){if(document.getElementById){return eval('document.getElementById("'+objName+'")')}else{return eval('document.all.'+objName)}}
+
+function Show_Sub( count, active_index ){//òtè￥num1￡???ê?num2
+	var i = 1;
+        while( i <= count ){
+        if( active_index == 1 )
+        {
+          //GetObj("S_Cont_" + i).style.display = 'block';
+		  document.all.S_Cont_1.style.display = 'block';
+		  document.all.S_Cont_2.style.display = 'none';
+         }
+		 else {
+		  document.all.S_Cont_1.style.display = 'none';
+		  document.all.S_Cont_2.style.display = 'block';
+		 }
+         i++;
+		 }
+ }
+
+//-->
+</script>
+<script type="text/javascript">
+//（层的名字，每个图片的宽度，每次移动的图片数，实际对象名）
+ function $(id) { return document.getElementById(id) }
+    function showout(id, jiange, qihuan) {
+        this.now = 0;
+        this.style_num = 0;
+        this.div = document.getElementById(id);
+        this.ttstyle = new Array();
+        this.ttstyle[0] = "progid:DXImageTransform.Microsoft.RandomDissolve()";
+        this.ttstyle[1] = "progid:DXImageTransform.Microsoft.Iris(irisStyle='star', motion='out')";
+        this.ttstyle[2] = "progid:DXImageTransform.Microsoft.Stretch(stretchStyle='push')";
+        this.ttstyle[3] = "progid:DXImageTransform.Microsoft.Stretch(stretchStyle='pop')";
+        this.ttstyle[4] = "progid:DXImageTransform.Microsoft.Fade(overlap=0)";
+        this.ttstyle[5] = "progid:DXImageTransform.Microsoft.GradientWipe(gradientSize=0.25,motion=forward )";
+        this.ttstyle[6] = "progid:DXImageTransform.Microsoft.Wheel(spokes=16)";
+        this.ttstyle[7] = "progid:DXImageTransform.Microsoft.RadialWipe(wipeStyle=CLOCK)";
+        this.ttstyle[8] = "progid:DXImageTransform.Microsoft.RandomBars(orientation=vertical)";
+        this.ttstyle[9] = "progid:DXImageTransform.Microsoft.Blinds(bands=20)";
+        this.ttstyle[10] = "progid:DXImageTransform.Microsoft.Checkerboard(squaresX=20,squaresY=20)";
+        this.ttstyle[11] = "progid:DXImageTransform.Microsoft.Strips(motion=rightdown)";
+        this.ttstyle[12] = "progid:DXImageTransform.Microsoft.Slide(slideStyle=push)";
+        this.ttstyle[13] = "progid:DXImageTransform.Microsoft.Spiral(gridSizeX=40,gridSizeY=40)";
+        this.ttstyle[14] = "progid:DXImageTransform.Microsoft.RevealTrans(transition=23)";
+
+
+
+        this.alist = new Array();
+        this.alist = this.div.getElementsByTagName("a");
+        this.num = this.alist.length;
+
+
+        this.Play = function () {
+            //alert(this.now);
+            this.div.style.filter = this.ttstyle[this.style_num];
+            this.div.filters.item(0).duration = qihuan;
+            this.div.filters.item(0).Apply();
+            for (var i = 0; i < this.num; i++) {
+                if (i == this.now) {
+                    //设置按钮样式
+                    $("but" + i).className = "but2";
+                    this.alist[i].style.display = "block";
+                }
+                else {
+                    //设置按钮样式
+                    $("but" + i).className = "but1";
+                    this.alist[i].style.display = "none";
+                }
+            }
+            this.div.filters.item(0).Play();
+
+
+
+            this.now++;
+            this.style_num++;
+            if (this.now == this.num)
+                this.now = 0;
+            if (this.style_num == this.ttstyle.length)
+                this.style_num = 0;
+            //return;
+        };
+
+        this.autoPlay = function () {
+            this.sit = setInterval("show" + id + ".Play()", jiange);
+
+
+        };
+    }
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+
+</head>
+
+<body onload="MM_preloadImages('image/index102/en_1.png','image/index102/index_menu1_2_r1_c2.png','image/index102/index_menu1_2_r1_c11.png','image/index102/index_t_4.png','image/index102/index_menu1_2_r1_c3.png','image/index102/index_menu1_2_r1_c4.png','image/index102/index_menu1_2_r1_c5.png','image/index102/index_menu1_2_r1_c6.png','image/index102/index_menu1_2_r1_c7.png','image/index102/index_menu1_2_r1_c8.png','image/index102/index_menu1_2_r1_c9.png','image/index102/index_menu1_2_r1_c10.png','image/index102/index_menu1_2_r1_c12.png','image/index102/index_menu1_2_r1_c13.png','image/index102/index_t_5.png','image/index102/index_special1.png','image/index102/index_t_10.png')">
+<div align="center">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td height="7" valign="top"><img src="image/index102/1_1.gif" width="1" height="1" /></td>
+      <td width="7" height="7" align="right" valign="top" background="image/index102/index_l_bg.png"><img src="image/index102/1_1.gif" width="1" height="1" /></td>
+      <td width="966" height="7" valign="top" bgcolor="#339933"><img src="image/index102/1_1.gif" width="1" height="1" /></td>
+      <td width="7" height="7" align="left" valign="top" background="image/index102/index_r_bg.png"><img src="image/index102/1_1.gif" width="1" height="1" /></td>
+      <td height="7" valign="top"><img src="image/index102/1_1.gif" width="1" height="1" /></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td width="7" align="right" valign="top" background="image/index102/index_l_bg.png"><img src="image/index102/1_1.gif" width="1" height="1" /></td>
+      <td width="966" height="485" align="left" valign="top"><table width="966" height="111" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+        <tr>
+          <td width="34" height="10" align="left" valign="top" bgcolor="#FFFFFF"><img src="image/index102/1_1.gif" width="1" height="1" /></td>
+          <td width="337" height="10" align="left" valign="top" bgcolor="#FFFFFF"><img src="image/index102/1_1.gif" width="1" height="1" /></td>
+          <td width="364" height="10" align="left" valign="top" bgcolor="#FFFFFF"><img src="image/index102/1_1.gif" width="1" height="1" /></td>
+          <td width="214" height="10" align="left" valign="top" bgcolor="#FFFFFF"><img src="image/index102/1_1.gif" width="1" height="1" /></td>
+          <td width="17" align="left" valign="top" bgcolor="#FFFFFF"><img src="image/index102/1_1.gif" width="1" height="1" /></td>
+        </tr>
+        <tr>
+          <td width="34" height="92" align="left" valign="top" bgcolor="#FFFFFF">&nbsp;</td>
+          <td width="337" height="92" align="left" valign="top" bgcolor="#FFFFFF"><img src="image/index102/index_logo.png" width="337" height="92" /></td>
+          <td width="364" height="92" align="left" valign="top" bgcolor="#FFFFFF"><table width="364" height="92" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td height="11" align="left" valign="top"><img src="image/index102/1_1.gif" width="1" height="1" /></td>
+            </tr>
+            <tr>
+              <td height="19" align="right" valign="top"><table width="364" height="19" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td>&nbsp;</td>
+                  <td width="96" align="right" valign="middle"><a href="http://www.sdut.edu.cn/en/index.htm"   onFocus="this.blur()"  onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image26','','image/index102/en_1.png',1)"><img src="image/index102/en.png" name="Image26" width="96" height="19" border="0" id="Image26" /></a></td>
+                </tr>
+              </table></td>
+            </tr>
+            <tr>
+              <td height="31" align="left" valign="top">&nbsp;</td>
+            </tr>
+            <tr>
+              <td height="22" align="right" valign="middle" class="wordtext">&nbsp;</td>
+            </tr>
+
+          </table></td>
+          <td width="214" height="92" align="left" valign="top" bgcolor="#FFFFFF"><table width="214" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td height="11" align="left" valign="top"><img src="image/index102/1_1.gif" width="1" height="1" /></td>
+            </tr>
+            <tr>
+              <td height="19" align="left" valign="top"><table width="214" height="19" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td width="87" align="left" valign="top"><a href="javascript:searchsub()" onFocus="this.blur()"  onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image28','','image/index102/search_1.png',0)"><img src="image/index102/search.png" name="Image28" width="87" height="19" border="0" id="Image28" /></a></td>
+                  <td width="127" align="left" valign="top"><input type=text name=s size=16></td>
+                </tr>
+              </table></td>
+            </tr>
+            <tr>
+              <td height="40" align="left" valign="top">&nbsp;</td>
+            </tr>
+            <tr>
+              <td height="22" align="left" valign="top">&nbsp;</td>
+            </tr>
+          </table></td>
+          <td width="17" height="92" align="left" valign="top" bgcolor="#FFFFFF">&nbsp;</td>
+        </tr>
+        <tr>
+          <td width="34" height="9" align="left" valign="top" bgcolor="#FFFFFF"><img src="image/index102/1_1.gif" width="1" height="1" /></td>
+          <td width="337" height="9" align="left" valign="top" bgcolor="#FFFFFF"><img src="image/index102/1_1.gif" width="1" height="1" /></td>
+          <td width="364" height="9" align="left" valign="top" bgcolor="#FFFFFF"><img src="image/index102/1_1.gif" width="1" height="1" /></td>
+          <td width="214" height="9" align="left" valign="top" bgcolor="#FFFFFF"><img src="image/index102/1_1.gif" width="1" height="1" /></td>
+          <td width="17" height="9" align="left" valign="top" bgcolor="#FFFFFF"><img src="image/index102/1_1.gif" width="1" height="1" /></td>
+        </tr>
+      </table>
+        <table width="966" height="33" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="780" align="left" valign="top"><table width="780" height="33" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td width="44" align="left" valign="top"><img src="image/index102/index_menu1_1_r1_c1.png" width="44" height="33" /></td>
+                <td width="59" align="left" valign="top"><a href="01/01.html"  onFocus="this.blur()"  onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image32','','image/index102/index_menu1_2_r1_c2.png',1)"><img src="image/index102/index_menu1_1_r1_c3.png" name="Image32" width="59" height="33" border="0" id="Image32" /></a></td>
+                <td width="59" align="left" valign="top"><a href="02/02.html"  onfocus="this.blur()"  onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image321','','image/index102/index_menu1_2_r1_c3.png',1)"><img src="image/index102/index_menu1_1_r1_c5.png" name="Image321" width="59" height="33" border="0" id="Image321" /></a></td>
+                <td width="59" align="left" valign="top"><a href="03/03.html"  onfocus="this.blur()"  onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image322','','image/index102/index_menu1_2_r1_c4.png',1)"><img src="image/index102/index_menu1_1_r1_c6.png" name="Image322" width="59" height="33" border="0" id="Image322" /></a></td>
+                <td width="59" align="left" valign="top"><a href="04/04.html"  onfocus="this.blur()"  onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image323','','image/index102/index_menu1_2_r1_c5.png',1)"><img src="image/index102/index_menu1_1_r1_c7.png" name="Image323" width="59" height="33" border="0" id="Image323" /></a></td>
+                <td width="59" align="left" valign="top"><a href="05/05.html"  onfocus="this.blur()"  onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image324','','image/index102/index_menu1_2_r1_c6.png',1)"><img src="image/index102/index_menu1_1_r1_c8.png" name="Image324" width="59" height="33" border="0" id="Image324" /></a></td>
+                <td width="59" align="left" valign="top"><a href="06/06.html"  onfocus="this.blur()"  onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image325','','image/index102/index_menu1_2_r1_c7.png',1)"><img src="image/index102/index_menu1_1_r1_c9.png" name="Image325" width="59" height="33" border="0" id="Image325" /></a></td>
+                <td width="59" align="left" valign="top"><a href="07/07.html"  onfocus="this.blur()"  onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image326','','image/index102/index_menu1_2_r1_c8.png',1)"><img src="image/index102/index_menu1_1_r1_c12.png" name="Image326" width="59" height="33" border="0" id="Image326" /></a></td>
+                <td width="59" align="left" valign="top"><a href="08/08.html"  onfocus="this.blur()"  onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image327','','image/index102/index_menu1_2_r1_c9.png',1)"><img src="image/index102/index_menu1_1_r1_c13.png" name="Image327" width="59" height="33" border="0" id="Image327" /></a></td>
+                <td width="59" align="left" valign="top"><a href="09/09.html"  onfocus="this.blur()"  onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image328','','image/index102/index_menu1_2_r1_c10.png',1)"><img src="image/index102/index_menu1_1_r1_c14.png" name="Image328" width="59" height="33" border="0" id="Image328" /></a></td>
+                <td width="47" align="left" valign="top"><a href="http://lib.sdut.edu.cn/" target="_blank" onfocus="this.blur()" onmouseover="MM_swapImage('Image43','','image/index102/index_menu1_2_r1_c11.png',1)"   onmouseout="MM_swapImgRestore()"><img src="image/index102/index_menu1_1_r1_c15.png" name="Image43" width="47" height="33" border="0" id="Image43" /></a></td>
+                <td width="59" align="left" valign="top"><a href="http://xy.sdut.edu.cn/" target="_blank"  onfocus="this.blur()" onmouseover="MM_swapImage('Image329','','image/index102/index_menu1_2_r1_c12.png',1)"  onmouseout="MM_swapImgRestore()"><img src="image/index102/index_menu1_1_r1_c16.png" name="Image329" width="59" height="33" border="0" id="Image329" /></a></td>
+                <td width="59" align="left" valign="top"><a href="10/10.html"  onfocus="this.blur()"  onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image3210','','image/index102/index_menu1_2_r1_c13.png',1)"><img src="image/index102/index_menu1_1_r1_c18.png" name="Image3210" width="59" height="33" border="0" id="Image3210" /></a></td>
+                <td width="40" align="left" valign="top"><img src="image/index102/index_menu1_1_r1_c21.png" width="40" height="33" /></td>
+              </tr>
+            </table></td>
+            <td width="186" align="left" valign="top"><img src="image/index102/index_link.png" width="186" height="33" /></td>
+          </tr>
+        </table>
+        <table width="966" height="341" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+          <tr>
+            <td width="287" align="left" valign="top"><table width="287" height="341" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td height="11" colspan="3" align="left" valign="top"><img src="image/index/1_1.gif" width="1" height="1" /></td>
+              </tr>
+              <tr>
+                <td width="11" height="313" align="left" valign="top"><img src="image/index/1_1.gif" width="1" height="1" /></td>
+                <td width="264" height="313" align="left" valign="top"><script language="JavaScript" type="text/javascript"> 
+<!-- 
+today=new Date(); 
+jran=today.getTime(); 
+function rnd() { 
+ia=9301; 
+ic=49297; 
+im=233280; 
+jran = (jran*ia+ic) % im; 
+return jran/(im*1.0); 
+}; 
+function rand(number) { 
+return Math.ceil(rnd()*number); 
+}; 
+document.write("<CENTER>"); 
+for(i=1;i<=1;i++) { 
+myNum=(rand(8)); //改成你要随机显示的图片数； 
+if(myNum == 1) document.write("<img src='image/index102/index_photo1.jpg'>"); 
+if(myNum == 2) document.write("<img src='image/index102/index_photo2.jpg'>"); 
+if(myNum == 3) document.write("<img src='image/index102/index_photo3.jpg'>"); 
+if(myNum == 4) document.write("<img src='image/index102/index_photo4.jpg'>"); 
+if(myNum == 5) document.write("<img src='image/index102/index_photo5.jpg'>"); 
+if(myNum == 6) document.write("<img src='image/index102/index_photo6.jpg'>"); 
+if(myNum == 7) document.write("<img src='image/index102/index_photo7.jpg'>"); 
+if(myNum == 8) document.write("<img src='image/index102/index_photo8.jpg'>"); 
+ 
+
+else { 
+document.write(); 
+} 
+}; 
+document.write("</CENTER>"); 
+//--> 
+            </script>
+                </td>
+                <td width="12" height="313" align="left" valign="top"><img src="image/index/1_1.gif" width="1" height="1" /></td>
+              </tr>
+              <tr>
+                <td height="17" colspan="3" align="left" valign="top"><img src="image/index/index_photo_d.png" width="287" height="17" /></td>
+              </tr>
+            </table></td>
+            <td width="475" align="left" valign="top"><table width="475" height="40" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td width="24" align="left" valign="middle"><img src="image/index102/index_t_3.png" width="24" height="40" /></td>
+                <td width="77" height="50" align="left" valign="middle"><img src="image/index102/index_t_44.png" width="100" height="40" /></td>
+                <td width="297" align="left" valign="middle"><table width="295" height="40" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td width="218"><table width="175" height="40" border="0" cellpadding="0" cellspacing="0">
+                          <tr>
+                            <td width="5" align="left" valign="top"><img src="image/index102/1_1.gif" width="1" height="1" /></td>
+                            <td align="left" valign="top" background="image/index102/index_news_td.png">&nbsp;</td>
+                          </tr>
+                      </table></td>
+                    </tr>
+                </table></td>
+              </tr>
+            </table>
+            <div id="S_Cont_3">
+                <table width="100%">
+                  <tr>
+                    <td align="center">$$titles$$</td>
+                  </tr>
+                  
+                <tr>
+                  <td height="25" align="center" valign="middle">..........................................................<a href="http://lgwindow.sdut.edu.cn/" target="_blank">[&nbsp;进入新闻网&nbsp;]</a></td>
+                </tr>
+                </table>
+              </div>
+              <table width="475" height="171" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                <td height="40" align="left" valign="top"><table width="475" height="40" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td width="24" align="left" valign="middle"><img src="image/index102/index_t_3.png" width="24" height="40" /></td>
+                      <td width="77" align="left" valign="middle"><div id="S_Menu_2" onmouseover="Show_Sub(2,2);"><a href="#.html"  onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image601','','image/index102/index_t_5.png',1)"><img src="image/index102/index_t_5_1.png" name="Image601" width="77" height="40" border="0" id="Image601" /></a></div></td>
+                      <td width="297" align="left" valign="middle"><table width="295" height="40" border="0" cellpadding="0" cellspacing="0">
+                        <tr>
+                          <td width="104" align="left" valign="top"><img src="image/index102/1_1.gif" width="1" height="1" /><a href="http://my.sdut.edu.cn/"  onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image1','','image/index102/index_t_10.png',1)"><img src="image/index102/index_t_10_1.png" name="Image1" width="102" height="40" border="0" id="Image1" /></a></td>
+                          <td width="218"><table width="175" height="40" border="0" cellpadding="0" cellspacing="0">
+                            <tr>
+                              <td width="5" align="left" valign="top"><img src="image/index102/1_1.gif" width="1" height="1" /></td>
+                              <td align="left" valign="top" background="image/index102/index_news_td.png">&nbsp;</td>
+                            </tr>
+                          </table></td>
+                        </tr>
+                      </table></td>
+                    </tr>
+                  </table></td>
+                </tr>
+                <tr>
+                  <td height="90" align="left" valign="top">		
+<table width="100%"><tr>
+				  <td align="left"><marquee height="90" scrollamount=3 direction="up" onMouseOut=start() onMouseOver=stop()>
+               <a href="http://www.sdut.edu.cn/info/c_02.doc" target="_blank" ><font color="#FF0000">&nbsp;&nbsp;*&nbsp;严肃山东省市县乡换届纪律学习教育专题</font></a><br>
+               <a href="http://www.sdut.edu.cn/info/MBA.doc" target="_blank" ><font color="#FF0000">&nbsp;&nbsp;*&nbsp;山东理工大学MBA、MBA课程班、南开EMBA招生简章</font></a><br>
+			   <a href="http://sdlgny.sdut.edu.cn/haixia/" target="_blank" ><font color="#FF0000">&nbsp;&nbsp;*&nbsp;2011年海峡两岸大学校长论坛暨科学技术研讨会</font></a><br>
+			   <a href="http://202.110.209.181/zhaob/index.aspx" target="_blank" ><font color="#FF0000">&nbsp;&nbsp;*&nbsp;山东理工大学采购网</font></a><br>
+               <a href="info/20110413.htm" target="_blank" ><font color="#FF0000">&nbsp;&nbsp;*&nbsp;2010年美国的人权纪录</font></a><br>
+               <a href="info/20110324.htm" target="_blank" ><font color="#FF0000">&nbsp;&nbsp;*&nbsp;山东理工大学2011年成人高等教育招生简章</font></a><br>
+			   <a href="info/20100928.htm" target="_blank" ><font color="#FF0000">&nbsp;&nbsp;*&nbsp;2009年中国人权事业的进展</font></a><br>
+			   <a href="http://www.iceeac.org/" target="_blank" >&nbsp;&nbsp;*&nbsp;2010 IEEE电气工程与自动控制国际学术会议—— 征文通知</font></a><br>
+			   <a href="http://www.iciecs2010.org/" target="_blank" >&nbsp;&nbsp;*&nbsp;第二届信息电子与计算机工程国际学术会议 —— 征文通知</font></a><br>
+			  </marquee>
+</td>
+				  </tr></table>
+				  </td>
+                </tr>
+
+              </table></td>
+            <td width="18" align="left" valign="top" background="image/index102/index_c_line.png">&nbsp;</td>
+            <td width="186" align="left" valign="top"><table width="186" height="66" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td height="9" align="left" valign="top"><img src="image/index102/1_1.gif" width="1" height="1" /></td>
+              </tr>
+              <tr>
+                <td height="47" align="left" valign="top" background="image/index102/index_r_link_d.png"><table width="186" height="47" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td width="31" height="24" align="left" valign="top">&nbsp;</td>
+                    <td height="24" align="left" valign="top" class="word"><a href="http://172.18.103.176/" >办公系统</a></td>
+                    <td height="24" align="left" valign="top" class="worden">&nbsp;</td>
+                    <td height="24" align="right" valign="top" class="word"><a href="mailto:president@sdut.edu.cn" >校长信箱</a></td>
+                    <td width="17" height="24" align="left" valign="top">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td width="31" height="24" align="left" valign="top">&nbsp;</td>
+                    <td height="24" align="left" valign="bottom" class="word"><a href="http://202.110.209.178/" >邮件系统</a></td>
+                    <td height="24" align="left" valign="top" class="worden">&nbsp;</td>
+                    <td height="24" align="right" valign="bottom" class="word"><a href="w_map.html" >网站地图</a></td>
+                    <td width="17" height="24" align="left" valign="top">&nbsp;</td>
+                  </tr>
+                </table></td>
+              </tr>
+              <tr>
+                <td height="9" align="left" valign="top"><img src="image/index102/1_1.gif" width="1" height="1" /></td>
+              </tr>
+            </table>
+              <table width="186" height="27" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td width="16" align="left" valign="top" background="image/index102/index_r_link_bg.png">&nbsp;</td>
+                  <td width="10" align="left" valign="middle" background="image/index102/index_r_link_bg.png"><img src="image/index102/index_t_6.png" width="10" height="10" /></td>
+                  <td width="10" align="left" valign="top" background="image/index102/index_r_link_bg.png"><img src="image/index102/1_1.gif" width="1" height="1" /></td>
+                  <td width="123" align="left" valign="middle" background="image/index102/index_r_link_bg.png" class="wordtext">|站|点|链|接|</td>
+                  <td width="27" align="left" valign="top" background="image/index102/index_r_link_bg.png">&nbsp;</td>
+                </tr>
+              </table>
+              <table width="186" height="77" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td height="6" colspan="6"><img src="image/index102/1_1.gif" width="1" height="1" /></td>
+                </tr>
+                <tr>
+                  <td width="18" height="22">&nbsp;</td>
+                  <td width="10" height="22" align="center" valign="middle" background="image/index102/index_r_link_bg4.png"><img src="image/index102/index_t_7.png" width="9" height="9" /></td>
+                  <td width="11" height="22" background="image/index102/index_r_link_bg4.png">&nbsp;</td>
+                  <td width="105" height="22" background="image/index102/index_r_link_bg4.png"><a href="10/10_3.html">校内站点</a></td>
+                  <td width="24" height="22" align="center" background="image/index102/index_r_link_bg4.png"><img src="image/index102/index_t_8.png" width="24" height="11" /></td>
+                  <td width="18" height="22">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td width="18" height="22">&nbsp;</td>
+                  <td width="10" height="22" align="center" valign="middle" background="image/index102/index_r_link_bg4.png"><img src="image/index102/index_t_7.png" width="9" height="9" /></td>
+                  <td width="11" height="22" background="image/index102/index_r_link_bg4.png">&nbsp;</td>
+                  <td width="105" height="22" background="image/index102/index_r_link_bg4.png"><a href="http://www.hao123.com/" target="_blank">校外站点</a></td>
+                  <td width="24" height="22" align="center" background="image/index102/index_r_link_bg4.png"><img src="image/index102/index_t_8.png" width="24" height="11" /></td>
+                  <td width="18" height="22">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td width="18" height="21">&nbsp;</td>
+                  <td width="10" height="21" align="center" valign="middle"><img src="image/index102/index_t_7.png" width="9" height="9" /></td>
+                  <td width="11" height="21">&nbsp;</td>
+                  <td width="105" height="21"><a href="http://www.edu.cn/HomePage/jiao_yu_zi_yuan/college.php" target="_blank">高校导航</a></td>
+                  <td width="24" height="21" align="center"><img src="image/index102/index_t_8.png" width="24" height="11" /></td>
+                  <td width="18" height="21">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td height="4" colspan="6" background="image/index102/index_r_link_bg3.png"><img src="image/index102/1_1.gif" width="1" height="1" /></td>
+                </tr>
+              </table>
+              <table width="186" height="171" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td height="10" colspan="3" align="left" valign="top"><img src="image/index102/1_1.gif" width="1" height="1" /></td>
+                </tr>
+                <tr>
+                  <td height="17" colspan="3" align="left" valign="top"><img src="image/index102/index_t_9.png" width="186" height="17" /></td>
+                </tr>
+                <tr>
+                  <td height="17" colspan="3" align="left" valign="top"><img src="image/index102/index_r_link_bg6.png" width="186" height="17" /></td>
+                </tr>
+                <tr>
+                  <td width="22" height="94" align="left" valign="top"><img src="image/index102/index_r_link_bg7.png" width="22" height="94" /></td>
+                   <td width="141" height="94" align="left" valign="top"><a href="http://lgwindow.sdut.edu.cn/topic/kxfzg/index.html"  onFocus="this.blur()"onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image80','','image/index102/index_special1.png',1)"></a><a href="http://lgwindow.sdut.edu.cn/topic/kxfzg/index.html" target="_blank" onfocus="this.blur()"></a>
+                    <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="141" height="94">
+                      <param name="movie" value="image/index102/line.swf" />
+                      <param name="quality" value="high" />
+                      <embed src="image/index102/line312.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="141" height="94"></embed>
+                    </object></td>
+                  <td width="23" height="94" align="left" valign="top"><img src="image/index102/index_r_link_bg8.png" width="23" height="94" /></td>
+                </tr>
+                <tr>
+                  <td colspan="3" align="left" valign="top"><img src="image/index102/index_r_link_bg9.png" width="186" height="16" /></td>
+                </tr>
+                <tr>
+                  <td colspan="3" align="left" valign="top"><img src="image/index102/index_r_link_bg10.png" width="186" height="17" /></td>
+                </tr>
+              </table></td>
+          </tr>
+        </table></td>
+      <td width="7" align="left" valign="top" background="image/index102/index_r_bg.png"><img src="image/index102/1_1.gif" width="1" height="1" /></td>
+      <td>&nbsp;</td>
+    </tr>
+     <tr>
+      <td height="31" align="left" valign="top" background="image/index102/index_l_r_bg2.png">&nbsp;</td>
+      <td width="7" height="31" align="left" valign="top" background="image/index102/index_l_r_bg2.png"><img src="image/index102/1_1.gif" width="1" height="1" /></td>
+      <td width="966" height="31" align="left" valign="top" background="image/index102/index_c_bg.png">&nbsp;</td>
+      <td width="7" height="31" align="left" valign="top" background="image/index102/index_l_r_bg2.png"><img src="image/index102/1_1.gif" width="1" height="1" /></td>
+      <td height="31" align="left" valign="top" background="image/index102/index_l_r_bg2.png">&nbsp;</td>
+    </tr>
+    <tr>
+      <td height="75" align="left" valign="middle">&nbsp;</td>
+      <td width="7" height="75" align="left" valign="middle"><img src="image/index102/1_1.gif" width="1" height="1" /></td>
+      <td width="966" height="75" align="left" valign="middle"><table width="966" height="68" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td width="52" align="left" valign="top">&nbsp;</td>
+          <td width="676" align="left" valign="top"><img src="image/index102/copyright.png" width="676" height="68" border="0" /></td>
+          <td align="left" valign="middle"><img src="image/index102/police_c.png" width="238" height="68" border="0" usemap="#Map" />
+            <map name="Map" id="Map">
+              <area shape="rect" coords="138,11,185,55" href="http://zibo.cyberpolice.cn/"  onfocus="this.blur()"target="_blank" />
+            </map></td>
+          </tr>
+      </table></td>
+      <td width="7" height="75" align="left" valign="middle"><img src="image/index102/1_1.gif" width="1" height="1" /></td>
+      <td height="75" align="left" valign="middle">&nbsp;</td>
+    </tr>
+  </table>
+</div>
+
+<map name="Map" id="Map"> <area shape="rect" coords="139,12,184,53" href="http://zibo.cyberpolice.cn/" onFocus="this.blur()" target="_blank" />
+</map></body>
+</html>

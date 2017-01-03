@@ -1,0 +1,125 @@
+
+body {
+	margin:0 auto;
+}
+a{ color:#000000; text-decoration:none}
+a:link{ color:#000000;text-decoration:none}
+a:hover{color:#56B001;text-decoration:none}
+.content {
+	width:1000px;
+	height:1150px;
+	margin:0 auto;
+	
+}
+.2ndcontent {
+	width:1000px;
+	height:auto;
+	margin:0 auto;
+}
+.head {
+	width:1000px;
+	height:239px;
+	background-image:url(../images/head.jpg);
+	background-repeat:no-repeat;
+}
+#flashContent { width:800px; height:140px;
+                margin-top:60px;
+                margin-left:100px;
+                
+                 }
+.navigation {
+	width:510px;
+	height:33px;
+	margin-left:490px;
+	margin-top:5px;
+	text-align:center;
+	color:#FFFFFF;
+	font-family: "ËÎÌו";
+	font-size:15px;
+}
+ a{color:#000000;text-decoration:none; }
+.navigation a:link{ color:#FFFFFF;text-decoration:none}
+.navigation a:hover {color:#000000;text-decoration:none;}
+.navigation a:visited{ color:#FFFFFF;text-decoration:none}
+
+#practic {
+	width:1004px;
+	height:285px;
+}
+#p_left {
+	width:354px;
+	height:285px;
+	margin-top:1px;
+	background-image: url(../images/picback.png);
+	background-repeat:no-repeat;
+	float:left;
+	display:inline;
+}
+#p_right {
+	width:645px;
+	height:285px;
+	margin-top:1px;
+	background-image:url(../images/practice_03.jpg);
+	background-repeat:no-repeat;
+	float:left;
+	margin-left:1px;
+	display:inline;
+	
+}
+#rigth-content{
+	width:645px;
+	height:250px;
+	margin-top:5px;
+	}
+#content1 {
+	width:1003px;
+	height:365px;
+	margin-top:3px;
+	background-image:url(../images/content_03.jpg);
+	background-repeat:no-repeat;
+}
+#ll_content1{
+	width:30px;
+	height:365px;
+	float:left;
+	}
+#l_content1{
+	width:330px;
+	height:365px;
+	float:left;
+	}
+	.inl_content1{
+	width:330px;
+	height:175px;
+	}
+	
+	#r_content1{
+		width:640px;
+	height:365px;
+	float:left;
+	
+		}
+		#r_content12{
+		width:640px;
+	height:180px;
+	
+		}
+		#inr-content1{
+	width:640px;
+	height:150px;
+	margin-top:0px;
+	font-size:14px;
+	display:inline;
+	}
+	#tab{
+	margin-left:27px;font-size:14px; line-height:20px;margin-top:5px; display:inline}
+#end {
+	width:1000px;
+	height:162px;
+	background-image:url(../images/end_03.jpg);
+	background-repeat:no-repeat;
+}
+.more {
+	font-size:12pt;
+	color:#528F27;
+}

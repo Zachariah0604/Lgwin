@@ -1,0 +1,572 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>校园文化---岁月理工</title>
+<link href="css/css.css" rel="stylesheet" type="text/css">
+
+<SCRIPT language=JavaScript type=text/javascript>
+//（层的名字，每个图片的宽度，每次移动的图片数，实际对象名）
+function pic_lr(div_name,Picwidth,n,name)
+{
+    this.l=0;
+    this.width=Picwidth;
+    this.div=document.getElementById(div_name);
+    this.l=this.div.style.posLeft;
+    this.imgs=this.div.getElementsByTagName("div");
+    this.div.style.width=(this.imgs.length*(this.width+50))+"px";
+    this.num=this.imgs.length;
+    this.now_playing_num=0;
+    this.widths=this.width;
+    this.move=function(leftorright)
+    {
+        this.now_playing_num+=leftorright*n;
+        if(this.now_playing_num>=this.num-3||this.now_playing_num<=0)
+        {
+          this.now_playing_num=0;
+        }
+        this.l=0-this.widths*this.now_playing_num;
+        this.moveing();
+        
+    } 
+	    this.moveing= function()
+        {
+        if((this.l-this.div.style.posLeft)<2&&(this.l-this.div.style.posLeft)>-2)
+        {
+            this.div.style.posLeft=this.l;
+        }
+        else
+        {
+            this.cha_l=(this.l+this.div.style.posLeft)/2;
+            this.div.style.posLeft=this.cha_l;
+            setTimeout(name+".moveing()",50);
+         }
+         } 
+		 this.autoPlay=function()
+	    {
+		    this.map=setInterval(name+".move(0.002)",50);
+		    
+	    };
+    }
+	function $(id){return document.getElementById(id);}
+	function show(div_name)
+{
+    this.div=document.getElementById(div_name);
+    var inner='<a href=';
+	inner+='"';
+	inner+=div.url;
+	inner+='"';
+	inner+=' target="_blank">';
+	inner+=div.message;
+	inner+='</a>';
+	$("mes").innerHTML=inner;
+		
+}
+function showpic(id,jiange,qihuan)
+{
+    this.now=0;
+    this.style_num=0;
+    this.div=document.getElementById(id);
+    this.ttstyle=new Array();
+		this.ttstyle[0] = "progid:DXImageTransform.Microsoft.RandomDissolve()";
+		this.ttstyle[1] = "progid:DXImageTransform.Microsoft.Iris(irisStyle='star', motion='out')";
+		this.ttstyle[2] = "progid:DXImageTransform.Microsoft.Stretch(stretchStyle='push')";
+		this.ttstyle[3] = "progid:DXImageTransform.Microsoft.Stretch(stretchStyle='pop')";
+		this.ttstyle[4] = "progid:DXImageTransform.Microsoft.Fade(overlap=0)";
+		this.ttstyle[5] = "progid:DXImageTransform.Microsoft.GradientWipe(gradientSize=0.25,motion=forward )";
+		this.ttstyle[6] = "progid:DXImageTransform.Microsoft.Wheel(spokes=16)";
+		this.ttstyle[7] = "progid:DXImageTransform.Microsoft.RadialWipe(wipeStyle=CLOCK)";
+		this.ttstyle[8] = "progid:DXImageTransform.Microsoft.RandomBars(orientation=vertical)";
+		this.ttstyle[9] = "progid:DXImageTransform.Microsoft.Blinds(bands=20)";
+		this.ttstyle[10]= "progid:DXImageTransform.Microsoft.Checkerboard(squaresX=20,squaresY=20)";
+		this.ttstyle[11]= "progid:DXImageTransform.Microsoft.Strips(motion=rightdown)";
+		this.ttstyle[12]= "progid:DXImageTransform.Microsoft.Slide(slideStyle=push)";
+		this.ttstyle[13]= "progid:DXImageTransform.Microsoft.Spiral(gridSizeX=40,gridSizeY=40)";
+		this.ttstyle[14]= "progid:DXImageTransform.Microsoft.RevealTrans(transition=23)";	
+		
+	    this.alist=new Array();
+		this.alist=this.div.getElementsByTagName("a");
+		this.num=this.alist.length;
+				
+		this.Play=function() {
+		    //alert(this.now);
+		    this.div.style.filter=this.ttstyle[this.style_num];
+		    this.div.filters.item(0).duration=qihuan;
+		    this.div.filters.item(0).Apply();
+			    for(var i=0;i<this.num;i++)
+		    {
+		        if(i==this.now)
+		        {
+		            this.alist[i].style.display="block";
+		        }
+		        else
+				{
+		            this.alist[i].style.display="none";
+				}
+		    }
+		    this.div.filters.item(0).Play();
+            this.now++;
+		    this.style_num++;
+		    if(this.now==this.num)
+		        this.now=0;
+		    if(this.style_num==this.ttstyle.length)
+		        this.style_num=0;
+		        //return;
+		};
+		
+		this.autoPlay=function()
+	    {
+		    this.sit=setInterval("show"+id+".Play()",jiange);		
+
+		    
+	    };
+}
+</SCRIPT>
+<style type="text/css">
+<!--
+body {
+	margin-top:4px;
+	background-image:url(../images/index/images/top_bg_image.jpg);
+	background-repeat:repeat-x;
+}
+/*公共样式，蛋疼的不要随意改*/
+.margin-left-rignt {
+	margin-left:auto;
+	margin-right:auto;
+}
+.width_995 {
+	width:995px;
+}
+.width_330 {
+	width:310px;
+}
+.float_left {
+	float:left;
+}
+.float_right {
+	float:right;
+}
+.center {
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:0px;
+	width:996px;
+}
+.float_left {
+	float:left;
+}
+/*结束*/
+.main {
+	height:415px;
+	margin-top:20px;
+}
+.DangQianWeiZhi {
+	width:744px; 
+	height:17px;
+	background-image:url(images/SuiYue/images/SuiYue_03.jpg);
+	background-repeat:no-repeat;
+	font-size:14px;
+	font-family:"宋体";
+}
+.pic {
+	width:393px;
+	height:273px;
+	border-top:6px solid #f1f0ea;
+	border-right:7px solid #f1f0ea;
+}
+.margin-left-rignt.width_995.main .float_left .float_left .float_left .float_left.pic img {
+	width:393px;
+	height:273px;
+}
+.Gaikuang {
+	height:19px; 
+	background-image:url(images/SuiYue/images/SuiYue_09.jpg);
+	background-position:bottom;
+	background-repeat:no-repeat;
+	font-size:14px;
+	font-family:"宋体";
+	padding-top:19px!important;
+	padding-top:10px;
+}
+.YanGe {
+	height:19px;
+	background-image:url(images/SuiYue/images/SuiYue_11.jpg);
+	background-repeat:no-repeat;
+	font-size:14px;
+	font-family:"宋体";
+	padding-top:10px;
+}
+.RongYu {
+	height:21px;
+	background-image:url(images/SuiYue/images/SuiYue_14.jpg);
+	background-repeat:no-repeat;
+	font-size:14px;
+	font-family:"宋体";
+	padding-top:10px;
+}
+.SuiYue {
+	width:394px;
+	height:72px;
+	font-size:12px;
+	font-family:"宋体";
+	color:#0055aa;
+	padding-top:14px;
+	padding-left:20px;
+}
+.chengGuo {
+	height:21px;
+	background-image:url(images/SuiYue/images/SuiYue_18.jpg);
+	background-repeat:no-repeat;
+	font-size:14px;
+	font-family:"宋体";
+	padding-top:6px;
+}
+.XiaoBiao {
+	width:251px;
+	height:151px;
+	background-image:url(images/SuiYue/images/SuiYue_04.jpg);
+	background-repeat:no-repeat;
+	font-size:18px;
+	font-family:"方正隶二繁体";
+	float:right;
+}
+.XiaoGe {
+	width:251px;
+	height:261px;
+	background-image:url(images/SuiYue/images/SuiYue_12.jpg);
+	background-repeat:no-repeat;
+	font-size:18px;
+	font-family:"方正隶二繁体";
+	float:right;
+}
+.footer {
+	height:26px;
+}
+.footer_left {
+	width:34px;
+	height:26px;
+}
+.footer_middle {
+	width:934px;
+	height:19px;
+	background-image:url(images/index/images/index_43.jpg);
+	background-repeat:no-repeat;
+	font-size:13px;
+	font-family:"宋体";
+	padding-top:5px;
+}
+.footer_right {
+	width:28px;
+	height:26px;
+}
+.CopyRight {
+	height:20px;
+	background-image:url(images/index/images/index_47.jpg);
+	background-repeat:no-repeat;
+	margin-top:10px;
+	font-size:14px;
+	font-family:"宋体";
+}
+#main {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #ffffff; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 940px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+#main A:hover {
+	CURSOR: hand; TEXT-DECORATION: underline
+}
+#main #licheng {
+	BACKGROUND-IMAGE: url(images/yearsbg.jpg); POSITION: relative; WIDTH: 570px; BOTTOM: 0px; BACKGROUND-REPEAT: no-repeat; FLOAT: left; HEIGHT: 77px
+}
+.btn {
+	Z-INDEX: 300; POSITION: absolute; FILTER: Alpha(Opacity=50); WIDTH: 25px; HEIGHT: 30px
+}
+#main #licheng #btnLeft {
+	FLOAT: left; TOP: 20px; LEFT: 35px
+}
+#main #licheng #btnRight {
+	TOP: 17px; RIGHT: 0px
+}
+#main #licheng #years {
+	POSITION: relative; WIDTH: 480px; FLOAT: left; HEIGHT: 30px; LEFT: 1px
+}
+#main #licheng #years0 {
+	POSITION: relative; MARGIN-TOP: 12px; WIDTH: 480px; FLOAT: left; HEIGHT: 30px; OVERFLOW: hidden; CURSOR: hand; LEFT: 60px
+}
+#main #licheng #years .eachyear A {
+	BACKGROUND-IMAGE: url(images/niandaibg.JPG); FONT-STYLE: normal; MARGIN-TOP: 5px; WIDTH: 35px; BACKGROUND-REPEAT: no-repeat; FLOAT: left; HEIGHT: 25px; COLOR: #ff0000; MARGIN-LEFT: 5px; FONT-SIZE: 16px; TEXT-DECORATION: none
+}
+#main #licheng #years .eachyear A:hover {
+	BACKGROUND-IMAGE: url(images/niandaibg2.JPG)
+}
+#main #mes {
+	BACKGROUND-IMAGE: url(images/mesbg.jpg); TEXT-ALIGN: left; PADDING-LEFT: 50px; WIDTH: 890px; FLOAT: left; HEIGHT: 40px; FONT-SIZE: 16px; TEXT-DECORATION: none; PADDING-TOP: 10px
+}
+#main #mes A {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+#main #mes A:hover {
+	CURSOR: hand; TEXT-DECORATION: underline
+}
+#main IMG {
+	BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; TEXT-DECORATION: none
+}
+#ybPics {
+	BORDER-BOTTOM: #993333 0px solid; POSITION: relative; BORDER-LEFT: #993333 0px solid; WIDTH: 995px; FLOAT:left; HEIGHT:148px; OVERFLOW: hidden; BORDER-TOP: #993333 0px solid; BORDER-RIGHT: #993333 0px solid; margin-top:20px;
+}
+#main #ybPics .btn {
+	POSITION: absolute; WIDTH: 22px; TEXT-DECORATION: none
+}
+#ybPics #PicbtnLeft {
+	HEIGHT: 130px; LEFT:0px
+}
+#ybPics #PicbtnRight {
+	HEIGHT: 130px; RIGHT:-3px
+}
+#ybPics #pics0 {
+	Z-INDEX: 0; MARGIN-TOP: 2px; WIDTH: 960px; FLOAT: left; HEIGHT: 130px; OVERFLOW: hidden; CURSOR: hand; LEFT:0px
+}
+#pics0 #yuebingpics {
+	POSITION: relative; WIDTH: 100%; WHITE-SPACE: nowrap; FLOAT:left; HEIGHT: 130px; LEFT: 0px
+}
+#pics0 #yuebingpics #eachImg {
+	WIDTH:180px; FLOAT: left; HEIGHT: 126px; MARGIN-LEFT: 8px; PADDING-TOP:2px; padding-left:2px; padding-right:2px; border:1px; border-style:solid; border-color:#000;
+}
+#yuebingpics #eachImg IMG {
+	WIDTH: 180px; HEIGHT: 124px; TEXT-DECORATION: none
+}
+.margin-left-rignt.width_995.main .float_left .float_left .float_left.SuiYue div a {
+	color: #286cbf;
+	
+}
+a:link {
+	text-decoration: none;
+	color:#000;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+}
+.margin-left-rignt.width_995.main .float_left .float_left .float_left.SuiYue div a {
+}
+#menu
+{
+	height:30px;
+}
+a:link {
+	text-decoration: none;
+	color: #000;
+}
+a:visited {
+	text-decoration: none;
+	color: #000;
+}
+a:hover {
+	text-decoration: none;
+	color: #666;
+}
+a:active {
+	text-decoration: none;
+}
+#hot {
+	font-size: 12px;
+	color: #999;
+	text-align:center;
+}
+#hot table tr td a {
+	font-size: 12px;
+	color: #999;
+}
+#menu tr td a {
+	font-size: 14px;
+	color:#FFF;
+}
+#menu tr td a:hover {
+	font-size: 14px;
+	color:#F00;
+}
+#hot tr td a {
+	color: #999;
+}
+-->
+</style>
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE6" />
+</head>
+
+<body>
+<div class="margin-left-rignt width_995" style="overflow:hidden">
+<table align="center" width="996" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td><table width="996" style="color: #000; font-size:12px" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td>主办：山东理工大学党委宣传部 新闻中心</td>
+          <td width="460px">&nbsp;</td>
+          <td><a href="http://lgwindow.sdut.edu.cn/">新闻网</a></td>
+          <td>｜</td>
+          <td><a href="http://lgwindow.sdut.edu.cn/photo/index.html">光影理工</a></td>
+          <td>｜</td>
+          <td><a href="http://lgwindow.sdut.edu.cn/map/">虚拟校园</a></td>
+          <td>｜</td>
+          <td><a href="http://210.44.191.210/">校园图库</a></td>
+          <td>｜</td>
+          <td><a href="javascript:window.external.addFavorite('http://lgwindow.sdut.edu.cn/Campus/suiyueligong/2.html','山东理工大学新闻网岁月理工')" title="把山东理工大学岁月理工加入收藏" >加入收藏</a></td>
+          <td width="30px">&nbsp;</td>
+        </tr>
+      </table></td>
+    </tr>
+    <tr>
+      <td><table width="996" height="80px" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td><img src="../images/index/images/xywh logo.jpg" width="245" height="80" alt="校园文化_logo" /></td>
+          <td width="200px">&nbsp;</td>
+          <td><img src="../images/index/images/xywh banner.jpg" width="558" height="79" alt="校园文化_banner" /></td>
+        </tr>
+      </table></td>
+    </tr>
+    <tr>
+      <td></td>
+    </tr>
+    <tr>
+      <td>
+        <table id="menu" width="996" style="text-align:center; color:#CCC" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><a href="http://lgwindow.sdut.edu.cn/Campus/Index.html">首页</a></td>
+    <td>｜</td>
+    <td><a href="http://lgwindow.sdut.edu.cn/Campus/suiyueligong/2.html">岁月理工</a></td>
+    <td>｜</td>
+    <td><a href="http://lgwindow.sdut.edu.cn/Campus/Html02/mingjiajiangtan_list_0.html">名家讲坛</a></td>
+    <td>｜</td>
+    <td><a href="http://lgwindow.sdut.edu.cn/Campus/Html02/wenxuexingkong_list_0.html">文学星空</a></td>
+    <td>｜</td>
+    <td><a href="http://lgwindow.sdut.edu.cn/Campus/Html02/jingjingxiaoyuan_list_0.html">菁菁校园</a></td>
+    <td>｜</td>
+    <td><a href="http://lgwindow.sdut.edu.cn/Campus/Html02/XYSH_list_0.html">校园生活</a></td>
+    <td>｜</td>
+    <td><a href="http://lgwindow.sdut.edu.cn/Campus/Html02/ligongwangshi_list_0.html">社团风采</a></td>
+    <td>｜</td>
+    <td><a href="http://lgwindow.sdut.edu.cn/Campus/Fashion_area/index.aspx">时尚广角</a></td>
+    <td width="200px">&nbsp;</td>
+  </tr>
+</table>
+</td>
+    </tr>
+    <tr>
+    <td>
+    <table id="hot" width="996" style="text-align:left; margin-top:5px; margin-bottom:10px" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="70px">热门导航：</td>
+    <td><a href="http://lgwindow.sdut.edu.cn/Campus/Html02/wenxuexingkong_list_0.html">学生原创</a></td>
+    <td><a href="http://lgwindow.sdut.edu.cn/Campus/Html02/wenxuexingkong_list_0.html">心灵启迪</a></td>
+    <td><a href="http://lgwindow.sdut.edu.cn/Campus/Html02/jingjingxiaoyuan_list_0.html">记者观察</a></td>
+    <td><a href="http://lgwindow.sdut.edu.cn/Campus/Html02/jingjingxiaoyuan_list_0.html">稷下时评</a></td>
+    <td><a href="http://lgwindow.sdut.edu.cn/Campus/Fashion_area/index2_mtv.aspx">网视</a></td>
+    <td><a href="http://lgwindow.sdut.edu.cn/Campus/Fashion_area/index2_bh.aspx">图书</a></td>
+    <td><a href="http://lgwindow.sdut.edu.cn/Campus/Fashion_area/index2_music.aspx">音乐</a></td>
+    <td><a href="#">网刊</a></td>
+    <td><a href="#">文学之星</a></td>
+    <td width="440px">&nbsp;</td>
+  </tr>
+</table>
+</td>
+    </tr>
+  </table>
+</div>
+<div class="margin-left-rignt width_995 main">
+	<div class="float_left" style="width:744px; height:412px">
+			<div class="float_left DangQianWeiZhi"><span style="margin-left:45px;">当前位置：<a href="../Index.html">校园文化</a>>>岁月理工</span></div>
+    		<div class="float_left" style="width:744px; height:21px;"></div>
+    		<div class="float_left" style="width:744px; height:288px">
+            <!--图片部分-->
+            			<div class="float_left"><img src="images/SuiYue/images/SuiYue_07.jpg" width="14" height="288" /></div>
+	    				<div style="width:400px; height:288px;" class="float_left">
+                        <div class="float_left pic"><img src="images/SuiYue/images/SuiYue_08.jpg" width="393" height="273" /></div>
+			  			<div class="float_left" style="width:400px; height:9px;"><img src="images/SuiYue/images/SuiYue_16.jpg" width="400" height="9" /></div></div>
+            <!--文字部分-->
+              <div class="float_right" style="height:288px; width:330px">
+                    <div class="float_left width_330 Gaikuang"><span style="margin-left:50px; margin-top:!important">学校概况</span><span style="margin-left:170px;"><a href="../Html_03/201082810408287.html">more</a></span></div>
+                <div class="float_left width_330" style="height:53px; padding-top:10px; padding-left:10px; padding-right:10px; font-size:12px">&nbsp;&nbsp;&nbsp; <a href="../Html_03/201082810408287.html">山东理工大学是山东省属重点大学，创建于1956年,是中华人民共和国国务院批准的首批具有学士学位授予权的普通高等院校之一......</a>
+                </div>
+                    <div class="float_left width_330 YanGe"><span style="margin-left:50px;">历史沿革</span><span style="margin-left:175px;"><a href="../Html_03/2010828107777191.html">more</a></span></div>
+                <div class="float_left width_330" style="height:51px; padding-top:10px; padding-left:10px; padding-right:10px;  font-size:12px">&nbsp;&nbsp;&nbsp; <a href="../Html_03/2010828107777191.html">2002年3月，教育部批准山东工程学院与淄博学院合并，组建山东理工大学。原山东工程学院为省属高校，是山东省历史较长的工科院校......</a></div>
+                    <div class="float_left width_330 RongYu"><span style="margin-left:50px;"><a href="#">所获</a>荣誉</span><span style="margin-left:174px;"><a href="../Html_03/2010828116924113.html">more</a></span></div>
+             		<div class="float_left width_330" style="height:56px; padding-top:10px; padding-left:10px; padding-right:10px;  font-size:12px">&nbsp;&nbsp;&nbsp; <a href="../Html_03/2010828116924113.html">自2002年以来，学校被授予&ldquo;全国法制宣传教育先进单位&rdquo;、&ldquo;全国教育系统审计工作先进集体&rdquo;、&ldquo;全国高校后勤工作先进集体</a><a href="#">......</a></div></div></div>
+            <div class="float_left" style="width:744px; height:86px">
+            		<div class="float_left SuiYue">
+                    %%SYLG%%
+            		  <div align="right" style="margin-top:-10px; padding-right:20px; color:#000; font-size:12px"><a href="../Html02/suiyueligong_list_0.html">更多&gt;&gt;</a></div>
+            		</div>
+                    <div class="float_left width_330 chengGuo">
+	    <span style="margin-left:50px"><a href="#">学术成果</a></span><span style="margin-left:173px;"><a href="../Html_03/2010828119931007.html">more</a></span></div>
+                     <div class="float_left width_330" style="height:46px; padding-top:10px; padding-left:10px; font-size:12px">&nbsp;&nbsp;&nbsp; <a href="../Html_03/2010828119931007.html">十五&rdquo;以来，学校获省级教学成果奖31项，其中一等奖8项；建成国家级精品课程2门，省级精品课程10门，省级试点课程8门；建成国家级特色......</a></div></div></div>
+                     <!-- 右侧部分--->
+    		<div class="float_right" style="width:251px; height:412px">
+            <div class="XiaoBiao"><div style="margin-top:55px; margin-left:25px;"></div></div>
+            <div class="XiaoGe">
+            		<div style="margin-top:16px; margin-left:39px;"><span style="font-size:12px; font-family:'宋体'; margin-left:8px;"><a href="images/sdut_xiaobiao.png">山东理工大学标准字|校标下载</a></span></div>
+            		<div style="margin-top:22px; margin-left:65px;"><span style="font-size:14px; font-family:'宋体'; margin-left:10px;">厚德、博学、笃行、至善</span></div>
+            		<div style="margin-top:20px; margin-left:65px;"><span style="font-size:14px; font-family:'宋体'; margin-left:10px;">无私奉献，追求卓越</span></div>
+                    <div style="margin-top:20px; margin-left:65px;"><span style="font-size:14px; font-family:'宋体'; margin-left:10px;">德业双修，学而不厌</span></div>
+                    <div style="margin-top:20px; margin-left:25px;"></div>
+		  <div style="margin-top:0px; margin-left:35px;">
+              <span style="font-size:14px; font-family:'宋体'; margin-left:50px;">《你伴随我》</span></div>
+                    <div style="margin-top:25px; margin-left:25px;"><a href="images/sdutsong.wma"><img src="images/SuiYue/images/SuiYue_12_1.jpg" width="207" height="18" border="0" /></a></div></div>
+            </div>
+</div>
+    <div class="margin-left-rignt width_995" style="height:148px; margin-top:5px;">
+    		
+<!--图片滚动-->
+            
+
+<DIV id=ybPics>
+<DIV id=PicbtnLeft class=btn onclick=ybpicsplay.move(-1)><IMG 
+                  src="images/SuiYue/images/SuiYue_20.jpg" width=20
+                  height=133></DIV>
+                  <DIV style="FILTER: Alpha(Opacity=40)" id=PicbtnRight 
+                  class=btn onclick=ybpicsplay.move(1)><IMG 
+                  src="images/SuiYue/images/SuiYue_22.jpg" width=22
+                  height=133></DIV>
+                  <DIV id=pics0 align="center" style="margin-left:16px">
+                  <DIV id=yuebingpics 
+                  onmouseover=javascript:clearInterval(ybpicsplay.map); 
+                  onmouseout=javascript:ybpicsplay.autoPlay();>
+                  <DIV id=eachImg><IMG src="images/SuiYue/hit_pic/1.jpg"></DIV>
+                  <DIV id=eachImg><IMG src="images/SuiYue/hit_pic/2.jpg"></DIV>
+                  <DIV id=eachImg><IMG src="images/SuiYue/hit_pic/3.jpg"></DIV>
+                  <DIV id=eachImg><IMG src="images/SuiYue/hit_pic/4.jpg"></DIV>
+                  <DIV id=eachImg><IMG src="images/SuiYue/hit_pic/5.jpg"></DIV>
+                  <DIV id=eachImg><IMG src="images/SuiYue/hit_pic/6.jpg"></DIV>
+                  <DIV id=eachImg><IMG src="images/SuiYue/hit_pic/7.jpg"></DIV>
+                  <DIV id=eachImg><IMG src="images/SuiYue/hit_pic/8.jpg"></DIV>
+                  <DIV id=eachImg><IMG src="images/SuiYue/hit_pic/9.jpg"></DIV>
+                  <DIV id=eachImg><IMG src="images/SuiYue/hit_pic/10.jpg"></DIV>
+                  <DIV id=eachImg><IMG src="images/SuiYue/hit_pic/11.jpg"></DIV>
+                  <DIV id=eachImg><IMG src="images/SuiYue/hit_pic/12.jpg"></DIV>
+                  <DIV id=eachImg><IMG src="images/SuiYue/hit_pic/13.jpg"></DIV>
+                  </DIV></DIV></DIV>
+                  <SCRIPT type=text/javascript>
+	 var ybpicsplay=new pic_lr("yuebingpics",150,4,"ybpicsplay");
+	 ybpicsplay.autoPlay();
+	</SCRIPT>
+<!--滚动图片结束 end-->
+
+      <!--</div><div class="float_left" style="width:21px; height:148px;"><img src="images/SuiYue/images/SuiYue_22.jpg" width="21" height="148" /></div>结束-->
+</div>
+      <div class="center"><img src="images/index/images/index_40.jpg" width="996" height="44" /></div>
+<div class="center"></div>
+<div class="center"><img src="images/index/images/index_41.jpg" width="996" height="8" /></div>
+<div class="footer center">
+
+<div class="footer_left float_left"><img src="images/index/images/index_42.jpg" width="34" height="26" /></div>
+        <div class="footer_middle float_left" style="padding-top:7px"><span><a href="#">校园文化</a></span><span style="margin-left:102PX;font-size:12px"><a href="#">PHOTO CENTER</a></span><span style="margin-left:300px"><a href="#">新闻网</a>　<a href="#">光影理工</a>　<a href="#">青春在线</a>　<a href="#">理工青年</a>　<a href="#">网兜网</a>　<a href="#">教职工摄影协会</a></span></div>
+<div class="footer_right float_left"><img src="images/index/images/index_44.jpg" width="28" height="26" /></div></div>
+<div class="center"><img src="images/index/images/index_45.jpg" width="996" height="9" /></div>
+<div class="CopyRight center"><span style="margin-left:27px;">Copyright&copy;2010　<a href="#">lgwindow.sdut.edu.cn</a> 版权所有　Powered by</span><span style="margin-left:30px;"><a href="#">卡瑞特工作室</a></span><span style="margin-left:240px;">Contact | about | Join us</span></div>
+
+                  
+                
+</body>
+</html>

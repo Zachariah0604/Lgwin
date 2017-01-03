@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+<library libName="Landscapes">
+
+	<item itemPath="pic_17.jpg" itemName="Photo 17" >
+		<itemDescription><![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad.]]></itemDescription>
+	</item>
+
+	<item itemPath="pic_18.jpg" itemName="Photo 18" >
+		<itemDescription><![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad.]]></itemDescription>
+	</item>
+
+	<item itemPath="pic_19.jpg" itemName="Photo 19" >
+		<itemDescription><![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad.]]></itemDescription>
+	</item>
+
+	<item itemPath="pic_20.jpg" itemName="Photo 20" >
+		<itemDescription><![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad.]]></itemDescription>
+	</item>
+
+	<item itemPath="pic_21.jpg" itemName="Photo 21" >
+		<itemDescription><![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad.]]></itemDescription>
+	</item>
+
+	<item itemPath="pic_22.jpg" itemName="Photo 22" >
+		<itemDescription><![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad.]]></itemDescription>
+	</item>
+
+	<item itemPath="pic_23.jpg" itemName="Photo 23" >
+		<itemDescription><![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad.]]></itemDescription>
+	</item>
+
+	<item itemPath="pic_24.jpg" itemName="Photo 24" >
+		<itemDescription><![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad.]]></itemDescription>
+	</item>
+
+	<item itemPath="pic_25.jpg" itemName="Photo 25" >
+		<itemDescription><![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad.]]></itemDescription>
+	</item>
+
+	<item itemPath="pic_26.jpg" itemName="Photo 26" >
+		<itemDescription><![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad.]]></itemDescription>
+	</item>
+
+	<item itemPath="pic_27.jpg" itemName="Photo 27" >
+		<itemDescription><![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad.]]></itemDescription>
+	</item>
+
+	<item itemPath="pic_28.jpg" itemName="Photo 28" >
+		<itemDescription><![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad.]]></itemDescription>
+	</item>	
+	
+	<item itemPath="pic_29.jpg" itemName="Photo 29" >
+		<itemDescription><![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad.]]></itemDescription>
+	</item>
+
+	<item itemPath="pic_30.jpg" itemName="Photo 30" >
+		<itemDescription><![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad.]]></itemDescription>
+	</item>
+
+	<item itemPath="pic_31.jpg" itemName="Photo 31" >
+		<itemDescription><![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad.]]></itemDescription>
+	</item>
+
+	<item itemPath="pic_32.jpg" itemName="Photo 32" >
+		<itemDescription><![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad.]]></itemDescription>
+	</item>
+
+
+
+
+
+</library>

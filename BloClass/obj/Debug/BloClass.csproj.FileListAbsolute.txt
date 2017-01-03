@@ -1,0 +1,19 @@
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\BloClass\bin\Debug\BloClass.dll
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\BloClass\bin\Debug\BloClass.pdb
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\BloClass\obj\Debug\ResolveAssemblyReference.cache
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\BloClass\obj\Debug\BloClass.dll
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\BloClass\obj\Debug\BloClass.pdb
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\BloClass\bin\Debug\BloClass.dll
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\BloClass\bin\Debug\BloClass.pdb
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\BloClass\obj\Debug\BloClass.dll
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\BloClass\obj\Debug\BloClass.pdb
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\BloClass\bin\Debug\BloClass.dll
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\BloClass\bin\Debug\BloClass.pdb
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\BloClass\obj\Debug\BloClass.dll
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\BloClass\obj\Debug\BloClass.pdb
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\BloClass\obj\Debug\BloClass.csprojResolveAssemblyReference.cache
+D:\Program Files\Vs Projects\Lgwin\BloClass\bin\Debug\BloClass.dll
+D:\Program Files\Vs Projects\Lgwin\BloClass\bin\Debug\BloClass.pdb
+D:\Program Files\Vs Projects\Lgwin\BloClass\obj\Debug\BloClass.dll
+D:\Program Files\Vs Projects\Lgwin\BloClass\obj\Debug\BloClass.pdb
+D:\Program Files\Vs Projects\Lgwin\BloClass\obj\Debug\BloClass.csprojResolveAssemblyReference.cache

@@ -1,0 +1,220 @@
+﻿body 
+{
+    margin:0 auto;
+}
+ a {color:#000000;text-decoration: none;} 
+      a :link{color:#000000;text-decoration: none;} 
+    a:hover{color:#000000;text-decoration:none; } 
+    a:active{color:#000000;text-decoration: none; } 
+
+       .daohangword a:link{color:#F9A81B;text-decoration: none;  } 
+        .daohangword  a:visited{color:#F9A81B;text-decoration:none; } 
+     .daohangword a:hover{color:#E00D04;text-decoration:none;} 
+      .daohangword a:active{color:#F9A81B;text-decoration: none;  } 
+      .ma
+{
+    width: 1001px;
+    height: 26px;
+    margin: 0 auto;
+    background-color: #F8F9F8;
+    border: 1px solid #E9E9E9;
+    line-height: 26px;
+    font-size:12px;
+    color: #4D4D4D;
+}
+.ma1
+{
+    float: left;
+    margin-left: 16px;
+}
+.ma2
+{
+    float: right;
+   margin-right:16px;
+}
+#head
+{
+    width:1004px;
+    height:203px;
+    margin:0 auto;
+    background-image:url(../images/head.jpg);
+    background-repeat:no-repeat;
+    }
+    #daohang
+    { 
+        width:1004px;
+        height:32px;
+        background-image:url(../images/daohangbg.jpg);
+        background-repeat:repeat-x;
+        margin:0 auto;
+        }
+        .daohangword
+        {
+            width:80px;
+            font-size:18px;
+            font-family:微软雅黑;
+            color:#F9A81B;
+            margin:2px auto 0 103px;
+             float:left;
+           
+            }
+    #congratulateall
+    {
+        width:1004px;
+    height:432px;
+    margin:1px auto;
+    background-image:url(../images/congratulateall.jpg);
+    background-repeat:no-repeat;
+        }
+    
+          #congratulate
+    {        
+    width:619px;
+    height:432px;
+    margin:0 auto;
+    float:left;
+    background-repeat:no-repeat;
+        } 
+         #congratulatepic
+		 {
+			 width:619px;
+			 height:158px;
+			 margin-top:35px;
+			 }
+			 #congratulatepicbig1
+			 {
+			     width:304px;
+			     height:160px;
+			     float:left;
+			     margin-left:3px;
+			     display:inline;
+			     }
+			  #congratulatepicbig2
+			 {
+			     width:304px;
+			     height:160px;
+			     float:left;
+			     margin-left:5px;
+			     display:inline;
+			     }
+			   #congratulatepic1
+		 {
+			 width:615px;
+			 height:230px;
+			 display:inline;
+			 margin-left:3px;
+			 margin-top:2px;
+			 }
+         #congratulateword
+    {
+    width:382px;
+    height:432px;
+    margin:0 auto;
+    float:right;
+     overflow:hidden;
+     display:inline;
+    font:14px/20px 宋体 ;
+    background-repeat:no-repeat;
+        }
+         #tody
+    {
+        width:1004px;
+    height:453px;
+    margin:1px auto;
+      background-image:url(../images/today.jpg);
+    background-repeat:no-repeat;
+    }
+    #tab
+    {
+        margin:35px auto;
+        
+        }
+        
+        #tody_left
+        {
+             width:410px;
+    height:390px;
+     margin-top:35px;
+    float:left;
+            }
+              #tody_right
+        {
+             width:592px;
+               margin-top:40px;
+    height:390px;
+    float:right;
+            }
+              .tody_tab
+    {
+        margin:0px auto;
+     height:73px;
+     border:0px;
+     vertical-align:top;
+    }
+              .tody_tab1
+    {
+        margin:0px auto;
+     height:73px;
+        
+        }
+        .intody_tab
+        {
+            height:73px;
+            font-size:14px;
+            }
+            #blesswall
+            {
+                width:1004px;
+                height:643px;
+                margin:0 auto;
+            }
+            #blesswalltiao
+            {
+                 width:1004px;
+                height:35px;
+                margin:0 auto;
+                background-image:url(../images/blesswallpice.jpg);
+                }
+               #blesslogo
+               {
+                    width:93px;
+                height:21px;
+                margin:6px auto 0 900px;
+                   }
+                   #blesswallbody
+{
+    width:1004px;
+    height:625px;
+    margin:0 auto;
+    }
+                   .bottom
+{
+    width: 1004px;
+    margin:18px auto 0 auto;
+    height: 75px;
+    text-align: center;
+    padding-top: 9px;
+    background-color: #F6FAFB;
+    line-height: 20px;
+    color: #272727;
+    font-size:12px;
+    border: 1px solid #DADADA;
+}
+
+.bottom a
+{
+    margin: 0 20px;
+    color: #272727;
+    text-decoration:none;
+}
+.bottom .c
+{
+    margin-left: 0px;
+    clear: both;
+}
+.bottom hr
+{
+    width: 990px;
+    height: 0px;
+    color: #BFC0C0;
+}

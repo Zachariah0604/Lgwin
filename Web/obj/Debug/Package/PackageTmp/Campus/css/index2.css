@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	background-image:url(images/index2/xywh_2_01.jpg);
+	background-repeat:repeat-x;
+	background-position:top;
+}
+.public
+{
+	width:996px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#top{
+	height:140px;
+	margin-top:22px;
+	}
+#middle_01
+{
+	
+	}
+#middle_left
+{
+	height:849px;
+	width:677px;
+	margin-left:0px;
+	float:left;
+}
+#middle_left_01
+{
+	width:660px;
+	height:20px;
+	margin-top:10px;
+	margin-left:10px;
+	font-size:14px;
+	}
+#middle_left_02
+{
+	background-image:url(images/index2/xywh_2_05.jpg);
+	background-repeat:repeat-y;
+	width:611px;
+	min-height:310px;
+	margin-left:auto;
+	margin-right:auto;
+	}	
+#middle_right
+{
+	float:right;
+	margin-right:0px;
+	height:849px;
+	width:319px;
+	background-image:url(images/index2/xywh_2_02.jpg);
+}
+.middle_right_01
+{
+	margin-left:40px;
+	margin-right:auto;
+	margin-top:12px;
+	width:250px;
+	font-size:12px;
+	height:14px;
+	
+	}
+#bottom
+{
+	height:50px;
+}

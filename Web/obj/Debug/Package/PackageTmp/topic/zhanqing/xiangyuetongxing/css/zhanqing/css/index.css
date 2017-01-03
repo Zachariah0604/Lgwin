@@ -1,0 +1,121 @@
+﻿body 
+{
+    margin:0 auto;
+}
+#head
+{
+    width:1004px;
+    height:203px;
+    margin:0 auto;
+    background-image:url(../images/head.jpg);
+    background-repeat:no-repeat;
+    }
+    #congratulateall
+    {
+        width:1004px;
+    height:432px;
+    margin:1px auto;
+    background-image:url(../images/congratulateall.jpg);
+    background-repeat:no-repeat;
+        }
+    
+          #congratulate
+    {        
+    width:619px;
+    height:432px;
+    margin:0 auto;
+    float:left;
+    background-repeat:no-repeat;
+        } 
+         #congratulatepic
+		 {
+			 width:100%;
+			 height:158px;
+			 margin-top:35px;
+			 }
+			   #congratulatepic1
+		 {
+			 width:100%;
+			 height:230px;
+			 margin-top:5px;
+			 }
+         #congratulateword
+    {
+    width:383px;
+    height:432px;
+    margin:0 auto;
+    float:right;
+    font:14px/20px 宋体 ;
+    background-repeat:no-repeat;
+        }
+         #tody
+    {
+        width:1004px;
+    height:453px;
+    margin:1px auto;
+      background-image:url(../images/today.jpg);
+    background-repeat:no-repeat;
+    }
+    #tab
+    {
+        margin:35px auto;
+        
+        }
+        
+        #tody_left
+        {
+             width:410px;
+    height:390px;
+     margin-top:35px;
+    float:left;
+            }
+              #tody_right
+        {
+             width:592px;
+               margin-top:40px;
+    height:390px;
+    float:right;
+            }
+              .tody_tab
+    {
+        margin:0px auto;
+     height:73px;
+     border:0px;
+     vertical-align:top;
+    }
+              .tody_tab1
+    {
+        margin:0px auto;
+     height:73px;
+        
+        }
+        .intody_tab
+        {
+            height:73px;
+            font-size:14px;
+            }
+            #blesswall
+            {
+                width:1004px;
+                height:535px;
+                margin:0 auto;
+            }
+            #blesswalltiao
+            {
+                 width:1004px;
+                height:35px;
+                margin:0 auto;
+                background-image:url(../images/blesswallpice.jpg);
+                }
+               #blesslogo
+               {
+                    width:93px;
+                height:21px;
+                margin:6px auto 0 900px;
+                   }
+                   #blesswall
+                   {
+                       width:1004px;
+                height:500px;
+                margin:0 auto; 
+                       }

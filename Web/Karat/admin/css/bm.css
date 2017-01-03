@@ -1,0 +1,22 @@
+﻿body {
+}
+.bt1
+{
+    width:500px;
+    }
+    .nr1
+    {
+        width:125px;
+        text-align:center;
+        font-size:14px;
+        float:left;
+        height:18px;
+         
+    }
+        .nr2
+    {
+        width:130px;
+        text-align:left;
+ 
+        float:right;
+    }

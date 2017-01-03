@@ -1,0 +1,56 @@
+C:\Users\Administrator\Desktop\Lgwin\IDAL\bin\Debug\Lgwin.IDAL.dll
+C:\Users\Administrator\Desktop\Lgwin\IDAL\bin\Debug\Lgwin.IDAL.pdb
+C:\Users\Administrator\Desktop\Lgwin\IDAL\bin\Debug\Lgwin.Model.dll
+C:\Users\Administrator\Desktop\Lgwin\IDAL\bin\Debug\Lgwin.Model.pdb
+C:\Users\Administrator\Desktop\Lgwin\IDAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Lgwin\IDAL\obj\Debug\Lgwin.IDAL.dll
+C:\Users\Administrator\Desktop\Lgwin\IDAL\obj\Debug\Lgwin.IDAL.pdb
+E:\Lgwin\Lgwin\IDAL\bin\Debug\Lgwin.IDAL.dll
+E:\Lgwin\Lgwin\IDAL\bin\Debug\Lgwin.IDAL.pdb
+E:\Lgwin\Lgwin\IDAL\bin\Debug\Lgwin.Model.dll
+E:\Lgwin\Lgwin\IDAL\bin\Debug\Lgwin.Model.pdb
+E:\Lgwin\Lgwin\IDAL\obj\Debug\ResolveAssemblyReference.cache
+E:\Lgwin\Lgwin\IDAL\obj\Debug\Lgwin.IDAL.dll
+E:\Lgwin\Lgwin\IDAL\obj\Debug\Lgwin.IDAL.pdb
+E:\Lgwin7-11\Lgwin\IDAL\bin\Debug\Lgwin.IDAL.dll
+E:\Lgwin7-11\Lgwin\IDAL\bin\Debug\Lgwin.IDAL.pdb
+E:\Lgwin7-11\Lgwin\IDAL\bin\Debug\Lgwin.Model.dll
+E:\Lgwin7-11\Lgwin\IDAL\bin\Debug\Lgwin.Model.pdb
+E:\Lgwin7-11\Lgwin\IDAL\obj\Debug\ResolveAssemblyReference.cache
+E:\Lgwin7-11\Lgwin\IDAL\obj\Debug\Lgwin.IDAL.dll
+E:\Lgwin7-11\Lgwin\IDAL\obj\Debug\Lgwin.IDAL.pdb
+G:\网站源码--勿动\张水生\Lgwin\IDAL\bin\Debug\Lgwin.IDAL.dll
+G:\网站源码--勿动\张水生\Lgwin\IDAL\bin\Debug\Lgwin.IDAL.pdb
+G:\网站源码--勿动\张水生\Lgwin\IDAL\bin\Debug\Lgwin.Model.dll
+G:\网站源码--勿动\张水生\Lgwin\IDAL\bin\Debug\Lgwin.Model.pdb
+G:\网站源码--勿动\张水生\Lgwin\IDAL\obj\Debug\ResolveAssemblyReference.cache
+G:\网站源码--勿动\张水生\Lgwin\IDAL\obj\Debug\Lgwin.IDAL.dll
+G:\网站源码--勿动\张水生\Lgwin\IDAL\obj\Debug\Lgwin.IDAL.pdb
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\IDAL\bin\Debug\Lgwin.IDAL.dll
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\IDAL\bin\Debug\Lgwin.IDAL.pdb
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\IDAL\bin\Debug\Lgwin.Model.dll
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\IDAL\bin\Debug\Lgwin.Model.pdb
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\IDAL\obj\Debug\ResolveAssemblyReference.cache
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\IDAL\obj\Debug\Lgwin.IDAL.dll
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\IDAL\obj\Debug\Lgwin.IDAL.pdb
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\IDAL\bin\Debug\Lgwin.IDAL.dll
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\IDAL\bin\Debug\Lgwin.IDAL.pdb
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\IDAL\bin\Debug\Lgwin.Model.dll
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\IDAL\bin\Debug\Lgwin.Model.pdb
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\IDAL\obj\Debug\IDAL.csprojResolveAssemblyReference.cache
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\IDAL\obj\Debug\Lgwin.IDAL.dll
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\IDAL\obj\Debug\Lgwin.IDAL.pdb
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\IDAL\bin\Debug\Lgwin.IDAL.dll
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\IDAL\bin\Debug\Lgwin.IDAL.pdb
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\IDAL\bin\Debug\Lgwin.Model.dll
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\IDAL\bin\Debug\Lgwin.Model.pdb
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\IDAL\obj\Debug\IDAL.csprojResolveAssemblyReference.cache
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\IDAL\obj\Debug\Lgwin.IDAL.dll
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\IDAL\obj\Debug\Lgwin.IDAL.pdb
+D:\Program Files\Vs Projects\Lgwin\IDAL\bin\Debug\Lgwin.IDAL.dll
+D:\Program Files\Vs Projects\Lgwin\IDAL\bin\Debug\Lgwin.IDAL.pdb
+D:\Program Files\Vs Projects\Lgwin\IDAL\bin\Debug\Lgwin.Model.dll
+D:\Program Files\Vs Projects\Lgwin\IDAL\bin\Debug\Lgwin.Model.pdb
+D:\Program Files\Vs Projects\Lgwin\IDAL\obj\Debug\IDAL.csprojResolveAssemblyReference.cache
+D:\Program Files\Vs Projects\Lgwin\IDAL\obj\Debug\Lgwin.IDAL.dll
+D:\Program Files\Vs Projects\Lgwin\IDAL\obj\Debug\Lgwin.IDAL.pdb

@@ -1,0 +1,3 @@
+%%ganwu%%,176,9,20,false,Havedate,1
+1
+grade2,30,20

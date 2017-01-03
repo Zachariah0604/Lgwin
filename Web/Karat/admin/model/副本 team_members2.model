@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<meta http-equiv="X-UA-Compatible" content="IE=7" />
+<meta http-equiv="X-UA-Compatible" content="IE=6" />
+<META content="MSHTML 6.00.2800.1264" name=GENERATOR>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>团队成员</title>
+<link href="../css/team_members.css" rel="stylesheet" type="text/css" />
+<meta http-equiv="x-ua-compatible" content="ie=7" />
+</head>
+<body>
+<div style="margin:auto; width:950px">
+<iframe src="../top.html" align="center" allowtransparency="true" style="background-color=transparent; margin-left:auto; margin-right:auto" 
+ frameborder="0" scrolling="no" width="950px"; height="160px"></iframe>
+ </div>
+<div id="members_menu">
+  <div id="menu_left"><img src="../images/team_members_01.jpg" width="660" height="95" border="0" usemap="#Map" />
+    <map name="Map" id="Map">
+      <area shape="rect" coords="399,30,505,62" href="team_members.html" target="_blank" alt="在职成员" />
+      <area shape="rect" coords="535,32,636,61" href="wangjie.htm" target="_blank" alt="往届成员" />
+    </map>
+  </div>
+  <div id="menu_right">
+  <form id="form1" name="form1" method="post" action="Search.aspx">
+    <div id="search">
+      <div id="search_text">
+        
+          <label for="textfield"></label>
+          <input type="text" name="textfield" style="height:18px; width:80px; border-style:solid; border-width:0px; border-color:#333" id="textfield" />
+        
+      </div>
+      <div id="search_button">
+      <input type="image" src="../images/images/search_04.jpg"/>
+      </div>
+    </div></form>
+
+    <div id="search_intro">
+      <h>提示：输入年份查询</h>
+      <h>例如，输入“2007”</h>
+      <h>即可查询2007级成员</h>
+    </div>
+  </div>
+</div>
+
+<div class="zhanzhang"><img src="../images/zhanzhang.jpg" width="950" height="50" /></div>
+<div class="zhanzhang_list">
+  <table width="950" style="text-align:center; font-size:14px" border="0" cellspacing="5" cellpadding="0">
+%%zz%%
+  </table>
+</div>
+<div class="zhanzhang"><img src="../images/caibianbu.jpg" width="950" height="50" /></div>
+<div id="caibian">
+%%cbb%% 
+</div>
+<div class="zonghe"><img src="../images/zonghebu.jpg" width="950" height="50" /></div>
+<div id="caibian">
+ %%zhb%%
+</div>
+<div class="zhanzhang"><img src="../images/jishubu.jpg" width="950" height="50" /></div>
+<div id="caibian">
+   %%jsb%%
+ 
+</div>
+<div id="bottom"><img src="../images/bottom.jpg" width="950" height="51" border="0" usemap="#Map2" />
+  <map name="Map2" id="Map2">
+    <area shape="rect" coords="447,16,551,34" href="#" target="_blank" alt="卡瑞特工作室" />
+  </map>
+</div>
+</body>
+</html>

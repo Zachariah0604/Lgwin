@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+	<style type="text/css">
+<!--
+body div a img {
+	text-decoration: none;
+	border:0px;
+	color:#FFF;
+}
+-->
+</style>
+</head>
+<body style="margin-top:0px; margin-left:0px;">
+<div style="width:253px; height:170px; background-image:url(images/index/dianshi.jpg); background-repeat:no-repeat; padding-left:44px; padding-top:10px;"><a href="Video.html" target="video"><img src="%%picPash%%" style="width:214px; height:142px;"/></a></div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+C:\Users\Administrator\Desktop\Lgwin\Code\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Lgwin\Code\bin\Debug\Lgwin.Code.dll
+C:\Users\Administrator\Desktop\Lgwin\Code\bin\Debug\Lgwin.Code.pdb
+C:\Users\Administrator\Desktop\Lgwin\Code\obj\Debug\Lgwin.Code.dll
+C:\Users\Administrator\Desktop\Lgwin\Code\obj\Debug\Lgwin.Code.pdb
+E:\Lgwin\Lgwin\Code\bin\Debug\Lgwin.Code.dll
+E:\Lgwin\Lgwin\Code\bin\Debug\Lgwin.Code.pdb
+E:\Lgwin\Lgwin\Code\obj\Debug\ResolveAssemblyReference.cache
+E:\Lgwin\Lgwin\Code\obj\Debug\Lgwin.Code.dll
+E:\Lgwin\Lgwin\Code\obj\Debug\Lgwin.Code.pdb
+E:\Lgwin7-11\Lgwin\Code\bin\Debug\Lgwin.Code.dll
+E:\Lgwin7-11\Lgwin\Code\bin\Debug\Lgwin.Code.pdb
+E:\Lgwin7-11\Lgwin\Code\obj\Debug\ResolveAssemblyReference.cache
+E:\Lgwin7-11\Lgwin\Code\obj\Debug\Lgwin.Code.dll
+E:\Lgwin7-11\Lgwin\Code\obj\Debug\Lgwin.Code.pdb
+G:\网站源码--勿动\张水生\Lgwin\Code\bin\Debug\Lgwin.Code.dll
+G:\网站源码--勿动\张水生\Lgwin\Code\bin\Debug\Lgwin.Code.pdb
+G:\网站源码--勿动\张水生\Lgwin\Code\obj\Debug\ResolveAssemblyReference.cache
+G:\网站源码--勿动\张水生\Lgwin\Code\obj\Debug\Lgwin.Code.dll
+G:\网站源码--勿动\张水生\Lgwin\Code\obj\Debug\Lgwin.Code.pdb
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\Code\bin\Debug\Lgwin.Code.dll
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\Code\bin\Debug\Lgwin.Code.pdb
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\Code\obj\Debug\ResolveAssemblyReference.cache
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\Code\obj\Debug\Lgwin.Code.dll
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\Code\obj\Debug\Lgwin.Code.pdb
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\Code\bin\Debug\Lgwin.Code.dll
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\Code\bin\Debug\Lgwin.Code.pdb
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\Code\obj\Debug\Lgwin.Code.dll
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\Code\obj\Debug\Lgwin.Code.pdb
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\Code\bin\Debug\Lgwin.Code.dll
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\Code\bin\Debug\Lgwin.Code.pdb
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\Code\obj\Debug\Lgwin.Code.dll
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\Code\obj\Debug\Lgwin.Code.pdb
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\Code\obj\Debug\Code.csprojResolveAssemblyReference.cache
+D:\Program Files\Vs Projects\Lgwin\Code\bin\Debug\Lgwin.Code.dll
+D:\Program Files\Vs Projects\Lgwin\Code\bin\Debug\Lgwin.Code.pdb
+D:\Program Files\Vs Projects\Lgwin\Code\obj\Debug\Lgwin.Code.dll
+D:\Program Files\Vs Projects\Lgwin\Code\obj\Debug\Lgwin.Code.pdb
+D:\Program Files\Vs Projects\Lgwin\Code\obj\Debug\Code.csprojResolveAssemblyReference.cache

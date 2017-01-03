@@ -1,0 +1,18 @@
+img{border-width:0;}
+.pb .steps, .pb .points li{
+	background-color: transparent;
+	background-image: url(../images/pic.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.pb .banners{float:left; margin-left:17px!important;margin:30px auto auto 7px; padding:0px;}
+.pb .banners li{width:297px;height:195px;overflow:hidden;display:none}
+.pb .banners li.current{display:block;}
+.pb .switcher{float:left;height:195px;width:24px;background-position:left -76px; position:relative; margin:30px auto auto 0px}
+.pb .points{width:19px;margin:8px auto 0; font-size:12px; padding:0;}
+.pb .points li{width:16px;height:15px;background-position:0px 0px;overflow:hidden;text-align:center;line-height:15px;margin:0 0 2px 3px;color:#fff;cursor:pointer; font-family:Arial;}
+.pb .points li.current{width:19px;background-position:-19px 0px;margin-left:0; text-align:center; text-indent:3px;}
+.pb .steps { width:16px;height:23px;background-position:0px -17px;margin:0px 0px 0px 6px;position:absolute; bottom:3px; _overflow:hidden; } /* FireFox */
+*html .pb .steps { width:16px;height:23px;background-position:0px -17px;margin:0px 0px 0px 5px;position:absolute; bottom:3px; _overflow:hidden; } /* IE6 */
+*+html .pb .steps { width:16px;height:23px;background-position:0px -17px;margin:0px 0px 0px 5px;position:absolute; bottom:3px; _overflow:hidden; } /* IE7 */
+.pb .steps .up, .pb .steps .down{width:15px;height:11px;cursor:pointer;}

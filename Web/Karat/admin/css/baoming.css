@@ -1,0 +1,38 @@
+
+   
+   
+#wai
+{
+    width:625px;
+    margin-top:0px;
+    margin-left:0px;
+    border:0px;
+    padding-left:10px;
+    
+    }
+.lines1
+{
+        height:30px;
+}
+.table1
+{
+    border-style:solid;
+    border-width:1px;
+    border-color:#808080;
+}
+.td1
+{
+    text-align:center;
+    
+}
+.textbox
+{
+    border: 1px solid Gray;
+}
+.textbox2
+{
+    border-color:Gray;
+    border-width:1px;
+    border-style:solid;
+}
+ 

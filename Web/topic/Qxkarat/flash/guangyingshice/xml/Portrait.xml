@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+<library libName="Portraits">
+
+	<item itemPath="pic_01.jpg" >
+		
+	</item>
+
+	<item itemPath="pic_02.jpg" itemName="Photo 2" >
+		<itemDescription><![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad.]]></itemDescription>
+	</item>
+
+	<item itemPath="pic_03.jpg" itemName="Photo 3" >
+		<itemDescription><![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad.]]></itemDescription>
+	
+</item>
+<item itemPath="pic_04.jpg" itemName="Photo 4" >
+		<itemDescription><![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad.]]></itemDescription>
+	</item>
+	
+
+	<item itemPath="pic_05.jpg" itemName="Photo 5" >
+		<itemDescription><![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad.]]></itemDescription>
+	</item>
+
+	<item itemPath="pic_06.jpg" itemName="Photo 6" >
+		<itemDescription><![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad.]]></itemDescription>
+	</item>
+
+	<item itemPath="pic_07.jpg" itemName="Photo 7" >
+		<itemDescription><![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad.]]></itemDescription>
+	</item>
+
+	<item itemPath="pic_08.jpg" itemName="Photo 8" >
+		<itemDescription><![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad.]]></itemDescription>
+	</item>
+
+	<item itemPath="pic_09.jpg" itemName="Photo 9" >
+		<itemDescription><![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad.]]></itemDescription>
+	</item>
+
+	<item itemPath="pic_10.jpg" itemName="Photo 10" >
+		<itemDescription><![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad.]]></itemDescription>
+	</item>
+
+	<item itemPath="pic_11.jpg" itemName="Photo 11" >
+		<itemDescription><![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad.]]></itemDescription>
+	</item>
+
+	<item itemPath="pic_12.jpg" itemName="Photo 12" >
+		<itemDescription><![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad.]]></itemDescription>
+	</item>	
+<item itemPath="pic_13.jpg" itemName="Photo 13" >
+		<itemDescription><![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad.]]></itemDescription>
+	</item>	
+<item itemPath="pic_14.jpg" itemName="Photo 14" >
+		<itemDescription><![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad.]]></itemDescription>
+	</item>	
+<item itemPath="pic_15.jpg" itemName="Photo 15" >
+		<itemDescription><![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad.]]></itemDescription>
+	</item>	
+<item itemPath="pic_16.jpg" itemName="Photo 16" >
+		<itemDescription><![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad.]]></itemDescription>
+	</item>	
+
+</library>

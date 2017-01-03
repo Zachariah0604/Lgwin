@@ -1,0 +1,54 @@
+﻿
+/* CSS Document */
+ul,li{ list-style:none; }
+ul,li{ list-style:none;}  
+a{ text-decoration:none;}
+img{ border:0;}
+
+body { background:#8DDFFB; font-size: 12px; margin-top:0px;
+SCROLLBAR-FACE-COLOR: #0096CE; SCROLLBAR-HIGHLIGHT-COLOR: #ffffff; 
+SCROLLBAR-SHADOW-COLOR: #ffffff; SCROLLBAR-DARKSHADOW-COLOR: #0096CE; 
+SCROLLBAR-3DLIGHT-COLOR: #0096CE; SCROLLBAR-ARROW-COLOR: #def0fa;
+SCROLLBAR-TRACK-COLOR: #def0fa; width:99%; margin-left:auto; margin-right:auto;}
+TD,INPUT{FONT-SIZE: 12px; vertical-align:middle;}
+#buttom {float:right; text-align:right; margin:5px 20px;}
+Button,Select{FONT-SIZE: 9pt;HEIGHT: 20px; margin-left:10px;}
+a{TEXT-DECORATION: none;color: #000000;}
+a:hover{COLOR: #428EFF;text-decoration: underline;}
+th,.title{background:#0096CE;height:26px;font-size:12px;COLOR:white;font-weight: bold;border-bottom:1px solid #dadada;text-align:center;}
+.title2 {padding:0 3px;  font-size:12px;background:#F0F0F0;}
+.border{BORDER-RIGHT: #0096CE 1px solid; BORDER-TOP: #0096CE 1px solid;
+BORDER-LEFT: #0096CE 1px solid; WIDTH: 99%; BORDER-BOTTOM: #0096CE 1px solid; BACKGROUND-COLOR: #ffffff}
+.tdbg{ background:#def0fa; padding:0 3px; height:22;}
+.tdbg2{background:#EFF2F7; padding:0 3px; height:22;}
+ul.showpage{text-align:center;}
+ul.showpage li {display: inline;}
+input {	border: 1px solid #0096CE;
+    FONT-SIZE: 12px;     COLOR: #000000;  background-color:#ffffff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    }
+.True{ color:#F00;}
+.False{color:#666;}
+#pager {text-decoration:none; color:#FFFFFF;}
+#pager a{ text-decoration:none; color:#FFFFFF;}
+#DataList1 img{ max-height:120px;}
+#jieshao { text-indent:2em;}
+.zhuanti{ text-align:center;}
+a
+{
+	text-align: center;
+}
+#GridView1
+{ text-align:center;
+	}
+#Layer2 {
+	position:absolute;
+	z-index:1;
+	background-color: #FFFFFF;
+	overflow: auto;
+	border: 1px;
+	border-color: #373C8E;
+	visibility: hidden;
+}
+.float_left { float:left}
+.float_right{ float:right}

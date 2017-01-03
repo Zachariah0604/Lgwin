@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<link href="../css/2-3rd.css" type="text/css" rel="stylesheet" />
+<title>right</title>
+<script type="text/javascript">
+var docEle = function() 
+{
+    return document.getElementById(arguments[0]) || false;
+}
+
+function openNewDiv(_id) 
+{
+    var m = "mask";
+    if (docEle(_id)) document.body.removeChild(docEle(_id));
+    if (docEle(m)) document.body.removeChild(docEle(m));
+   
+  var newMask = document.createElement("div");
+    newMask.id = m;
+    newMask.style.position = "absolute";
+    newMask.style.zIndex = "1";
+    _scrollWidth = Math.max(document.body.scrollWidth,document.documentElement.scrollWidth-100);
+    _scrollHeight = Math.max(document.body.scrollHeight,document.documentElement.scrollHeight-15);
+    newMask.style.width = _scrollWidth + "px";
+    newMask.style.height = _scrollHeight + "px";
+    newMask.style.top = "0px";
+    newMask.style.left = "0px";
+    newMask.style.background = "#33393C";
+    newMask.style.filter = "alpha(opacity=40)";
+    newMask.style.opacity = "0.40";
+    document.body.appendChild(newMask);
+
+  var newDiv = document.createElement("div");
+    newDiv.id = _id;
+    newDiv.style.position = "absolute";
+    newDiv.style.zIndex = "9999";
+    newDivWidth = 250;
+    newDivHeight = 520;
+    newDiv.style.width = newDivWidth + "px";
+    newDiv.style.height = newDivHeight + "px";
+    newDiv.style.top = (document.body.scrollTop + document.body.clientHeight/2 - newDivHeight/2) + "px";
+    newDiv.style.left = (document.body.scrollLeft + document.body.clientWidth/2 - newDivWidth/2) + "px";
+    newDiv.style.background = "#EFEFEF";
+    newDiv.style.border = "1px solid #860001";
+    newDiv.innerHTML = "<img src=\"../images/qmerweima_android.png\" /><img src=\"../images/qmerweima_apple.png\" /><br/>"; 
+    document.body.appendChild(newDiv);    
+ 
+    function newDivCenter()
+    {
+        newDiv.style.top = (document.body.scrollTop + document.body.clientHeight/2 - newDivHeight/2-50) + "px";
+        newDiv.style.left = (document.body.scrollLeft + document.body.clientWidth/2 - newDivWidth/2-50) + "px";
+    }
+    if(document.all)
+    {
+        window.attachEvent("onscroll",newDivCenter);
+    }
+    else
+    {
+        window.addEventListener('scroll',newDivCenter,false);
+    }
+    
+
+var newA = document.createElement("a");
+    newA.href = "#";
+	newA.style.position = "absolute";
+	newA.style.top="0px";
+	newA.style.right="10px";
+    newA.innerHTML = "关闭";
+    newA.onclick = function() 
+    {
+        if(document.all)
+        {
+            window.detachEvent("onscroll",newDivCenter);
+        }
+        else
+        {
+            window.removeEventListener('scroll',newDivCenter,false);
+        }
+        document.body.removeChild(docEle(_id));
+        document.body.removeChild(docEle(m));
+        return false;
+    }
+    newDiv.appendChild(newA);
+}
+</script>
+</head>
+
+<body style="background-color:transparent">
+			<div id="rdxw">
+				<div id="rdlm_title"></div>
+				<div class="rdlm">
+					<table width="100%"   border="0" align="center" cellpadding="0" cellspacing="0"  style=" margin-top:-10px; float:left;">
+                        <script language="javascript" src="../../2013shijian/WeekHotHandler.ashx" charset=UTF-8></script>
+                    </table>
+				</div>
+			</div>
+			<div class="map"><a href="../../../map/IndexYX.htm" target="_blank"><img src="../images/map.jpg" width="297" height="100" border="0" /></a></div>
+			
+				
+			
+			
+			<div id="qm">
+				
+				<div class="qmcontent2">山理青梅，是山东理工大学本地化校园资讯手机客户端，是为在校大学生量身定做的校园生活速递平台。<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;它依托新闻网自主运营，随时随地，实时更新，永远给你最新最快的校园讯息；通知、新闻、观点、文学、娱乐、兼职、购物，权威
+				</div>
+				<div class="qmbottom">
+					<div class="qmcontent1">资讯、身边消息应有尽有；订阅机制灵活，让你自主定义完全个性化的校园生活。点击扫描<a onclick="openNewDiv('newDiv');return false;" style="cursor:pointer; color:#0066FF; font-size:16px;">&nbsp;二维码&nbsp;</a>快速下载山理青梅。</div>
+					<div class="qmlo"><img src="../images/qmlogo.png" width="100" height="100" border="0" /></div>
+				</div>
+			</div>
+			<div class="lborder"></div>
+			<div class="linkbottom">
+					<div class="linkcontent2">
+						<p>
+  热线电话: 0533-2786727<br />
+  设计维护：<a href="http://lgwindow.sdut.edu.cn/karat/" target="_blank" style="color:#0033FF; font-size:14px;">卡瑞特工作室</a>
+  <br />
+办公地址：鸿远楼西侧212室 <br />
+ </p>	</div><div class="linklo"><img src="../images/linklo.png" width="90" height="92" border="0" /></div>				
+ <div class="linkcontent3">
+ 	<p>欢迎通过新闻网<a href="http://lgwindow.sdut.edu.cn/TouGao/TouGao.aspx" target="_blank" style="color:#0033FF; font-size:14px;">在线投稿</a>系统提供稿件。<br />
+	投稿邮箱:<a href="mailto:lgwindow@163.com" style="color:#0033FF; font-size:14px;">lgwindow@163.com</a>
+  <br />
+  网站管理：党委宣传部　新闻中心 <br />
+
+</p>
+ </div>
+
+					
+					
+			</div>
+</body>
+</html>

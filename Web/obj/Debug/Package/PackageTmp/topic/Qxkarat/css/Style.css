@@ -1,0 +1,171 @@
+﻿   body
+        {
+            margin: 0 auto;
+            background-image: url(../images/body_bg.jpg);
+            background-repeat: repeat-x;
+            height:auto;
+        }
+        #x_images
+        {
+            position: absolute;
+            left: -29px;
+            top: 0px;
+            z-index: -1;
+        }
+        #x
+        {
+            margin: 0 auto;
+            width: 100%;
+            height: auto;
+            z-index: -1;
+        }
+        .daohang
+        {
+            width: 650px;
+            height: 31px;
+            background-image: url(../images/daohangbg.png);
+             _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/daohangbg.png'); /* IE6 */
+                    _background-image: none;
+            margin: 200px 0 0 0;
+                padding-top:11px;
+        }
+        #content
+        {
+            margin: 0 auto;
+            width: 1000px;
+            height: auto;
+          
+            background: #ffffff;
+        }
+        #karat_cultrue
+        {
+            height: 328px;
+            width: 1000px;
+            line-height:0px;
+             clear:both;
+            margin: 1px auto 0 auto;
+        }
+        #karat_cultrue_left
+        {
+            width: 648px;
+            height: 327px;
+            float: left;
+            margin: 0 auto 0 1px;
+        }
+        #karat_cultrue_right
+        {
+            width: 348px;
+            height: 327px;
+            float: left;
+            margin: 0 auto 0 2px;
+            background-image: url(../images/culture_bg.jpg);
+        }
+        #karat_cultrue_word
+        {
+            width: 285px;
+            height: 285px;
+            margin: 12px auto 0 auto;
+            font: 18px 华文行楷;
+            color: #FF7723;
+            clear:both;
+        }
+        .bottomline
+        {
+            border-bottom: 1px solid #FF7723;
+            margin-top: 2px;
+        }
+        
+        #group
+        {
+            width: 998px;
+            height: 550px;
+           margin-top:0px !important;
+            margin: 0 auto;
+        }
+        .piclogo
+        {
+            width: 998px;
+            height: 27px;
+            font-size:1px;
+            margin: 0 auto;
+        }
+        #yuxiu
+        {
+            width: 998px;
+            height: 500px;
+            margin: 0 auto;
+        }
+          #shiyi
+        {
+            width: 998px;
+            height:370px;
+            margin: 0 auto;
+        }
+         #shice
+        {
+            width: 998px;
+            height: 335px;
+            background-image:url(../images/shiceqingshen.jpg);
+            margin: 0 auto;
+        }
+        #guangying
+        {
+            width:660px;
+            height:306px;
+            float:left;
+            margin:28px auto 0 1px;
+            }
+            #qingshen{ width:335px;
+            height:300px;
+            float:left;
+            font-size:14px;
+            line-height:18px;
+            color:#2A2A2A;
+             margin:7px auto 0 0px;}
+            .more
+            {
+                 font-size:16px; font-weight:bolder; margin:3px auto 0 935px;
+                }
+                .more a:link{color:#E78E64;text-decoration: none;  } 
+          .more a:visited{color:#E78E64;text-decoration:none; } 
+     .more a:hover{color:#000000;text-decoration:none;} 
+      .more a:active{color:#E78E64;text-decoration: none;  } 
+                .bottom
+{
+    width:998px;
+    margin:0px auto 0 auto;
+    height: 75px;
+    text-align: center;
+    padding-top: 9px;
+    background-color: #F6FAFB;
+    line-height: 20px;
+    color: #272727;
+    font-size:12px;
+    border: 1px solid #DADADA;
+}
+.bottom a
+{
+    margin: 0 20px;
+    color: #272727;
+    text-decoration:none;
+}
+.bottom .c
+{
+    margin-left: 0px;
+    clear: both;
+}
+.bottom hr
+{
+    width: 990px;
+    height: 0px;
+    color: #BFC0C0;
+}
+ a {color:#000000;text-decoration: none;} 
+      a :link{color:#000000;text-decoration: none;} 
+    a:hover{color:#000000;text-decoration:none; } 
+    a:active{color:#000000;text-decoration: none; } 
+
+        a.qingshen:link{color:#000000;text-decoration: none;  } 
+          a.qingshen:visited{color:#000000;text-decoration:none; } 
+      a.qingshen:hover{color:#E88F63;text-decoration:none;} 
+       a.qingshen:active{color:#000000;text-decoration: none;  } 

@@ -1,0 +1,356 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{ margin:0; padding: 0;}
+.com_juzhong{
+	width:28px;
+	margin:0 auto;
+}
+div{
+	overflow:hidden;
+}
+img{ border:0;}
+a:link{
+	color:#000;
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:underline;
+}
+#all{
+	width:1000px;
+	margin:0 auto;
+	font-family:"微软雅黑";
+	font-size:16px;
+}
+#top{
+	height:280px;
+	margin:0;
+	background:url(../images/top_bg.jpg);
+}
+#daohang{
+	position:relative;
+	top:240px;
+	left:600px;
+}
+#daohang_1,#daohang_2,#daohang_3,#daohang_4{
+	float:left;
+}
+#daohang_1{ width:75px;}
+#daohang_2,#daohang_3,#daohang_4{ width:100px;}
+#left{
+	float:left;
+	width:341px;
+}
+#bisaitongzhi_t{
+	height:45px;
+	width:341px;
+	background:url(../images/bisaitongzhi.jpg);
+}
+#bisaitongzhi_m{
+	height:153px;
+}
+#bisaim_t{
+	height:2px;
+	background:url(../images/bisaim_t.jpg) no-repeat;
+}
+#bisaim_m{
+	height:150px;
+	background:url(../images/bisaim_m.jpg) repeat-y;
+}
+#bisaim_m ul{
+	margin-left:30px;
+	margin-top:3px;
+}
+#bisaim_m ul li{
+	list-style:url(../images/li.jpg);
+	height:24px;
+	line-height:24px;
+}
+#bisaim_b{
+	height:1px;
+	background:url(../images/bisaim_b.jpg) no-repeat;
+}
+#shipin_t{
+	height:34px;
+	margin-top:2px;
+	background:url(../images/shipin_tbg.jpg) repeat-x;
+}
+#shipin_m{
+	height:206px;
+}
+#shipin_b{
+	height:151px;
+	background:url(../images/shipin_bg.jpg) repeat-x;
+}
+#shipin_b ul{
+	margin-left:30px;
+	margin-top:12px;
+}
+#shipin_b ul li{
+	list-style:url(../images/photo.png);
+	height:25px;
+	line-height:25px;
+}
+#right{
+	float:right;
+	width:655px;
+}
+#zuizong_t{
+	height:45px;
+	background:url(../images/zuizong_bg.jpg) repeat-x;
+}
+#zuizong_m{
+	height:153px;
+}
+#zatan_tl,#zatan_tm,#zatan_tr{
+	float:left;
+	height:35px;
+}
+#zatan_tl{
+	width:30px;
+	background:url(../images/zatan_l.jpg) no-repeat;
+}
+#zatan_tm{
+	width:622px;
+	background:url(../images/zatan_m.jpg) repeat-x;
+}
+#zatan_tr{
+	width:3px;
+	background:url(../images/zatan_r.jpg) no-repeat;
+}
+#zatan_ml,#zatan_mm,#zatan_mr{
+	float:left;
+	height:131px;
+	padding-top:8px;
+}
+#zatan_ml{
+	background:url(../images/zatan_ml.jpg) no-repeat;
+	width:1px;
+}
+#zatan_mm{
+	background:url(../images/zatan_mm.jpg) repeat-x;
+	width:652px;
+}
+#zatan_mr{
+	background:url(../images/zatan_mr.jpg) no-repeat;
+	width:2px;
+}
+#renwu_tl,#renwu_tm,#renwu_tr{
+	margin-top:1px;
+	height:31px;
+	float:left;
+}
+#renwu_tl{
+	background:url(../images/renwu_l.jpg) no-repeat;
+	width:2px;
+}
+#renwu_tm{
+	background:url(../images/renwu_m.jpg) repeat-x;
+	width:651px;
+}
+#renwu_tr{
+	background:url(../images/renwu_r.jpg) no-repeat;
+	width:2px;
+}
+#renwu_ml,#renwu_mm,#renwu_mr{
+	height:187px;
+	float:left;
+}
+#renwu_ml{
+	width:1px;
+	background:url(../images/renwu_ml.jpg) no-repeat;
+}
+#renwu_mm{
+	width:652px;
+	background:url(../images/renwu_mm.jpg) repeat-x;
+}
+#renwu_mmt{ height:98px; margin-top:6px;}
+#renwu_mmtpic{
+	width:112px;
+	float:left;
+	padding-left:12px;
+}
+#renwu_mmtcont{
+	text-indent:2em;
+	padding:5px;
+}
+#renwu_mr{
+	width:2px;
+	background:url(../images/renwu_mr.jpg) no-repeat;
+}
+#meiwen_l,#meiwen_m,#meiwen_r{
+	height:167px;
+	float:left;
+}
+#meiwen{
+	width:998px;
+	height:167px;
+	margin:1px auto;
+	clear:both;
+}
+#meiwen_l{
+	width:1px;
+	background:url(../images/meiwenxs_l.jpg) no-repeat;
+}
+#meiwen_m{
+	width:561px;
+	background:url(../images/meiwenxs_m.jpg) repeat-x;
+}
+#meiwen_r{
+	width:436px;
+	background:url(../images/meiwenxs_r.jpg) no-repeat;
+}
+#zhanqh{
+	height:198px;
+	background:url(../images/zhanqh_bg.jpg) repeat-x;
+}
+#zhanqh_z,#zhanqh_y{
+	height:198px;
+	width:50%;
+	float:left;
+}
+#zhanqh_zz,#zhanqh_yz{
+	width:52px;
+	float:left;
+}
+#zhanqh_zzt,#zhanqh_yzt{
+	width:28px;
+}
+#zhanqh_zzb,#zhanqh_yzb{
+	width:45px;
+	padding:10px 0;
+}
+#sheying{
+	height:224px;
+	margin-top:1px;
+	background:url(../images/sheying_bg.jpg) no-repeat;
+}
+#sheying_top,#sheying_topl,#sheying_topr{
+	height:35px;
+}
+#sheying_top2{
+	margin-top:2px;
+	height:35px;
+	width:992px;
+	background:#ffffff;
+	filter:alpha(opacity=50,finishopacity=30,style=3);
+}
+#sheying_top{	
+	margin-left:1px;
+	width:992px;
+	position:relative;
+	top:-35px;
+}
+#sheying_topl{
+	width:100px;
+	float:left;
+}
+#sheying_topr{
+	width:200px;
+	float:right;
+}
+#sheying_m{
+	position:relative;
+	top:-35px;
+}
+#sheying_ml,#sheying_mr{
+	width:275px;
+	height:188px;
+	float:left;
+}
+#sheying_mm{
+	margin-top:3px;
+	width:450px;
+	height:176px;
+	float:left;
+}
+#footer{
+	border:1px solid #CCC;
+	margin-top:1px;
+	background:#ffffcc;
+	height:80px;
+	text-align:center;
+	font-family:"楷体";
+	padding:10px;
+	font-size:14px;
+	color:#2670A6;
+	line-height:18px;
+}
+#footer span a{
+	color:#000;
+	font-size:16px;
+	font-weight:900;
+	margin:0 45px;
+}
+#footer a{
+	color:#2670A6;
+}
+#footer hr{
+	margin:10px 0;
+}
+.r_left{
+	float:left;
+	width:325px;
+	margin-top:4px;
+}
+.z_content,.z_content2,.z_content3,.r_content,.r_content2,.r_content3,.m_content,.m_content2,.m_content3{
+	float:left;
+	height:25px;
+}
+.z_content,.r_content,.m_content{
+	width:20px;
+	background:url(../images/li2.png) no-repeat;
+}
+.z_content2{width:541px;}
+.z_content3{width:90px;}
+.r_content2{width:245px;}
+.r_content3,.m_content3{ width:60px;}
+.m_content{ margin-left:6px;}
+.m_content2{ width:430px;}
+.meiwen_mrt{ height:35px; text-align:right; height:35px; line-height:35px; font-family:"宋体"; font-size:18px; font-weight:bold;}
+.meiwen_mrt a{ color:#007277;}
+.zhanqh_cy{
+	width:447px;
+}
+.zhanqh_cyone{
+	width:222px;
+	float:left;
+}
+.zhanqh_cytwo{
+	width:222px;
+	float:right;
+}
+.zhanqh_cythr,.zhanqh_cyfou{
+	font-size:15px;
+	line-height:20px;
+	font-family:"方正行楷简体","华文行楷","楷体";
+	margin-top:2px;
+	height:64px;
+	width:212px;
+	padding:5px;
+	background:url(../images/zhanqh_des.jpg) no-repeat;
+}
+.zhanqh_cythr span,.zhanqh_cyfou span{ font-weight:bold;}
+.zhanqh_cythr{ float:left;}
+.zhanqh_cyfou{ float:right;}
+.zhanqh_cyone_t{
+	height:2px;
+	background:url(../images/zhanqh_t.jpg) no-repeat;
+}
+.zhanqh_cyone_m{
+	height:115px;
+	padding-top:2px;
+	padding-left:40px;
+	background:url(../images/zhanqh_m.jpg) repeat-y;
+}
+.zhanqh_cyone_b{
+	height:1px;
+	background:url(../images/zhanqh_b.jpg) no-repeat;
+}
+.sheying_pic{
+	width:121px;
+	height:82px;
+	float:left;
+	margin:3px 0 7px 11px;
+}

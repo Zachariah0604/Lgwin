@@ -1,0 +1,230 @@
+/*全局属性*/
+body { text-align: left; margin:0 auto; padding:0; background: #FFF; font-size:12px;font-family:verdana; color:#000; }
+body > div { text-align:left; margin-right:auto; margin-left:auto;font-family:verdana; } 
+div,form,img,ul,ol,li,p { margin: 0; padding: 0; border: 0;font-family:verdana;}
+h1,h2,h3,h4,h5,h6 { margin:0; padding:0; font-size:12px; font-weight:normal;}
+ul,li { list-style: none }
+h2	{font-size:14px;}
+
+#headpic, #nav , #ad57, #subjectarea, #subjectarea1, #foot { width:750px; clear:both; height:auto;border-left:5px solid #E0E0E0;border-right:5px solid #E0E0E0}
+
+/* 链接颜色 */
+a {color: #000; text-decoration:none;}
+a:hover {text-decoration:underline;}
+
+/*通用属性*/
+.left { float: left;}
+.right { float: right;}
+.clear { clear: both; height:1px;font-size:1px;width:1px; visibility: hidden; }
+
+/* 导航 */
+#nav {background:url(wish/navbg.gif);height:20px;padding-top:10px;text-indent:350px;color:#fff;}
+#nav a {color:#fff;}
+
+
+
+/* 标题功能区 */
+.subjectC {width:714px;height:29px;background:#B7E234;text-align:right;margin:auto;position:relative;padding:0 12px}
+.subjectC img {margin-right:31px;padding-top:3px}
+.subjectC h2 {float:left;color:#216705;padding:9px 0 0 0px}
+.subjectC h2 a {color:#216705}
+.subjectC h3 {float:right;color:#216705;padding:9px 0 0 0px}
+.subjectC h3 a {color:#216705}
+
+/* 表单区 */
+.form {width:106px;padding-top:5px;border:1px solid #B0B0B0;background:#F4FFD3;color:#7A7A7A;text-align:left;height:63px}
+.form {position:absolute;top:-67px!important;top:-69px;left:626px}
+.form .input {border:1px solid #C0C0C0;color:#7A7A7A;width:94px;margin-bottom:4px}
+.form img {margin:0}
+
+/* 内容区 */
+#contentarea {margin:0 auto;height:600px;position: absolute; width: 100%; z-index:1 }
+#contentarea div {width:218px;}
+
+/* 纸条定义 类型1 */
+#contentarea .scrip1 {color:#4B4B4B;position:absolute}
+#contentarea .scrip1 a {color:#4B4B4B;text-decoration:none}
+#contentarea .scrip3 .insbody {width:80%; height: auto; margin-left:15px;line-height:13px;text-align:  left; margin-top:5px; padding-top:2px;}
+#contentarea .scrip1 .shead {background:url(wish/1_1.png);height:18px;padding-top:50px;padding-left:18px}
+#contentarea .scrip1 .sbody {width:236px; height:101px;line-height:18px;background:url(wish/1_2.png);}
+#contentarea .scrip1 .sbot {width:186px;padding:10px 20px 5px 30px;background:url(wish/1_3.png);height:40px;}
+#contentarea .scrip1 .sbot h2 {margin-top:7px;float:left;margin-left:60px;}
+
+/* 纸条定义 类型2 */
+#contentarea .scrip2 {color:#1E7119;position:absolute}
+#contentarea .scrip2 a {color:#1E7119;text-decoration:none}
+#contentarea .scrip3 .insbody {width:80%; height: auto; margin-left:15px;line-height:13px;text-align:  left; margin-top:5px; padding-top:2px;}
+#contentarea .scrip2 .shead {background:url(wish/2_1.png);height:18px;padding-top:50px;padding-left:18px;  font-family:方正硬笔楷书简体；}
+#contentarea .scrip2 .sbody {width:236px; height:101px;text-align:left;line-height:18px;background:url(wish/2_2.png);}
+#contentarea .scrip2 .sbot {width:186px;padding:10px 20px 5px 30px;background:url(wish/2_3.png);height:40px;}
+#contentarea .scrip2 .sbot h2 {margin-top:7px;float: left;margin-left:60px;}
+
+/* 纸条定义 类型3 */
+#contentarea .scrip3 {color:#E44136;position:absolute}
+#contentarea .scrip3 a {color:#D9E4AD;text-decoration:none}
+#contentarea .scrip3 .shead {background:url(wish/3_1.png);height:18px;padding-top:50px;padding-left:18px}
+#contentarea .scrip3 .sbody {width:237px; height:101px;background:url(wish/3_2.png); background-repeat:no-repeat}
+#contentarea .scrip3 .insbody {width:80%; height: auto; margin-left:15px;line-height:13px;text-align:  left; margin-top:5px; padding-top:2px;}
+#contentarea .scrip3 .sbot {width:195px;color:#E44136;padding:15px 18px 5px 25px;background:url(wish/3_3.png); background-repeat: no-repeat; height:84px; margin-top:-3px;}
+#contentarea .scrip3 .sbot h2 {margin-top:8px;float:left;margin-left:60px;}
+
+/* 纸条定义 类型4 */
+#contentarea .scrip4 {color:#8C4D00;position:absolute}
+#contentarea .scrip4 a {color:#8C4D00;text-decoration:none}
+#contentarea .scrip3 .insbody {width:90%; height: auto; margin-left:10px;line-height:13px;text-align:  left; margin-top:5px; padding-top:2px;}
+#contentarea .scrip4 .shead {background:url(wish/4_1.png);height:18px;padding-top:50px;padding-left:18px}
+#contentarea .scrip3 .insbody {width:80%; height: auto; margin-left:15px;line-height:13px;text-align:  left; margin-top:5px; padding-top:2px;}
+#contentarea .scrip4 .sbody {width:237px; height:101px;background:url(wish/4_2.png); background-repeat:no-repeat}
+#contentarea .scrip4 .sbot {width:195px;color:#E44136;padding:15px 18px 5px 25px;background:url(wish/4_3.png); background-repeat: no-repeat; height:84px; margin-top:-3px;}
+#contentarea .scrip4 .sbot h2 {margin-top:8px;float:left;margin-left:60px;}
+
+/* 纸条定义 类型5 */
+#contentarea .scrip5 {color:#007845;position:absolute}
+#contentarea .scrip5 a {color:#007845;text-decoration:none}
+#contentarea .scrip3 .insbody {width:80%; height: auto; margin-left:15px;line-height:13px;text-align:  left; margin-top:5px; padding-top:2px;}
+#contentarea .scrip5 .shead {background:url(wish/5_1.png);height:18px;padding-top:50px;padding-left:18px}
+#contentarea .scrip5 .sbody {width:236px; height:101px;text-align:left;line-height:18px;background:url(wish/5_2.png);}
+#contentarea .scrip5 .sbot {width:186px;padding:20px 20px 5px 30px;background:url(wish/5_3.png);height:46px;background-repeat: no-repeat;}
+#contentarea .scrip5 .sbot h2 {margin-top:7px;float:left;margin-left:60px;}
+
+/* 纸条定义 类型6 */
+#contentarea .scrip6 {color:#417000;position:absolute}
+#contentarea .scrip6 a {color:#417000;text-decoration:none}
+#contentarea .scrip3 .insbody {width:80%; height: auto; margin-left:15px;line-height:13px;text-align:  left; margin-top:5px; padding-top:2px;}
+#contentarea .scrip6 .shead {background:url(wish/6_1.png);height:18px;padding-top:50px;padding-left:18px}
+#contentarea .scrip6 .sbody {width:236px; height:101px;text-align:left;line-height:18px;background:url(wish/6_2.png);}
+#contentarea .scrip6 .sbot {width:186px;padding:20px 20px 5px 30px;background:url(wish/6_3.png);height:47px;background-repeat: no-repeat;}
+#contentarea .scrip6 .sbot h2 {margin-top:7px;float:left;margin-left:60px;}
+
+/* 纸条定义 类型7 */
+#contentarea .scrip7 {color:#AA348C;position:absolute}
+#contentarea .scrip7 a {color:#AA348C;text-decoration:none}
+#contentarea .scrip3 .insbody {width:80%; height: auto; margin-left:15px;line-height:13px;text-align:  left; margin-top:5px; padding-top:2px;}
+#contentarea .scrip7 .shead {background:url(wish/7_1.png);height:18px;padding-top:50px;padding-left:18px}
+#contentarea .scrip7 .sbody {width:236px; height:101px;text-align:left;line-height:18px;background:url(wish/7_2.png);}
+#contentarea .scrip7 .sbot {width:186px;padding:20px 20px 5px 30px;background:url(wish/7_3.png);height:47px;background-repeat: no-repeat;}
+#contentarea .scrip7 .sbot h2 {margin-top:7px;float:left;margin-left:60px;}
+
+/* 纸条定义 类型8 */
+#contentarea .scrip8 {color:#006586;position:absolute}
+#contentarea .scrip8 a {color:#006586;text-decoration:none}
+#contentarea .scrip3 .insbody {width:80%; height: auto; margin-left:15px;line-height:13px;text-align:  left; margin-top:5px; padding-top:2px;}
+#contentarea .scrip8 .shead { background:url(wish/8_1.png);height:18px;padding-top:50px;padding-left:18px}
+#contentarea .scrip8 .sbody { width:236px; height:101px;text-align:left;line-height:18px;background:url(wish/8_2.png);}
+#contentarea .scrip8 .sbot {width:186px;padding:20px 20px 5px 30px;background:url(wish/8_3.png);height:47px;background-repeat:no-repeat;}
+#contentarea .scrip8 .sbot h2 {margin-top:7px;float:left;margin-left:60px;}
+/* 纸条定义 类型9*/
+#contentarea .scrip9 {color:#006586;position:absolute}
+#contentarea .scrip9 a {color:#006586;text-decoration:none}
+#contentarea .scrip3 .insbody {width:80%; height: auto; margin-left:15px;line-height:13px;text-align:  left; margin-top:5px; padding-top:2px;}
+#contentarea .scrip9 .shead {background:url(wish/9_1.png);height:18px;padding-top:50px;padding-left:18px}
+#contentarea .scrip9 .sbody {width:236px; height:101px;text-align:left;line-height:18px;background:url(wish/9_2.png);}
+#contentarea .scrip9 .sbot {width:186px;padding:20px 20px 5px 30px;background:url(wish/9_3.png);height:47px;background-repeat:no-repeat;}
+#contentarea .scrip9 .sbot h2 {margin-top:7px;float:left;margin-left:60px;}
+/* 纸条定义 类型10 */
+#contentarea .scrip10 {color:#006586;position:absolute}
+#contentarea .scrip10 a {color:#006586;text-decoration:none}
+#contentarea .scrip3 .insbody {width:80%; height: auto; margin-left:15px;line-height:13px;text-align:  left; margin-top:5px; padding-top:2px;}
+#contentarea .scrip10 .shead {background:url(wish/10_1.png);height:18px;padding-top:50px;padding-left:18px}
+#contentarea .scrip10 .sbody {width:236px; height:101px;text-align:left;line-height:18px;background:url(wish/10_2.png);}
+#contentarea .scrip10 .sbot {width:186px;padding:20px 20px 5px 30px;background:url(wish/10_3.png);height:47px;background-repeat:no-repeat;}
+#contentarea .scrip10 .sbot h2 {margin-top:7px;float:left;margin-left:60px;}
+/* 页底 */
+#foot {padding-top:15px}
+#foot p {background:#E0E0E0;height:24px;padding-top:12px;color:#505050;width:760px}
+#foot p a {color:#505050}
+#contentarea .scrip3 .insbody {width:80%; height: auto; margin-left:15px;line-height:13px;text-align:  left; margin-top:5px; padding-top:2px;}
+td,body,input,select {color:#000000; font-size:12px}
+a:link,a:visited {color:#000000; text-decoration:none}
+a:hover {color:#000000; text-decoration:underline}
+
+/*以上不改*/
+
+.f12_ffff {color:#ffffff; font-size:12px; line-height:18px}
+.f12_ffff a:link,.f12_ffff a:visited {color:#ffffff; font-size:12px; text-decoration:none} 
+.f12_ffff a:hover {color:#ffffff; font-size:12px; text-decoration:underline}
+
+.f12_5050 {color:#505050; font-size:12px; line-height:24px}
+.f12_5050 a:link,.f12_5050 a:visited {color:#505050; font-size:12px; text-decoration:none} 
+.f12_5050 a:hover {color:#505050; font-size:12px; text-decoration:underline}
+
+.f16_5050 {color:#505050; font-size:16px; line-height:24px;font-family:'黑体'}
+.f16_5050 a:link,.f16_5050 a:visited {color:#505050; font-size:16px; text-decoration:none;font-family:'黑体'} 
+.f16_5050 a:hover {color:#505050; font-size:16px; text-decoration:underline;font-family:'黑体'}
+
+.f12_3383 {color:#338306; font-size:12px; line-height:18px}
+.f12_3383 a:link,.f12_3383 a:visited {color:#338306; font-size:12px; text-decoration:none} 
+.f12_3383 a:hover {color:#338306; font-size:12px; text-decoration:underline}
+
+.f14_3383 {color:#338306; font-size:14px; line-height:18px}
+.f14_3383 a:link,.f14_3383 a:visited {color:#338306; font-size:14px; text-decoration:none} 
+.f14_3383 a:hover {color:#338306; font-size:14px; text-decoration:underline}
+
+.f12_2167 {color:#216705; font-size:12px; line-height:18px}
+.f12_2167 a:link,.f12_2167 a:visited {color:#216705; font-size:12px; text-decoration:none} 
+.f12_2167 a:hover {color:#216705; font-size:12px; text-decoration:underline}
+
+.f14_2167 {color:#216705; font-size:14px; line-height:18px}
+.f14_2167 a:link,.f14_2167 a:visited {color:#216705; font-size:14px; text-decoration:none} 
+.f14_2167 a:hover {color:#216705; font-size:14px; text-decoration:underline}
+
+.f12_3333 {color:#333333; font-size:12px; line-height:18px}
+.f12_3333 a:link,.f12_3333 a:visited {color:#333333; font-size:12px; text-decoration:none} 
+.f12_3333 a:hover {color:#333333; font-size:12px; text-decoration:underline}
+
+.f12_0078 {color:#007847; font-size:12px; line-height:18px}
+.f12_0078 a:link,.f12_0078 a:visited {color:#007847; font-size:12px; text-decoration:none} 
+.f12_0078 a:hover {color:#007847; font-size:12px; text-decoration:underline}
+
+.pt2 {padding-top:2px}
+.pt4 {padding-top:4px}
+.pt12 {padding-top:12px}
+.lh28 {line-height:28px}
+.ti10 {text-indent:10px}
+.ti14 {text-indent:14px}
+.pic04 {background: #EEF1EC url(wish/pic04.gif) repeat-x bottom}
+.pic28 {background: url(wish/pic28.gif) no-repeat bottom left}
+
+
+
+body, div{text-align: center; margin:auto; padding:0; background: transparent; font-size:12px;font-family:arial; color:#000;word-break:break-all;}
+
+.white		 { color:#FCFCFC; }
+.green		{ color:green;}
+
+#bar{
+
+	height:25px;
+	line-height:25px;
+	background:#C9FF8C;
+	margin:auto;
+	color:#006000;
+	text-align:left;
+	position:relative;
+	z-index:1
+}
+/* pape number */
+#pagenum { text-align:center;font-size:14px;	line-height:25px;	background:#78B01A;margin:10px 0px 10px 0px;color:white;background:#78B01A; }
+#pagenum a:link	 {color: white; text-decoration: none}
+#pagenum a:visited	 {color: white; text-decoration: none}
+#pagenum a:hover	 {color: white; text-decoration: underline}
+#pagenum a:active	 {color: red; text-decoration: none}
+.nr {
+	font-size:14px;
+	text-align:left;
+	height:150px;
+	color:#19150F;
+	padding-right:0px;
+	overflow: auto;
+	SCROLLBAR-ARROW-COLOR:#000000;
+	SCROLLBAR-FACE-COLOR:#E1F2E8;
+	SCROLLBAR-DARKSHADOW-COLOR:#8EC0BF;
+	SCROLLBAR-HIGHLIGHT-COLOR:#E1F2E8;
+	SCROLLBAR-3DLIGHT-COLOR:#8EC0BF;
+	SCROLLBAR-SHADOW-COLOR:#E1F2E8;
+	SCROLLBAR-TRACK-COLOR:#E1F2E8;
+	
+	margin-left: 10px;
+}
+
+

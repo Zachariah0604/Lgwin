@@ -1,0 +1,144 @@
+.title {
+	color: #322B1F;
+	font-weight: bold;
+	font-size: 13px;
+}
+.author {font-size: 14px;}
+#menutop {
+	height: 35px;
+	padding-left: 20px;
+	padding-top: 15px;
+	font-size:14px;
+}
+
+#content {
+	float: left;
+	width: 715px;
+	height: 753px;
+}
+#Right {
+	overflow: hidden;
+	width: 280px;
+}
+#paihang {
+	width: 99%;
+	height: 300px;
+	overflow: hidden;
+	background: #f1f2f7;
+}
+#paihang tr .NewsList   {
+	FONT-SIZE: 13px;
+	TEXT-ALIGN: left;
+	padding-left: 20px;
+	background-repeat: no-repeat;
+	line-height: 25px;
+	background-image: url(../right/list.jpg);
+}
+#paihang tr .NewsList    A:link   {
+	text-decoration: none;
+	color: #333333;
+}
+#paihang tr .NewsList   A:hover   {
+	color: #000000;
+}
+
+#zhuanti {
+	height: 180px;
+	width: 99%;
+	overflow: hidden;
+	background: #f1f2f7;
+}
+#ZtImg {
+	width: 99%;
+	text-align: center;
+}
+#ZtImg img {
+	height: 60px;
+	width: 95%;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+#conus {
+	overflow: hidden;
+	height: 220px;
+	width: 99%;
+	background: #f1f2f7;
+	font-size: 14px;
+}
+#conus p{
+	padding-left: 10px;
+
+}
+
+#gongju {
+	overflow: hidden;
+	height: 30px;
+	width: 99%;
+	background: #f1f2f7;
+}
+.ed {font-size: 14px;}
+.nr {
+	font-size:14px;
+	text-align:left;
+	height:780px;
+	color:#19150F;
+	padding-right:0px;
+	overflow: auto;
+	SCROLLBAR-ARROW-COLOR:#000000;
+	SCROLLBAR-FACE-COLOR:#E1F2E8;
+	SCROLLBAR-DARKSHADOW-COLOR:#8EC0BF;
+	SCROLLBAR-HIGHLIGHT-COLOR:#E1F2E8;
+	SCROLLBAR-3DLIGHT-COLOR:#8EC0BF;
+	SCROLLBAR-SHADOW-COLOR:#E1F2E8;
+	SCROLLBAR-TRACK-COLOR:#E1F2E8;
+	margin: 0px;
+}
+.nr1 {
+	font-size:14px;
+	text-align:left;
+	height:780px;
+	color:#19150F;
+	padding-right:0px;
+	overflow: auto;
+	SCROLLBAR-ARROW-COLOR:#000000;
+	SCROLLBAR-FACE-COLOR:#CBAE82;
+	SCROLLBAR-DARKSHADOW-COLOR:#B89462;
+	SCROLLBAR-HIGHLIGHT-COLOR:#CBAE82;
+	SCROLLBAR-3DLIGHT-COLOR:#B89462;
+	SCROLLBAR-SHADOW-COLOR:#CBAE82;
+	SCROLLBAR-TRACK-COLOR:#CBAE82;
+	margin: 0px;
+}
+.border{border: 1px solid #0096CE;
+WIDTH: 98%; 
+    BACKGROUND-COLOR: #ffffff
+}
+.tdbg{ background:#def0fa; padding:0 3px; height:22px; font-size:14px}
+.tdbg2{background:#EFF2F7; padding:0 3px; height:22px; font-size:16px}
+#content #conmment {
+	padding-left: 15px;
+	text-align: left;
+	width:720px;
+	overflow:hidden;
+}
+#content #conmmentnr {
+	text-decoration: none;
+	padding-left: 20px;
+	text-indent: 25px;
+	text-align: left;
+	max-height: 100px;
+}
+.prenext  {
+	text-decoration: none;
+	text-align: left;
+	padding-left: 20px;
+	line-height:20px;
+	padding-bottom:10px;
+	font-size:14px;
+}
+#form1 div #content div .border #NewsList itemtemplate .tdbg td a {
+	font-size:14px;
+}
+#form1 div #content div .border #NewsList itemtemplate .tdbg2 td a {
+	font-size:16px;
+}

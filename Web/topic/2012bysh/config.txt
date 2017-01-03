@@ -1,0 +1,10 @@
+%%xinwenhui%%,133,6,10,false,Havedate,1
+%%daolibie%%,134,6,10,false,Havedate,1
+%%youqing%%,135,5,11,false,Havedate,0
+%%aiqing%%,136,6,11,false,Havedate,0
+%%jiuye%%,137,6,12,false,Havedate,4
+%%newscontent%%,133,3,55,%%href1%%
+%%libiecontent%%,134,3,55,%%href2%%
+%%jiuyecontent%%,137,3,65,%%href3%%
+1
+grade2,30,20

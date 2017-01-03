@@ -1,0 +1,199 @@
+﻿body
+{
+	margin:0;
+	padding:0;
+	border:0;
+	font-family:"宋体";
+	font-size:14px;;
+	font-weight:400;
+	color:#000000;
+
+}
+a
+{
+	color:#000000;
+	text-decoration: none;
+	font-weight:400;
+}
+a:link
+{
+	color:#000000;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color:#1175C0;
+	text-decoration: none;
+	font-weight: 400;
+}
+#box
+{
+	width:997px;
+	margin:0 auto;
+	
+}
+#top
+{
+	height:221px;
+}
+#text
+{
+	width:1001px;
+}
+#text_left
+{
+	width:666px;
+	float:left;
+	height:auto;
+	background-color:#FBFFFE;
+	border:#E4E8EB 2px solid;
+	
+}
+.list
+{
+	margin-top:0px;
+	width:616px;
+	height:140px;
+	margin-left:20px;
+}
+.list_list
+{
+	height:23px;
+	line-height:28px;
+	border-bottom-color:#000000;
+	
+}
+#list_left
+{
+	float:left;
+	width:93px;
+	margin-top:20px;
+	margin-left:40px;
+	height:70px;
+}
+#list_right
+{
+	margin-top:28px;
+	margin-right:38px;
+	width:498px;
+	float:right;
+	line-height:20px;
+	height:81px;
+}
+#text_left_title01
+{
+	margin-top:23px;
+	margin-bottom:10px;
+	margin-left:9px;
+	height:20px;
+	line-height:22px;
+}
+ 
+ #text_left_title02
+{
+	
+	margin:16px auto auto auto;
+	width:100%;
+	line-height:24px;
+	color:#000000;
+	font-family:"宋体";
+	font-size:20px;
+	font-weight:600;
+	text-align:center;	
+}
+#text_left_title022
+{
+	margin-top:4px;
+	width:100%;
+    color:#000000;
+	font-family:"宋体";
+	font-size:14px;
+	font-weight:600;
+	text-align:center;	
+}
+#text_left_title03
+{
+	width:100%;
+	margin:5px auto auto auto;
+	text-align:center;
+	font-size:12px;
+	height:15px;
+	line-height:15px;
+}
+#text_left_title04
+{
+	margin-top:12px;
+	width:600px;
+	margin-left:30px;
+	line-height:30px;
+	font-size:14px;
+}
+#text_right
+{
+	float:left;
+	width:330px;
+	margin-left:1px;
+ 
+}
+#text_left_bianji
+{
+	margin-top:20px;
+	height:auto;
+	background-position:bottom;
+}
+#text_left_bianji_bianji
+{
+	margin-top:10px;
+	margin-left:auto;
+	margin-right:10px;
+	width:300px;
+	height:50px;
+	line-height:50px;
+	border-top-color:#000;
+	border-top-style:dotted;
+	border-top-width:thin;
+	text-align:right;
+}
+#text_left_bianji_dh
+{
+	height:68px;
+	line-height:24px;
+	width:600px;
+	margin-left:30px;
+	margin-top:0px;
+}
+
+#fenye
+{
+	text-align:center;
+	margin-top:0px;
+	margin-bottom:10px;
+}
+
+/*top部分*//*top部分*//*top部分*//*top部分*//*top部分*//*top部分*/
+
+img {
+        border-style: none;
+    border-color: inherit;
+    border-width: 0;
+   
+}
+
+a
+{
+    color:;
+    text-decoration: none;
+    font-weight: 400;
+}
+a:link
+{
+    color: #000000;
+    text-decoration: none;
+}
+a:hover
+{
+    color: #006;
+    text-decoration: none;
+    font-weight: 400;
+}

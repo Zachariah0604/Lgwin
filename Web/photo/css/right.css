@@ -1,0 +1,83 @@
+﻿
+        a:link {text-decoration: none;color:#000000;}
+        a:visited {text-decoration: none;color: #000000;}
+        a:hover {text-decoration:underline;color:Gray;}
+        a:active {text-decoration: none;}
+        img{ border:none;}
+
+body 
+{ 
+   margin-left:0 ;
+}
+#right{ 
+       width:300px;
+	   font-size:12px;
+	   text-align:center;
+	   margin-left:0;
+	   margin-top:0;
+	     }
+#but1{ width:283px;
+        height:32px;
+		margin-left:10px;
+		
+        margin-top:10px; 
+  
+	
+	   height:26px;}
+
+#npic1{
+	border:none;
+      width:235px; 
+	  height:212px;
+	clear:both;
+	margin-top:20px;
+	margin-left:8px;
+	
+	background-color:#EEF8FD;}
+	
+ #npic_ta{ background-color:#EEF8FD;
+           }
+.pic1{ width:99px; height:67px;
+
+         border:solid #CCC   1px;
+		 text-align:center;}
+.text1{width:99px; height:15px;
+	     text-align:center ;
+	    
+	    }
+	    #img1{  width:96px; height:64px;}
+ 
+	    		
+#but2{
+	width:283px;
+	height:33px;
+	margin-left:10px;
+       height:26px;
+	   margin-top:10px;}
+	
+#hpic2{
+    width:256px; 
+	height:130px;
+	clear:both;
+	margin-left:5px;
+	margin-top:15px;}
+#hpic_ta{ 
+          width:80px; 
+         
+}
+  .pic2{width:80px;
+          height:77px;
+		  border:solid #CCC   1px;
+		  
+           }
+   .text2{ width:80px; 
+            height:25px;
+           	text-align:center; }
+      #img2{ width:72px; 
+             height:68px;}
+
+	   #upload{
+        width:240px; 
+       height:53px;
+	   margin-left:10px;
+	   }	

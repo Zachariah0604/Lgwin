@@ -1,0 +1,72 @@
+C:\Users\Administrator\Desktop\Lgwin\DALFactory\bin\Debug\Lgwin.DALFactory.dll
+C:\Users\Administrator\Desktop\Lgwin\DALFactory\bin\Debug\Lgwin.DALFactory.pdb
+C:\Users\Administrator\Desktop\Lgwin\DALFactory\bin\Debug\Lgwin.IDAL.dll
+C:\Users\Administrator\Desktop\Lgwin\DALFactory\bin\Debug\Lgwin.Model.dll
+C:\Users\Administrator\Desktop\Lgwin\DALFactory\bin\Debug\Lgwin.IDAL.pdb
+C:\Users\Administrator\Desktop\Lgwin\DALFactory\bin\Debug\Lgwin.Model.pdb
+C:\Users\Administrator\Desktop\Lgwin\DALFactory\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Lgwin\DALFactory\obj\Debug\Lgwin.DALFactory.dll
+C:\Users\Administrator\Desktop\Lgwin\DALFactory\obj\Debug\Lgwin.DALFactory.pdb
+E:\Lgwin\Lgwin\DALFactory\bin\Debug\Lgwin.DALFactory.dll
+E:\Lgwin\Lgwin\DALFactory\bin\Debug\Lgwin.DALFactory.pdb
+E:\Lgwin\Lgwin\DALFactory\bin\Debug\Lgwin.IDAL.dll
+E:\Lgwin\Lgwin\DALFactory\bin\Debug\Lgwin.Model.dll
+E:\Lgwin\Lgwin\DALFactory\bin\Debug\Lgwin.IDAL.pdb
+E:\Lgwin\Lgwin\DALFactory\bin\Debug\Lgwin.Model.pdb
+E:\Lgwin\Lgwin\DALFactory\obj\Debug\ResolveAssemblyReference.cache
+E:\Lgwin\Lgwin\DALFactory\obj\Debug\Lgwin.DALFactory.dll
+E:\Lgwin\Lgwin\DALFactory\obj\Debug\Lgwin.DALFactory.pdb
+E:\Lgwin7-11\Lgwin\DALFactory\bin\Debug\Lgwin.DALFactory.dll
+E:\Lgwin7-11\Lgwin\DALFactory\bin\Debug\Lgwin.DALFactory.pdb
+E:\Lgwin7-11\Lgwin\DALFactory\bin\Debug\Lgwin.IDAL.dll
+E:\Lgwin7-11\Lgwin\DALFactory\bin\Debug\Lgwin.Model.dll
+E:\Lgwin7-11\Lgwin\DALFactory\bin\Debug\Lgwin.IDAL.pdb
+E:\Lgwin7-11\Lgwin\DALFactory\bin\Debug\Lgwin.Model.pdb
+E:\Lgwin7-11\Lgwin\DALFactory\obj\Debug\ResolveAssemblyReference.cache
+E:\Lgwin7-11\Lgwin\DALFactory\obj\Debug\Lgwin.DALFactory.dll
+E:\Lgwin7-11\Lgwin\DALFactory\obj\Debug\Lgwin.DALFactory.pdb
+G:\网站源码--勿动\张水生\Lgwin\DALFactory\bin\Debug\Lgwin.DALFactory.dll
+G:\网站源码--勿动\张水生\Lgwin\DALFactory\bin\Debug\Lgwin.DALFactory.pdb
+G:\网站源码--勿动\张水生\Lgwin\DALFactory\bin\Debug\Lgwin.IDAL.dll
+G:\网站源码--勿动\张水生\Lgwin\DALFactory\bin\Debug\Lgwin.Model.dll
+G:\网站源码--勿动\张水生\Lgwin\DALFactory\bin\Debug\Lgwin.IDAL.pdb
+G:\网站源码--勿动\张水生\Lgwin\DALFactory\bin\Debug\Lgwin.Model.pdb
+G:\网站源码--勿动\张水生\Lgwin\DALFactory\obj\Debug\ResolveAssemblyReference.cache
+G:\网站源码--勿动\张水生\Lgwin\DALFactory\obj\Debug\Lgwin.DALFactory.dll
+G:\网站源码--勿动\张水生\Lgwin\DALFactory\obj\Debug\Lgwin.DALFactory.pdb
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\DALFactory\bin\Debug\Lgwin.DALFactory.dll
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\DALFactory\bin\Debug\Lgwin.DALFactory.pdb
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\DALFactory\bin\Debug\Lgwin.IDAL.dll
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\DALFactory\bin\Debug\Lgwin.Model.dll
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\DALFactory\bin\Debug\Lgwin.IDAL.pdb
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\DALFactory\bin\Debug\Lgwin.Model.pdb
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\DALFactory\obj\Debug\ResolveAssemblyReference.cache
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\DALFactory\obj\Debug\Lgwin.DALFactory.dll
+G:\网站源码--勿动\Lgwin20110922最新\Lgwin\DALFactory\obj\Debug\Lgwin.DALFactory.pdb
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\DALFactory\bin\Debug\Lgwin.DALFactory.dll
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\DALFactory\bin\Debug\Lgwin.DALFactory.pdb
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\DALFactory\bin\Debug\Lgwin.IDAL.dll
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\DALFactory\bin\Debug\Lgwin.Model.dll
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\DALFactory\bin\Debug\Lgwin.IDAL.pdb
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\DALFactory\bin\Debug\Lgwin.Model.pdb
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\DALFactory\obj\Debug\DALFactory.csprojResolveAssemblyReference.cache
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\DALFactory\obj\Debug\Lgwin.DALFactory.dll
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin\DALFactory\obj\Debug\Lgwin.DALFactory.pdb
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\DALFactory\bin\Debug\Lgwin.DALFactory.dll
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\DALFactory\bin\Debug\Lgwin.DALFactory.pdb
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\DALFactory\bin\Debug\Lgwin.IDAL.dll
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\DALFactory\bin\Debug\Lgwin.Model.dll
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\DALFactory\bin\Debug\Lgwin.IDAL.pdb
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\DALFactory\bin\Debug\Lgwin.Model.pdb
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\DALFactory\obj\Debug\DALFactory.csprojResolveAssemblyReference.cache
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\DALFactory\obj\Debug\Lgwin.DALFactory.dll
+F:\网站源码--勿动\Lgwin20110922最新\Lgwin - 副本\DALFactory\obj\Debug\Lgwin.DALFactory.pdb
+D:\Program Files\Vs Projects\Lgwin\DALFactory\bin\Debug\Lgwin.DALFactory.dll
+D:\Program Files\Vs Projects\Lgwin\DALFactory\bin\Debug\Lgwin.DALFactory.pdb
+D:\Program Files\Vs Projects\Lgwin\DALFactory\bin\Debug\Lgwin.IDAL.dll
+D:\Program Files\Vs Projects\Lgwin\DALFactory\bin\Debug\Lgwin.Model.dll
+D:\Program Files\Vs Projects\Lgwin\DALFactory\bin\Debug\Lgwin.IDAL.pdb
+D:\Program Files\Vs Projects\Lgwin\DALFactory\bin\Debug\Lgwin.Model.pdb
+D:\Program Files\Vs Projects\Lgwin\DALFactory\obj\Debug\DALFactory.csprojResolveAssemblyReference.cache
+D:\Program Files\Vs Projects\Lgwin\DALFactory\obj\Debug\Lgwin.DALFactory.dll
+D:\Program Files\Vs Projects\Lgwin\DALFactory\obj\Debug\Lgwin.DALFactory.pdb

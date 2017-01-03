@@ -1,0 +1,145 @@
+@charset "utf-8";
+#list {
+	width:1000px;
+	min-height:738px;
+	height:auto;
+	vertical-align:text-top;
+} 
+#list {
+	width:1003px!important;
+	min-height:738px;
+	height:auto;
+	vertical-align:text-top;
+}
+#list_left {
+	width:731px;
+	height:auto;
+	float:left;
+	padding-bottom:40px;
+	padding-top:0px;
+	vertical-align:text-top;
+}
+#list_right {
+	width:266px;
+	height:738px;
+	float:right;
+	overflow:hidden;
+}
+#list_1 {
+	width:641px;
+	height:48px;
+	background-image:url(images/list/list_03.jpg);
+	background-repeat:no-repeat;
+	font-size:12px;
+	color:#010101;
+	padding-top:35px;
+	padding-left:90px;
+}
+#list_2 {
+	width:731px;
+	height:571px;
+}
+#list_3 {
+	float:left;
+	width:45px;
+	height:571px;
+	background-image:url(images/list/list_06.jpg);
+	background-repeat:repeat-y;
+}
+#list_4 {
+	float:left;
+	width:640px;
+	height:551px;
+	font-size:14px;
+	line-height:2.5em;
+	padding-top:20px;
+	padding-left:20px;
+}
+#list_4 tr td {
+	text-align: left;
+	margin-top: 10px;
+	height: 18px;	
+}
+#list_4 tr td a {
+	text-decoration:none;
+	color:#000;
+}
+#list_4 .datee  {
+	text-decoration: none;
+	float: left;
+	margin-top: 0px;
+	padding-left: 0px;
+	text-align:right;
+	line-height:15pt;
+}
+#list_5 {
+	float:left;
+	width:26px;
+	height:571px;
+	background-image:url(images/list/list_08.jpg);
+	background-repeat:repeat-y;
+}
+#list_6 {
+	width:731px;
+	height:54px;
+	background-image:url(images/list/list_12.jpg);
+	background-repeat:no-repeat;
+	font-size:14px;
+	font-family:"宋体";
+	padding-top:30px;
+	text-align:center;
+}
+#list_6 a {
+	text-decoration:none;
+	color:#000;
+}
+#right_1 {
+	width:139px;
+	height:50px;
+	background-image:url(images/list/list_04.jpg);
+	background-repeat:no-repeat;
+	color:#FFF;
+	font-size:18px;
+	padding-top:33px;
+	padding-left:130px;
+	font-family:"微软雅黑";
+}
+#right_2 {
+	width:269px;
+	height:629px;
+}
+#right_3 {
+	float:left;
+	width:15px;
+	height:629px;
+	background-image:url(images/list/list_09.jpg);
+	background-repeat:no-repeat;
+}
+#right_4 {
+	float:left;
+	width:215px;
+	height:629px;
+	font-size:12px;
+	line-height:2.2em;
+}
+#right_4 a {
+	font-size:12px;
+	color:#000;
+	text-decoration:none;
+}
+#right_4 a:hover {
+	text-decoration:underline;
+}
+#right_5 {
+	float:left;
+	width:39px;
+	height:629px;
+	background-image:url(images/list/list_11.jpg);
+	background-repeat:no-repeat;
+}
+#right_6 {
+	width:269px;
+	height:26px;
+	background-image:url(images/list/list_14.jpg);
+	background-repeat:no-repeat;
+}

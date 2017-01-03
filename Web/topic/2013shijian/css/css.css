@@ -1,0 +1,26 @@
+
+span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, abbr, acronym, address, cite, code, del, dfn, em, img, ins, strike, strong, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, object, table, col, colgroup, caption, summary, tbody, tfoot, thead, tr, th, td {margin:0;padding:0;border:0;font-size:12px;background:transparent;}
+input, button {margin:0;padding:0;}
+button, input[type="submit"] {cursor:pointer;}
+*+html img {margin-bottom:0!important;}
+textarea {margin:0;padding:0;font-size:14px;overflow:auto;}
+ins {text-decoration:none;}
+del {text-decoration:line-through;}
+abbr {border-bottom:1px dotted #999;}
+acronym {border-bottom:1px dotted #999;}
+table {border-collapse:collapse;border-spacing:0;}
+blockquote, q {quotes:none;}
+blockquote:before, blockquote:after, q:before, q:after {content:'';}
+.clearfix:after {content:"\0020";width:0;height:0;line-height:0;font-size:0;display:block;clear:both;visibility:hidden;overflow:hidden;}
+.clearfix {display:inline-block;*zoom:1;}
+.clearfix {display:block;}
+.clear {height:0;clear:both;line-height:0;font-size:0;overflow:hidden;}
+.image_show {width:991px;padding:3px 0 0 3px;margin:12.5px auto;}
+.image_show .img {padding:0 3px 3px 0;position:relative;}
+.image_show .img, .image_show .img img {float:left;}
+.col_left {width:191px;float:left;overflow:hidden;margin-left:10px;}
+.col_right {float:left;width:450px;overflow:hidden;}
+.image_show .tabs_panes .img {position:relative;width:324px;height:312px;margin-left:5px;}
+.image_show .tabs_panes .img .img_mask {position:absolute;left:0;top:263px;width:322px;height:42px;background:#000;opacity:0.6;filter:alpha(opacity=60);}
+.image_show .tabs_panes .img p {position:absolute;left:0;top:263px;width:322px;height:42px;line-height:42px;font-size:16px;color:#fff;  text-align:center; overflow:hidden;}
+.image_show .tabs_panes .img p a, .image_show .tabs_panes .img p a:visited {color:#fff;}

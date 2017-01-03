@@ -1,0 +1,70 @@
+﻿<html>
+<style type="text/css">
+body  { 
+        margin:0px; BACKGROUND-COLOR: #0650D2; font:normal 12px 宋体; 
+        SCROLLBAR-FACE-COLOR: #0650D2; SCROLLBAR-HIGHLIGHT-COLOR: #ffffff; 
+        SCROLLBAR-SHADOW-COLOR: #0650D2; SCROLLBAR-DARKSHADOW-COLOR: #0650D2; 
+        SCROLLBAR-3DLIGHT-COLOR: #0650D2; SCROLLBAR-ARROW-COLOR: #def0fa;
+        SCROLLBAR-TRACK-COLOR: #def0fa;
+}
+table  { border:0px; }
+td  { font:normal 12px 宋体; }
+img  { vertical-align:bottom; border:0px; }
+a  { font:normal 12px 宋体; color:#000000; text-decoration:none; }
+a:hover  { color:#428EFF;text-decoration:underline; }
+.sec_menu  { border-left:1px solid white; border-right:1px solid white; border-bottom:1px solid white; overflow:hidden; background:#def0fa; }
+.menu_title span  { position:relative; top:2px; left:8px; color:#215DC6; font-weight:bold; }
+.menu_title2 span  { position:relative; top:2px; left:8px; color:#428EFF; font-weight:bold; }
+th,.title{FONT-WEIGHT: bold; FONT-SIZE: 12px; BACKGROUND-COLOR: #0650D2; Height: 20; COLOR: white; }
+.border{BORDER-RIGHT: #0650D2 1px solid; BORDER-TOP: #0650D2 1px solid;
+BORDER-LEFT: #0650D2 1px solid; WIDTH: 100%; BORDER-BOTTOM: #0650D2 1px solid; BACKGROUND-COLOR: #ffffff}
+</style>
+<script language="javascript">
+<!--
+var displayBar = true;
+function feiBar(obj)
+{
+	if(displayBar)
+	{
+		parent.frame.cols="0,*";
+		obj.src = "Images/admin_top_open.gif";
+		obj.title = "打开右边管理菜单";		
+		displayBar = false;
+	}
+	else
+	{
+		parent.frame.cols="197,*";
+		obj.src = "Images/admin_top_close.gif";
+		obj.title = "关闭右边管理菜单";
+		displayBar = true;
+	}	
+}
+//-->
+</script>
+<head>
+<meta http-equiv='Content-Type' content='text/html; charset=gb2312'/>
+    <title></title>
+</head>
+<body>
+<table width="100%" border="0" cellpadding="0" cellspacing="1" class="border">
+<tr class="title">
+  <td>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr valign="middle">
+	<td width="197" align="right">
+	<img onClick="feiBar(this)" src="Images/admin_top_close.gif" title="关闭左边管理菜单" style="cursor:hand" width="28" height="26" alt="" />	</td>
+	
+	<td height="28">
+    <iframe src="http://m.weather.com.cn/m/pn7/weather.htm?id=101120301T " width="195" height="20" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no"></iframe>
+    
+    </td>
+	<td width="388">
+<!-- <a href="Default2.aspx" target="main" style="cursor:hand"><b><font color="#ffffff">错误日志</font></b></a>--><a href="http://lgwindow.sdut.edu.cn/News/google.html" target="main" style="cursor:hand"><b><font color="#ffffff">自定义搜索</font></b></a>&nbsp;<a href="CaiFangManage.aspx" target="main" style="cursor:hand"><b><font color="#ffffff">采访申请</font></b></a>&nbsp;<a href="UpdatePwd.aspx" target="main" style="cursor:hand"><b><font color="#ffffff">修改密码</font></b></a>&nbsp; <a href="main.html" target="main" style="cursor:hand"><b><font color="#ffffff">管理首页</font></b></a>&nbsp; <a href="UserLogin.aspx?Type=LoginOut" target="_parent" style="cursor:hand"><b><font color="#ffffff">退出后台</font></b></a>
+    </td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,189 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>视频-毕业时节-山东理工大学新闻网</title>
+<style type="text/css">
+ a:link {text-decoration: none;color:#000000;}
+        a:visited {text-decoration: none;color: #000000;}
+        a:hover {text-decoration:none;color:Gray;}
+        a:active {text-decoration: none;}
+.content {
+	width:1005px;
+	height:2000px;
+	margin:0 auto;
+}
+body{
+margin:0 auto;
+}
+#head {
+	width:1005px;
+	height:300px;
+	margin:0 auto;
+	background-image:url(images/head.jpg);
+}
+#content {
+ width::1005px;
+	height:933px;
+	margin:0 auto;
+	background-image:url(images/bg.jpg);
+}
+#dangqian {
+	width:900px;
+	margin:10px; auto;
+	margin-left:50px;
+ font-family:宋体； font-size:16px;
+	color:#E1902A;
+}
+#video {
+	width:900px;
+	height:392px;
+	margin:0 auto;
+	
+}
+#player {
+	margin-top:0px;
+	height:392px;
+	width:644px;
+	float:left;
+	background-image:url(images/shipinpic.jpg);
+}
+#jianjie {
+	margin-top:0px;
+	height:392px;
+	width:236px;
+	float:left;
+	margin-left:20px;
+	margin-top:3px;
+	background-image:url(images/jianjiebg.jpg);
+	background-repeat:no-repeat;
+}
+#right_01 {
+	height:22px;
+	line-height:22px;
+	margin-left:10px;
+	color:#414141;
+	font-weight:800;
+	margin-top:10px;
+	
+
+}
+#right_03 {
+	color:#8D8D8D;
+	margin-top:6px;
+	height:80px;
+	line-height:24px;
+	margin-left:auto;
+	margin-right:auto;
+	
+
+}
+#right_03_left {
+	float:left;
+	margin-left:10px;
+	margin-top:5px;
+	width:72px;
+	height:72px;
+	display: inline; 
+
+}
+#right_03_right {
+	width:150px;
+	height:80px;
+	float:right;
+	font-size:13px;
+	font-family:宋体;
+	color:#000;
+}
+#right_04 {
+	color:#505050;
+	width:210px;
+	height:374px;
+	margin-left:auto;
+	margin-right:auto;
+	line-height:28px;
+	font-size:14px;
+	font-family:宋体;
+	color:#000;
+}
+#pic {
+	width:978px;
+	height: auto;
+	margin:0 auto;
+	margin-left:2px;
+	overflow:visible;
+		text-align:left;
+		 font-size:12px;
+		
+}
+
+.ul {
+	float:left;
+	width:133px;
+	height:140px;
+	list-style:none;
+	margin:0;
+	margin-top:30px;
+	margin-left:47px;
+	 padding:4px 11px 4px 0px;
+	 display:online;
+}
+.li_img {
+	width :133px;
+	height:113px;
+	text-align:center;
+}
+.li_text {
+	width:133px;
+	height:25px;
+	text-align:left;
+	padding-top:10px;
+}
+.img_8 {
+	width :133px;
+	height:113px;
+}
+</style>
+</head>
+
+<body>
+<div class="content" >
+  <div id="head"></div>
+  <div id="content">
+    <div id="dangqian">当前位置：首页》&nbsp;影响抢先看</div>
+    <div id="video">
+      <div id="player">
+	  <object type="application/x-shockwave-flash" data="../images/VideoPlayer/lgwinplayer.swf"
+                        width="644" height="392" id="Object1">
+                        <param name="movie" value="../images/VideoPlayer/lgwinplayer.swf" />
+                        <param name="allowFullScreen" value="true" />
+                        <param name="FlashVars" value="xml=<vcastr>%%videosource%%<config><bufferTime>4</bufferTime><contralPanelAlpha>0.75</contralPanelAlpha> <controlPanelBgColor>0x000000</controlPanelBgColor><controlPanelBtnColor>0xffffff</controlPanelBtnColor> <controlPanelBtnGlowColor>0x00ff00</controlPanelBtnGlowColor><controlpanelmode>bottom</controlpanelmode><defautVolume>0.8</defautVolume><isAutoPlay>true</isAutoPlay> <isLoadBegin>true</isLoadBegin><isShowAbout>false</isShowAbout><scaleMode>showAll</scaleMode><isRepeat>true</isRepeat></config><plugIns><logoPlugIn> <url>../images/VideoPlayer/logoPlugIn.swf</url><logoClipUrl>../images/VideoPlayer/backlogosmall.png</logoClipUrl>	<logoClipAlpha>0</logoClipAlpha>	<logoClipLink>http://lgwindow.sdut.edu.cn/Campus</logoClipLink>	<logoTextColor>0xffffff</logoTextColor>	<clipMargin>5 120 auto auto</clipMargin></logoPlugIn></plugIns> </vcastr>" />
+                    </object>
+	  </div>
+      <div id="jianjie">
+        <div id="right_01"> <img src="images/logo.jpg" width="16" height="16" />正在播放</div>
+        <div id="right_03">
+          <div id="right_03_left"> <img src="%%pic%%" width="72" height="72" /></div>
+          <div id="right_03_right">
+            <table width="150" height="50"  >
+              <tr>
+                <td  width="45">标题:</td>
+                <td width="105">%%title%%</td>
+              </tr>
+              <tr>
+                <td  width="45">来源:</td>
+                <td width="105">%%fro%%</td>
+              </tr>
+            </table>
+            上传时间：%%datee%% </div>
+          <div id="right_04"> &nbsp; <font color="#010101">【简介】</font>%%jianjie%%</div>
+        </div>
+      </div>
+    </div>
+   <div id="pic">
+                <iframe scrolling="no" src="pic.html" frameborder="0" style="overflow: hidden;
+                    height: 400px;; width: 978px;"></iframe>
+            </div>
+  </div>
+</div>
+</body>
+</html>

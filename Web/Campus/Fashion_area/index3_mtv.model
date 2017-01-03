@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head >
+<meta http-equiv="Content-Type" content="text/html;charset=GB2312" />
+<style type="text/css">
+  a:link {text-decoration: none;color:#000000;}
+  a:visited {text-decoration: none;color: #000000;}
+  a:hover {text-decoration:underline;}
+  a:active {text-decoration: none;}
+  </style>
+  <title>山东理工大学校园文化-时尚广角</title>
+</head>
+<body style="font-size:12px;margin-top:0px;margin-left:0px;margin-right:0px">
+
+        
+       <iframe id="head" src="../flash.htm" scrolling="no" frameborder="0" width="100%" height="215px"></iframe>
+
+      <div style="width:990px;margin-left:auto;margin-right:auto">
+           <div style="background-image: url(../images/tushu_images/tushu_16.gif); width: 743px; height: 24px; margin-left: 0px">
+           <table>
+                <tr>
+                   <td style="width:50px">
+                   </td>
+                   <td style="width:200px;font-size:medium;">
+                       视频</td>
+                   <td style="width:493px">
+                   </td>
+               </tr>
+           </table>
+           </div>
+           <br/>
+
+       <div style="width:100%;margin-left:auto;margin-right:auto">
+            <div style="width:650px;margin-left:10px;margin-right:10px;float:left;min-height:778px">
+                <div style=" text-align:center; width:100%;">
+                     <div><span style="  line-height:30px; font-size:16px;font-weight:bolder">
+                           %%title%%</span>
+                                      
+                     </div>
+                     <div>
+                         <span style=" font-weight: lighter; line-height:20px; font-size:12px;">
+                          制作：%%author%%&nbsp;&nbsp;&nbsp;&nbsp&nbsp;
+                              上传时间：%%datee%%</span>
+                     </div>
+                 </div><hr/><br/>
+                <div  align="center"> 
+                	<object type="application/x-shockwave-flash" data="../../../images/VideoPlayer/lgwinplayer.swf" width="600" height="350" id="vcastr3">
+			<param name="movie" value="../../../images/VideoPlayer/lgwinplayer.swf"/> 
+			<param name="allowFullScreen" value="true" />
+			<param name="FlashVars" value="xml=<vcastr><channel><item>	<source>../../Campus/Fashion_area/%%url%%</source>		</item>	</channel> <config>  <bufferTime>4</bufferTime><contralPanelAlpha>0.75</contralPanelAlpha>             <controlPanelBgColor>0x000000</controlPanelBgColor>                <controlPanelBtnColor>0xffffff</controlPanelBtnColor>                <controlPanelBtnGlowColor>0x00ff00</controlPanelBtnGlowColor>                <controlpanelmode>float</controlpanelmode>
+      <defautVolume>0.8</defautVolume><isAutoPlay>false</isAutoPlay>                <isLoadBegin>true</isLoadBegin><isShowAbout>false</isShowAbout>                <scaleMode>showAll</scaleMode></config>
+					<plugIns><logoPlugIn> <url>../../../images/VideoPlayer/logoPlugIn.swf</url>		
+							<logoClipUrl>../../../images/VideoPlayer/backlogo2.png</logoClipUrl>	<logoClipAlpha>0.75</logoClipAlpha>
+							<logoClipLink>http://lgwindow.sdut.edu.cn/</logoClipLink>						<logoTextColor>0xffffff</logoTextColor>	<clipMargin>10 20 auto auto</clipMargin>
+						</logoPlugIn></plugIns> </vcastr>"/></object>
+       
+                </div><br/><br/>
+
+           
+               <div style="text-align:left"><span style=" line-height:20px; ">
+                    %%content%%</span></div><br/>
+               <div id="end" style="font-size:12px; line-height:22px; text-align:right; margin-right:10px; width:100%;">
+                    -----------------------------------------------------------------------
+                    <br />    编辑：%%editor%%               <br />
+                      
+                     <a href="javascript:window.print()"><span style="font-size:12px; color:#000000"> 【打印本稿】</span></a>
+                      &nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:window.close()"><span style="font-size:12px; color:#000000">【关闭窗口】</span></a>
+                    <br/>
+                 </div></div>  
+       
+       
+       
+          
+       
+   
+               <div style="width:300px;height:780px;float:left">
+               <iframe  name="iframe1"style="width:300px;height:780px;" src="../right.aspx" scrolling="no" frameborder="0" ></iframe>
+               </div>
+               </div>
+
+
+                <div id="foot" style="margin-left:auto;margin-right:auto;font-size:14px;width:990px" >
+                     <iframe id="iframe1" src="../foot.htm" scrolling="no" frameborder="0" width="990px"></iframe>
+                </div> 
+ 
+       
+ </div>
+     
+</body>
+
+</html>

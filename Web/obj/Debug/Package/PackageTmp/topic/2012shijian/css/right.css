@@ -1,0 +1,49 @@
+body{
+	margin:0 auto;
+	}
+	.daohang12 img{border:none;}
+	a{ color:#000000; text-decoration:none}
+a:link{ color:#000000;text-decoration:none}
+a:hover{color:#56B001;text-decoration:none}
+#Right {
+	overflow: hidden;
+	width: 330px;
+	height:797px;
+	background-repeat: no-repeat;
+	margin:0 auto;
+	background-image:url(../images/Right.jpg);
+}
+#content1{
+	width:327px;
+	height:278px;
+	}
+#title{
+	width:200px;
+	height:20px;
+	margin-top:5px;
+	margin-left:12px;
+	font-size:13pt;font-family:方正粗宋简体;
+	color:#528F27;
+	}
+	#word{
+		width:317px;
+		height:240px;
+		font-size:14px;
+		margin-top:10px;
+		margin-left:10px;
+		
+		}
+		#content2{
+	width:327px;
+	height:240px;
+	}
+		#word1{
+		width:280px;
+		height:200px;
+		font-size:13px;
+		margin-top:10px;
+		margin-left:43px;
+		display: inline-block;
+		 
+		}
+

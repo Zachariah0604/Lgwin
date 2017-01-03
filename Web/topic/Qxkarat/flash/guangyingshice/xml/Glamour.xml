@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<library libName="Glamour">
+	<item itemPath="pic_33.jpg" itemName="Photo 33" >
+		<itemDescription><![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad.]]></itemDescription>
+	</item>
+
+	<item itemPath="pic_34.jpg" itemName="Photo 34" >
+		<itemDescription><![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad.]]></itemDescription>
+	</item>
+
+	<item itemPath="pic_35.jpg" itemName="Photo 35" >
+		<itemDescription><![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad.]]></itemDescription>
+	</item>	
+	<item itemPath="pic_36.jpg" itemName="Photo 36" >
+		<itemDescription><![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad.]]></itemDescription>
+	</item>
+
+	<item itemPath="pic_37.jpg" itemName="Photo 37" >
+		<itemDescription><![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad.]]></itemDescription>
+	</item>
+
+	<item itemPath="pic_38.jpg" itemName="Photo 38" >
+		<itemDescription><![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad.]]></itemDescription>
+	</item>
+
+	<item itemPath="pic_39.jpg" itemName="Photo 39" >
+		<itemDescription><![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad.]]></itemDescription>
+	</item>
+
+	<item itemPath="pic_40.jpg" itemName="Photo 40" >
+		<itemDescription><![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad.]]></itemDescription>
+	</item>	
+	
+	<item itemPath="pic_41.jpg" itemName="Photo 41" >
+		<itemDescription><![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad.]]></itemDescription>
+	</item>
+
+	<item itemPath="pic_42.jpg" itemName="Photo 42" >
+		<itemDescription><![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad.]]></itemDescription>
+	</item>
+<item itemPath="pic_43.jpg" itemName="Photo 43" >
+		<itemDescription><![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad.]]></itemDescription>
+	</item>
+
+
+</library>

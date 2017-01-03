@@ -1,0 +1,7 @@
+%%active%%,92,6,33,false,Havedate,1
+%%document%%,93,6,14,false,nodate,2
+%%jianbao%%,94,6,14,false,nodate,2
+%%cailiao%%,96,9,17,false,nodate,3
+%%spirit%%,91,9,20,false,nodate,3
+grade2,30,25
+Redirect,../../topic/cyzxzt/Default.aspx
